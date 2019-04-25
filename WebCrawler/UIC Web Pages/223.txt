@@ -1,0 +1,730 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Computer Science &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>
+        </ul>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/gcat/">Graduate Catalog</a>
+	<ul class="nav levelone" id="/gcat/">
+		<li><a href="/gcat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/gcat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/gcat/graduate-study/">Graduate Study at UIC</a></li>
+		<li class="isparent"><a href="/gcat/degree-programs/">Degree Programs</a></li>
+		<li class="active isparent"><a href="/gcat/colleges-schools/">Colleges &amp;&#8203; Schools</a>
+		<ul class="nav leveltwo" id="/gcat/colleges-schools/">
+			<li class="isparent"><a href="/gcat/colleges-schools/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/dentistry/">College of Dentistry</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/education/">College of Education</a></li>
+			<li class="active isparent"><a href="/gcat/colleges-schools/engineering/">College of Engineering</a>
+			<ul class="nav levelthree" id="/gcat/colleges-schools/engineering/">
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/bioe/">Bioengineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/bioi/">Bioinformatics</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/che/">Chemical Engineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/cive/">Civil Engineering</a></li>
+				<li class="active isparent self"><a href="#" onclick="return false;">Computer Science</a>
+				<ul class="nav levelfour" id="/gcat/colleges-schools/engineering/cs/">
+					<li><a href="/gcat/colleges-schools/engineering/cs/ms/">MS in Computer Science</a></li>
+					<li><a href="/gcat/colleges-schools/engineering/cs/phd/">PhD in Computer Science</a></li>
+					<li><a href="/gcat/colleges-schools/engineering/cs/joint-ms-mfa/">MS in Computer Science/&#8203;MFA in New Media Arts</a></li>
+				</ul>
+				</li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/construction-engineering-management/">Construction Engineering and Management</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/ece/">Electrical and Computer Engineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/ener/">Energy Engineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/ie/">Industrial Engineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/mate/">Materials Engineering</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/engineering/me/">Mechanical Engineering</a></li>
+				<li><a href="/gcat/colleges-schools/engineering/meng/">Engineering (Professional Program: MEng)</a></li>
+			</ul>
+			</li>
+			<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/medicine/">College of Medicine</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/nursing/">College of Nursing</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/">College of Pharmacy</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/social-work/">Jane Addams College of Social Work</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/gcat/colleges-schools/council-teacher-education/">Council on Teacher Education</a></li>
+			<li><a href="/gcat/colleges-schools/addl-opps/">Additional Opportunities for Graduate and Professional Study</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/gcat/course-descriptions/">Graduate Course Descriptions</a></li>
+		<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+		<li><a href="/gcat/faculty/">Graduate Faculty</a></li>
+		<li><a href="/gcat/archive-links/">Archive &amp;&#8203; Links</a></li>
+		<li><a href="http://grad.uic.edu" target="_blank">Graduate College Website</a></li>
+	</ul>
+	</li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->
+
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/gcat/">Graduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/">Colleges&nbsp;&amp;&nbsp;Schools</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/engineering/">College&nbsp;of&nbsp;Engineering</a><span class="crumbsep">/</span></li><li><span class="active">Computer Science</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Computer Science</h1>
+
+
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,degreerequirementstext,coursestext,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix" role="tablist">
+			<li id="texttab" role="presentation">
+<a href="#textcontainer" role="tab" aria-controls="textcontainer" onclick="return showSection('text');">Overview</a></li>
+			<li id="degreerequirementstexttab" role="presentation">
+<a href="#degreerequirementstextcontainer" role="tab" aria-controls="degreerequirementstextcontainer" onclick="return showSection('degreerequirementstext');" >Admission and Degree Requirements</a></li>
+			<li id="coursestexttab" role="presentation">
+<a href="#coursestextcontainer" role="tab" aria-controls="coursestextcontainer" onclick="return showSection('coursestext');" >Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content" role="tabpanel">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+<p class="mailing_address"><span class="label"><strong>Mailing Address: </strong></span><br />Department of Computer Science (MC 152)<br />851 South Morgan Street<br />Chicago, IL 60607-7053<br /></p>
+<p class="campus_location"><span class="label"><strong>Contact Information: </strong></span>
+<br /><span class="campus_location">Student Affairs Office: SEO 905, Department Main Office: SEO 1120
+<br /><span class="phone">(312) 996-2290 or (312) 413-4950 </span>
+<br /><span class="email">Grad Admissions: <a href="mailto:gradapps@cs.uic.edu">gradapps@cs.uic.edu</a> Students: <a href="mailto:grad@cs.uic.edu">grad@cs.uic.edu</a></span>
+<br /><span class="website"><a href="http://www.cs.uic.edu">www.cs.uic.edu</a></span>
+</p>
+<p class="administration"><span class="label"><strong>Administration: </strong></span><br />Head of the Department: Robert Sloan<br />Director of Graduate Studies: Robert Kenyon<br /></p>
+<p class="program_codes"><span class="label"><strong>Program Codes:</strong> </span><br />20FS0112MS (MS) <br />20FS0112PHD (PhD)<br /></p>	</div>
+</div>
+
+<p>The Department of Computer Science offers graduate programs leading to Computer Science degrees at the master’s and doctoral levels. The department offers a comprehensive range of courses in the field of computer science. Special emphases lie in the areas of artificial intelligence, machine learning, computational biology, databases, computer security, data science, graphics and human-computer interaction, networks, software engineering, theoretical computer science, virtual reality, and visualization. Consult the CS Graduate Student Manual for current requirements, policies, and regulations. Updated <a href="http://www.cs.uic.edu" target="_blank">information about the faculty, staff, curriculum, and courses</a> is found on the CS website.</p>
+<p>The department maintains and provides full-time technical staff for several specialized research laboratories, many housed in the Engineering Research Facility. The laboratories contain over 300 workstations and servers and an extensive array of computer-based multimedia equipment. All departmental computing facilities are networked to general university computing resources and national networks, which permits high-speed access to such facilities.</p></div><!--end #textcontainer -->
+
+			<div id="degreerequirementstextcontainer" class="tab_content" role="tabpanel">
+				<a name="degreerequirementstext"></a><h2>Admission and Degree Requirements</h2>
+<ul>
+	<li><a href="/gcat/colleges-schools/engineering/cs/ms/">MS in Computer Science</a></li>
+	<li><a href="/gcat/colleges-schools/engineering/cs/phd/">PhD in Computer Science</a></li>
+	<li><a href="/gcat/colleges-schools/engineering/cs/joint-ms-mfa/">MS in Computer Science/MFA in New Media Arts</a></li>
+</ul>
+			</div>
+			<div id="coursestextcontainer" class="tab_content" role="tabpanel">
+				<a name="coursestext"></a><div class="sc_sccoursedescs">
+<div class="courseblock">
+<p class="courseblocktitle"><strong>CS 401.  Computer Algorithms I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and analysis of computer algorithms. Divide-and-conquer, dynamic programming, greedy method, backtracking. Algorithms for sorting, searching, graph computations, pattern matching, NP-complete problems. Course Information: Same as <a href="/search/?P=MCS%20401" title="MCS 401" class="bubblelink code" onclick="return showCourse(this, 'MCS 401');">MCS 401</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in <a href="/search/?P=MCS%20360" title="MCS 360" class="bubblelink code" onclick="return showCourse(this, 'MCS 360');">MCS 360</a>; or Grade of C or better in CS 202.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 411.  Artificial Intelligence I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Problem representation; rule-based problem-solving methods; heuristic search techniques. Application to expert systems, theorem proving, language understanding. Individual projects. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 412.  Introduction to Machine Learning.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Mechanism, implementation, and application of systems that improve automatically based on past experience, including classification, density estimation, clustering, and online learning tasks and solutions. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. MATLAB will be used for some of the homework assignments, but prior experience with it is not required. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>; and <a href="/search/?P=IE%20342" title="IE 342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE 342</a> or <a href="/search/?P=STAT%20381" title="STAT 381" class="bubblelink code" onclick="return showCourse(this, 'STAT 381');">STAT 381</a> or <a href="/search/?P=ECE%20341" title="ECE 341" class="bubblelink code" onclick="return showCourse(this, 'ECE 341');">ECE 341</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 415.  Computer Vision I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Computer vision system design. Segmentation and representation of regions and boundaries; image filtering; object recognition; advanced topics (examples: texture, stereo, color); applications. Programming assignments. Course Information: 3 undergraduate hours. 4 graduate hours. Previously listed as EECS 487. Prerequisite(s): CS 202 or <a href="/search/?P=MCS%20360" title="MCS 360" class="bubblelink code" onclick="return showCourse(this, 'MCS 360');">MCS 360</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 418.  Introduction to Data Science.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a> and <a href="/search/?P=STAT%20381" title="STAT 381" class="bubblelink code" onclick="return showCourse(this, 'STAT 381');">STAT 381</a>; or <a href="/search/?P=IE%20342" title="IE 342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE 342</a> or <a href="/search/?P=ECE%20341" title="ECE 341" class="bubblelink code" onclick="return showCourse(this, 'ECE 341');">ECE 341</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 421.  Natural Language Processing.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20301" title="CS 301" class="bubblelink code" onclick="return showCourse(this, 'CS 301');">CS 301</a> or <a href="/search/?P=MCS%20441" title="MCS 441" class="bubblelink code" onclick="return showCourse(this, 'MCS 441');">MCS 441</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 422.  User Interface Design and Programming.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+User interface design, implementation, and evaluation: user-centered design methodologies, windowing systems, I/O devices and techniques, event-loop programming, user studies. Programming projects. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 424.  Visualization and Visual Analytics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Geospatial visualization, scientific visualization, medical visualization, information visualization, and social network visualization, interaction, data analysis, human factors, dynamic data, privacy, uncertainty, data transforms. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>; or graduate standing; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 425.  Computer Graphics I.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of interactive computer graphics. Raster and vector display, techniques and hardware considerations. Introduction to two-dimensional and three dimensional rendering. Course Information: 3 undergraduate hours. 4 graduate hours. Previously listed as CS 488. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 426.  Video Game Design and Development.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Theory and practice of video game design and programming. Students will form interdisciplinary teams, to design, build and demonstrate video games or related interactive simulation environments. Course Information: Same as <a href="/search/?P=DES%20426" title="DES 426" class="bubblelink code" onclick="return showCourse(this, 'DES 426');">DES 426</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a> or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 427.  Creative Coding.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Creative Coding investigates how contemporary computational techniques can inspire novel forms of art making, providing students with the skills to make use of technology for expressive purposes. Course Information: Same as <a href="/search/?P=DES%20427" title="DES 427" class="bubblelink code" onclick="return showCourse(this, 'DES 427');">DES 427</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 428.  Virtual, Augmented and Mixed Reality.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Virtual reality, augmented reality, and mixed reality environments, display devices, input devices, tracking, navigation, interaction, collaboration, generating visuals and sounds, software tools, applications, evaluation, safety. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 440.  Software Engineering I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Software life-cycle model, requirement specification techniques, large-scale software design techniques and tools, implementation issues, testing and debugging techniques, software maintenance. Course Information: 3 undergraduate hours. 4 graduate hours. Previously listed as EECS 470. Prerequisite(s): <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 441.  Engineering Distributed Objects For Cloud Computing.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Provides a broad but solid overview of engineering distributed object for cloud computing. Students will learn the theory and principles of engineering distributed objects for cloud environments. Programming assignments required. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in <a href="/search/?P=CS%20341" title="CS 341" class="bubblelink code" onclick="return showCourse(this, 'CS 341');">CS 341</a> or Grade of C or better in <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>; and Grade of C or better in <a href="/search/?P=CS%20361" title="CS 361" class="bubblelink code" onclick="return showCourse(this, 'CS 361');">CS 361</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 442.  Software Engineering II.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Advanced concepts in software development: requirements engineering, cost estimation, risk analysis, extreme programming, regression test case selection, and design patterns.  Software lab assignments required.  Course Information:  3 undergraduate hours.  4 graduate hours.  Extensive computer use required.  Prerequisite(s):  <a href="/search/?P=CS%20440" title="CS 440" class="bubblelink code" onclick="return showCourse(this, 'CS 440');">CS 440</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 450.  Introduction to Networking.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Network protocols, algorithms, and software issues. Topics include the Open Systems Interconnect model, data link, network and transport layers, TCP/IP, ATM, mobile networks. Course Information: 3 undergraduate hours. 4 graduate hours. Credit is not given for <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a> if the student has credit for ECE 433. Prerequisite(s): <a href="/search/?P=CS%20361" title="CS 361" class="bubblelink code" onclick="return showCourse(this, 'CS 361');">CS 361</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 455.  Design and Implementation of Network Protocols.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Network protocols and their software, Examines OS network interface through network layers. Topics include routing, congestion control, fault tolerance, security, name servers, multicast, and performance. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): CS 340 and <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 461.  Operating Systems Design and Implementation.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Kernel design and implementation; process management; effective management of machine resources: resource allocation and scheduling, mutual exclusion, deadlock avoidance, memory management policies, devices and file systems, and client-server systems. Course Information: 3 undergraduate hours; 4 graduate hours. Previously listed as CS 385. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20361" title="CS 361" class="bubblelink code" onclick="return showCourse(this, 'CS 361');">CS 361</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 463.  Systems Performance and Concurrent Computing.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Understanding the many systems factors that affect program performance, including program design for concurrent computing, profiling and program optimization. Course Information: 3 undergraduate hours. 4 graduate hours.
+Prerequisite(s): <a href="/search/?P=CS%20361" title="CS 361" class="bubblelink code" onclick="return showCourse(this, 'CS 361');">CS 361</a>. Recommended Background: <a href="/search/?P=CS%20461" title="CS 461" class="bubblelink code" onclick="return showCourse(this, 'CS 461');">CS 461</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 466.  Advanced Computer Architecture.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and analysis of high performance uniprocessors. Topics include arithmetic: multiplication, division, shifting; processor: pipelining, multiple function units. instruction sets; memory: caches, modules; virtual machines. Course Information: Same as <a href="/search/?P=ECE%20466" title="ECE 466" class="bubblelink code" onclick="return showCourse(this, 'ECE 466');">ECE 466</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ECE%20366" title="ECE 366" class="bubblelink code" onclick="return showCourse(this, 'ECE 366');">ECE 366</a> or <a href="/search/?P=CS%20261" title="CS 261" class="bubblelink code" onclick="return showCourse(this, 'CS 261');">CS 261</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 469.  Hardware Description Language Based Digital and Computer System Design.  0-5 hours.</strong></p>
+<p class="courseblockdesc">
+Hardware description language (HDL) introduction; digital system design including arithmetic circuit, datapath and control; basic processor architecture and design; use of CAD tools for simulation, synthesis, and verification. Course Information: 4 undergraduate hours. 5 graduate hours. Same as <a href="/search/?P=ECE%20469" title="ECE 469" class="bubblelink code" onclick="return showCourse(this, 'ECE 469');">ECE 469</a>. Prerequisite(s): CS 366; or <a href="/search/?P=CS%20362" title="CS 362" class="bubblelink code" onclick="return showCourse(this, 'CS 362');">CS 362</a>. Class Schedule Information: To be properly registered, students must enroll in one Lecture and one Laboratory.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 473.  Compiler Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Language translation: lexical analysis, parsing schemes, symbol table management, syntax and semantic error detection, and code generation. Development of fully-functional compiler. Course Information: Same as <a href="/search/?P=MCS%20411" title="MCS 411" class="bubblelink code" onclick="return showCourse(this, 'MCS 411');">MCS 411</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in <a href="/search/?P=CS%20301" title="CS 301" class="bubblelink code" onclick="return showCourse(this, 'CS 301');">CS 301</a> or Grade of C or better in <a href="/search/?P=MCS%20441" title="MCS 441" class="bubblelink code" onclick="return showCourse(this, 'MCS 441');">MCS 441</a>; and Grade of C or better in <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a> or Grade of C or better in <a href="/search/?P=MCS%20360" title="MCS 360" class="bubblelink code" onclick="return showCourse(this, 'MCS 360');">MCS 360</a>; and Grade of C or better in <a href="/search/?P=CS%20261" title="CS 261" class="bubblelink code" onclick="return showCourse(this, 'CS 261');">CS 261</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 474.  Object-Oriented Languages and Environments.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Data abstraction, classes and objects, messages and methods, polymorphism and dynamic binding, inheritance. Object-oriented design. Pure and hybrid object-oriented languages. Course Information: 3 undergraduate hours. 4 graduate hours. Previously listed as EECS 474. Prerequisite(s): <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 475.  Object-Oriented Programming.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+OO Paradigm: classes, messages, methods, variables, inheritance, polymorphism; the C++ and Java languages; programming labs required. Course Information: 3 undergraduate hours. 4 graduate hours. Credit is not given for <a href="/search/?P=CS%20475" title="CS 475" class="bubblelink code" onclick="return showCourse(this, 'CS 475');">CS 475</a> if the student has credit for CS 340 or <a href="/search/?P=CS%20474" title="CS 474" class="bubblelink code" onclick="return showCourse(this, 'CS 474');">CS 474</a>. Extensive computer use required. Prerequisite(s): CS 202; and consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 476.  Programming Language Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Definition, design, and implementation of programming languages. Syntactic and semantic description; variable bindings, control and data structures, parsing, code generation, optimization; exception handling; data abstraction. Course Information: Same as <a href="/search/?P=MCS%20415" title="MCS 415" class="bubblelink code" onclick="return showCourse(this, 'MCS 415');">MCS 415</a>. 3 undergraduate hours. 4 graduate hours. Previously listed as EECS 476. Prerequisite(s): <a href="/search/?P=MCS%20360" title="MCS 360" class="bubblelink code" onclick="return showCourse(this, 'MCS 360');">MCS 360</a>; or <a href="/search/?P=CS%20341" title="CS 341" class="bubblelink code" onclick="return showCourse(this, 'CS 341');">CS 341</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 477.  Public Policy, Legal, and Ethical Issues in Computing, Privacy, and Security.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Contemporary topics involving legal, public policy, and/or ethical issues in computing, especially privacy, security, and surveillance. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 478.  Software Development for Mobile Platforms.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and implementation of mobile applications; operating systems, object-oriented languages and programming environments for mobile platforms; integration with hardware components; and location-aware applications. Programming assignments required. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 480.  Database Systems.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Database design, logical design, physical design. Relational databases. Recovery, concurrency control. Normalization. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20251" title="CS 251" class="bubblelink code" onclick="return showCourse(this, 'CS 251');">CS 251</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 485.  Networked Operating Systems Programming.  4 or 5 hours.</strong></p>
+<p class="courseblockdesc">
+Concepts, design, and programming of multi-process and distributed systems; inter-process communications; fault tolerance; distributed programming semantics. Programming assignments and project required. Course Information: 4 undergraduate hours. 5 graduate hours. Previously listed as EECS 471. Prerequisite(s): CS 385.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 486.  Secure Operating System Design and Implementation.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design of operating systems; operating system kernel implementation; secure coding and systems; virtual machines; extensive programming in a systems language such as C. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Credit or concurrent registration in CS 385; and credit or concurrent registration in <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a> or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 487.  Building Secure Computer Systems.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Building and programming secure systems; protecting systems from threats and reduction of vulnerabilities; Includes application, host and network security. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 385; and senior standing or above; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 489.  Human Augmentics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Study of technologies for augmentation of human capabilities; human limitations; implants and wearable technologies; implants; brain-computer interfaces; exoskeletons; sensors and networks. Includes project work. Course Information: Same as <a href="/search/?P=COMM%20489" title="COMM 489" class="bubblelink code" onclick="return showCourse(this, 'COMM 489');">COMM 489</a> Extensive computer use required. Prerequisite(s): Senior standing or above; or consent of the instructor; or senior majoring in  communications or psychology.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 491.  Seminar.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Topics of mutual interest to a faculty member and a group of students. Offered as announced by department bulletin or the Timetable. Course Information: May be repeated. Previously listed as EECS 491. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 493.  Special Problems.  2-4 hours.</strong></p>
+<p class="courseblockdesc">
+Special problems or reading by special arrangement with the faculty. Course Information: Previously listed as EECS 493. No graduate credit for Computer Science majors. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 494.  Special Topics in Computer Science.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Multidisciplinary computer science topics for undergrad seniors and graduate student that vary from term to term depending on current student and instructor interests. Course Information: 1 to 3 undergraduate hours; 2 to 4 graduate hours. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 499.  Professional Development Seminar.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Graduating seniors will be provided with information regarding future career paths and will provide information regarding the program to be used for assessment purposes. Students take the CS Major Field Exam as part of this course. Course Information: Satisfactory/Unsatisfactory grading only. Prerequisite(s): Open only to seniors; and approval of the department. Must be taken in the student's last semester of study.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 501.  Computer Algorithms II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Continuation of <a href="/search/?P=MCS%20401" title="MCS 401" class="bubblelink code" onclick="return showCourse(this, 'MCS 401');">MCS 401</a> (same as <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>). Advanced topics in algorithms. Lower bounds. Union-find problems. Fast Fourier transform. Complexity of arithmetic, polynomial, and matrix calculations. Approximation algorithms. Parallel algorithms. Course Information: Same as <a href="/search/?P=MCS%20501" title="MCS 501" class="bubblelink code" onclick="return showCourse(this, 'MCS 501');">MCS 501</a>. Prerequisite(s): <a href="/search/?P=MCS%20401" title="MCS 401" class="bubblelink code" onclick="return showCourse(this, 'MCS 401');">MCS 401</a> or <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 502.  Design and Analysis of Efficient Algorithms in Computational Molecular Biology.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and analysis of efficient algorithms for computational problems in molecular biology such as genome sequencing and construction of evolutionary trees. Course Information: Prerequisite(s): Grade of B or better in <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>; or consent of the instructor. Recommended background: <a href="/search/?P=CS%20501" title="CS 501" class="bubblelink code" onclick="return showCourse(this, 'CS 501');">CS 501</a> and some exposure to basic chemistry and biology.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 503.  Applied Graph Theory.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Paths, circuits, trees, cutsets, planarity, duarity, matrices and vector space of graphs, directed graphs, coloring, covering, matching and applications to switching networks and computer science. Course Information: Previously listed as EECS 563. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 505.  Computability and Complexity Theory.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Turing machines, undecidability, Rice's theorem, recursively enumerable sets, complexity theory, hierarchy theorems, alternation, parallel complexity classes, complete problems. Course Information: Previously listed as EECS 561. Prerequisite(s): <a href="/search/?P=CS%20301" title="CS 301" class="bubblelink code" onclick="return showCourse(this, 'CS 301');">CS 301</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 506.  An Introduction to Quantum Computing.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Quantum computing models and their algorithmic applications. Course Information: Prerequisite(s): <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>; or consent of the instructor. Recommended background: <a href="/search/?P=CS%20501" title="CS 501" class="bubblelink code" onclick="return showCourse(this, 'CS 501');">CS 501</a> and background in linear algebra at advanced undergraduate level.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 510.  Introduction to Cognitive Science.  3 hours.</strong></p>
+<p class="courseblockdesc">
+The computer modeling of intelligent agents and systems. Course Information: Same as <a href="/search/?P=PSCH%20510" title="PSCH 510" class="bubblelink code" onclick="return showCourse(this, 'PSCH 510');">PSCH 510</a>. Extensive computer use required. Prior experience with computers is expected to vary widely among the students, and the instruction, readings, and course project are designed to take this into account.
+Prerequisite(s): Consent of the instructor. Recommended background: Prior training and/or prior coursework in human cognition and/or computer programming.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 511.  Artificial Intelligence II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Predicate logic and resolution strategies, reasoning under uncertainty, incomplete information reasoning, state and change, planning, temporal reasoning knowledge representation, learning, advanced search techniques and current topics. Course Information: Previously listed as EECS 584. Prerequisite(s): <a href="/search/?P=CS%20411" title="CS 411" class="bubblelink code" onclick="return showCourse(this, 'CS 411');">CS 411</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 512.  Advanced Machine Learning.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Course studies theoretical principle and analysis of systems that make sense of data, along with scalable implementations in computation.  Covers structured data modeling, probabilistic inference for big data, deep learning and large scale optimization. Course Information: Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20412" title="CS 412" class="bubblelink code" onclick="return showCourse(this, 'CS 412');">CS 412</a>; and <a href="/search/?P=MATH%20310" title="MATH 310" class="bubblelink code" onclick="return showCourse(this, 'MATH 310');">MATH 310</a> or <a href="/search/?P=MATH%20320" title="MATH 320" class="bubblelink code" onclick="return showCourse(this, 'MATH 320');">MATH 320</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 514.  Applied Artificial Intelligence.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Anatomy of applied AI systems, rule-based expert systems and their theoretical foundation, fuzzy logic with applications, Bayesian networks and automated probabilistic reasoning, influence diagrams and automated optimal decision-making, and neural networks. Course Information: Previously listed as EECS 585. Prerequisite(s): <a href="/search/?P=CS%20411" title="CS 411" class="bubblelink code" onclick="return showCourse(this, 'CS 411');">CS 411</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 515.  Advanced Computer Vision.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis of 3-D scene images. Shape from shading, texture, line drawings, and surface orientation. Surface representation methods and reconstruction of 3-D scenes. Design of knowledge-based vision systems and 3-D applications. Course Information: Previously listed as EECS 587. Prerequisite(s): <a href="/search/?P=CS%20415" title="CS 415" class="bubblelink code" onclick="return showCourse(this, 'CS 415');">CS 415</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 521.  Statistical Natural Language Processing.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Statistical techniques for Natural Language Processing, including maximum likelihood estimation, Hidden Markov Models, and probabilistic grammars; and their applications, including parsing, semantic inference, dialogue processing and summarization. Course Information: Prerequisite(s): <a href="/search/?P=CS%20421" title="CS 421" class="bubblelink code" onclick="return showCourse(this, 'CS 421');">CS 421</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 522.  Human-Computer Interaction.  4 hours.</strong></p>
+<p class="courseblockdesc">
+The computer-user interface: media, languages, interaction techniques, user modeling. Human factors in software development. Theory, experimental methods, evaluation, tools. Project required. Course Information: Same as <a href="/search/?P=PSCH%20522" title="PSCH 522" class="bubblelink code" onclick="return showCourse(this, 'PSCH 522');">PSCH 522</a> and <a href="/search/?P=COMM%20522" title="COMM 522" class="bubblelink code" onclick="return showCourse(this, 'COMM 522');">COMM 522</a>. Previously listed as EECS 578. Prerequisite(s): <a href="/search/?P=CS%20422" title="CS 422" class="bubblelink code" onclick="return showCourse(this, 'CS 422');">CS 422</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 523.  Multi-Media Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of multi-media interface design for computer applications. Multi-disciplinary approaches to integrating text, still images, animation, and sound into human-computer interfaces. Course Information: Previously listed as EECS 579. Prerequisite(s): <a href="/search/?P=CS%20422" title="CS 422" class="bubblelink code" onclick="return showCourse(this, 'CS 422');">CS 422</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 524.  Visualization and Visual Analytics II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Current topics in scientific visualization, medical visualization, information visualization, volume rendering, isosurfaces. Course Information: Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20424" title="CS 424" class="bubblelink code" onclick="return showCourse(this, 'CS 424');">CS 424</a> or CS 488; and graduate standing; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 525.  Advanced Graphics Processor Programming.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Graphics Processing Unit (GPU) Programming languages, vertex shaders, fragment shaders, general purpose computing on GPUs. Course Information: Prerequisite(s): CS 488; or graduate standing; and consent of the instructor. Class Schedule Information: Extensive computer use required.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 526.  Computer Graphics II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+State of the art in computer graphics, visualization and interactive techniques. Course Information: Same as AD 588. Prerequisite(s): CS 488; or consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 527.  Computer Animation.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Theoretical and practical aspects of computer animation: keyframing, kinematics, simulation, and motion capture. Course Information: Laboratory required. Prerequisite(s): CS 488; or consent of the instructor. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 528.  Virtual Reality.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of virtual reality and virtual environments: hardware, software, input and control devices, design issues, and quantitative assessment of user performance. Course Information: Prerequisite(s): CS 488 or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 529.  Visual Data Science.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to key design principles and techniques for interactively visualizing and analyzing data; including visual encodings, geometric modeling, and scientific workflows. Course Information: Recommended Background: <a href="/search/?P=CS%20342" title="CS 342" class="bubblelink code" onclick="return showCourse(this, 'CS 342');">CS 342</a>, <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>, Computer graphics experience.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 540.  Advanced Topics in Software Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Formal methods; requirements and specification languages; program flow analysis; validation and verification; software metrics; program representations; software tools; software testing; software process. Course Information: Previously listed as EECS 570. Prerequisite(s): <a href="/search/?P=CS%20440" title="CS 440" class="bubblelink code" onclick="return showCourse(this, 'CS 440');">CS 440</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 541.  Software Engineering Environments.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Software configuration management; software quality assurance; software engineering economics; software factory; software reuse; computer aided software engineering; software prototyping. Course Information: Previously listed as EECS 571. Prerequisite(s): <a href="/search/?P=CS%20540" title="CS 540" class="bubblelink code" onclick="return showCourse(this, 'CS 540');">CS 540</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 542.  Distributed Software Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamental concepts of distributed software. Task allocation algorithms, language concepts for concurrency and communication, analysis methods and tools, and formal models. Course Information: Previously listed as EECS 572. Prerequisite(s): <a href="/search/?P=CS%20440" title="CS 440" class="bubblelink code" onclick="return showCourse(this, 'CS 440');">CS 440</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 545.  Formal Methods In Concurrent and Distributed Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Formal methods in concurrent and distributed systems, particularly temporal logic and automata for specifying and reasoning real-time properties. Automated and manual techniques for checking correctness. Course Information: Previously listed as EECS 575. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 550.  Advanced Computer Networks.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Queuing theory, datacenter networks, topologies, congestion control, load balancing, software-defined networking (SDN), and, wireless and cellular networks, supplemented by extensive discussion of current topics. Includes project work. Course Information: Extensive computer use required. Prerequisite(s): <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a>; or consent of the instructor or <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a> equivalent.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 553.  Distributed Computing Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Distributed Computing systems terminology and design issues. Data communications protocols; distributed operating systems, resource management, and synchronization; security; database systems. Course Information: Previously listed as EECS 573. Prerequisite(s): CS 366 and CS 385.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 554.  Advanced Topics in Concurrent Computing Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Petri nets, methods and their applications to concurrent, distributed, parallel, and data-flow systems; and logic programming and rule-based systems. Course Information: Previously listed as EECS 564. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 559.  Neural Networks.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Mathematical neuron models, learning methods, the perceptron, basic nonlinear optimization, backpropagation algorithm, associative memory, hopfield networks, SVM, vector quantization, SOM, PCA, convolutional networks, deep learning. Course Information:  Same as <a href="/search/?P=ECE%20559" title="ECE 559" class="bubblelink code" onclick="return showCourse(this, 'ECE 559');">ECE 559</a>.  Prerequisite(s): Consent of the instructor. - Knowledge of calculus, linear algebra, and the ability to write computer programs are assumed.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 560.  Fuzzy Logic.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Crisp and fuzzy sets; membership functions; fuzzy operations; fuzzy relations and their solution; approximate reasoning; fuzzy modeling and programming; applications; project. Course Information: Previously listed as EECS 560. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 565.  Physical Design Automation.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Computer-aided physical design of integrated circuits; circuit partitioning and placement; floorplanning; global and detailed routing; timing optimization; general optimization tools: local search, constraint relaxation. Course Information: Same as <a href="/search/?P=ECE%20565" title="ECE 565" class="bubblelink code" onclick="return showCourse(this, 'ECE 565');">ECE 565</a>. Prerequisite(s): <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>; and <a href="/search/?P=CS%20466" title="CS 466" class="bubblelink code" onclick="return showCourse(this, 'CS 466');">CS 466</a> or <a href="/search/?P=ECE%20465" title="ECE 465" class="bubblelink code" onclick="return showCourse(this, 'ECE 465');">ECE 465</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 566.  Parallel Processing.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Parallel processing from the computer science perspective. Includes Architecture (bus based, lockstep, SIMD), Programming Languages (Functional, traditional and extensions), compilers, interconnection networks, and algorithms. Course Information: Same as <a href="/search/?P=ECE%20566" title="ECE 566" class="bubblelink code" onclick="return showCourse(this, 'ECE 566');">ECE 566</a>. Prerequisite(s): <a href="/search/?P=CS%20466" title="CS 466" class="bubblelink code" onclick="return showCourse(this, 'CS 466');">CS 466</a> or <a href="/search/?P=ECE%20466" title="ECE 466" class="bubblelink code" onclick="return showCourse(this, 'ECE 466');">ECE 466</a>; and <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 567.  Principles of Computational Transportation Science.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Builds on the fundamentals of transportation science and emphasizes its high-level computational aspects. Topics covered include database design and theory, spatial and temporal information systems issues and travel modeling. Course Information: Same as <a href="/search/?P=CME%20567" title="CME 567" class="bubblelink code" onclick="return showCourse(this, 'CME 567');">CME 567</a> and <a href="/search/?P=UPP%20567" title="UPP 567" class="bubblelink code" onclick="return showCourse(this, 'UPP 567');">UPP 567</a>. Prerequisite(s): Grade of B or better or concurrent registration in <a href="/search/?P=UPP%20560" title="UPP 560" class="bubblelink code" onclick="return showCourse(this, 'UPP 560');">UPP 560</a>. Open only to Ph.D. students; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 568.  Advanced Computer Security and Online Privacy.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Foundational and contemporary research principles, methods, and results in network security, systems security, empirical security and privacy studies, and human-centered security. Includes project work. Course Information: Extensive computer use required. Recommended Background: <a href="/search/?P=CS%20361" title="CS 361" class="bubblelink code" onclick="return showCourse(this, 'CS 361');">CS 361</a> or equivalent.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 569.  High-Performance Processors and Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Instruction-level parallelism, multiple-instruction issue, branch prediction, instruction and data prefetching, novel cache and DRAM organization, high-performance interconnect, compilation issues, case studies. Course Information: Same as <a href="/search/?P=ECE%20569" title="ECE 569" class="bubblelink code" onclick="return showCourse(this, 'ECE 569');">ECE 569</a>. Prerequisite(s): <a href="/search/?P=CS%20466" title="CS 466" class="bubblelink code" onclick="return showCourse(this, 'CS 466');">CS 466</a> or <a href="/search/?P=ECE%20466" title="ECE 466" class="bubblelink code" onclick="return showCourse(this, 'ECE 466');">ECE 466</a>; and graduate standing.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 577.  Object Stores.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Use, design, and implementation of object stores. An object store enables object-oriented programming to be extended by storing objects on disk and communicating objects between processes. Course Information: Previously listed as EECS 577. Prerequisite(s): CS 385 and <a href="/search/?P=CS%20480" title="CS 480" class="bubblelink code" onclick="return showCourse(this, 'CS 480');">CS 480</a>; and knowledge of C++, or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 580.  Query Processing in Database Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Query processing in deductive databases and in distributed/parallel databases systems. Course Information: Same as <a href="/search/?P=IDS%20511" title="IDS 511" class="bubblelink code" onclick="return showCourse(this, 'IDS 511');">IDS 511</a>. Previously listed as EECS 580. Prerequisite(s): <a href="/search/?P=CS%20480" title="CS 480" class="bubblelink code" onclick="return showCourse(this, 'CS 480');">CS 480</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 581.  Database Management Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Concurrency control; reliability, recovery, data integrity, database machines and current topics. Course Information: Previously listed as EECS 581. Prerequisite(s): <a href="/search/?P=CS%20480" title="CS 480" class="bubblelink code" onclick="return showCourse(this, 'CS 480');">CS 480</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 582.  Information Retrieval.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Document retrieval, office automation. Optimal retrieval, relevance feedback, clustered search, construction of clusters, model of term weighting, thesaurus construction, multimedia data, handling of audio and video. Course Information: Previously listed as EECS 582. Prerequisite(s): <a href="/search/?P=CS%20480" title="CS 480" class="bubblelink code" onclick="return showCourse(this, 'CS 480');">CS 480</a>.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 583.  Data Mining and Text Mining.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Provide students with a sound knowledge in data and text mining tasks and techniques, as well as, ensure students ability to use this technology.  Course Information:  Prerequisite(s):  <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>.  Recommended background:  Algorithm Probability.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 584.  Advanced Data Mining.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Data stream mining - including stream clustering, classification and frequent pattern mining.  And, relation/link/graph mining - including frequent subgraphs, relational clustering and classification. Course Information: Prerequisite(s): <a href="/search/?P=CS%20583" title="CS 583" class="bubblelink code" onclick="return showCourse(this, 'CS 583');">CS 583</a> and graduate standing; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 586.  Data and Web Semantics.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Data modeling and semantics; knowledge representation, querying, and reasoning for the semantic web; metadata; data integration and interoperation; web services; applications.  Course Information:  Extensive computer use required.  Prerequisite(s):  <a href="/search/?P=CS%20480" title="CS 480" class="bubblelink code" onclick="return showCourse(this, 'CS 480');">CS 480</a> or equivalent.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 587.  Computer Systems Security.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Security policies; security properties; protection mechanisms for single systems, networked systems, and distributed computing; trust; attacks on computer systems.  Course Information:  Extensive computer use required.  Prerequisite(s):  <a href="/search/?P=CS%20485" title="CS 485" class="bubblelink code" onclick="return showCourse(this, 'CS 485');">CS 485</a> or <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 588.  Security and Privacy in Networked and Distributed Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to cryptographic principles; network authentication; confidentiality; integrity; distributed denial of service; certificates and distributed architectures for security; multiorganization trust; privacy, anonymity in distributed systems. Course Information: Prerequisite(s): <a href="/search/?P=CS%20401" title="CS 401" class="bubblelink code" onclick="return showCourse(this, 'CS 401');">CS 401</a>; and <a href="/search/?P=CS%20450" title="CS 450" class="bubblelink code" onclick="return showCourse(this, 'CS 450');">CS 450</a> or <a href="/search/?P=CS%20485" title="CS 485" class="bubblelink code" onclick="return showCourse(this, 'CS 485');">CS 485</a>; or consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 590.  Research Methods in Computer Science.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduces a variety of issues pertaining to doing research in computer science: exposure to methods in different areas of computer science; bibliographic search; producing research papers and oral presentations; evaluating the work of others; ethics. Course Information: Satisfactory/Unsatisfactory grading only. Prerequisite(s): Open only to Ph.D. degree students; and consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 594.  Special Topics.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Subject matter varies from term to term and section to section, depending on the specialities of the instructor. Course Information: May be repeated. Students may register in more than one section per term. Previously listed as EECS 594. Prerequisite(s): Consent of the instructor.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 595.  Departmental Seminar.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Seminar by faculty and invited speakers. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Previously listed as EECS 595.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 596.  Individual Study.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Individual study or research under close supervision of a faculty member. Course Information: May be repeated. Students may register in more than one section per term. No graduation credit for students in the following: MS in Computer Science or PhD in Computer Science.  Previously listed as EECS 596. Prerequisite(s): Consent of the instructor. For Computer Science majors only.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 597.  Project Research.  0-9 hours.</strong></p>
+<p class="courseblockdesc">
+A research design or reading project approved by the committee appointed by the director of graduate studies. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Students may register in more than one section per term. Previously listed as EECS 597. Prerequisite(s): Consent of the instructor. For CS majors only.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 598.  M.S. Thesis Research.  0-16 hours.</strong></p>
+<p class="courseblockdesc">
+M.S. thesis work under the supervision of a graduate advisor. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Students may register in more than one section per term. Previously listed as EECS 598. Prerequisite(s): Consent of the instructor. For CS majors only.<br/>
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CS 599.  Ph.D. Thesis Research.  0-16 hours.</strong></p>
+<p class="courseblockdesc">
+Ph.D. thesis work under supervision of a graduate advisor. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Students may register in more than one section per term. Previously listed as EECS 599. Prerequisite(s): Consent of the instructor. For CS students only.<br/>
+</p>
+</div></div>
+			</div>
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2018-2019 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+
+
+<div class="print-option"><div class="option-head"><a href="cs.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+
+		<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2018-20-graduate.pdf">Download PDF of the entire Graduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

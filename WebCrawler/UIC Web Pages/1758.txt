@@ -1,0 +1,306 @@
+<!DOCTYPE html><html
+lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta
+charset="utf-8" /><title>UIC Mobile</title><link
+href="/_static/common_css/resolve-kurogo/common-6c661de6659f837c5ddcae529cb614ddbe27ad88.css" rel="stylesheet" media="all" type="text/css"/><link
+href="/_static/module_css/resolve-home/module-3a5b9d80a8db0f1ea4c5bcbc14fac0e7f4cda69c.css" rel="stylesheet" media="all" type="text/css"/><meta
+name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" /><link
+rel="shortcut icon" href="/_static/image/resolve-kurogo/images/favicon-b3716df9268809306c67da01685c5818012d2690.ico" /><link
+rel="apple-touch-icon" href="/_static/image/resolve-kurogo/images/icon-18f2b2f655d874d66eae73ccf34a235dce345abd.png" /><link
+rel="apple-touch-icon-precomposed" href="/_static/image/resolve-kurogo/images/icon-18f2b2f655d874d66eae73ccf34a235dce345abd.png" /><meta
+name="msapplication-TileColor" content="#003366"><meta
+name="msapplication-TileImage" content="/_static/image/resolve-kurogo/images/icon-18f2b2f655d874d66eae73ccf34a235dce345abd.png"><meta
+name="theme-color" content="#000033">
+<script type="text/javascript">(function(window){function d(){}d.prototype={c:[],r:0,
+add:function(c){if(this.r){c.call()}else{this.c.push(c)}},
+run:function(){for(var i=0;i<this.c.length;i++){this.c[i].call()}this.r = 1}
+};window.kgoDeferred = new d;})(window);</script><style class="kgoui_page_font_size"></style></head><body
+id="kgoui" class="kgoui_object kgoui_page kgo_style__index_large kgo_has_position_fixed kgo_has_overflow_scroll kgo_has_navbar">
+<a
+id="top"> </a><div
+class="kgoui_page_wrapper"><div
+id="kgoui_FnavigationHeader" class="kgoui_object kgoui_page_navigation_header kgo_has_user_menu kgoui_named_child_navigationHeader_a893899df857f9ac7044c4602f0dd8aa">
+<a
+class="kgoui_page_navigation_header_home_link kgo_highlight" href="/home/index">
+<img
+src="/_static/image/resolve-kurogo/images/homelink-40319488e9c2e8ee712304010831793e4fff6528.png" height="44" width="48" alt="UIC Mobile home" />
+</a><h1 class="kgoui_page_navigation_header_title">UIC Mobile</h1>
+<a
+class="kgoui_page_navigation_header_user_menu_trigger kgo_highlight" href="javascript:void(0);"><img
+src="/_static/image/resolve-kurogo/images/menu-user%402x-2bf78057783d80c37448156e456be15adef7977b.png"  alt="User menu" /></a>
+<a
+class="kgoui_page_navigation_header_nav_menu_trigger kgo_highlight" href="javascript:void(0);"><img
+src="/_static/image/resolve-kurogo/images/menu%402x-f1016a047f76282e73b16ef18234195d8d42b40b.png"  alt="Navigation menu" /></a></div><div
+id="kgoui_Fbanner" class="kgoui_object kgoui_array kgoui_banner kgo_empty"><div
+id="kgoui_Fbanner_Ritems" class="kgoui_object_region kgoui_banner_items"></div></div><script type="text/javascript">kgoDeferred.add(function(){var e=$('#kgoui_Fbanner');e.data('kgoui_object',new KGOUIBanner(e,{"listeners":{"click":{"kgoui_named_child_loadMore_147a8b6b2437a24e010984f6621d6c33":["loadMore"]}},"children":{"loadMore":["kgoui_named_child_loadMore_147a8b6b2437a24e010984f6621d6c33"]},"regions":[{"name":"items","id":"kgoui_Fbanner_Ritems"}],"data":{"dismissParam":"kgoui_banner_item_dismiss","itemIdRegex":"\\b(kgoui_Fbanner_Ritems_I)(\\d+)\\b"}}));});</script><div
+class="kgoui_page_container"><div
+id="kgoui_Rcontent" class="kgoui_object_region kgoui_page_content" role="main"><div
+id="kgoui_Rcontent_I0" class="kgoui_object kgoui_module_modo_launchpad_hero kgo_style_idcd247d1919fef29c8a8263e3a673839c"></div><div
+id="kgoui_Rcontent_I1" class="kgoui_object kgoui_form kgoui_form_search kgo_inset kgo_style_id28f68b8e42e154acc5393f3830bc34ee" style="display:none;"><form
+method="GET" action="/search/search"><div
+id="kgoui_Rcontent_I1_Ritems" class="kgoui_object_region kgoui_form_items"><span
+id="kgoui_Rcontent_I1_Ritems_I0" class="kgoui_object kgoui_button kgoui_button_form kgoui_button_form_submit kgoui_form_submit_search kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgo_action_type_search kgoui_button_form_type_submit kgoui_named_child_submitButton_bafc4b024aa449c936a79b8a2d922a8e kgoui_named_child_formElements_bafc4b024aa449c936a79b8a2d922a8e">
+<button
+type="submit" value="Search" class="kgoui_button_target kgo_highlight" name="search">
+<span
+class="kgo_action_icon kgo_action_icon_search" aria-hidden="true" role="presentation">&#xf160;</span><span
+class="kgoui_button_label">Search</span>
+</button>
+</span><div
+id="kgoui_Rcontent_I1_Ritems_I1" class="kgoui_object kgoui_form_input kgoui_form_input_search kgoui_named_child_textInput_bafc4b024aa449c936a79b8a2d922a8e kgoui_named_child_formElements_bafc4b024aa449c936a79b8a2d922a8e">
+<label
+for="kgoui_Rcontent_I1_Ritems_I1_filter">Search UIC Mobile:</label>
+<input
+type="search" id="kgoui_Rcontent_I1_Ritems_I1_filter" value="" name="filter" placeholder="Search UIC Mobile" autocorrect="off" autocapitalize="none"        size="1" /></div></div></form></div><div
+id="kgoui_Rcontent_I2" class="kgoui_object kgoui_portlets kgoui_portlets_float_left"><div
+id="kgoui_Rcontent_I2_Ritems" class="kgoui_object_region kgoui_portlets_items"><div
+id="kgoui_Rcontent_I2_Ritems_I0" class="kgoui_object kgoui_portlet kgoui_portlet_carousel kgoui_portlet_carousel_news kgoui_portlet_has_header kgoui_portlet_size_medium kgo_size_medium"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/news/index?feed=news_uic" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I0_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/news-32748e6cb3b3892b5cda4242f290b580a59bf159.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">News</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I0_Rcontent" class="kgoui_object_region kgoui_portlet_content"></div></div></div><div
+id="kgoui_Rcontent_I2_Ritems_I1" class="kgoui_object kgoui_portlet kgoui_portlet_carousel kgoui_portlet_carousel_calendar kgoui_portlet_has_header kgoui_portlet_size_small kgo_size_small"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/calendar/index?feed=calendar&amp;limit=20&amp;startdate=24-04-2019+T000000&amp;calendarMode=list" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I1_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/calendar-d5f74c0e68c754a70632a29393585596e13ceb25.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">Calendar</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I1_Rcontent" class="kgoui_object_region kgoui_portlet_content"></div></div></div><div
+id="kgoui_Rcontent_I2_Ritems_I2" class="kgoui_object kgoui_portlet kgoui_portlet_carousel kgoui_portlet_carousel_news kgoui_portlet_has_header kgoui_portlet_size_small kgo_size_small"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/athletics_news/index?feed=athletics_top_news" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I2_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/athletics-f3b69a5573e602a5d817479ca21a17993c9f10a6.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">Athletics News</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I2_Rcontent" class="kgoui_object_region kgoui_portlet_content"></div></div></div><div
+id="kgoui_Rcontent_I2_Ritems_I3" class="kgoui_object kgoui_portlet kgoui_portlet_map kgoui_portlet_map_launchpad kgoui_portlet_has_header kgoui_portlet_size_medium kgo_size_medium"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/map/index" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I3_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/map-2eeaff0482cfaced605bfd2e8a914db47f3ad823.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">Map</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent" class="kgoui_object_region kgoui_portlet_content"><div
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0" class="kgoui_object kgoui_map_common kgoui_map kgoui_named_child_map_8c7a47460d3f05685e863e90e36f9e6a"><div
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl" class="kgoui_object_region kgoui_map_map_impl"><div
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0" class="kgoui_object kgoui_map_common kgoui_map_base kgoui_map_base_google"><div
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols" class="kgoui_object_region kgoui_map_base_controls"><span
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I0" class="kgoui_object kgoui_button kgoui_button_link kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgoui_named_child_zoominButton_b1939be044b19dd7cdf61a9fca36d2e2">
+<a
+class="kgoui_button_target kgo_highlight" role="button" href="javascript:void(0);">
+<span
+class="kgo_action_icon kgo_action_icon_plus" aria-hidden="true" role="presentation">&#xf13a;</span><span
+class="kgoui_button_label">Zoom in</span>
+</a>
+</span><span
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I1" class="kgoui_object kgoui_button kgoui_button_link kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgoui_named_child_zoomoutButton_b1939be044b19dd7cdf61a9fca36d2e2">
+<a
+class="kgoui_button_target kgo_highlight" role="button" href="javascript:void(0);">
+<span
+class="kgo_action_icon kgo_action_icon_minus" aria-hidden="true" role="presentation">&#xf13b;</span><span
+class="kgoui_button_label">Zoom out</span>
+</a>
+</span><span
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I2" class="kgoui_object kgoui_button kgoui_button_link kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgoui_named_child_recenterButton_b1939be044b19dd7cdf61a9fca36d2e2">
+<a
+class="kgoui_button_target kgo_highlight" role="button" href="javascript:void(0);">
+<span
+class="kgo_action_icon kgo_action_icon_recenter" aria-hidden="true" role="presentation">&#xf144;</span><span
+class="kgoui_button_label">Re-center</span>
+</a>
+</span><span
+id="kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I3" class="kgoui_object kgoui_button kgoui_button_link kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgoui_named_child_userLocationButton_b1939be044b19dd7cdf61a9fca36d2e2">
+<a
+class="kgoui_button_target kgo_highlight" role="button" href="javascript:void(0);">
+<span
+class="kgo_action_icon kgo_action_icon_location" aria-hidden="true" role="presentation">&#xf142;</span><span
+class="kgoui_button_label">Show / hide my location</span>
+</a>
+</span></div></div></div></div></div></div></div><div
+id="kgoui_Rcontent_I2_Ritems_I4" class="kgoui_object kgoui_portlet kgoui_portlet_carousel kgoui_portlet_carousel_social kgoui_portlet_has_header kgoui_portlet_size_small kgo_size_small"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/social/index?feed=facebook_uic" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I4_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/social-72ba663e8f209d328e11d94a33750583bec5a8c0.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">Facebook</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I4_Rcontent" class="kgoui_object_region kgoui_portlet_content"></div></div></div><div
+id="kgoui_Rcontent_I2_Ritems_I5" class="kgoui_object kgoui_portlet kgoui_portlet_carousel kgoui_portlet_carousel_social kgoui_portlet_has_header kgoui_portlet_size_small kgo_size_small"><div
+class="kgoui_portlet_wrapper"><div
+class="kgoui_portlet_header">
+<a
+href="/social/index?feed=twitter_uic" class="kgoui_portlet_header_action kgo_has_action_icon"><div
+class="kgoui_portlet_title_image"><span
+id="kgoui_Rcontent_I2_Ritems_I5_FtitleImage" class="kgoui_object kgoui_image kgo_style_portlet_image_icon">
+<img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/social-72ba663e8f209d328e11d94a33750583bec5a8c0.png" width="100%" alt="" aria-hidden="true" role="presentation" />
+</span></div><div
+class="kgoui_portlet_title">Twitter</div>
+<span
+class="kgo_action_icon kgo_action_icon_drilldown" aria-hidden="true" role="presentation">&#xf100;</span>
+</a></div><div
+id="kgoui_Rcontent_I2_Ritems_I5_Rcontent" class="kgoui_object_region kgoui_portlet_content"></div></div></div></div></div><div
+id="kgoui_Rcontent_I4" class="kgoui_object kgoui_module_modo_launchpad_html kgo_inset kgo_style_id36851337a0d02f66a706a94f7eb7c46c"><div
+class="kgo_web_content"></div></div></div><div
+class="kgoui_page_site_footer_wrapper"><div
+class="kgoui_page_backtotop">
+<a
+href="#top">Top of page</a></div><div
+class="kgoui_page_site_footer"><div
+class="kgoui_page_site_footer_site_html"><div
+class="copyright">© Copyright 2015 The Board of Trustees of the University of Illinois</div></div><div
+class="kgoui_page_site_footer_poweredby">Powered by Modo</div></div></div></div><span
+id="kgoui_FnavigationFooter" class="kgoui_object kgoui_page_navigation_footer kgoui_named_child_navigationFooter_a893899df857f9ac7044c4602f0dd8aa"><div
+class="kgoui_page_navigation_footer_menu kgoui_page_navigation_footer_user_menu" role="navigation" aria-hidden="true" aria-live="polite" aria-atomic="true"><div
+class="kgoui_page_navigation_footer_menu_wrapper">
+<a
+id="kgoui_page_navigation_footer_user_menu_top" role="button" href="javascript:void(0);">
+Close user menu
+</a><div
+class="kgoui_page_navigation_footer_menu_sections"><ul
+class="kgoui_page_navigation_footer_menu_list kgoui_page_navigation_footer_menu_messaging kgo_clearfix"><li><a
+href="/kurogo_message_center/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/notifications-ab1c197ab277fdef4951d66bbaa7302327bcf14e.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Messages</a></li></ul><ul
+class="kgoui_page_navigation_footer_menu_list kgoui_page_navigation_footer_menu_settings kgo_clearfix"><li><a
+href="/kurogo_settings/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/settings-31668d1bcb7db7745efa8fbb73f367fce2949bc5.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Settings</a></li></ul></div></div></div><div
+class="kgoui_page_navigation_footer_menu kgoui_page_navigation_footer_nav_menu" role="navigation" aria-hidden="true" aria-live="polite" aria-atomic="true"><div
+class="kgoui_page_navigation_footer_menu_wrapper">
+<a
+id="kgoui_page_navigation_footer_nav_menu_top" role="button" href="javascript:void(0);">
+Close navigation menu
+</a><div
+id="kgoui_FnavigationFooter_FsiteSearch" class="kgoui_object kgoui_form kgoui_form_search kgo_inset"><form
+method="GET" action="/search/search"><div
+id="kgoui_FnavigationFooter_FsiteSearch_Ritems" class="kgoui_object_region kgoui_form_items"><span
+id="kgoui_FnavigationFooter_FsiteSearch_Ritems_I0" class="kgoui_object kgoui_button kgoui_button_form kgoui_button_form_submit kgoui_form_submit_search kgo_enabled kgo_has_action_icon kgoui_button_icon_only kgo_action_type_search kgoui_button_form_type_submit kgoui_named_child_submitButton_f4c0ad92fbca3c05445e17f6ac41acd0 kgoui_named_child_formElements_f4c0ad92fbca3c05445e17f6ac41acd0">
+<button
+type="submit" value="Search" class="kgoui_button_target kgo_highlight" name="search">
+<span
+class="kgo_action_icon kgo_action_icon_search" aria-hidden="true" role="presentation">&#xf160;</span><span
+class="kgoui_button_label">Search</span>
+</button>
+</span><div
+id="kgoui_FnavigationFooter_FsiteSearch_Ritems_I1" class="kgoui_object kgoui_form_input kgoui_form_input_search kgoui_named_child_textInput_f4c0ad92fbca3c05445e17f6ac41acd0 kgoui_named_child_formElements_f4c0ad92fbca3c05445e17f6ac41acd0">
+<label
+for="kgoui_FnavigationFooter_FsiteSearch_Ritems_I1_filter">Search UIC Mobile:</label>
+<input
+type="search" id="kgoui_FnavigationFooter_FsiteSearch_Ritems_I1_filter" value="" name="filter" placeholder="Search UIC Mobile" autocorrect="off" autocapitalize="none"        size="1" /></div></div></form></div><div
+class="kgoui_page_navigation_footer_menu_sections"><ul
+class="kgoui_page_navigation_footer_menu_list kgoui_page_navigation_footer_menu_primary kgo_clearfix"><li><a
+href="/home/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/home-7841f8a52a69d2302f5cef4b38fb28eb34bdd622.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Home</a></li><li><a
+href="/map/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/map-2eeaff0482cfaced605bfd2e8a914db47f3ad823.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Map</a></li><li><a
+href="https://uic.transloc.com/" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/transit-b7a16cd3396bbf168628625d3e25b333f7205ffa.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Transit</a></li><li><a
+href="/people/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/people-c22209f55b1690f9fd6fa6a161537a2371469cac.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Directory</a></li><li><a
+href="/emergency/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/emergency-c45586ebccdce106912aee1c4acbd40e1ce6f8e6.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Emergency</a></li><li><a
+href="/emergency_response_guidelines/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/emergencyinformation-c3bce5cf6b60e2c6b9b0dee352a8c2aaae104870.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Emergency Info</a></li><li><a
+href="/schedule_and_grades/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/registrar-2713c9fff7648cdd87090dbe81f53eb7f1131edf.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Schedule &amp; Grades</a></li><li><a
+href="/calendar/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/calendar-d5f74c0e68c754a70632a29393585596e13ceb25.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Calendar</a></li><li><a
+href="http://library.uic.edu/?_kgourl_targetnewwindow=1&amp;_kgourl_externalbrowser=1" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon" target="_blank" rel="noopener noreferrer"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/libraries-f8a07aa284b71d147478be48505caeb8839ed609.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Libraries</a></li><li><a
+href="/news/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/news-32748e6cb3b3892b5cda4242f290b580a59bf159.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />News</a></li><li><a
+href="/athletics/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/athletics-f3b69a5573e602a5d817479ca21a17993c9f10a6.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Athletics</a></li><li><a
+href="/dining/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/dining-996c8a91ecb7e8a31d8877a6b888153717f0b90b.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Dining</a></li><li><a
+href="http://uicbookstore.org" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon" target="_blank" rel="noopener noreferrer"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/bookstore-d416ce05d8baf0d0ae4d21b679d5c9bc905d295f.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Bookstore</a></li><li><a
+href="/links/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/links-a815b2068d69c63a1e4ddb16700d9e75883ec3d8.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Links</a></li><li><a
+href="/social/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/social-72ba663e8f209d328e11d94a33750583bec5a8c0.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Social</a></li><li><a
+href="/photos/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/photos-26f0c2371039681b10027f4cc5330fe6349c9952.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Photos</a></li><li><a
+href="/video/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/video-52535954b5ecf2b1befdcd1bd87daaacfc9999e0.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Video</a></li><li><a
+href="http://connect.uic.edu/?_kgourl_targetnewwindow=1&amp;_kgourl_externalbrowser=1" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon" target="_blank" rel="noopener noreferrer"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/connect-945326bacc3581ecdaeb7b437be22ef4e4d667e9.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />UIC Connection</a></li><li><a
+href="/facilities_/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/facilities-12876812ac2db383325e6ff5bba16127b5337c50.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Facilities</a></li></ul><ul
+class="kgoui_page_navigation_footer_menu_list kgoui_page_navigation_footer_menu_utility kgo_clearfix"><li><a
+href="http://www.uic.edu/?_kgourl_targetnewwindow=1&amp;_kgourl_externalbrowser=1" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon" target="_blank" rel="noopener noreferrer"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/fullweb-fa8637bb7f95612adff5c9e965c99329c9971fb2.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />Full Website</a></li><li><a
+href="/about/index" class="kgo_highlight kgoui_page_navigation_footer_menu_has_icon"><img
+src="/_static/image/resolve-kurogo/images/iconsets/UIC/60/about-c4ff49fe8429966635bb44c75c4856afa811aa26.png" width="30" height="30" alt="" aria-hidden="true" role="presentation" />About</a></li></ul></div><div
+class="kgoui_page_menu_site_footer"><div
+class="kgoui_page_site_footer"><div
+class="kgoui_page_site_footer_site_html"><div
+class="copyright">© Copyright 2015 The Board of Trustees of the University of Illinois</div></div><div
+class="kgoui_page_site_footer_poweredby">Powered by Modo</div></div></div></div></div>
+</span></div>
+<script src="/_static/common_javascript/resolve-kurogo/common-b133eee0d0c2797c9b5c7347e375e4bea5f65f29.js" type="text/javascript"></script>
+<script type="text/javascript">window.elementQuery({".kgoui_content_heading":{"max-width":["27em"],"min-width":["40em"]},".kgoui_detail.kgo_responsive_margins":{"max-width":["30em","20em"],"min-width":["50em"]},".kgoui_detail.kgo_responsive_typography":{"max-width":["30em"],"min-width":["50em"]},".kgoui_detail":{"max-width":["30em"],"min-width":["50em"]},".kgoui_form":{"max-width":["40em"]},".kgoui_form_label":{"max-width":["40em"]},".kgoui_margin_wrapper .kgoui_margin_wrapper_items":{"max-width":["30em","20em"],"min-width":["50em"]},".kgoui_multicolumn.kgoui_multicolumn_4":{"max-width":["60em","45em"]},".kgoui_multicolumn.kgoui_multicolumn_5":{"max-width":["60em","45em"]},".kgoui_multicolumn.kgoui_multicolumn_6":{"max-width":["60em","45em"]},".kgoui_multicolumn.kgoui_multicolumn_3":{"max-width":["45em"]},".kgoui_multicolumn.kgoui_multicolumn":{"max-width":["32em"]},".kgoui_portlets":{"max-width":["1000px","800px","600px"]},".kgoui_salesforce_web_to_lead_embed_publish":{"max-width":["40em"]},".kgoui_wrapper.kgoui_wrapper_responsive_margins":{"max-width":["30em","20em"],"min-width":["50em"]},".kgoui_wrapper_responsive_typography.kgoui_wrapper .kgoui_wrapper_content":{"max-width":["30em"],"min-width":["50em"]},".kgoui_detail_news":{"min-width":["40em"]},".kgoui_detail_photos":{"max-width":["30em"],"min-width":["50em"]},".kgoui_list_item":{"max-width":["17em"]},".kgoui_page_wrapper_collage":{"max-width":["30em","20em"],"min-width":["50em"]},".kgoui_list_item_radio_buttons":{"max-width":["17em"]},".kgoui_list_item_video":{"max-width":["17em"]},".kgoui_grid_publish":{"max-width":["22em"]}}, false);</script>
+<script type="text/javascript">$(function(){var e;new Kurogo({"apiURL":"\/home\/index.json","urlPrefix":"","module":"home","page":"index","pagetype":"large","platform":"computer","browser":"chrome","clientVersion":"2.10.25","pageCookiePrefix":"_Mhome_Cindex_O","constants":{"COOKIE_PATH":"\/","COOKIE_SEPARATOR":"_N","AJAX_OBJECT_PARAM":"_kgoui_object","AJAX_INCLUDE_HTML_PARAM":"_kgoui_include_html","AJAX_JS_CONFIG_PARAM":"_kgoui_js_config","AJAX_REGION_PARAM":"_kgoui_region","AJAX_REGION_OFFSET_PARAM":"_kgoui_region_offset","AJAX_PAGE_STATE_PARAM":"_kgoui_page_state","AJAX_NOCACHE_PARAM":"_kgoui_nocache","AJAX_AUTO_REFRESH_PARAM":"_kgoui_auto_refresh","AJAX_PAGE_QUERY_PARAM":"_kgoui_page_query","AJAX_PAGE_STATE_HANDLED_PARAM":"_kgoui_page_state_handled","DEFLATED_CLASS_KEY":"kgoDeflatedClass","DEFLATED_DATA_KEY":"kgoDeflatedData","GEOLOCATION_LAT_COOKIE":"_kgourl_lat","GEOLOCATION_LON_COOKIE":"_kgourl_lon","NATIVE_VERSION_PARAM":"_kgourl_version","GEOLOCATION_COOKIE_LIFETIME":0},"strings":{"core.ui.maps.errors.geolocationFailed":"Unable to find location","core.ui.ajax.loading":"Loading","core.ui.ajax.failure":"Unable to load content","core.ui.buttons.ok":"OK","core.ui.buttons.cancel":"Cancel","core.ui.fullScreenImage.close":"Close full screen view","core.ui.fullScreenImage.help.mobile":"Pinch to zoom.  Tap the X to close.","core.ui.fullScreenImage.help.desktop":"Use the scroll wheel to zoom. Click the X to close."},"themeVars":[],"pageState":"fc4f08fe6ba55d00437311122e703021","optionDefaults":{"object":{"ajaxUpdateInterval":0,"ajaxIgnoreCache":false,"ajaxLoadingIndicator":false},"region":{"ajaxContent":false,"ajaxContentOnPageLoad":true,"ajaxUpdateInterval":0,"ajaxIgnoreCache":false,"ajaxLoadingIndicator":"large"}},"fontCount":0});e=$('#kgoui');e.data('kgoui_object',new KGOUIPage(e,{"children":{"navigationHeader":["kgoui_named_child_navigationHeader_a893899df857f9ac7044c4602f0dd8aa"],"navigationFooter":["kgoui_named_child_navigationFooter_a893899df857f9ac7044c4602f0dd8aa"]},"encodedArgs":[],"regions":[{"name":"content","id":"kgoui_Rcontent"}],"data":{"fontSize":null}}));e=$('#kgoui_FnavigationHeader');e.data('kgoui_object',new KGOUIPageNavigationHeader(e,{"namespaces":["kgoui_named_child_navigationHeader_a893899df857f9ac7044c4602f0dd8aa"]}));e=$('#kgoui_Rcontent_I0');e.data('kgoui_object',new KGOUIObject(e,{}));e=$('#kgoui_Rcontent_I1');e.data('kgoui_object',new KGOUIForm(e,{"children":{"formElements":["kgoui_named_child_formElements_bafc4b024aa449c936a79b8a2d922a8e"]},"options":{"allowEmpty":false,"trackDirtyState":false,"resetOnSubmit":false,"ajaxSubmitOnChange":false},"regions":[{"name":"items","id":"kgoui_Rcontent_I1_Ritems"}]}));e=$('#kgoui_Rcontent_I1_Ritems_I0');e.data('kgoui_object',new KGOUIButtonFormSubmit(e,{"namespaces":["kgoui_named_child_submitButton_bafc4b024aa449c936a79b8a2d922a8e","kgoui_named_child_formElements_bafc4b024aa449c936a79b8a2d922a8e"]}));e=$('#kgoui_Rcontent_I1_Ritems_I1');e.data('kgoui_object',new KGOUIFormInput(e,{"namespaces":["kgoui_named_child_textInput_bafc4b024aa449c936a79b8a2d922a8e","kgoui_named_child_formElements_bafc4b024aa449c936a79b8a2d922a8e"],"fields":{"name":"filter","disabled":{"value":false,"formatted":null}},"options":{"autosubmit":false,"required":false}}));e=$('#kgoui_Rcontent_I2');e.data('kgoui_object',new KGOUIObject(e,{"regions":[{"name":"items","id":"kgoui_Rcontent_I2_Ritems"}]}));e=$('#kgoui_Rcontent_I2_Ritems_I0');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/news\/index?feed=news_uic"},"formatted":"\/news\/index?feed=news_uic"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I0_Rcontent","options":{"ajaxContent":true}}]}));e=$('#kgoui_Rcontent_I2_Ritems_I0_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I2_Ritems_I1');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/calendar\/index?feed=calendar\u0026limit=20\u0026startdate=24-04-2019+T000000\u0026calendarMode=list"},"formatted":"\/calendar\/index?feed=calendar\u0026limit=20\u0026startdate=24-04-2019+T000000\u0026calendarMode=list"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I1_Rcontent","options":{"ajaxContent":true}}]}));e=$('#kgoui_Rcontent_I2_Ritems_I1_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I2_Ritems_I2');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/athletics_news\/index?feed=athletics_top_news"},"formatted":"\/athletics_news\/index?feed=athletics_top_news"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I2_Rcontent","options":{"ajaxContent":true}}]}));e=$('#kgoui_Rcontent_I2_Ritems_I2_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I2_Ritems_I3');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/map\/index"},"formatted":"\/map\/index"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I3_Rcontent"},{"name":"placemarks","id":"kgoui_Rcontent_I2_Ritems_I3_Rplacemarks"}]}));e=$('#kgoui_Rcontent_I2_Ritems_I3_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0');e.data('kgoui_object',new KGOUIMap(e,{"namespaces":["kgoui_named_child_map_8c7a47460d3f05685e863e90e36f9e6a"],"regions":[{"name":"mapImpl","id":"kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl"}]}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0');e.data('kgoui_object',new KGOUIMapBaseGoogle(e,{"jsURLs":["https:\/\/www.google.com\/jsapi"],"listeners":{"click":{"kgoui_named_child_zoominButton_b1939be044b19dd7cdf61a9fca36d2e2":["zoomin"],"kgoui_named_child_zoomoutButton_b1939be044b19dd7cdf61a9fca36d2e2":["zoomout"],"kgoui_named_child_recenterButton_b1939be044b19dd7cdf61a9fca36d2e2":["recenter"],"kgoui_named_child_userLocationButton_b1939be044b19dd7cdf61a9fca36d2e2":["toggleLocationUpdates"]}},"children":{"zoominButton":["kgoui_named_child_zoominButton_b1939be044b19dd7cdf61a9fca36d2e2"],"zoomoutButton":["kgoui_named_child_zoomoutButton_b1939be044b19dd7cdf61a9fca36d2e2"],"recenterButton":["kgoui_named_child_recenterButton_b1939be044b19dd7cdf61a9fca36d2e2"],"userLocationButton":["kgoui_named_child_userLocationButton_b1939be044b19dd7cdf61a9fca36d2e2"]},"fields":{"placemarks":{"value":[{"kgoDeflatedClass":"KGOMapPlacemark","kgoDeflatedData":{"attributes":{"kgomap:clickable":true,"kgomap:showsCallout":true,"kgomap:geometry":{"kgoDeflatedClass":"KGOMapPoint","kgoDeflatedData":["41.874744584584136","-87.65805384921265"]},"kgomap:latitude":"41.874744584584136","kgomap:longitude":"-87.65805384921265","kgomap:anchor":{"kgoDeflatedClass":"KGOMapPoint","kgoDeflatedData":["41.874744584584136","-87.65805384921265"]},"kgo:title":"University of Illinois at Chicago","kgomap:url":"https:\/\/m.uic.edu\/map\/index","kgomap:urlargs":{"id":null,"map":null}},"dataModelId":null,"parentDataModelId":null}}],"formatted":null},"amenities":{"value":[],"formatted":null},"styles":{"value":[],"formatted":null},"defaultZoomLevel":{"value":15,"formatted":null},"baseLayers":{"value":["ROADMAP","SATELLITE","HYBRID","TERRAIN"],"formatted":null},"minZoom":{"value":0,"formatted":null},"maxZoom":{"value":21,"formatted":null},"showUserLocationButton":{"value":true,"formatted":null},"userLocationPlacemark":{"value":{"kgoDeflatedClass":"KGOMapPlacemark","kgoDeflatedData":{"attributes":{"kgomap:clickable":false,"kgomap:showsCallout":false,"kgomap:geometry":{"kgoDeflatedClass":"KGOMapPoint","kgoDeflatedData":[0,0]},"kgomap:latitude":0,"kgomap:longitude":0,"kgomap:anchor":{"kgoDeflatedClass":"KGOMapPoint","kgoDeflatedData":[0,0]},"kgo:id":"_user_location","kgomap:styleId":"kgo_default_location"},"dataModelId":null,"parentDataModelId":null}},"formatted":null}},"options":{"defaultStyles":{"normal":{"kgoDeflatedClass":"KGOMapThemableStyle","kgoDeflatedData":{"attributes":{"point":{"opacity":1,"icon":{"url":"\/_static\/kgoui_image\/resolve-kurogo\/ui\/KGOUIMapBase\/images\/map-pin%402x-85534ac59b537d9236573b075530a544101b1740.png","size":{"width":45,"height":45},"scaledSize":{"width":45,"height":45},"anchor":{"x":22.5,"y":38.25}}},"line":{"strokeColor":"#666666","strokeWeight":6,"strokeOpacity":1},"fill":{"fillColor":"#999999","fillOpacity":0.5,"strokeColor":"#666666","strokeWeight":3,"strokeOpacity":1}},"dataModelId":null,"parentDataModelId":null}},"highlight":{"kgoDeflatedClass":"KGOMapThemableStyle","kgoDeflatedData":{"attributes":{"point":{"opacity":1,"icon":{"url":"\/_static\/kgoui_image\/resolve-kurogo\/ui\/KGOUIMapBase\/images\/map-pin%402x-85534ac59b537d9236573b075530a544101b1740.png","size":{"width":58.5,"height":58.5},"scaledSize":{"width":58.5,"height":58.5},"anchor":{"x":29.25,"y":49.725}}},"line":{"strokeColor":"#666666","strokeWeight":8,"strokeOpacity":1},"fill":{"fillColor":"#666666","fillOpacity":1,"strokeColor":"#999999","strokeWeight":3,"strokeOpacity":1}},"dataModelId":null,"parentDataModelId":null}},"dim":{"kgoDeflatedClass":"KGOMapThemableStyle","kgoDeflatedData":{"attributes":{"point":{"opacity":0.5,"icon":{"url":"\/_static\/kgoui_image\/resolve-kurogo\/ui\/KGOUIMapBase\/images\/map-pin%402x-85534ac59b537d9236573b075530a544101b1740.png","size":{"width":45,"height":45},"scaledSize":{"width":45,"height":45},"anchor":{"x":22.5,"y":38.25}}},"line":{"strokeColor":"#666666","strokeWeight":4,"strokeOpacity":0.75},"fill":{"fillColor":"#666666","fillOpacity":0.5,"strokeColor":"#999999","strokeWeight":3,"strokeOpacity":0.5}},"dataModelId":null,"parentDataModelId":null}},"location":{"kgoDeflatedClass":"KGOMapThemableStyle","kgoDeflatedData":{"attributes":{"point":{"opacity":1,"icon":{"url":"\/_static\/kgoui_image\/resolve-kurogo\/ui\/KGOUIMapBase\/images\/map-location-debb1880eb3b5516c8a43c99abc9b21bfb724ee9.png","size":{"width":16,"height":16},"scaledSize":{"width":16,"height":16},"anchor":{"x":8,"y":13.6}}},"line":null,"fill":null},"dataModelId":null,"parentDataModelId":null}}},"highlightSelectedPlacemark":true,"overridePlacemarkClick":false,"showCallouts":true,"center":[41.874744584584,-87.658053849213],"initialZoom":15,"mapHeight":"100%","minAutoZoomLevel":0,"showAttribution":true,"disableUserInteraction":false,"defaultToUserLocated":false,"showMapControls":true},"regions":[{"name":"controls","id":"kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols"}],"data":{"anyChangesCookieId":"kgoui_map_settings_updated_home","hiddenLayersCookieId":"kgoui_map_settings_hidden_layers_home","infoBoxURL":"\/_static\/kgoui_javascript\/resolve-kurogo\/ui\/KGOUIMapBaseGoogle\/javascript\/infobox-9a7569c76c3b2411530527ce1d626f16493418f8.js","apiKey":null}}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I0');e.data('kgoui_object',new KGOUIButtonLink(e,{"namespaces":["kgoui_named_child_zoominButton_b1939be044b19dd7cdf61a9fca36d2e2"],"options":{"javascript":true}}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I1');e.data('kgoui_object',new KGOUIButtonLink(e,{"namespaces":["kgoui_named_child_zoomoutButton_b1939be044b19dd7cdf61a9fca36d2e2"],"options":{"javascript":true}}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I2');e.data('kgoui_object',new KGOUIButtonLink(e,{"namespaces":["kgoui_named_child_recenterButton_b1939be044b19dd7cdf61a9fca36d2e2"],"options":{"javascript":true}}));e=$('#kgoui_Rcontent_I2_Ritems_I3_Rcontent_I0_RmapImpl_I0_Rcontrols_I3');e.data('kgoui_object',new KGOUIButtonLink(e,{"namespaces":["kgoui_named_child_userLocationButton_b1939be044b19dd7cdf61a9fca36d2e2"],"options":{"javascript":true}}));e=$('#kgoui_Rcontent_I2_Ritems_I4');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/social\/index?feed=facebook_uic"},"formatted":"\/social\/index?feed=facebook_uic"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I4_Rcontent","options":{"ajaxContent":true}}]}));e=$('#kgoui_Rcontent_I2_Ritems_I4_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I2_Ritems_I5');e.data('kgoui_object',new KGOUIObject(e,{"fields":{"url":{"value":{"kgoDeflatedClass":"KGOURL","kgoDeflatedData":"kgo:\/\/web\/social\/index?feed=twitter_uic"},"formatted":"\/social\/index?feed=twitter_uic"}},"regions":[{"name":"content","id":"kgoui_Rcontent_I2_Ritems_I5_Rcontent","options":{"ajaxContent":true}}]}));e=$('#kgoui_Rcontent_I2_Ritems_I5_FtitleImage');e.data('kgoui_object',new KGOUIImage(e,{}));e=$('#kgoui_Rcontent_I4');e.data('kgoui_object',new KGOUIObject(e,{}));e=$('#kgoui_FnavigationFooter');e.data('kgoui_object',new KGOUIPageNavigationFooter(e,{"namespaces":["kgoui_named_child_navigationFooter_a893899df857f9ac7044c4602f0dd8aa"]}));e=$('#kgoui_FnavigationFooter_FsiteSearch');e.data('kgoui_object',new KGOUIForm(e,{"children":{"formElements":["kgoui_named_child_formElements_f4c0ad92fbca3c05445e17f6ac41acd0"]},"options":{"allowEmpty":false,"trackDirtyState":false,"resetOnSubmit":true,"ajaxSubmitOnChange":false},"regions":[{"name":"items","id":"kgoui_FnavigationFooter_FsiteSearch_Ritems"}]}));e=$('#kgoui_FnavigationFooter_FsiteSearch_Ritems_I0');e.data('kgoui_object',new KGOUIButtonFormSubmit(e,{"namespaces":["kgoui_named_child_submitButton_f4c0ad92fbca3c05445e17f6ac41acd0","kgoui_named_child_formElements_f4c0ad92fbca3c05445e17f6ac41acd0"]}));e=$('#kgoui_FnavigationFooter_FsiteSearch_Ritems_I1');e.data('kgoui_object',new KGOUIFormInput(e,{"namespaces":["kgoui_named_child_textInput_f4c0ad92fbca3c05445e17f6ac41acd0","kgoui_named_child_formElements_f4c0ad92fbca3c05445e17f6ac41acd0"],"fields":{"name":"filter","disabled":{"value":false,"formatted":null}},"options":{"autosubmit":false,"required":false}}));kgoDeferred.run();});</script><script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-27751174-7');
+ga('set', 'page', '/home/index');
+ga('set', 'dimension1', 'large-computer-chrome');
+ga('set', 'dimension2', 'large');
+ga('set', 'dimension3', 'computer');
+ga('set', 'dimension4', 'chrome');
+ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+kgoDeferred.add(function () {
+kurogo.addEventTrackingCallback(function(category, event, details) {
+ga('send', 'event', category, event, details);
+});
+kurogo.addPageTrackingCallback(function(url) {
+ga('send', 'pageview', url);
+});
+kurogo.addOutboundLinkTrackingCallback(function(url, doneCallback) {
+if (ga.loaded) { ga('send', 'event', 'outbound', 'click', url, { transport: 'beacon', hitCallback: doneCallback }); } else { doneCallback(); }
+});
+});
+</script></body></html>

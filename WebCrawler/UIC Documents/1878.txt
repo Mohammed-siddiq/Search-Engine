@@ -1,0 +1,89 @@
+URL : https://www.cs.uic.edu/~zhangx/code/matlab.htm
+   Home         Papers  Code  Research  Courses   CV (pdf)  Links      Using Matlab C/C++ Math Library without Matlab or 
+ITS Compiler     Objective of this note   In this note, we will see 
+how to make use of the Matlab C Math 
+Library and C++ Math Library (see manuals and references below) 
+provided by Matlab, and have it serve our TAO and PETSc optimization programs.  
+We will link them together rather than simply using the filesystem for 
+communication.  Matrix inversion and matrix-matrix multiplication are taken 
+as examples of the math library (other examples are eigenvalue, SVD, .  We restrict ourselves to math library, 
+though I think it will be easy to extend to other libraries such as MATLAB C/C++ 
+Graphics Library. This note is NOT about how to 
+convert an arbitrary Matlab .m file to C++, without using the expensive 
+Matlab Compiler.  First, compare the price.  
+As of 3 pm on August 6, 2007 (Sydney time GMT +10:00), a naked Matlab 7.4 
+without any toolbox costs USD 2,400 for individual license (maybe they will give 
+you some not very useful toolboxes for free to promote).  The Matlab 
+Compiler 4.6, which converts Matlab .m code to C, costs USD 6,250.  This page 
+also gives details about how to compile the  code  for my paper          Xinhua Zhang and Wee Sun Lee  Hyperparameter Learning 
+		for Graph based Semi-supervised Learning Algorithms  Advances in Neural 
+		Information Processing Systems 19, 2009. [ PDF ]    After compilation, run "./loo".  
+Well, now you can only see that it complains about missing arg -sig.  When 
+I have time, I will try to provide a more succinct example.  Now just take 
+it as an indication that our compilation and linking are both well done.  The versions of packages or 
+tools used in this note are:  PETSc 2.3.0, TAO 1.8.  We will not use MPI.  gcc version 3.3.5 (if on 
+Debian 1:3.3.5-12) and gcc version 4.0.3 (if on Ubuntu 4.0.3-1ubuntu5)  See version considerations and license considerations in 
+special notes.  The version of Matlab we 
+will make use of is 6.5, which is installed on RSISE Debian machine, but not on Ubuntu machines (where only Matlab 7.2 is installed).  Only the Matlab 6.5 
+on Debian has a Compiler installed, but the administrator reserved all the 
+licenses so we can't use it.  But the approach below 
+doesn't require the availability of Matlab on your own machine (as long as you 
+can get some header files and libraries, see below).  It works 
+on both Debian and Ubuntu.  So far, I haven't tested on WinXP.  Refer 
+to license considerations in special notes.    Steps   We will assume that 
+all related files will be placed in the directory /home/usr/test.  In the end, we 
+will create three subfolders in /home/usr/test: include, bin, and toolbox.  
+For more information about how to install PETSc and TAO on cygwin (or Linux 
+machines), please read another note of mine.  1. Download the include.zip (179 KB, dead link now since I don't want to put myself in hot 
+water) which contains necessary Matlab header files.  Decompress it and put 
+the folder "include" under /home/usr/test.  If you have the Compiler 
+toolbox installed, then the include.zip above is the folder /usr/local/matlab6.5/extern/include  2. Download the mglinstaller (free installer, 13 MB) provided by Matlab 
+Compiler 
+which installs the runtime library.  Save it to /home/usr/test.  Run 
+"./mglinstaller" and it will install the Matlab runtime libraries under /home/usr/test/bin/glnx86.  
+It will also generate a folder /home/usr/test/toolbox, which we will not use (at 
+least not as explicitly as to my knowledge).  3. Download the ccpp_math_example.zip which contains the 
+examples coming with Matlab.  It has two folders, one for C and one for 
+C++.  Notice that they use different makefiles, because for C++ Math 
+Library, we can only use g++ 2.95, no higher version!  Decompress 
+it and put the two folders in /home/usr/test.  4. In makefile, 
+change MATLAB_ROOT to /home/usr/test, and run "make".  
+It will create an executables.    General annotation of 
+our approach   1.  Source 
+code. If you are interested to see how we called Matlab math library 
+functions, pay attention to the function testAccuracyImport in loo.cpp.  
+Basically, we called mlfInv , mlfAssign , mxGetPr , mxDestroyArray .  We also used mlfEig and mlfSort (line 
+720, 721 in funciton dispEigs ), mlfMpower (line 784 in funciton calPowerPtilde ).  Just mimic and refer to the references below.  2.  makefile .  
+Notice that we included some library files in LIBS.  They are based on 
+trial and error, i.e., basically how the linker complains.  Some 
+header/include and lib file directory information for TAO and PETSc was also 
+manually given.  Note that the Matlab library directory $MATLAB_LIB_DIR is 
+pointed to the libraries installed by the mglinstaller in step 2.  So is 
+the include directory $MATLAB_INCL_DIR.  3.  Libraries .  It may be preferable to dynamically load Matlab C/C++ Math 
+Library.  So during linking, use rpath-link when you link.  Then you 
+need to add runtime library path: "export LD_LIBRARY_PATH=/home/usr/test/bin/glnx86:/usr/lib/:${LD_LIBRARY_PATH}".    Special notes   1. It is nothing new 
+to call mlfXXX, mxXXX and mexXXX functions in the MEX files written in C++.  But 
+the MEX file requires that the final program be run in Matlab.  In other 
+words, it is used to call C/C++ programs from Matlab code.  Now we completely 
+eliminate the need of the expensive Matlab, both at compilation and at runtime.  2.   Version considerations : The approach described in this 
+note applies to Matlab 6.5 (maybe below as well).  From Matlab 7 (R14), the 
+C/C++ Math Library has been removed.  In Matlab 7 and above, if you use the 
+Compiler toolbox, an AES encrypted CTF file will be created after compiling .m code to C++ code.  
+This CTF file is required at run time.  So far, I am not able to hand craft this encrypted CTF file 
+(or the decrypted version at run time).  On Matlab R12 (6.0) and 
+below, there is a separate C/C++ Math Library, which can be chosen to install or 
+not when the Matlab is installed.  This library comes free with Matlab.  
+The library version is 2.1 in R12.  However in R13, this library was no 
+longer provided separately, and it became a component of the expensive Compiler 
+toolbox.  3.   License considerations : If you don't have Matlab R12 
+or below, or you don't have the Compiler toolbox though you have Matlab R13, you 
+may need to take some trouble to get the header files and mglinstaller (runtime 
+libraries).  So theoretically they are not free.  But for compilation 
+using gcc as in step 5, you do not need to acquire the Matlab license.  So 
+you have two choices:   i) Illegally ask your rich friend, who has Matlab (<R13) or Compiler for R13, to 
+give you the header files (as I said above, /usr/local/matlab6.5/extern/include) 
+and the mglinstaller (/usr/local/matlab6.5/extern/include);   ii) Buy ONE license only, so that you obtain the header files and library.  
+Then all your team members can legally use the approach described here, because 
+compilation doesn't require a license.     C/C++ 
+Math Library Manuals and References  These documents can be used 
+in Matlab R12 (6.0) or R13 (6.5):   * MATLAB C Math Library 2.1 User's Guide   * MATLAB C Math Library 2.1 Reference   * MATLAB C++ Math Library 2.1 User's Guide   * MATLAB C++ Math Library 2.1 Reference   Another tutorial that I found useful.   Last modified Sunday, 21-June-2009 04:13:38 EST, based on the design by Prof Alex Smola .  

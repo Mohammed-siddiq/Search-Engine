@@ -1,0 +1,19 @@
+URL : http://www.cs.uic.edu/~advis/CASSIS
+   NSF ITR: Context-Aware Computing with Applications to Public Health Management  PIs: Isabel Cruz (lead,
+UIC), Peter
+Scheuermann (Northwestern), and Roberto Tamassia (Brown)  Co-PIs: Ouri Wolfson (UIC)
+and Aris Ouksel (UIC)       Publications    Personnel    Poster (describing the project)     Abstract  This project will create an architecture for a system that provides
+comprehensive support for context-aware applications. This architecture will make use of dynamically evolving data
+such as measurement streams collected by sensors, or Web services that execute requests on behalf of transactions.
+Data integration tools and ontologies will be developed and then applied to actual source data, to user profiles,
+and to the diverse problems of matching users with data sources and relevant courses of action. This activity will
+be augmented by the use of data mining techniques for dynamically constructing spatio-temporal user profiles and
+for profile classification. Methodologies will be developed to ensure scalability of the system. For example, the
+use of data cubes for caching user profiles and retrieved data, and the use of request aggregation. An authentication
+model will be developed using a distributed trust framework that will be applied to spatio-temporal context and
+data streams. The architecture will also incorporate a component for services arbitration that can manage on-demand
+resource allocation in a competitive environment. A system prototype will be tested against the operational scenario
+of a public health management application, provided by the Alliance of Chicago Community Health Services.  The architecture of the proposed system is shown in the following figure:      The material on this web site is based upon work supported
+by the National Science Foundation under Grants ITR IIS-0326284 (to UIC), ITR IIS-0324846 (to Brown), and ITR IIS-0325144
+(to Northwestern).  Any opinions, findings and conclusions or recomendations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the National Science Foundation (NSF).  

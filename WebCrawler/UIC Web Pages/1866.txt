@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 //EN">
+<html><head>
+<title>Generalized Conditional Gradient (GCG)</title>
+
+<style type="text/css">
+.style1 {
+margin-bottom: 9px;
+}
+.style2 {
+margin-bottom: 0px;
+}
+.style3 {
+margin-top: 40px;
+}
+.style4 {
+margin-top: 30px;
+}
+</style></head>
+<body>
+<h1 align="center"> Generalized Conditional Gradient (GCG)</h1>
+<h3 align="center">&nbsp;</h3>
+<br>
+<h2> Overview </h2>
+<p> GCG is an open source Matlab&nbsp;solver for gauge (norm)
+regularized problems, that are commonly used in sparse coding and
+compressive sensing. &nbsp;Examples include matrix completion,
+dictionary learning, and structured sparse estimation.&nbsp;</p>
+The code includes the implementations used for all experiments in [1].
+<h2> Download </h2>
+Latest: <a href="./gcg.zip">GCG version 2.0</a>&nbsp;<br><br>
+Old stuff: <a href="./boosting.zip">GCG version 1.0</a>&nbsp;<br><br>
+This version 1.0 implements the boosting algorithm in [2].
+Note the loss
+function for matrix completion needs to be customized in order to
+efficiently compute f(U V') where U and V have a small number of
+columns. &nbsp;We provide a helper function <a href="./proj_omega_sub_single.cpp">here</a>.<br>
+<br>
+<h2> Disclaimer </h2>
+GCG is licensed under <a href="http://www.mozilla.org/MPL/MPL-1.1.html">Mozilla
+Public License version 1.1</a>. The authors are not responsible
+for any implications from the use of the software. <br>
+<br>
+<h2 class="style4"> Contacts </h2>
+<h4>
+<a href="http://users.cecs.anu.edu.au/%7Exzhang/index.htm">Xinhua
+Zhang</a> |&nbsp;<a href="http://www.cs.cmu.edu/~yaoliang/">Yaoliang Yu</a>
+|&nbsp;<a href="http://webdocs.cs.ualberta.ca/%7Edale/">Dale
+Schuurmans</a>
+</h4>
+<h2> References </h2>
+<table>
+<tbody>
+<tr>
+<td valign="top">[1]</td>
+<td>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> 
+<a href="http://www.cs.cmu.edu/~yaoliang/">Yaoliang
+Yu</a>, <a href="http://users.cecs.anu.edu.au/%7Exzhang/index.htm">Xinhua Zhang</a>,
+<a href="http://webdocs.cs.ualberta.ca/%7Edale/">Dale
+Schuurmans</a><span style="text-decoration: underline;"></span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">
+<i>Generalized Conditional Gradient for Sparse Estimation</i></p>
+
+<p style="margin-top: 0pt;" class="style2">Journal of Machine Learning Research (JMLR)</p>
+<p style="margin-top: 0pt;" class="style2">Under review, 2014.&nbsp; [<a href="../papers/YuZhaSch14.pdf">PDF</a>]</p>
+<p style="margin-top: 0pt;" class="style1">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top">[2]</td>
+<td>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> <a href="http://users.cecs.anu.edu.au/%7Exzhang/index.htm">Xinhua Zhang</a>,
+<a href="http://www.cs.cmu.edu/~yaoliang/">Yaoliang
+Yu</a>, <a href="http://webdocs.cs.ualberta.ca/%7Edale/">Dale
+Schuurmans</a><span style="text-decoration: underline;"></span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"><i>Accelerated
+Training for Matrix-norm Regularization: A Boosting Approach</i></p>
+
+<p style="margin-top: 0pt;" class="style2">Advances
+in Neural Information Processing Systems (NIPS), 2012.&nbsp; [<a href="../papers/ZhaYuSch12.pdf">PDF</a>]</p>
+<p style="margin-top: 0pt;" class="style1">&nbsp;</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+<p>
+<font size="1"><br></font></p>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=9400659; 
+var sc_invisible=1; 
+var sc_security="e8a7d82f"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/9400659/0/e8a7d82f/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body></html>

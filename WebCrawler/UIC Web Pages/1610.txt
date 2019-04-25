@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Pragma-directive" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Directive" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<title>Leilah Lyons &middot; Papers</title>
+<link href="homepage.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+-->
+</style></head>
+
+<body class="oneColLiqCtrHdr">
+<div id="container">
+  <div id="header">
+    <h1>Leilah Lyons</h1>
+    <table width="100%">
+    <tr>
+    	<td width="5%">&nbsp;</td>
+    	<td width="20%">
+    		<p align="left">llyons[at]uic[dot]edu</p>
+    	</td>
+    	<td>
+    		<p style="font-size:120%">Educational Software · Museum Studies · Learning Sciences</p>
+    	</td>    
+    </tr>
+    <tr>
+    	<td>&nbsp;</td>
+    	<td>&nbsp;</td>
+    	<td>&nbsp;</td>    
+    </tr>
+    </table>
+  </div>
+  <div id = "links">
+<hr />
+<table border="0" bgcolor="EEEEEE" width="100%">
+	<tr>
+		<td width="15%"><a href="index.html"><b>Contact</b></a></td>
+		<td width="14%"><a href="research.html"><b>Research</b></a></td>
+		<td width="14%"><a href="projects.html"><b>Projects</b></a></td>
+		<td width="14%"><a href="papers.html"><b class="navLink">Papers</b></a></td>
+		<td width="14%"><a href="posters.html"><b>Posters</b></a></td>
+		<td width="14%"><a href="courses.html"><b>Courses</b></a></td>
+		<td width="15%"><a href="vita.html"><b>Vita</b></a></td>
+	</tr>
+</table>
+
+</div>
+<div id="mainContent">
+	<hr />
+	<table border="0" bgcolor="f3f1ef" width="100%">
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="http://dl.acm.org/citation.cfm?id=1978942.1979075"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>An Exploratory Study of Input Modalities for Mobile Devices Used with Museum Exhibits</b><br />
+				Full Paper, CHI, Vancouver, Canada &middot; <i> May 7 - 12, 2011</i>			</p>
+			<p class="paperdeets">
+            Jimenez, P., &amp;<strong> Lyons, L</strong>. An Exploratory Study of Input Modalities for Mobile Devices Used with Museum Exhibits. In <i>Proceedings of the </i><i> 2011 Conference on Human Factors in
+		    Computing Systems (CHI  2011)</i>, Vancouver, CA,May 7-12, 2011.</p>
+		</td>
+		<td width="20%">&nbsp; </td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="http://dl.acm.org/citation.cfm?id=1979742.1979777"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+		  <p class="papertitle">
+				<b> Evaluating the Embodiment Benefits of a Paper-Based TUI for Educational Simulations</b><br />
+				Poster, CHI, Vancouver, Canada &middot; <i> May 7 - 12, 2011</i>
+			</p>
+			<p class="paperdeets">
+            Shelley, T.,<strong> Lyons, L</strong>., Minor, E., &amp; Zellner, M. Evaluating the Embodiment Benefits of a Paper-Based TUI for Educational Simulations. In <i>Extended Abstracts of the 2011 Conference on Human Factors in
+			  Computing Systems (CHI EA 2011)</i>, Vancouver, CA,May 7-12, 2011.</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+<tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="http://www.lcoastpress.com/journal_issue.php?id=162"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+		  <p class="papertitle">
+				<b> Analyzing the Affordances of Mobile Technologies for Informal Science Learning</b><br />
+				Museums & Social Issues &middot;<i>Spring 2010</i></p>
+			<p class="paperdeets">
+            <strong>Lyons, L.</strong>, Becker, D., &amp; Roberts, J. “Analyzing the Affordances of Mobile Technologies for Informal Science Learning,” Museums &amp; Social Issues 5(1), 2011, 89-104.</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>    
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/ubicomp_10_CoC.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>RFID Localization for Tangible and Embodied Multi-User Interaction with Museum Exhibits</b><br />
+				Poster, UBICOMP, Copenhagen, Denmark &middot; <i> September 27 - 29, 2010</i>
+			</p>
+			<p class="paperdeets">
+            Cafaro, F., <b>Lyons, L.</b> RFID Localization for Tangible and Embodied Multi-User Interaction with Museum Exhibits. In <i>Proceedings of the 2010 ACM UBICOMP Conference</i>, Copenhagen, Denmark, September 27 - 29, 2010.
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">         
+			<a href="papers/ubicomp_10_PtP.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Paper to Parameters: Designing Tangible Simulation Input</b><br />
+				Poster, UBICOMP, Copenhagen, Denmark &middot; <i> September 27 - 29, 2010</i>
+			</p>
+			<p class="paperdeets">
+            Shelley, T., <b>Lyons, L.</b> Paper to Parameters: Designing Tangible Simulation Input. In <i>Proceedings of the 2010 ACM UBICOMP Conference</i>, Copenhagen, Denmark, September 27 - 29, 2010.
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/icls_10_ISE.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Technologies and Tools to Support Informal Science Learning</b><br />
+				Poster Symposia, ICLS, Chicago, IL, USA &middot; <i> June 29 - July 2, 2010</i>
+			</p>
+			<p class="paperdeets">
+            Zimmerman, H. T., Kanter, D. E., Ellenbogen, K., Phipps, M., <b>Lyons, L.</b>, Zuiker, S. J., Satwicz, T., Jordan, R., Weible, J., Gamrat, C., & Martell, S. T. Technologies and Tools to Support Informal Science Learning. In Gomez, K., <b>Lyons, L.</b>, & Radinsky, J. (Eds.), <i>Learning in the Disciplines: Proceedings of the 9th International Conference of the Learning Sciences (ICLS
+2010) - Volume 2, Short Papers, Symposia, and Selected Abstracts</i>. International Society of the Learning Sciences: Chicago IL.
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+    
+    	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/icls_10_UP.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Designing for an Informal Learning Environment: Towards a Participatory Simulation Design Process for Public Policy Planning</b><br />
+				Poster, ICLS, Chicago, IL, USA &middot; <i> June 29 - July 2, 2010</i>
+			</p>
+			<p class="paperdeets">
+            Dasgupta, C., <b>Lyons, L.</b>, Zellner, M., & Greenlee, A. Designing for an Informal Learning Environment: Towards a Participatory Simulation Design Process for Public Policy Planning. In Gomez, K., <b>Lyons, L.</b>, & Radinsky, J. (Eds.), <i>Learning in the Disciplines: Proceedings of the 9th International Conference of the Learning Sciences (ICLS
+2010) - Volume 2, Short Papers, Symposia, and Selected Abstracts</i>. International Society of the Learning Sciences: Chicago IL.
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+
+	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/wmute_10.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Studying Different Methods of Providing Input to a Collaborative Interactive Museum Exhibit Using Mobile Devices</b><br />
+				Poster, WMUTE, Kaohsiung, Taiwan &middot; <i> April 12- 16, 2010</i>
+			</p>
+			<p class="paperdeets">
+            	Jimenez, P., & <b>Lyons, L.</b> Studying Different Methods of Providing Input to a Collaborative Interactive Museum Exhibit Using Mobile Devices. In <i>Proceedings of 6th IEEE International Conference on Wireless, Mobile and Ubiquitous Technologies in Education (WMUTE 2010)</i>, Kaohsiung, Taiwan, April 12- 16, 2010. 
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+
+	  <tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/cscl_09.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Designing Opportunistic User Interfaces to Support a Collaborative Museum Exhibit</b><br />
+				Paper, CSCL, Rhodes, Greece &middot; <i> June 8 - June 13, 2009</i>
+			</p>
+			<p class="paperdeets">
+				<b>Lyons, L.</b> Designing Opportunistic User Interfaces to Support a Collaborative Museum Exhibit. In <i>Proceedings of the 8th International Conference on Computer Supported Collaborative Learning (CSCL2009)</i>, Rhodes, Greece, June 8- 13, 2009, (pp. 375-384).
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+    <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td align="center">
+			<a href="papers/chi_07_dc.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td width="5%">&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Scaffolding Cooperative Multi-Device Activities in an Informal Learning Environment</b><br />
+				Doctoral Consortium Paper, ACM SIG CHI, San Jose, CA, USA &middot; <i> April 28 - May 3, 2007</i>
+			</p>
+			<p class="paperdeets">
+				<b>Lyons, L.</b> Scaffolding Cooperative Multi-Device Activities in an Informal Learning Environment,
+                <i> Extended Abstracts on Human Factors in Computing Systems (CHI2007)</i>, San Jose, CA, USA, April 28 - May 3, 2007.
+			</p>
+		</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="papers/icls_06_paper.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>MUSHI: A Multi-Device Framework for Collaborative Inquiry Learning</b><br />
+				Paper, ICLS, Bloomington, IN, USA &middot; <i> June 27-July 1, 2006</i>
+			</p>
+			<p class="paperdeets">
+				<b>Lyons, L.</b>, Lee, J., Quintana, C., and Soloway, E. MUSHI: A Multi-Device Framework for Collaborative Inquiry Learning,
+            	<i> Proceedings of the International Conference of the Learning Sciences (ICLS2006)</i>, Bloomington, IN, USA, June 27-July 1, 2006.
+			</p>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center"><a href="not_available.html"><img src="papers/paper_not_avail_thumb.jpg" /></a></td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Enhancing Engineering Outreach with Interactive Game Assessment</b><br />
+				Paper, ASEE, Chicago, IL, USA &middot; <i> June 18 - 21, 2006</i>
+			</p>
+			<p class="paperdeets">
+            	<b>Lyons, L.</b>, and Pasek, Z. Enhancing Engineering Outreach with Interactive Game Assessment,
+                <i>Proceedings of the 2006 American Society for Engineering Education Annual Conference &amp; Exposition (ASEE 2006)</i>, Chicago, IL, USA, June 18-21, 2006.
+			</p>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="papers/chi_06_wip.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Preliminary Evaluation of a Synchronous Co-located Educational Simulation Framework</b><br />
+				Work-in-Progress, ACM SIG CHI, Montreal, QC, CAN &middot; <i> April 22 - 27, 2006</i>
+			</p>
+			<p class="paperdeets">
+				<b>Lyons, L.</b>, Lee, J., Quintana, C., and Soloway, E. Preliminary Evaluation of a Synchronous Co-located Educational Simulation Framework,
+                <i>Extended Abstracts on Human Factors in Computing Systems (CHI2006)</i>, Montreal, QC, CAN, April 22-27, 2006.
+			</p>
+		</td>
+        <td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="papers/idc_05_poster.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Addressing Assessment Challenges for a Multi-User Simulation with Handheld Integration (MUSHI)</b><br />
+				Poster, IDC, Boulder, CO, USA &middot; <i> June 8 - 10, 2005</i>
+			</p>
+			<p class="paperdeets">
+				Vath, R., <b>Lyons, L.</b>, Lee, J., Kawamura, M., Quintana, C., and Soloway, E.
+                Addressing Assessment Challenges for a Multi-User Simulation with Handheld Integration (MUSHI),
+                <i>Poster at the 4th International Conference for Interaction Design and Children (IDC 2005)</i>, Boulder, CO, USA, June 8-10, 2005.
+			</p>
+		</td>
+        <td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="papers/idc_05_demo.pdf"><img src="papers/paper_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>MUSHI: Demonstrating A Multi-User Simulation with Handheld Integration</b><br />
+				Demo, IDC, Boulder, CO, USA &middot; <i> June 8 - 10, 2005</i>
+			</p>
+			<p class="paperdeets">
+				Lee, J., <b>Lyons, L.</b>, Kawamura, M., Quintana, C., Vath, R., and Soloway, E.
+                MUSHI: Demonstrating A Multi-User Simulation with Handheld Integration,
+                <i>Demonstration at the 4th International Conference for Interaction Design and Children (IDC 2005)</i>, Boulder, CO, USA, June 8-10, 2005.
+			</p>
+		</td>
+        <td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="not_available.html"><img src="papers/paper_not_avail_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Beyond Hits: Gauging Visitor Behavior at an On-line Manufacturing Exhibit</b><br />
+				Paper, MOW, Vancouver, BC, CAN &middot; <i> April 13 - 16, 2005</i>
+			</p>
+			<p class="paperdeets">
+				<b>Lyons, L.</b>, and Pasek, Z. Beyond Hits: Gauging Visitor Behavior at an On-line Manufacturing Exhibit,
+                <i>Proceedings of Museums and the Web 2005 (MOW2005)</i>, Vancouver, BC, CAN, April 13-16, 2005.
+			</p>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td align="center">
+			<a href="not_available.html"><img src="papers/paper_not_avail_thumb.jpg" /></a>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+			<p class="papertitle">
+				<b>Creating an Informal Engineering Education Experience: Interactive Manufacturing Exhibit</b><br />
+				Paper, ICEE, Gainesville, FL, USA &middot; <i> October 17-21, 2004</i>
+			</p>
+			<p class="paperdeets">
+				Kaynar, I., Pasek, Z., and <b>Lyons, L.</b> Creating an Informal Engineering Education Experience: Interactive Manufacturing Exhibit,
+            	<i>Proceedings of International Conference on Engineering Education (ICEE2004)</i>, Gainesville, FL, USA, October 17-21 2004.
+			</p>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<hr />
+</div>
+<div id="footer">
+	<center>
+	  <p style="font-size:60%">Last updated: September 10, 2011</p>
+	</center>
+</div>
+<!-- end #container --></div>
+</body>
+</html>

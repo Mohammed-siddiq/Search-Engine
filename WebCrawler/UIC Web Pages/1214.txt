@@ -1,0 +1,376 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="ltr" lang="en-US">
+<head><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=10"/><script type='text/javascript'>var _browserisFlight = true;</script><meta http-equiv="Expires" content="Sat, 25 May 2019 02:59:41 GMT" /><meta name="msapplication-TileImage" content="/_layouts/15/images/SharePointMetroAppTile.png" /><meta name="msapplication-TileColor" content="#0072C6" /><link rel="shortcut icon" href="/_layouts/15/images/favicon.ico?rev=40" type="image/vnd.microsoft.icon" id="favicon" />
+<script type='text/javascript'>
+// <![CDATA[
+var g_initUrl='';
+var hashSaverUrl = '';
+var g_MDSStartTime;var g_MinimalDownload;var g_mdsReady;var isStartPlt1;var startDate;var initContentComplete;
+(function()
+{
+function getHash(u) {
+if (null==u) return '';
+var i = u.indexOf('#');
+i = i > 0 ? i : u.length;
+return u.substr(i);
+};
+var url = window.location.href;
+if(typeof(url) != 'undefined'){
+var keyName = 'MDSLoginAllowedUrl';var idx = url.indexOf('&' + keyName + '=');
+if (idx != -1) {
+    var idx2 = url.indexOf('&', idx + 1);
+    if (idx2 == -1)
+        idx2 = url.length;
+    hashSaverUrl = url.substring(idx + keyName.length + 2, idx2);
+    hashSaverUrl = decodeURIComponent(hashSaverUrl);
+}
+if (!hashSaverUrl || hashSaverUrl == '') {
+    g_MDSStartTime = new Date();
+    g_MinimalDownload = true;g_mdsReady=false;isStartPlt1 = true;startDate = g_MDSStartTime.valueOf().toString();
+    initContentComplete=false;
+    var hashParts=getHash(url).substr(1).split('#');
+    var ch=hashParts[0];var localAnc=null; 
+    for (var i=1;i<hashParts.length;i++){
+      var s=hashParts[i];
+      if (s.indexOf('=') == -1) {
+        localAnc=s; 
+        break;
+      }
+    }
+
+    var requestUrlFull;
+    if (typeof(ch) != 'undefined' && ch.length >= 2 && ch[0] === '/' && ch[1] === '/')
+    {
+        if (ch[2] !== '/')
+        {
+            g_initUrl = ch.substr(1);
+            requestUrlFull = getHash(url).substr(2);
+        }
+    } else if (typeof(ch) != 'undefined' && ch.length >= 1 && ch[0] === '/')
+    {
+        var loc = window.location.pathname;
+        var pos = loc.indexOf('/_layouts/15/start.aspx');
+        var hash = getHash(url).substr(1);
+        var hPos = hash.indexOf('#');
+        hPos = hPos >= 0 ? hPos : typeof(hash) != 'undefined' ? hash.length : 0;
+        g_initUrl = loc.substr(0, pos) + ch;
+        requestUrlFull = g_initUrl + (typeof(hash) != 'undefined' ? hash.substr(hPos) : '');
+    }
+
+    if(g_initUrl){
+    var delim=ch.indexOf('?')!=-1 ? '&' : '?';
+    var xhr=new XMLHttpRequest();
+    xhr.open('GET',g_initUrl+delim+'AjaxDelta=1&isStartPlt1=' + startDate, true);
+    xhr.setRequestHeader('Pragma', 'SharePointAjaxDelta=|DEPARTMENTS|COE|EXPO|STUDENTS:|DEPARTMENTS|COE|EXPO|STUDENTS|_CATALOGS|MASTERPAGE|SEATTLE.MASTER:2.16.0.0.0.16.0.4822.1000.12.FALSE...BUNDLE=TRUE.FLAGS=01.TAG=0:en-US:en-US:RW');
+    xhr.onreadystatechange=function(){
+     if(xhr.readyState==4){
+      if(g_mdsReady){
+       asyncDeltaManager._navigate(requestUrlFull, localAnc);}
+      else
+      {g_mdsReady=true;}}};
+    xhr.send(null);}
+     else
+    {g_mdsReady=true;}
+}
+}
+})();
+// ]]>
+</script>
+<link rel="stylesheet" type="text/css" href="/departments/coe/_catalogs/theme/Themed/7DE6876A/corev15-51C31438.themedcss?ctag=12"/>
+<script type="text/javascript" src="/_layouts/15/1033/initstrings.js?rev=2WxjgxyM2qXGgY9r2nHW8A%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=IEM5cG%2FulaN107bKlBKHyg%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=twYGmI5KtdVM0pN3U-yuFPxi09SXUzeh5agNPOVXqH11J5thXdQQ83_IaQVa2okksXN03z9szHJUYjSR4Y2QS-56YbtlgrG8JUDk9T0opAgBcX8YkpBzfRtzyQjSt2lNkfFKOo32tOI3VH-5DmtCi_m_YZwmca_NSupQCvT7ITApfrScVIu4_cc0e2bVAona0&amp;t=ffffffff999c3159"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=HLUVwWiRzMzUdc10Du%2FYFw%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=-ClGz3FnaBCeOzMUKuKKxNA6nVO4_uCTiNoeUFZL3M2DDrIe_0_o5F8ZFmpOzI3TT--oxxb0s0cPG3RFwPK02opDkCu7BoQNTVPOhuTYWVtFCNc5GhzaEOpPX27CDQceCyBhEiVfLKPZ-rQYIbMudTcHEA7zn5A5jPYMw7iRdSlF--NwpDmsOrP6JjXOKxa-0&amp;t=ffffffff999c3159"></script>
+<script type="text/javascript" src="/_layouts/15/start.js?rev=v%2Bfyj1FDcuFDY21LzLXiOQ%3D%3DTAG0"></script>
+<script type="text/javascript">RegisterSod("require.js", "\u002f_layouts\u002f15\u002frequire.js?rev=4UhLIF\u00252FezOvmGnh\u00252Fs0LLpA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1033\u002fstrings.js?rev=k\u00252FSaOdWtcHDDvsb\u00252FUFykOA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002f1033\u002fsp.res.js?rev=MbB92HT8biYuFa\u00252B1vTMilA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=CbbwXLPVB\u00252BOMrhtDROv6Wg\u00253D\u00253DTAG0");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=O7Lnz8RpdyjnN0ylzv1U8w\u00253D\u00253DTAG0");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=1LhIyOhkK\u00252FLLmMqCSDZW8A\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=RSt3nlqpyBH7oV\u00252B0c\u00252BlgRw\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=2gNWFnc90MMga2Po\u00252B6K8OQ\u00253D\u00253DTAG0");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=87niWOGdkjCskceUyiJd1Q\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=gmbTivhJfOBpBkW1jMcfrg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=H6Akx9LkB\u00252BhL8pPpkLNicQ\u00253D\u00253DTAG0");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=o\u00252FDTGKxPHcXq00bxeh2A\u00252FA\u00253D\u00253DTAG0");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sharedhovercard.strings.js", "\u002f_layouts\u002f15\u002f1033\u002fsharedhovercard.strings.js?rev=sLsS\u00252FNPqFzOSO42e3s6lgw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sharedhovercard.js", "\u002f_layouts\u002f15\u002fsharedhovercard.js?rev=uB89up9szoXj8bAMKPkPSg\u00253D\u00253DTAG0");RegisterSodDep("sharedhovercard.js", "sharedhovercard.strings.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=utCH8Af1ITRigY\u00252Fm0FT7Kg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=DYxq45Oy6vSD8pXV93Ltog\u00253D\u00253DTAG0");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=7dJopP7uM5OcKOzoVJmEqA\u00253D\u00253DTAG0");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<link type="text/xml" rel="alternate" href="/departments/coe/expo/Students/_vti_bin/spsdisco.aspx" /></head>
+<body>
+  <div id="imgPrefetch" style="display:none">
+</div>
+
+  <noscript><div class='noindex'>You may be trying to access this site from a secured browser on the server. Please enable scripts and reload this page.</div></noscript>
+  
+  <form method="post" action="./start.aspx" id="aspnetForm" onsubmit="if (typeof(_spFormOnSubmitWrapper) == &quot;function&quot;) return _spFormOnSubmitWrapper();">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIBD2QWAgIJDxYCHghvbnN1Ym1pdAVSaWYgKHR5cGVvZihfc3BGb3JtT25TdWJtaXRXcmFwcGVyKSA9PSAiZnVuY3Rpb24iKSByZXR1cm4gX3NwRm9ybU9uU3VibWl0V3JhcHBlcigpO2RkPYjwgs8dL8Rf3mx7f666BlJ2+r0ASyey+t0ZQ9U2yXw=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=ezZilJd1LbZCNKH7v8xS3x3cvMV9e1JN_ovpwgDucb-Ztd5r5t-qBBmA7dMRkP2ZPne0V-jd-Z0xIyatPhaRnSFgzhuuvhMXq0i-e-xCpMo1&amp;t=636765283264470882" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+
+var g_correlationId = 'c049d69e-9ff8-0082-c8e4-0929b4f0b488';
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaRUMEnabled = false;
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = null;
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fdepartments\u002fcoe\u002fexpo\u002fStudents", webAbsoluteUrl: "https:\u002f\u002fintranet.uillinois.edu\u002fdepartments\u002fcoe\u002fexpo\u002fStudents", siteAbsoluteUrl: "https:\u002f\u002fintranet.uillinois.edu\u002fdepartments\u002fcoe", serverRequestPath: "\u002f_layouts\u002f15\u002fstart.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "", webTemplate: "", tenantAppVersion: "none", isAppWeb: false, webLogoUrl: "\u002fdepartments\u002fcoe\u002fexpo\u002fStudents\u002fSiteAssets\u002fCOL.ENG.MAIN.LOCKB.SM.RED.PNG", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-US", clientServerTimeDelta: new Date("2019-04-25T02:59:41.6092335Z") - new Date(), updateFormDigestPageLoaded: new Date("2019-04-25T02:59:41.6092335Z"), siteClientTag: "12$$16.0.4822.1000", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:0,Low:0}, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002fdepartments\u002fcoe", allowSilverlightPrompt:'True',"themedCssFolderUrl" : "/departments/coe/_catalogs/theme/Themed/7DE6876A","themedImageFileNames" : {"spcommon.png" : "spcommon-B35BB0A9.themedpng?ctag=12","ellipsis.11x11x32.png" : "ellipsis.11x11x32-2F01F47D.themedpng?ctag=12","O365BrandSuite.95x30x32.png" : "O365BrandSuite.95x30x32-C212E2FD.themedpng?ctag=12","socialcommon.png" : "socialcommon-6F3394A9.themedpng?ctag=12","spnav.png" : "spnav-230C537D.themedpng?ctag=12"}, isSiteAdmin: false};var MSOWebPartPageFormName = 'aspnetForm';Flighting.ExpFeatures = [480215056,1880287568,1561350208,302071836,3212816,69473024,4194310,-2113396707,268502022,-872284160,1049232,-2147421952,65536,65536,2097472,917504,-2147474174,1372324107,67108882,0,0,-2147483648,2097152,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32768];//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=HLUVwWiRzMzUdc10Du%2FYFw%3D%3DTAG0" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A31D3FD9" />
+</div>
+	<script type="text/javascript"> var submitHook = function () { return false; }; theForm._spOldSubmit = theForm.submit; theForm.submit = function () { if (!submitHook()) { this._spOldSubmit(); } }; </script>
+	<span id="DeltaSPWebPartManager"></span>
+	<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+	<span id="DeltaDelegateControls"></span>
+<div id="TurnOnAccessibility" style="display:none" class="s4-notdlg noindex">
+	<a id="linkTurnOnAcc" title="Turn on more accessible mode" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(true);UpdateAccessibilityUI();document.getElementById('linkTurnOffAcc').focus();return false;">Turn on more accessible mode</a>
+</div>
+<div id="TurnOffAccessibility" style="display:none" class="s4-notdlg noindex">
+	<a id="linkTurnOffAcc" title="Turn off more accessible mode" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(false);UpdateAccessibilityUI();document.getElementById('linkTurnOnAcc').focus();return false;">Turn off more accessible mode</a>
+</div>
+<div class="s4-notdlg s4-skipribbonshortcut noindex">
+	<a href="javascript:;" title="Skip Ribbon Commands" onclick="document.getElementById('startNavigation').focus();" class="ms-accessible ms-acc-button" accesskey="Y">Skip Ribbon Commands</a>
+</div>
+<div class="s4-notdlg noindex">
+	<a href="javascript:;" title="Skip to main content" onclick="document.getElementById('mainContent').focus();" class="ms-accessible ms-acc-button">Skip to main content</a>
+</div>
+<div id="TurnOffAnimation" style="display:none;" class="s4-notdlg noindex">
+	<a id="linkTurnOffAnimation" title="Turn off Animations" href="#" class="ms-accessible ms-acc-button" onclick="ToggleAnimationStatus();return false;">Turn off Animations</a>
+</div>
+<div id="TurnOnAnimation" style="display:none;" class="s4-notdlg noindex">
+	<a id="linkTurnOnAnimation" title="Turn on Animations" href="#" class="ms-accessible ms-acc-button" onclick="ToggleAnimationStatus();return false;">Turn on Animations</a>
+</div>
+<a id="HiddenAnchor" href="javascript:;" style="display:none;"></a>
+<div id="suiteBarDelta" class="ms-dialogHidden ms-fullWidth noindex">
+
+</div>
+		<div id="ms-hcTest"></div>
+		<div id="s4-ribbonrow">
+		<div id="globalNavBox" class="noindex">
+	<div id="ribbonBox">
+	<div id="s4-ribboncont">
+		<div id="DeltaSPRibbon">
+
+</div>
+	</div>
+	<span id="DeltaSPNavigation"></span>
+</div>
+<div id="DeltaWebPartAdderUpdatePanelContainer" class="ms-core-webpartadder">
+
+</div>
+		</div>
+		</div>
+		<div id="s4-workspace" class="ms-core-overlay">
+		<div id="s4-bodyContainer">
+		<div id="s4-titlerow"
+			class="ms-dialogHidden s4-titlerowhidetitle">
+		<div id="titleAreaBox"
+			class="ms-noList ms-table ms-core-tableNoSpace">
+		<div id="titleAreaRow"
+			class="ms-tableRow">
+<div id="siteIcon" class="ms-tableCell ms-verticalAlignTop">
+	<div id="DeltaSiteLogo">
+
+</div>
+</div>
+			<div class="ms-breadcrumb-box ms-tableCell ms-verticalAlignTop">
+				<div
+					class="ms-breadcrumb-top">
+<div class="ms-breadcrumb-dropdownBox" style="display:none;">
+<span id="DeltaBreadcrumbDropdown"></span>
+</div>
+<div id="DeltaTopNavigation" class="ms-displayInline ms-core-navigation" role="navigation">
+
+</div>
+				</div>
+<h1 id="pageTitle" class="ms-core-pageTitle">
+  <span id="DeltaPlaceHolderPageTitleInTitleArea"></span>
+  <div id="DeltaPlaceHolderPageDescription" class="ms-displayInlineBlock ms-normalWrap">
+
+</div>
+</h1>
+			</div>
+			<div class="ms-tableCell ms-verticalAlignTop">
+<div id="DeltaPlaceHolderGroupActionsArea" class="ms-floatRight ms-noWrap">
+
+</div>
+			</div>
+			<div class="ms-tableCell ms-verticalAlignTop">
+<div id="DeltaPlaceHolderSearchArea" class="ms-mpSearchBox ms-floatRight">
+
+</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div id="contentRow">
+<div id="sideNavBox"
+	role="Navigation"
+	class="ms-dialogHidden ms-forceWrap ms-noList">
+  <div id="DeltaPlaceHolderLeftNavBar" class="ms-core-navigation" role="navigation">
+
+</div>
+</div>
+<div id="contentBox"
+ aria-live="polite" aria-relevant="all"  role="main">
+  <div id="notificationArea" class="ms-notif-box"></div>
+	<div id="DeltaPageStatusBar">
+
+</div>
+	<div id="DeltaPlaceHolderMain">
+
+</div>
+</div>
+<div id="DeltaFormDigest">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+<span id="DeltaHelpPanel"></span>
+<span id="DeltaPageInstrumentation"></span>
+		</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var filesExist = true;
+if (typeof(initJsLoaded) === 'undefined') { filesExist = false; }
+else if (typeof(Sys) === 'undefined') { filesExist = false; }
+else if (typeof(Sys.WebForms) === 'undefined') { filesExist = false; }
+else if (typeof(startJsLoaded) === 'undefined') { filesExist = false; }
+var sessionStorageEnabled = window.sessionStorage != null;
+if (!filesExist) {
+ if (!sessionStorageEnabled || window.sessionStorage['spFilesExist'] === 'false'){
+  if ('undefined' != typeof(g_initUrl) && null != g_initUrl && '' != g_initUrl)
+  {
+   try
+   {
+    if (sessionStorageEnabled) 
+    {
+     window.sessionStorage['spFilesExist'] = 'true';
+    }
+   }
+   catch (e) {}
+   var tempAnchor = document.createElement('a');
+   tempAnchor.href = g_initUrl;
+   var redir = tempAnchor.href;
+   tempAnchor = null;
+   window.location.href=redir;
+  }
+ }else{
+  try
+  {
+   window.sessionStorage['spFilesExist'] = 'false';
+   window.location.reload(true);
+  }
+  catch (e) {}
+ }
+} else {
+ if (sessionStorageEnabled)
+ {
+try
+{
+  window.sessionStorage['spFilesExist'] = 'true';
+}
+catch(e){}
+ }
+}
+var workingOnIt = 'Working on it...';var _spFullDownloadList = ['closeconnection', 'download', 'signout', 'xlviewer', 'wordviewer', 'wordeditor', 'powerpoint', 'powerpointframe', 'onenote', 'visiowebaccess', 'storefront', 'wopiframe', 'appredirect', 'wfstart', 'developertools'];
+if ('undefined' != typeof(AsyncDeltaManager$onError)) window.onerror = AsyncDeltaManager$onError;
+var _fV4UI = true;var origMP = '|DEPARTMENTS|COE|EXPO|STUDENTS:|DEPARTMENTS|COE|EXPO|STUDENTS|_CATALOGS|MASTERPAGE|SEATTLE.MASTER:2.16.0.0.0.16.0.4822.1000.12.FALSE...BUNDLE=TRUE.FLAGS=01.TAG=0:en-US:en-US:RW';var phMain = 'DeltaPlaceHolderMain';var g_AjaxDeltaList = [{id:'DeltaPlaceHolderAdditionalPageHead', container:false},{id:'DeltaSPWebPartManager', container:true},{id:'DeltaDelegateControls', container:true},{id:'suiteBarDelta', container:true},{id:'DeltaSPRibbon', container:true},{id:'DeltaSPNavigation', container:true},{id:'DeltaWebPartAdderUpdatePanelContainer', container:true},{id:'DeltaSiteLogo', container:true},{id:'DeltaBreadcrumbDropdown', container:true},{id:'DeltaTopNavigation', container:true},{id:'DeltaPlaceHolderPageTitleInTitleArea', container:true},{id:'DeltaPlaceHolderPageDescription', container:true},{id:'DeltaPlaceHolderGroupActionsArea', container:true},{id:'DeltaPlaceHolderSearchArea', container:true},{id:'DeltaPlaceHolderLeftNavBar', container:true},{id:'DeltaPageStatusBar', container:true},{id:'DeltaPlaceHolderMain', container:true},{id:'DeltaFormDigest', container:true},{id:'DeltaHelpPanel', container:true},{id:'DeltaPageInstrumentation', container:true},{id:'DeltaPlaceHolderUtilityContent', container:true}];
+
+function submitHook() {{return asyncDeltaManager._onFormSubmit();}}
+function _startOnSubmitStatement() {{return asyncDeltaManager._doSubmitStatements();}}
+function WebForm_OnSubmit() {{ return asyncDeltaManager._doSubmitStatements(); }}
+
+if (typeof(hashSaverUrl) != 'undefined' && hashSaverUrl && hashSaverUrl != '') {
+    if ( (function(u, d) {
+            var idxDb = u.indexOf('//');
+            if (-1 != idxDb) {
+                var idxDe = u.indexOf('/', idxDb+2);
+                if  (-1 == idxDe) idxDe = u.length;
+                var D = u.substring(idxDb+2, idxDe);
+                if (d.toUpperCase() != D.toUpperCase()) return true;
+            }
+            return false;
+        }) (hashSaverUrl, document.location.host)) { hashSaverUrl = '/';}
+    window.location.replace(STSPageUrlValidation(hashSaverUrl));
+}
+var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderPageTitleInTitleArea = "DeltaPlaceHolderPageTitleInTitleArea";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+//]]>
+</script>
+</form>
+	<span id="DeltaPlaceHolderUtilityContent"></span>
+	<script type="text/javascript">// <![CDATA[ 
+
+
+		var g_Workspace = "s4-workspace";
+	// ]]>
+</script>
+</body>
+</html>

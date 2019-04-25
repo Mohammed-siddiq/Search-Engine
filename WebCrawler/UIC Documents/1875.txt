@@ -1,0 +1,3035 @@
+URL : https://www.cs.uic.edu/~zhangx/code/semisup.tar
+0)
+	{
+		cout<<"You must specify -dir.\n";
+		exit(1);
+	}
+	if(temp)
+	{
+		strcpy(directory, temp);
+		i = strlen(directory) - 1;
+		while(i>=0 && directory[i] == '/')
+		{
+			directory[i] = '\0';
+			i--;
+		}
+	}
+	
+	temp = getParaString(argc, args, "-sig", &flag);
+	strcpy(sigmaString, temp);
+
+	if(flag == 1)	
+		data[1] = atof(sigmaString);
+	else
+	{
+		cout<<"You must specify -sig.\n";
+		exit(1);
+	}
+
+	dresult = getParaFloat(argc, args, "-C", &flag);
+	if(flag == 1)
+		data[2] = dresult;
+	else if(data[0] == 1 || data[0] == 2)
+	{
+		cout<<"You must specify -C for type "< nRow != V2->nRow)
+	{
+		cout<<"Unequal dimensionality of vectors to multiplify!\n";
+		exit(1);
+	}
+
+	result = 0;
+	p = V1->data;
+	q = V2->data;
+	for(i=1; i<=V1->nRow; i++)
+	{
+		p++;
+		q++;
+		result += (*p) * (*q);
+	}
+
+	return result;
+}
+
+// calculates  matrix1 * matrix2
+myMatrix myMatMult(myMatrix *matrix1, myMatrix *matrix2)
+{
+	myMatrix result;
+	int i, j, k, show=0;
+	double temp, **tempMat;
+	
+//	cout< nRow<<"*"< nColumn<<" times "< nRow<<"*"< nColumn< nColumn != matrix2->nRow)
+	{
+		cout<<"Two matrices are not comfortable for multiplication myMatMult!\n";
+		exit(1);
+	}
+
+	if(matrix1->nColumn * 1.0 * matrix1->nRow * 1.0 * matrix2->nColumn > 2e9)
+		show = 1;
+
+	tempMat = new double *[matrix2->nColumn + 1];
+	for(i=1; i<=matrix2->nColumn; i++)
+		tempMat[i] = new double[matrix2->nRow + 1];
+	for(i=1; i<=matrix2->nColumn; i++)
+		for(j=1; j<=matrix2->nRow; j++)
+			tempMat[i][j] = matrix2->data[j][i];
+
+	result.nRow = matrix1->nRow;
+	result.nColumn = matrix2->nColumn;
+
+	result.data = new double *[result.nRow + 1];
+	for(i=1; i<=result.nRow; i++)
+		result.data[i] = new double[result.nColumn + 1];
+
+	for(i=1; i<=result.nRow; i++)
+	{
+		for(j=1; j<=result.nColumn; j++)
+		{
+			temp = 0;
+			for(k=1; k<=matrix1->nColumn; k++)
+				temp += matrix1->data[i][k] * tempMat[j][k];
+			result.data[i][j] = temp;
+		}
+		if(show && i % 100 == 0)
+		{
+			cout< nColumn; i++)
+		delete []tempMat[i];
+	delete []tempMat;
+
+	return result;		
+}
+
+
+// compute matrix1^T * matrix2
+myMatrix myMatTransMult(myMatrix *matrix1, myMatrix *matrix2)
+{
+	myMatrix result;
+	int i, j, k, show=0;
+	double temp, **tempMat, **tempMat2;
+	
+//	cout< nRow<<"*"< nColumn<<" ^T times "< nRow<<"*"< nColumn< nRow != matrix2->nRow)
+	{
+		cout<<"Two matrices are not comfortable for trans-multiplication!\n";
+		exit(1);
+	}
+
+	if(matrix1->nColumn * 1.0 * matrix1->nRow * 1.0 * matrix2->nColumn > 2e9)
+		show = 1;
+	tempMat = new double *[matrix1->nColumn + 1];
+	for(i=1; i<=matrix1->nColumn; i++)
+		tempMat[i] = new double[matrix1->nRow + 1];
+	for(i=1; i<=matrix1->nColumn; i++)
+		for(j=1; j<=matrix1->nRow; j++)
+			tempMat[i][j] = matrix1->data[j][i];
+
+	tempMat2 = new double *[matrix2->nColumn + 1];
+	for(i=1; i<=matrix2->nColumn; i++)
+		tempMat2[i] = new double[matrix2->nRow + 1];
+	for(i=1; i<=matrix2->nColumn; i++)
+		for(j=1; j<=matrix2->nRow; j++)
+			tempMat2[i][j] = matrix2->data[j][i];
+
+	result.nRow = matrix1->nColumn;
+	result.nColumn = matrix2->nColumn;
+
+	result.data = new double *[result.nRow + 1];
+	for(i=1; i<=result.nRow; i++)
+		result.data[i] = new double[result.nColumn + 1];
+
+	for(i=1; i<=result.nRow; i++)
+	{
+		for(j=1; j<=result.nColumn; j++)
+		{
+			temp = 0;
+			for(k=1; k<=matrix1->nRow; k++)
+				temp += tempMat[i][k] * tempMat2[j][k];
+			result.data[i][j] = temp;
+		}
+		if(show && i % 100 == 0 )
+		{
+			cout< nColumn; i++)
+		delete []tempMat[i];
+	delete []tempMat;
+	for(i=1; i<=matrix2->nColumn; i++)
+		delete []tempMat2[i];
+	delete []tempMat2;
+
+	return result;			
+}
+
+
+// calculates (vector^T * matrix)^T, or matrix^T * vector
+// input vector is n*1
+myVector VecTransMultMat(myVector *vector, myMatrix *matrix)
+{
+	myVector result;
+	int i, k;
+	double temp;
+	
+	if(matrix->nRow != vector->nRow)
+	{
+		cout<<"The transposed vector and matrix are not comfortable for multiplication!\n";
+		exit(1);
+	}
+
+	result.nRow = matrix->nColumn;
+	result.data = new double[result.nRow + 1];
+
+	for(i = 1; i <= result.nRow; i++)
+	{
+		temp = 0;
+		for(k=1; k<=matrix->nRow; k++)
+			temp += vector->data[k] * matrix->data[k][i];
+		result.data[i] = temp;
+	}
+
+	return result;		
+}
+
+
+myVector MatMultVec(myMatrix *matrix, myVector *vector)
+{
+	myVector result;
+	int i, j;
+	double temp;
+
+	if(matrix->nColumn != vector->nRow)
+	{
+		cout<<"Matrix nColumn != vector nRow.  Can't multiply in MatMultVec!\n";
+		exit(1);
+	}
+//	cout< nRow<<"*"< nColumn<<" times "< nRow< nRow;
+	result.data = new double[result.nRow + 1];
+
+	for(i=1; i <= matrix->nRow; i++)
+	{
+		temp = 0;
+		for(j=1; j<=matrix->nColumn; j++)
+			temp += matrix->data[i][j] * vector->data[j];
+		result.data[i] = temp;
+	}
+
+	return result;
+}
+
+
+myVector MatTransMultVec(myMatrix *matrix, myVector *vector)
+{
+	myVector result;
+	int i, j;
+	double temp;
+
+	if(matrix->nRow != vector->nRow)
+	{
+		cout<<"Matrix row != vector nRow.  Can't multiply in MatTransMultVec!\n";
+		exit(1);
+	}
+//	cout< nRow<<"*"< nColumn<<" times "< nRow< nColumn;
+	result.data = new double[result.nRow + 1];
+
+	for(i=1; i <= matrix->nColumn; i++)
+	{
+		temp = 0;
+		for(j=1; j<=matrix->nRow; j++)
+			temp += matrix->data[j][i] * vector->data[j];
+		result.data[i] = temp;
+	}
+
+	return result;
+}
+
+
+void initMatrix(myMatrix *matrix, int nRow, int nColumn)
+{
+	int i;
+
+	matrix->nColumn = nColumn;
+	matrix->nRow = nRow;
+
+	matrix->data = new double *[nRow + 1];
+	for(i=1; i <= nRow; i++)
+		matrix->data[i] = new double[nColumn + 1];
+}
+
+
+void initVector(myVector *vector, int dimension)
+{
+	vector->nRow = dimension;
+	vector->data = new double[dimension + 1];
+}
+
+
+void permMatrix(myMatrix *store_B, int *realIndex1, int *realIndex2, myMatrix *B)
+{
+	int i, j;
+
+/*
+	if(realIndex1->nRow != store_B->nRow || realIndex2->nRow != store_B->nColumn)
+	{
+		cout<<"Unable to permutation the matrix due to incorrect dimension.\n";
+		exit(1);
+	}
+*/
+	
+	initMatrix(B, store_B->nRow, store_B->nColumn);
+
+	for(i=1; i <= store_B->nRow; i++)
+		for(j=1; j <= store_B->nColumn; j++)
+			B->data[i][j] = store_B->data[realIndex1[i]][realIndex2[j]];
+}
+
+
+void permVector(myVector *store_V, int *realIndex1, myVector *V)
+{
+	int i;
+
+	initVector(V, store_V->nRow);
+
+	for(i=1; i <= store_V->nRow; i++)
+		V->data[i] = store_V->data[realIndex1[i]];
+}
+
+
+void clearMatrix(myMatrix *matrix)
+{
+	delete []matrix->data;
+}
+
+void clearVector(myVector *vector)
+{
+	delete []vector->data;
+}
+
+
+void printVector(myVector *vector)
+{
+	int i;
+
+	for(i=1; i <= vector->nRow; i++)
+		cout< data[i]< nRow; i++)
+	{
+		for(j=1; j<=matrix->nColumn; j++)
+			cout< data[i][j]<<"  ";
+		cout< > i;	
+	while(!input.eof())
+	{
+		(*N) ++;
+		input >> i;		
+	}
+	input.close();
+
+	labels = new int[*N + 1];
+	input1.open(filename, ios::in);	
+
+	for(i=1; i <= *N; i++)
+		input1 >> labels[i];
+
+	input1.close();
+
+	curNumClass = 0;
+	classCount = new int[*N + 1];
+	seenLabel = new int[*N + 1];
+
+	for(i=1; i <= *N; i++)
+	{
+		curClass = findClass(labels[i], seenLabel, curNumClass);
+		if(curClass > curNumClass)
+		{
+			curNumClass ++;
+			seenLabel[curNumClass] = labels[i];
+			classCount[curNumClass] = 1;
+		}
+		else
+			classCount[curClass] ++;
+	}
+
+	// now we know that there are 
+	// curNumClass classes
+	// classCount[i] stores the number of items for class i
+	classList = new int *[curNumClass + 1];
+	for(i=1; i <= curNumClass; i++)
+	{
+		classList[i] = new int[classCount[i] + 1];
+		classList[i][0] = 0;
+	}
+
+	for(i=1; i <= *N; i++)
+	{
+		curClass = findClass(labels[i], seenLabel, curNumClass);
+		classList[curClass][0] ++;
+		classList[curClass][classList[curClass][0]] = i;
+		
+		// convert label[i] to its corresponding class
+		labels[i] = curClass;
+	}	
+
+	*paraClassList = classList;
+	*paraLabels = labels;
+	*numClass = curNumClass;
+	
+	delete []classCount;
+	delete []seenLabel;
+}
+
+
+int updatePicked(int *starts, int *ends, int i, int numClass)
+{
+	int j;
+	for(j=1; j<=numClass; j++)
+		if(starts[j] <= i && i <= ends[j])
+			return j;
+
+	cout<<"Error in rand pick."< > %s/envVar_%d.dat", flag, directory, suffix);
+	system(command);
+
+	sprintf(command, "%s/envVar_%d.dat", directory, suffix);
+	input.open(command, ios::in);
+	input.getline(result, 400);
+	input.close();
+	
+	sprintf(command, "rm %s/envVar_%d.dat", directory, suffix);
+	system(command);
+}
+
+
+void buildRealIndex(int *message, int *realIndex, int mynode, int numClass, int N)
+{
+	int *numPicked = message;
+	int **startIndex = new int*[numClass+1];
+	int i, j, current;
+	
+	startIndex[1] = message + numClass;
+	for(i=2; i<=numClass; i++)
+		startIndex[i] = startIndex[i-1] + message[i-2];
+
+	current = 1;
+
+	for(i=1; i <= message[mynode - 1]; i++)
+		realIndex[current ++] = *(startIndex[mynode] + i - 1);
+
+	for(i=1; i < mynode; i++)
+		for(j=1; j <= message[i-1]; j++)
+			realIndex[current++] = *(startIndex[i] + j - 1);
+
+	for(i = mynode + 1; i <= numClass; i ++)
+		for(j=1; j<=numPicked[i-1]; j++)
+			realIndex[current++] = *(startIndex[i] + j - 1);
+	
+	// finally append test data	
+	for(; current <= N; current++)
+		realIndex[current] = message[current + numClass - 1];
+	
+	delete []startIndex;
+}
+
+
+int isOdd(int i)
+{
+	if(i==2 || i==4 || i==6 || i==7 || i==9)
+		return 1;
+	return 0;
+}
+
+
+void randSplitOddEven(int total, int **classList, int numClass, int *perm, 
+			   int *numPicked, int *realIndex)
+{
+	int i, j, N, nOdd, nEven, oriOdd, oriEven;
+	int curTrainOdd, curTrainEven, curTestOdd, curTestEven;
+
+	if(numClass != 10)
+	{
+		cout<<"Error, numClass must be 10."< (*maxLine))
+				*maxLine = currCharCt;
+			if (currFeature > (*maxFeature))
+				*maxFeature = currFeature;
+			currCharCt = 0;
+			currFeature = 0;
+		}
+	}
+	fclose(fid);
+}
+
+
+
+//  This function is replaced by transReadItems()
+//  Almost no change has been made to the function
+
+/* Read in instances from file
+ *   filename - name of file containing instances
+ *   set - items read in are stored here
+ *   numClass - number of classification classes in this problem
+ *   maxIndex - largest feature index
+ *   avgNorm - average norm over all instances
+ *   normalize - normalize instances to length 1 if set to nonzero value
+ *   maxItem - from getCounts
+ *   maxLine - from getCounts
+ *   maxFeature - from getCounts
+*/
+void readItems(char *filename, ITEMSET *set, int *numClass, long *maxIndex, 
+			   double *avgNorm, int normalize, long maxItem, long maxLine, long maxFeature)
+{
+	FILE *fid;
+	char *currLine;
+	long *currFeas;
+	double *currVals;
+	int currLabel;
+	int currNum;
+	int currItem = 0;
+	double sumsqred;
+	double maxNorm = 0;
+	FEATURE *feaPt;
+	int i, tempint, blankLine;
+	int lineID;
+
+	*maxIndex =0;
+	blankLine = 0;
+	lineID = 0;
+
+	if((fid = fopen (filename, "r")) == NULL){ 
+		perror (filename); 
+		exit (1); 
+	}
+
+	*avgNorm = 0;
+	set->items = new ITEM[maxItem];
+	set->numLabeled = 0;
+
+	/* Allocate enough memory to do reading in */
+	currLine = new char[maxLine+1];
+	currFeas = new long[maxLine];
+	currVals = new double[maxLine];
+
+	/* Read in number of classes */
+	fscanf(fid, "%d\n", &tempint);
+	*numClass = tempint;
+
+	while((!feof(fid)) && fgets(currLine,(int)(maxLine+1),fid)) 
+	{
+		if(processLine(currLine, &currLabel, currFeas, currVals, &currNum) != 0) {
+			printf("Error reading item %d!\n",currItem);
+			exit(1);
+		}
+
+		lineID ++;
+
+		feaPt = new FEATURE[currNum];
+		sumsqred = 0;
+		for (i=0;i items[currItem].iclass = currLabel;
+		set->items[currItem].featureNum = currNum;
+		set->items[currItem].norm = sqrt(sumsqred);
+
+		*avgNorm += set->items[currItem].norm;
+		if (maxNorm < set->items[currItem].norm)
+			maxNorm = set->items[currItem].norm;
+		if (normalize != 0){
+			for (i=0;i items[currItem].norm;
+			}
+		}
+		set->items[currItem].features = feaPt;
+		currItem++;
+	}
+
+	fclose(fid);
+	delete []currLine;
+	delete []currFeas;
+	delete []currVals;
+	set->num = currItem;
+	*avgNorm /= set->num;
+
+	cout<<"----------------------------------------------------------\nStatistics for data read by readItems() from "< numLabeled< numLabeled< 0) && (features[*length-1] >= templong)) {
+			perror ("Features must be in increasing order!!!\n"); 
+			printf("LINE: %s\n",line);
+			exit(1); 
+		}
+
+		while(isspace((int)line[currPos++]));
+		while(!isspace((int)line[++currPos]));
+
+		features[*length] = templong;
+		values[*length] = tempdouble;
+		(*length)++;
+	}
+	return 0;
+}
+  
+
+// labels[i] are from 1 to C
+// classList[curClass][0] is the number of curClass' instance
+void buildClassListHyper(AppCtx *user, char *filename)
+{
+	int **classList, *classCount, i, *seenLabel, curNumClass, curClass, *labels;
+	int N = user->set->num;
+	char costFileName[MaxStrLen], *cur;
+
+	user->N = user->set->num;
+	labels = new int[N + 1];
+
+	for(i=1; i <= N; i++)
+		labels[i] = user->set->items[i-1].iclass;
+
+	curNumClass = 0;
+	classCount = new int[N + 1];
+	seenLabel = new int[N + 1];
+
+	for(i=1; i <= N; i++)
+	{
+		curClass = findClass(labels[i], seenLabel, curNumClass);
+		if(curClass > curNumClass)
+		{
+			curNumClass ++;
+			seenLabel[curNumClass] = labels[i];
+			classCount[curNumClass] = 1;
+		}
+		else
+			classCount[curClass] ++;
+	}
+
+	// now we know that there are curNumClass classes
+	// classCount[i] stores the number of items for class i
+	classList = new int *[curNumClass + 1];
+	for(i=1; i <= curNumClass; i++)
+	{
+		classList[i] = new int[classCount[i] + 1];
+		classList[i][0] = 0;
+	}
+
+	for(i=1; i <= N; i++)
+	{
+		curClass = findClass(labels[i], seenLabel, curNumClass);
+		classList[curClass][0] ++;
+		classList[curClass][classList[curClass][0]] = i;
+		
+		// convert label[i] to its corresponding class
+		labels[i] = curClass;
+	}	
+
+	user->classList = classList;
+	user->labels = labels;
+
+	// now fill in the cost 
+	user->label2cost = new double[curNumClass + 1];
+
+	if(user->balance == 0)
+		for(i=1; i<=curNumClass; i++)
+			user->label2cost[i] = 1;
+	else
+	{
+		strcpy(costFileName, filename);
+		cur = costFileName + strlen(filename) - 1;
+		while(*cur != '.')
+			cur --;
+		strcpy(cur+1, "cost");
+
+		fstream input;
+		input.open(costFileName, ios::in);
+		if(input.is_open() == 0)
+		{
+			cout<<"Error in openning "< > curClass;
+			curClass = findClass(curClass, seenLabel, curNumClass);
+			input >> user->label2cost[curClass];
+			if(input.eof())
+			{
+				cout<<"Error in reading cost file.  Insufficient lines."< bal_L = new double[user->L+1];
+	user->bal_U = new double[user->U+1];	
+}
+
+
+// the index and value of realIndex[] both start from 1
+void genRealIndex(AppCtx *user, int L, int base=1)
+{	
+	int *perm, *numPicked, i;
+
+	perm = new int[user->N + 1];
+	numPicked = new int[3];
+
+	randSplit(L, user->classList, 2, perm, numPicked, user->realIndex, base);
+
+	user->nPos = numPicked[1];
+	user->nNeg = numPicked[2];
+
+	delete []perm;
+	delete []numPicked;
+
+	for(i=1; i<=L; i++)
+	{
+		if(user->labels[user->realIndex[i]] < 1.5)
+			user->fl->data[i] = 1;
+		else
+			user->fl->data[i] = 0;
+
+		user->bal_L[i] = user->label2cost[user->labels[user->realIndex[i]]];
+	}
+
+	for(; i<=user->N; i++)
+	{
+		if(user->labels[user->realIndex[i]] > 1.5)
+			user->fref->data[i-L] = 0;
+		else
+			user->fref->data[i-L] = 1;
+
+		user->bal_U[i-L] = user->label2cost[user->labels[user->realIndex[i]]];
+	}
+}
+
+
+// the index and value of realIndex[] both start from 1
+void fillIndex(AppCtx *user)
+{	
+	int i, numLabeledPos, numLabeledNeg, numUnlabeledPos, numUnlabeledNeg;
+
+	// just need to fill the user->realIndex array
+	numLabeledPos = numLabeledNeg = numUnlabeledPos = numUnlabeledNeg = 0;
+	for(i=1; i<=user->N; i++)
+	{
+		if(user->labels[i] < 1.5)		// positive
+		{
+			if(user->typeTag[i] == 1)	// labeled
+				numLabeledPos ++;
+			else						// unlabeled
+				numUnlabeledPos ++;
+		}
+		else							// negative
+		{
+			if(user->typeTag[i] == 1)	// labeled
+				numLabeledNeg ++;
+			else						// unlabeled
+				numUnlabeledNeg ++;
+		}
+	}
+
+	user->nPos = numLabeledPos;
+	user->nNeg = numLabeledNeg;
+	user->L = numLabeledPos + numLabeledNeg;
+
+	numUnlabeledNeg = numLabeledPos + numUnlabeledPos + numLabeledNeg + 1;
+	numUnlabeledPos = numLabeledPos + numLabeledNeg + 1;
+	numLabeledNeg = numLabeledPos + 1;
+	numLabeledPos = 1;
+
+	for(i=1; i<=user->N; i++)
+	{
+		if(user->labels[i] < 1.5)		// positive
+		{
+			if(user->typeTag[i] == 1)	// labeled
+			{
+				user->realIndex[numLabeledPos] = i;
+				numLabeledPos ++;
+			}
+			else						// unlabeled
+			{
+				user->realIndex[numUnlabeledPos] = i;
+				numUnlabeledPos ++;
+			}
+		}
+		else							// negative
+		{
+			if(user->typeTag[i] == 1)	// labeled
+			{
+				user->realIndex[numLabeledNeg] = i;
+				numLabeledNeg ++;
+			}
+			else						// unlabeled
+			{
+				user->realIndex[numUnlabeledNeg] = i;
+				numUnlabeledNeg ++;
+			}
+		}
+	}
+
+	for(i=1; i<=user->L; i++)
+	{
+		if(user->labels[user->realIndex[i]] < 1.5)
+			user->fl->data[i] = 1;
+		else
+			user->fl->data[i] = 0;
+		user->bal_L[i] = user->label2cost[user->labels[user->realIndex[i]]];
+	}
+
+	for(; i<=user->N; i++)
+	{
+		if(user->labels[user->realIndex[i]] > 1.5)
+			user->fref->data[i-user->L] = 0;
+		else
+			user->fref->data[i-user->L] = 1;
+		user->bal_U[i-user->L] = user->label2cost[user->labels[user->realIndex[i]]];
+	}
+}
+
+
+void simplifyFilename(char *filename)
+{
+	int length, i, current, preSlash;
+
+	length = strlen(filename);
+	current = 0;
+	preSlash = 0;
+
+	for(i=0; i & %s", command, filename);
+	system(newCommand);
+
+	length = 0;
+	input.open(filename, ios::in);
+	input.getline(newCommand, 400);
+	numLine = 0;
+	while(!input.eof())
+	{
+		numLine ++;
+		length += strlen(newCommand) + 1;
+		input.getline(newCommand, 400);
+	}
+	input.close();
+
+	if(*retString != NULL)
+		delete (*retString);
+	*retString = new char[length + numLine + 1];
+
+	strcpy(*retString, "");
+	firstLine = 1;
+
+	input1.open(filename, ios::in);
+	input1.getline(newCommand, 400);
+	while(!input1.eof())
+	{
+		if(firstLine == 1)
+			firstLine = 0;
+		else
+			strcat(*retString, "\n");
+		strcat(*retString, newCommand);
+		input1.getline(newCommand, 400);
+	}
+	input1.close();	
+
+	sprintf(newCommand, "rm %s", filename);
+	system(newCommand);
+}
+
+
+inline int myMax(int a, int b)
+{
+	return a > b ? a : b;
+}
+
+
+Locker::Locker(int _type)
+{
+	type = _type;
+	server = filename = NULL;
+	pid = -1;
+}
+
+
+Locker::~Locker()
+{
+	if(server)
+		delete []server;
+	if(filename)
+		delete []filename;
+}
+
+
+void Locker::setType(int _type)
+{
+	type = _type;
+}
+
+
+void Locker::setFilename(char *_filename)
+{
+	if(type == 1 || type == 2)
+	{
+		filename = new char[strlen(_filename) + 1];
+		strcpy(filename, _filename);
+		simplifyFilename(filename);
+	}
+}
+
+
+void Locker::initLock_file()
+{
+	if((fileID = open(filename, O_WRONLY | O_CREAT, S_IRWXU)) == -1)
+	{
+		cout<<"Cannot open "< h_addr);
+	memset(&(their_addr.sin_zero), '\0', 8);  // zero the rest of the struct 
+
+	sprintf(sok_buf, "-%ld", pid);
+	lenpid = strlen(sok_buf) - 1;
+}
+
+
+void Locker::lock_socket()
+{
+	int sockfd, numbytes;  
+
+	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) 
+	{
+	    perror("socket");
+	    exit(1);
+	}
+
+	if (connect(sockfd, (struct sockaddr *)&their_addr, sizeof(struct sockaddr)) == -1) 
+	{
+	    perror("connect");
+	    exit(1);
+	}
+
+	if (send(sockfd, sok_buf + 1, lenpid, 0) == -1)
+	{
+		perror("send");
+		exit(1);
+	}
+
+	if ((numbytes = recv(sockfd, sok_buf2, MaxReplyLen, 0)) == -1) 
+	{
+	    perror("recv");
+	    exit(1);
+	}
+
+	close(sockfd);
+}
+
+
+void Locker::unlock_socket()
+{
+	int sockfd, numbytes;  
+
+	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+	    perror("socket");
+	    exit(1);
+	}
+
+	if (connect(sockfd, (struct sockaddr *)&their_addr, sizeof(struct sockaddr)) == -1) 
+	{
+	    perror("connect");
+	    exit(1);
+	}
+
+	if (send(sockfd, sok_buf, lenpid + 1, 0) == -1)
+	{
+		perror("send");
+		exit(1);
+	}
+
+	if ((numbytes = recv(sockfd, sok_buf2, MaxReplyLen, 0)) == -1) 
+	{
+	    perror("recv");
+	    exit(1);
+	}
+
+	close(sockfd);
+}
+
+
+void Locker::initLock()
+{
+	pid = getpid();
+	if(type == 1)
+		initLock_file();
+	else if (type == 2)
+		initLock_sem();
+	else if (type == 3)
+		initLock_socket();
+}
+
+
+void Locker::lock()
+{	
+	if(pid < 0)
+	{
+		cout<<"Locker has not been initialized.\n";
+		exit(1);
+	}
+	if(type == 1)
+		lock_file();
+	else if (type == 2)
+		lock_sem();
+	else if (type == 3)
+		lock_socket();
+
+}
+
+
+void Locker::unlock()
+{
+	if(pid < 0)
+	{
+		cout<<"Locker has not been initialized.\n";
+		exit(1);
+	}
+	usleep(100000);
+	if(type == 1)
+		unlock_file();
+	else if (type == 2)
+		unlock_sem();
+	else if (type == 3)
+		unlock_socket();
+}
+
+
+                                                                                                                                                                                                                                                                                                                                                     common.h                                                                                            0000700 0001754 0001001 00000012744 10376320736 011540  0                                                                                                    ustar   zhang305                        None                                                                                                                                                                                                                   #include #include #include #include #include #include #include #include #include #include #include #include #include #include #include #include #include using namespace std;
+
+const int MaxStrLen = 400;
+const int maxBatch = 10000;
+const int maxExp = 1000;
+const int MaxTaskPerBatch = 10000;
+
+typedef struct myMatrix
+{
+	int nColumn, nRow;
+	double **data;
+}myMatrix;
+
+
+typedef struct myVector
+{
+	int nRow;
+	double *data;
+}myVector;
+
+
+typedef struct feature {
+	int num;		/* Feature number */
+ 	double val;	/* Feature value */
+} FEATURE;
+
+
+/* item is a vector of features and its class */
+typedef struct item { 
+  int iclass;
+  int featureNum;
+  double norm;
+  FEATURE *features;
+} ITEM;
+
+
+typedef struct itemset {
+	int num;			/* Number of items in the set */
+	int testNum;		/* number of testing data */
+	int numLabeled;		/* chaileon 1907: Number of labeled items in the set */
+	ITEM *items;
+} ITEMSET;
+
+
+class AppCtx {
+public:
+	// problem parameters
+	int         N, L, U, nPos, nNeg, oriPos, oriNeg, feaNum, current, curFeature, standalone, balance;
+	int			*realIndex, **classList, *labels, repTime, finalTrial, cv, *typeTag;
+	double		preAccuracy, preAccuracy2, postAccuracy, postAccuracy2, variance, *label2cost, *bal_U, *bal_L, fcn;
+	myVector    *fl, *f, *fref;
+	myMatrix	*weight;
+	
+	// Working space
+	ITEMSET		*set;
+	time_t		timeRec;
+
+	char		*directory;		// working directory
+};
+
+
+////////////////         For reading parameters        //////////////////
+int getParaInt(int *result, int argc, char *args[], char *para, int mode);
+int getParaLong(long *result, int argc, char *args[], char *para, int mode);
+int getParaFloat(double *result, int argc, char *args[], char *para, int mode);
+int getParaString(char **result, int argc, char *args[], char *para, int mode);
+void *checkMalloc(long int size);
+void compressDir(char *filename);
+int exist(char *filename);
+
+
+////////////////         For random permutation         ////////////////
+void quickSort(int *values, int lower, int upper);
+void quickSort(double *values, int lower, int upper);
+int  Partition(double *values, int lower, int upper);
+int  Partition(int *values, int lower, int upper);
+int  binaryFind(int target, int *values, int n);
+void buildClassList1(char *filename, int **paraLabels, int *N, int *numClass, int ***paraClassList);
+void getEnvVar(char *flag, char *directory, char *result);
+void buildRealIndex(int *message, int *realIndex, int mynode, int numClass, int N);
+int  isOdd(int i);
+void randSplitOddEven(int total, int **classList, int numClass, int *perm, 
+			   int *numPicked, int *realIndex);
+
+void randPerm(int n, int *result);
+void randSplit(int total, int **classList, int numClass, int *perm, int *numPicked, int *realIndex, int base=1);
+void buildClassList(char *filename, int **paraLabels, int *N, int *numClass, int ***paraClassList);
+void buildClassListHyper(AppCtx *user, char *filename);
+int  findClass(int label, int *seenLabel, int curNumClass);
+void genRealIndex(AppCtx *user, int L, int base);
+void fillIndex(AppCtx *user);
+
+
+/////////////////        For matrix/vecotr manipulation         /////////////////
+myVector MatMultVec(myMatrix *matrix, myVector *vector);
+myVector MatTransMultVec(myMatrix *matrix, myVector *vector);
+myVector VecTransMultMat(myVector *vector, myMatrix *matrix);
+myMatrix myMatMult(myMatrix *matrix1, myMatrix *matrix2);
+double innerProduct(myVector *V1, myVector *V2);
+myMatrix myMatTransMult(myMatrix *matrix1, myMatrix *matrix2);
+void clearMatrix(myMatrix *matrix);
+void permMatrix(myMatrix *store_B, int *realIndex1, int *realIndex2, myMatrix *B);
+void permVector(myVector *store_V, int *realIndex1, myVector *V);
+void initVector(myVector *vector, int dimension);
+void initMatrix(myMatrix *matrix, int nColumn, int nRow);
+void clearVector(myVector *vector);
+void printVector(myVector *vector);
+void printMatrix(myMatrix *matrix);
+
+
+/////////////////       For reading the data file          /////////////////
+void getCounts(char *filename, long *lines, long *maxLine, long *maxFeature);
+void readItems(char *filename, ITEMSET *set, int *numClass, long *maxIndex, 
+			   double *avgNorm, int normalize, long maxItem, long maxLine, long maxFeature);
+int processLine(char *line, int *label, long *features, double *values, int *length);
+
+
+/////////////////       Shell level utilities		///////////////////
+void simplifyFilename(char *filename);
+void runShellCommand(char *command, char *directory, char **retString);
+
+
+/////////////////		Locker       ///////////////////
+const int MaxReplyLen = 3;
+class Locker
+{
+public:
+	int type, fileID, serverId, sem_set_id, lenpid, port;
+	long pid;
+	char *filename, *server;
+	char sok_buf[MaxStrLen], sok_buf2[MaxReplyLen + 1];
+	struct flock fl;
+	struct hostent *he;
+	struct sockaddr_in their_addr; // connector's address information 
+public:
+	Locker(int _type = 3);
+	~Locker();
+	void setType(int _type);
+	void setFilename(char *_filename);
+	void initLock_file();
+	void lock_file();
+	void unlock_file();
+	void initLock_sem();
+	void lock_sem();
+	void unlock_sem();
+	void initLock_socket();
+	void lock_socket();
+	void unlock_socket();
+	void initLock();
+	void lock();
+	void unlock();
+};
+
+
+/////////////////		Other       ///////////////////
+inline int myMax(int a, int b);
+
+
+                            loo.cpp                                                                                             0000700 0001754 0001001 00000146300 10400307654 011360  0                                                                                                    ustar   zhang305                        None                                                                                                                                                                                                                   #include "common.h"
+#include "tao.h"
+#include "tao_solver.h"
+#include "matlab.h"
+
+// #define MYDEBUG
+
+class LooCtx : public AppCtx {
+public:
+	// problem parameters
+	int         flagEntropy, numGradEva, testInclReg, invUsable, flagLoo, transFcn, dispLoss, dispEig;
+	int			checkAccuracyIter, flagStep, flagSquare, svmT, svmTrans, flagEigen, expEig, flagLooExp, flagRowEntropy;
+	double		epsilon, wLoo, wEntropy, wStep, wEigen, svmAccuracy, svmC, svmG;
+	double		wSquare, looExp, wRowEntropy, transPara, initSigma, eigOffset;
+
+	// Working space
+	myMatrix	*prob, *inv_Puu_i, *Pul_i, *store_inv, *bf, *loo_alpha, *expPtilde;
+	myVector    *fl_i, *fu_i, *fu, *maxExp, *preFactor;
+	myVector	*l1, *r1, *pr1, *sumP2, *plogp, *pf_L, *pf_U, *sb, *bpf, *pbf, *beta1;
+	myVector	*u, *v, *sumW, *pf;
+};
+
+
+static char help[] = "This is leave-one-out hyper-parameter learning.\n";
+const double wEntropyThresh = 1e-10;
+const double wLooThresh = 1e-10;
+const double wStepThresh = 1e-10;
+const double wEigenThresh = 1e-10;
+const double wSquareThresh = 1e-10;
+const double wRowEntropyThresh = 1e-10;
+
+void initLooCtx(LooCtx *user, int pN, int pfeaNum)
+{
+	user->N = pN;
+	user->U = pN - user->L;
+	user->feaNum = pfeaNum;
+
+	user->wEntropy /= user->U;
+	user->wStep /= user->U * user->U;
+	user->wEigen /= user->N;
+	user->wSquare /= user->feaNum;
+	user->wRowEntropy /= user->N * user->U;
+
+	user->flagEntropy = (fabs(user->wEntropy) > wEntropyThresh ? 1 : 0);
+	user->flagLoo = (user->wLoo > wLooThresh ? 1 : 0);
+	user->flagStep = (user->wStep > wStepThresh ? 1 : 0);
+	user->flagEigen = (user->wEigen > wEigenThresh ? 1 : 0);
+	user->flagRowEntropy = (user->wRowEntropy > wRowEntropyThresh ? 1 : 0);
+	user->flagSquare = (user->wSquare > wSquareThresh ? 1 : 0);
+
+	if(!user->flagLoo && !user->flagEntropy && !user->flagStep && !user->flagEigen)
+	{
+		cout<<"Loo, Entropy, Step, Eigenvalue or Row Entropy can't be all absent.\n";
+		exit(1);
+	}
+
+	user->weight = new myMatrix;
+	user->prob = new myMatrix;
+	user->inv_Puu_i = new myMatrix;
+	user->Pul_i = new myMatrix;
+ 
+	user->fl = new myVector;
+	user->fref = new myVector;
+	user->fl_i = new myVector;
+	user->fu_i = new myVector;
+	user->beta1 = new myVector;
+	user->u = new myVector;
+	user->v = new myVector;
+	user->maxExp = new myVector;
+	user->fu = new myVector;
+	user->f = new myVector;
+	user->sumW = new myVector;
+
+	initMatrix(user->weight, user->N, user->N);
+	initMatrix(user->prob, user->N, user->N);
+	initMatrix(user->inv_Puu_i, user->U+1, user->U+1);
+
+	initVector(user->fl, user->L);
+	initVector(user->fref, user->U);
+	initVector(user->fl_i, user->L - 1);
+	initVector(user->fu_i, user->U+1);
+	initVector(user->beta1, user->L);
+	initVector(user->u, user->U+1);
+	initVector(user->v, user->U+1);
+	initVector(user->maxExp, user->N);	
+	initVector(user->fu, user->U);
+	initVector(user->sumW, user->N);
+	initVector(user->f, user->N);
+
+	if(user->flagLoo)
+	{
+		user->store_inv = new myMatrix;
+		user->loo_alpha = new myMatrix;
+		user->bf = new myMatrix;
+		user->pf_L = new myVector;
+		user->pf_U = new myVector;
+		user->sb = new myVector;
+		user->bpf = new myVector;
+		user->pbf = new myVector;
+
+		initMatrix(user->store_inv, user->U+1, user->U+1);
+		initMatrix(user->loo_alpha, user->N, user->N);
+		initMatrix(user->bf, user->U, user->U);
+		initVector(user->pf_L, user->N);
+		initVector(user->pf_U, user->L);
+		initVector(user->sb, user->U);
+		initVector(user->bpf, user->U);
+		initVector(user->pbf, user->U);
+	}
+	else
+	{
+		cout<<"Leave-one-out is ignored.\n";
+		cout.flush();
+	}
+
+	if(user->flagEntropy)
+	{
+		user->preFactor = new myVector;
+		user->pf = new myVector;
+		initVector(user->pf, user->U);
+		initVector(user->preFactor, user->U);
+	}
+	else
+	{
+		cout<<"Entropy is ignored.\n";
+		cout.flush();
+	}
+
+	if(user->flagStep)
+	{
+		user->l1 = new myVector;
+		user->r1 = new myVector;
+		user->pr1 = new myVector;
+
+		initVector(user->l1, user->U);
+		initVector(user->r1, user->U);
+		initVector(user->pr1, user->U);
+	}
+	else
+	{
+		cout<<"Step is ignored.\n";
+		cout.flush();
+	}
+
+	if(user->flagEigen)
+	{
+		user->sumP2 = new myVector;
+		user->expPtilde = new myMatrix;
+
+		initVector(user->sumP2, user->N);
+		initMatrix(user->expPtilde, user->N, user->N);
+	}
+	else
+	{
+		cout<<"Eigenvalue is ignored.\n";
+		cout.flush();
+	}
+
+	if(user->flagRowEntropy)
+	{
+		user->plogp = new myVector;
+		initVector(user->plogp, user->U);
+	}
+	else
+	{
+		cout<<"Row Entropy is ignored.\n";
+		cout.flush();
+	}
+}
+
+
+int initializeX(Vec X, void *ctx)
+{
+	LooCtx *user = (LooCtx *)ctx;
+	int info, *indices;
+	PetscReal *values;	
+
+	values = new PetscReal[user->feaNum];
+	indices = new int[user->feaNum];
+
+#ifdef cygwin
+	indices[0] = 0;
+	indices[1] = 1;
+	values[0] = atof(argv[1]);
+	values[1] = atof(argv[2]);
+	user->epsilon = atof(argv[3]);
+#else
+	user->initSigma = 1.0 / user->initSigma;
+	for(info = 0; info < user->feaNum; info++)
+	{
+		indices[info] = info;
+		values[info] = user->initSigma;
+	}
+	user->svmG = values[0] * values[0];
+#endif
+
+	info = VecSetValues(X, user->feaNum, indices, values, INSERT_VALUES);		// 	CHKERRQ(1);
+
+	VecAssemblyBegin(X);
+	VecAssemblyEnd(X);
+
+	delete []indices;
+	delete []values;
+
+	return 0;
+}
+
+
+// RBF
+void buildWP(LooCtx *user, double *sigma)
+{
+	int i, j;
+	ITEM  *p, *q;
+	double exponent, temp, *tempW;
+	feature *pFeaCur, *qFeaCur, *pUpper, *qUpper;
+
+	tempW = new double[user->N + 1];
+	cout<<"Calculating weight exponents.\t";
+	cout.flush();
+
+	for(i=1; i<=user->N; i++)
+	{
+		user->weight->data[i][i] = 0;
+		p = user->set->items + user->realIndex[i];
+
+		for(j=1; j set->items + user->realIndex[j];
+			exponent = 0;
+
+			pFeaCur = p->features;
+			qFeaCur = q->features;
+			pUpper = p->features + p->featureNum;
+			qUpper = q->features + q->featureNum;
+
+			while(1)
+			{
+				if (pFeaCur >= pUpper || qFeaCur >= qUpper)
+					break;
+				if (pFeaCur->num == qFeaCur->num) 
+				{
+					temp = (pFeaCur->val - qFeaCur->val)* sigma[pFeaCur->num];
+					exponent += temp * temp;
+					pFeaCur++;		qFeaCur++;
+				}
+				else if (pFeaCur->num < qFeaCur->num)
+				{
+					temp = pFeaCur->val * sigma[pFeaCur->num];
+					exponent += temp * temp;
+					pFeaCur++;
+				}
+				else
+				{
+					temp = qFeaCur->val * sigma[qFeaCur->num];
+					exponent += temp * temp;
+					qFeaCur++;
+				}
+			}
+			while(pFeaCur < pUpper)
+			{
+				temp = pFeaCur->val * sigma[pFeaCur->num];
+				exponent += temp * temp;
+				pFeaCur++;
+			}
+			while(qFeaCur < qUpper)
+			{
+				temp = qFeaCur->val * sigma[qFeaCur->num];
+				exponent += temp * temp;
+				qFeaCur++;
+			}
+			user->weight->data[i][j] = -exponent;
+			user->weight->data[j][i] = -exponent;
+		}
+	}
+
+	cout<<"normalizing weight matrix.\n";
+	cout.flush();
+	for(i=1; i<=user->N; i++)
+	{
+		user->maxExp->data[i] = -1e300;		// the largest of exponents
+		exponent = 0;
+		for(j=1; j<=user->N; j++)
+			if(user->weight->data[i][j] > user->maxExp->data[i] && j != i)
+				user->maxExp->data[i] = user->weight->data[i][j];
+
+		for(j=1; j<=user->N; j++)
+		{
+			if(j != i)
+			{
+				tempW[j] = exp(user->weight->data[i][j] - user->maxExp->data[i]);
+				user->weight->data[i][j] = tempW[j];
+				exponent += tempW[j];
+			}
+		}
+		tempW[i] = 0;
+
+		for(j=1; j <= user->N; j++)
+			user->prob->data[i][j] = tempW[j] / exponent;
+	}
+
+	delete []tempW;
+}
+
+
+double testAccuracyImport(LooCtx *user, double *sigma)
+{
+	int i, j;
+	mxArray *mat_input, *mat_output;
+	double *data_input, *data_output, offset = user->epsilon / user->N, coef = 1 - user->epsilon;
+	double sum1, sum2, q, score1, score2, correct, denominator;
+	myVector temp1;
+
+	mat_input = mat_output = NULL;
+
+	mat_input = mxCreateDoubleMatrix(user->U, user->U, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	if(user->testInclReg == 1)
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			for(j=1; j prob->data[i+user->L][j+user->L] * coef + offset);
+			*(data_input++) = 1 - (user->prob->data[i+user->L][j+user->L] * coef + offset);
+			for(j++; j<=user->U; j++)
+				*(data_input++) = -(user->prob->data[i+user->L][j+user->L] * coef + offset);
+		}
+		user->invUsable = 1;
+	}
+	else
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			for(j=1; j prob->data[i+user->L][j+user->L];
+			*(data_input++) = 1 - user->prob->data[i+user->L][j+user->L];
+			for(j++; j<=user->U; j++)
+				*(data_input++) = -user->prob->data[i+user->L][j+user->L];
+		}
+	}
+
+	cout<<"Start to invert U*U matrix.\t";
+	cout.flush();
+	mlfAssign(&mat_output, mlfInv(mat_input));
+	cout<<"Matrix inversion finished.\n";
+	cout.flush();
+
+	mxDestroyArray(mat_input);
+	data_output = mxGetPr(mat_output);
+
+	for(i=1; i<=user->U; i++)
+		for(j=1; j<=user->U; j++)
+			user->inv_Puu_i->data[i][j] = *(data_output++);
+
+	mxDestroyArray(mat_output);
+
+	initVector(&temp1, user->U);
+	clearVector(user->fu);
+
+	if(user->testInclReg == 1)
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			temp1.data[i] = 0;
+			for(j=1; j<=user->L; j++)
+				temp1.data[i] += (user->prob->data[i+user->L][j] * coef + offset) * user->fl->data[j];
+		}
+	}
+	else
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			temp1.data[i] = 0;
+			for(j=1; j<=user->L; j++)
+				temp1.data[i] += user->prob->data[i+user->L][j] * user->fl->data[j];
+		}
+	}
+
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U;
+	*(user->fu) = MatMultVec(user->inv_Puu_i, &temp1);
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U+1;
+
+	// then check accuracy
+	denominator = correct = 0;
+
+	for(i=1; i<=user->U; i++)
+	{
+		double precor = correct;
+		if(user->typeTag[user->realIndex[i + user->L]] != -1)
+			continue;
+		if(user->fu->data[i] >= 0.5 && user->fref->data[i] >= 0.5)
+			correct += user->bal_U[i];
+		if(user->fu->data[i] < 0.5 && user->fref->data[i] < 0.5)
+			correct += user->bal_U[i];
+		denominator += user->bal_U[i];
+	}
+
+	clearVector(&temp1);
+	user->postAccuracy = correct * 100.0 / denominator;
+
+	// following is CMN
+	correct = 0;
+	sum1 = sum2 = 0;
+	for(i=1; i<=user->U; i++)
+		sum1 += user->fu->data[i];
+	sum2 = user->U - sum1;
+	q = user->nPos * 1.0 / user->L;
+
+	for(i=1; i<=user->U; i++)
+	{
+		if(user->typeTag[user->realIndex[i + user->L]] != -1)
+			continue;
+
+		score1 = user->fu->data[i] * q / sum1;
+		score2 = (1 - user->fu->data[i]) * (1 - q) / sum2;
+		if(score1 > score2 && user->fref->data[i] >= 0.5)
+			correct += user->bal_U[i];
+		if(score1 < score2 && user->fref->data[i] < 0.5)
+			correct += user->bal_U[i];
+	}
+
+	user->postAccuracy2 = correct * 100.0 / denominator;
+
+	return user->postAccuracy;
+}
+
+
+double testAccuracy(LooCtx *user, double *sigma)
+{
+	int i, j;
+	mxArray *mat_input, *mat_output;
+	double *data_input, *data_output, offset = user->epsilon / user->N, coef = 1 - user->epsilon;
+	double correct, denominator;
+	myVector temp1;
+
+	if(user->standalone == 0)
+		return testAccuracyImport(user, sigma);
+
+	mat_input = mat_output = NULL;
+
+	mat_input = mxCreateDoubleMatrix(user->U, user->U, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	if(user->testInclReg == 1)
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			for(j=1; j prob->data[i+user->L][j+user->L] * coef + offset);
+			*(data_input++) = 1 - (user->prob->data[i+user->L][j+user->L] * coef + offset);
+			for(j++; j<=user->U; j++)
+				*(data_input++) = -(user->prob->data[i+user->L][j+user->L] * coef + offset);
+		}
+		user->invUsable = 1;
+	}
+	else
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			for(j=1; j prob->data[i+user->L][j+user->L];
+			*(data_input++) = 1 - user->prob->data[i+user->L][j+user->L];
+			for(j++; j<=user->U; j++)
+				*(data_input++) = -user->prob->data[i+user->L][j+user->L];
+		}
+	}
+
+	cout<<"Start to invert U*U matrix.\t";
+	cout.flush();
+	mlfAssign(&mat_output, mlfInv(mat_input));
+	cout<<"Matrix inversion finished.\n";
+	cout.flush();
+
+	mxDestroyArray(mat_input);
+	data_output = mxGetPr(mat_output);
+
+	for(i=1; i<=user->U; i++)
+		for(j=1; j<=user->U; j++)
+			user->inv_Puu_i->data[i][j] = *(data_output++);
+
+	mxDestroyArray(mat_output);
+
+	initVector(&temp1, user->U);
+	clearVector(user->fu);
+
+	if(user->testInclReg == 1)
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			temp1.data[i] = 0;
+			for(j=1; j<=user->L; j++)
+				temp1.data[i] += (user->prob->data[i+user->L][j] * coef + offset) * user->fl->data[j];
+		}
+	}
+	else
+	{
+		for(i=1; i<=user->U; i++)
+		{
+			temp1.data[i] = 0;
+			for(j=1; j<=user->L; j++)
+				temp1.data[i] += user->prob->data[i+user->L][j] * user->fl->data[j];
+		}
+	}
+
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U;
+	*(user->fu) = MatMultVec(user->inv_Puu_i, &temp1);
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U+1;
+
+	// then check accuracy
+	correct = denominator = 0;
+	for(i=1; i<=user->U; i++)
+	{
+		if(user->fu->data[i] >= 0.5 && user->fref->data[i] >= 0.5)
+			correct += user->bal_U[i];
+		if(user->fu->data[i] < 0.5 && user->fref->data[i] < 0.5)
+			correct += user->bal_U[i];
+		denominator += user->bal_U[i];
+	}
+
+	clearVector(&temp1);
+	return correct * 100.0 / denominator;
+}
+
+
+void calSumW(LooCtx *user)
+{
+	double *swdata, **wdata;
+	int i, j, N = user->N;
+
+	swdata = user->sumW->data;	
+	wdata = user->weight->data;
+
+	for(i=1; i<=N; i++)
+	{
+		swdata[i] = 0;
+		for(j=1; j<=N; j++)
+			swdata[i] += wdata[i][j];
+	}
+}
+
+
+void calFullInv(LooCtx *user, double *sigma)
+{
+	int i, j;
+	mxArray *mat_input, *mat_output;
+	double *data_input, *data_output, offset = user->epsilon / user->N, coef = 1 - user->epsilon;
+	myVector temp1;
+
+	mat_input = mat_output = NULL;
+	mat_input = mxCreateDoubleMatrix(user->U, user->U, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	for(i=1; i<=user->U; i++)
+	{
+		for(j=1; j prob->data[i+user->L][j+user->L] * coef + offset);
+		*(data_input++) = 1 - (user->prob->data[i+user->L][j+user->L] * coef + offset);
+		for(j++; j<=user->U; j++)
+			*(data_input++) = -(user->prob->data[i+user->L][j+user->L] * coef + offset);
+	}
+
+	user->invUsable = 1;
+
+	cout<<"Start to invert U*U matrix.\t";
+	cout.flush();
+	mlfAssign(&mat_output, mlfInv(mat_input));
+	cout<<"Matrix inversion finished.\n";
+	cout.flush();
+
+	mxDestroyArray(mat_input);
+	data_output = mxGetPr(mat_output);
+
+	for(i=1; i<=user->U; i++)
+		for(j=1; j<=user->U; j++)
+			user->inv_Puu_i->data[i][j] = *(data_output++);
+
+	mxDestroyArray(mat_output);
+
+	initVector(&temp1, user->U);
+	clearVector(user->fu);
+
+	for(i=1; i <= user->U; i++)
+	{
+		temp1.data[i] = 0;
+		for(j=1; j<=user->L; j++)
+			temp1.data[i] += (user->prob->data[i+user->L][j] * coef + offset) * user->fl->data[j];
+	}
+
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U;
+	*(user->fu) = MatMultVec(user->inv_Puu_i, &temp1);
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U+1;
+
+	clearVector(&temp1);
+}
+
+
+double preprocessEntropy(LooCtx *user, double *sigma)
+{
+	myVector temp1;
+	int i, j;
+	double *swdata, *pfdata, **wdata, **pdata, *fldata, *fudata, *fdata, entropy;
+
+	swdata = user->sumW->data;
+	pfdata = user->pf->data;
+	wdata = user->weight->data;
+	pdata = user->prob->data;
+	fldata = user->fl->data;
+	fudata = user->fu->data;
+	fdata = user->f->data;
+
+	if(user->invUsable == 0)
+		calFullInv(user, sigma);
+
+	initVector(&temp1, user->U);
+	clearVector(user->preFactor);
+
+	for(i=1; i<=user->U; i++)
+		temp1.data[i] = log(1.0 / user->fu->data[i] - 1);
+
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U;
+	*(user->preFactor) = VecTransMultMat(&temp1, user->inv_Puu_i);
+	user->inv_Puu_i->nColumn = user->inv_Puu_i->nRow = user->U + 1;
+
+	clearVector(&temp1);
+
+	for(i=1; i<=user->L; i++)
+		fdata[i] = fldata[i];
+	for(i=1; i<=user->U; i++)
+		fdata[i+user->L] = fudata[i];
+
+	for(i=1; i<=user->U; i++)
+	{
+		pfdata[i] = 0;
+		for(j=1; j<=user->N; j++)
+			pfdata[i] += pdata[i+user->L][j] * fdata[j];
+	}
+
+	entropy = 0;
+	for(i=1; i<=user->U; i++)
+	{
+		user->preFactor->data[i] = user->preFactor->data[i] / swdata[i + user->L];
+		if(fudata[i] < 1-1e-5 && fudata[i] > 1e-5)
+			entropy += -fudata[i] * log(fudata[i]) - (1 - fudata[i]) * log(1 - fudata[i]);
+	}
+
+	return entropy * user->wEntropy;
+}
+
+
+double preprocessStep(LooCtx *user, double *sigma)
+{
+	int i, j;
+	double **wdata, **pdata, *swdata;
+	double step, *r1, *l1, *pr1;
+
+	wdata = user->weight->data;
+	pdata = user->prob->data;
+	swdata = user->sumW->data;
+
+	if(user->invUsable == 0)
+		calFullInv(user, sigma);
+
+	r1 = user->r1->data;
+	l1 = user->l1->data;
+	pr1 = user->pr1->data;
+
+	for(i=1; i<=user->U; i++)
+	{
+		r1[i] = 0;
+		for(j=1; j<=user->U; j++)
+			r1[i] += user->inv_Puu_i->data[i][j];
+	}
+
+	for(i=1; i<=user->U; i++)
+	{
+		l1[i] = 0;
+		for(j=1; j<=user->U; j++)
+			l1[i] += user->inv_Puu_i->data[j][i];
+	}
+
+	for(i=1; i<=user->U; i++)
+	{
+		l1[i] = l1[i] / swdata[i + user->L];
+
+		pr1[i] = 0;
+		for(j=1; j<=user->U; j++)
+			pr1[i] += pdata[i+user->L][j+user->L] * r1[j];
+	}
+
+	step = 0;
+	for(i=1; i<=user->U; i++)
+		step += r1[i];
+
+	return step * user->wStep;
+}
+
+
+void dispEigs(LooCtx *user)
+{
+	mxArray *mat_input, *mat_output, *mat_exponent;
+	double *data_input, *data_output, **prob, offset = user->epsilon / user->N, coef = 1 - user->epsilon;
+	int eigNum, i, j;
+
+	prob = user->prob->data;
+	mat_input = mat_output = mat_exponent = NULL;
+	eigNum = 16;
+
+	mat_input = mxCreateDoubleMatrix(user->N, user->N, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	for(i=1; i<=user->N; i++)
+	{
+		for(j=1; j < i; j++)
+			*(data_input++) = (prob[i][j] * coef + offset) / 2;
+		*(data_input++) = (prob[i][j] * coef + offset) / 2 + 0.5;
+		for(j++; j <= user->N; j++)
+			*(data_input++) = (prob[i][j] * coef + offset) / 2;
+	}
+
+	mlfAssign(&mat_output, mlfEig(NULL, mat_input, NULL, NULL));
+	mlfAssign(&mat_input, mlfSort(NULL, mat_output, NULL));
+
+	mxDestroyArray(mat_output);
+	data_output = mxGetPr(mat_input) + user->N - 1;
+
+	eigNum = (user->N > eigNum ? eigNum : user->N);
+	cout< expEig - 1, not user->expEig
+void calPowerPtilde(LooCtx *user)
+{
+	int i, j;
+	mxArray *mat_input, *mat_output, *mat_exponent;
+	double **prob, **expData, offset = user->epsilon / user->N, coef = 1 - user->epsilon;
+	double *data_input, *data_output;
+
+	prob = user->prob->data;
+	expData = user->expPtilde->data;
+	mat_input = mat_output = mat_exponent = NULL;
+	if(user->dispEig)
+		dispEigs(user);
+
+	if(user->expEig == 2)
+	{
+		for(i=1; i<=user->N; i++)
+		{
+			for(j=1; j<=user->N; j++)
+				expData[i][j] = (prob[i][j] * coef + offset) / 2;
+			expData[i][i] += 0.5 - user->eigOffset;
+		}
+		return;
+	}
+
+	// if user->expEig >= 3
+	mat_exponent = mxCreateDoubleMatrix(1, 1, mxREAL);
+	data_input = mxGetPr(mat_exponent);
+	*data_input = user->expEig - 1;
+
+	mat_input = mxCreateDoubleMatrix(user->N, user->N, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	for(i=1; i<=user->N; i++)
+	{
+		for(j=1; j < i; j++)
+			*(data_input++) = (prob[i][j] * coef + offset) / 2;
+		*(data_input++) = offset / 2 + 0.5 - user->eigOffset;
+		for(j++; j <= user->N; j++)
+			*(data_input++) = (prob[i][j] * coef + offset) / 2;
+	}
+
+	cout<<"Start to calculate the power of N*N matrix.\t";
+	cout.flush();
+	mlfAssign(&mat_output, mlfMpower(mat_input, mat_exponent));
+	cout<<"Matrix power finished.\n";
+	cout.flush();
+
+	mxDestroyArray(mat_input);
+	data_output = mxGetPr(mat_output);
+
+	for(i=1; i<=user->N; i++)
+		for(j=1; j<=user->N; j++)
+			expData[i][j] = *(data_output++);
+
+	mxDestroyArray(mat_output);
+}
+
+
+double preprocessEigen(LooCtx *user, double *sigma)
+{
+	int i, j;
+	double **wdata, **pdata, offset, coef;
+	double trace, *sumP2, **expData, temp1, temp2;
+	double preEpsilon;
+
+	wdata = user->weight->data;
+	pdata = user->prob->data;
+
+	sumP2 = user->sumP2->data;
+	expData = user->expPtilde->data;
+	preEpsilon = user->epsilon;
+//	user->epsilon = 0;
+
+	// expData will be P_tilde^(user->expEig - 1)
+	offset = user->epsilon / user->N;
+	coef = 1 - user->epsilon;
+	calPowerPtilde(user);
+	trace = temp1 = temp2 = 0;
+
+	for(i=1; i<=user->N; i++)
+	{
+		for(j=1; j<=user->N; j++)
+		{
+			trace += expData[i][j] * pdata[j][i];
+			temp1 += expData[i][j];
+		}
+		temp2 += expData[i][i];
+	}
+
+	trace = (trace * coef + temp1 * offset + (1 - 2 * user->eigOffset) * temp2) / 2;
+
+	for(i=1; i <= user->N; i++)
+	{
+		sumP2[i] = 0;
+		for(j=1; j <= user->N; j++)
+			sumP2[i] += pdata[i][j] * expData[j][i];
+	}
+
+	user->epsilon = preEpsilon;
+	return trace * user->wEigen;
+}
+
+
+double preprocessRowEnt(LooCtx *user, double *sigma)
+{
+	int i, j;
+	double **wdata, **pdata;
+	double entropy, *plogp;
+
+	wdata = user->weight->data;
+	pdata = user->prob->data;
+
+	plogp = user->plogp->data;
+
+	entropy = 0;
+	for(i=1; i<=user->U; i++)
+	{
+		plogp[i] = 0;
+		for(j=1; j<=user->N; j++)
+		{
+			if(pdata[i][j] > 1e-200)
+				plogp[i] += pdata[i+user->L][j] * log(pdata[i+user->L][j]);
+		}
+		entropy += plogp[i];
+	}
+
+	return -entropy * user->wRowEntropy;
+}
+
+
+void displayLooLoss(LooCtx *user, double *recFcn)
+{
+	mxArray *mat_input, *mat_output;
+	double *data_input, *data_output;
+	int current;
+
+	// sort the LOO loss and print to stdio
+	mat_input = mat_output = NULL;
+	mat_input = mxCreateDoubleMatrix(user->nPos, 1, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	for(current = 1; current <= user->nPos; current++)
+		*(data_input++) = recFcn[current];
+
+	mlfAssign(&mat_output, mlfSort(NULL, mat_input, NULL));
+	data_output = mxGetPr(mat_output);
+	for(current = 1; current <= user->nPos; current++)
+		cout< nNeg, 1, mxREAL);
+	data_input = mxGetPr(mat_input);
+
+	for(current = user->nPos + 1; current <= user->L; current++)
+		*(data_input++) = recFcn[current];
+
+	mlfAssign(&mat_output, mlfSort(NULL, mat_input, NULL));
+	data_output = mxGetPr(mat_output);
+	for(current = user->nNeg - 1; current >= 0; current--)
+		cout<<-1+data_output[current]<<"  ";
+
+	mxDestroyArray(mat_input);
+	mxDestroyArray(mat_output);
+
+	cout< standalone == 0)
+		{
+			cout<<"NAN/INF is detected.\n";
+			FILE *fp;
+			char filename[MaxStrLen];
+
+			sprintf(filename, "%s/tempResult.dat", user->directory);
+			simplifyFilename(filename);
+
+			fp = fopen(filename, "w");
+			if(fp == NULL)
+			{
+				cout<<"Invalid output result file name "< preAccuracy, user->preAccuracy2, user->numGradEva);
+			fclose(fp);
+		}
+		else
+		{
+			cout<<"seed: "< timeRec< preAccuracy2<<", numGradEva = "< numGradEva< epsilon / user->N, coef = 1 - user->epsilon;
+
+	current = user->current;
+
+	// 1st, build fl_i	
+	for(i=1; i fl_i->data[i] = user->fl->data[i];
+	for(; i < user->L; i++)
+		user->fl_i->data[i] = user->fl->data[i+1];
+
+	// 2nd, build inv_Puu_i and P_UL_i
+	if(current == 1)
+	{
+		mat_input = mxCreateDoubleMatrix(user->U+1, user->U+1, mxREAL);
+		data_input = mxGetPr(mat_input);
+
+		*(data_input++) = 1 - (user->prob->data[current][current] * coef + offset);
+		for(i=1; i<=user->U; i++)
+			*(data_input++) = -(user->prob->data[current][i+user->L] * coef + offset);
+
+		for(i=1; i<=user->U; i++)
+		{
+			*(data_input++) = -(user->prob->data[i+user->L][current] * coef + offset);
+			for(j=1; j prob->data[i+user->L][j+user->L] * coef + offset);
+			*(data_input++) = 1 - (user->prob->data[i+user->L][j+user->L] * coef + offset);
+			for(j++; j<=user->U; j++)
+				*(data_input++) = -(user->prob->data[i+user->L][j+user->L] * coef + offset);
+		}
+
+		cout<<"Start to invert (U+1)*(U+1) matrix.\t";
+		cout.flush();
+		mlfAssign(&mat_output, mlfInv(mat_input));
+		cout<<"Matrix inversion finished.\n";
+		cout.flush();
+		mxDestroyArray(mat_input);
+
+		data_output = mxGetPr(mat_output);
+
+		for(i=1; i<=user->U+1; i++)
+			for(j=1; j<=user->U+1; j++)
+			{
+				user->inv_Puu_i->data[i][j] = *(data_output++);
+				user->store_inv->data[i][j] = user->inv_Puu_i->data[i][j];
+			}
+
+		mxDestroyArray(mat_output);
+	}
+	else	// apply matrix inversion lemma
+	{
+		// every time, start from current = 1, not from current - 1
+		// this will help reduce accumulated imprecision
+
+		user->u->data[1] = 0;
+		for(i=1; i<=user->U; i++)
+			user->u->data[i+1] = (user->prob->data[i+user->L][1]
+								  - user->prob->data[i+user->L][current]) * coef;
+
+		temp1 = MatMultVec(user->store_inv, user->u);
+		show1 = denominator = temp1.data[1] + 1;
+
+		initVector(&temp2, user->U + 1);
+		for(i=1; i<=user->U+1; i++)
+			temp2.data[i] = user->store_inv->data[1][i] / denominator;
+
+		for(i=1; i<=user->U+1; i++)
+			for(j=1; j<=user->U+1; j++)
+				user->inv_Puu_i->data[i][j] = user->store_inv->data[i][j] 
+												- temp1.data[i] * temp2.data[j];
+		clearVector(&temp2);
+
+		//////////////////////////////////////////////////////////
+
+		user->v->data[1] = 0;
+		for(i=1; i<=user->U; i++)
+			user->v->data[i+1] = (user->prob->data[1][i+user->L]
+								  - user->prob->data[current][i+user->L]) * coef;
+		temp2 = VecTransMultMat(user->v, user->inv_Puu_i);
+		show2 = denominator = temp2.data[1] + 1;
+
+		for(i=1; i<=user->U+1; i++)
+			temp1.data[i] = user->inv_Puu_i->data[i][1] / denominator;
+
+		for(i=1; i<=user->U+1; i++)
+			for(j=1; j<=user->U+1; j++)
+				user->inv_Puu_i->data[i][j] -= temp1.data[i] * temp2.data[j];
+
+		clearVector(&temp1);
+		clearVector(&temp2);
+	}
+
+	// 3rd, calculate fu_i
+	initVector(&temp1, user->U + 1);
+	temp1.data[1] = user->pf_L->data[current] * coef 
+							+ offset * (user->nPos - user->fl->data[current]);
+	for(i=1; i<=user->U; i++)
+		temp1.data[i+1] = coef * (user->pf_L->data[i + user->L] 
+							- user->prob->data[i + user->L][current] * user->fl->data[current])
+							+ offset * (user->nPos - user->fl->data[current]);
+
+	// Remember the space (de)allocation for fu_i
+	delete []user->fu_i->data;		// before delete, it stores the previous t's fu_t
+	(*user->fu_i) = MatMultVec(user->inv_Puu_i, &temp1);
+	clearVector(&temp1);
+}
+
+
+double outTransform(LooCtx *user, double *fcn, double *derivative)
+{	
+	double f;
+	int current = user->current;
+
+	f = user->fu_i->data[1];
+	checkValid(user, f);
+
+	if(user->transFcn == 1)			// linear
+	{
+		if(user->fl->data[current] > 0.5)		// positive labeled
+		{
+			*fcn = 1 - f;
+			*derivative = -1;
+		}
+		else
+		{
+			*fcn = f;
+			*derivative = 1;
+		}
+	}
+	else if(user->transFcn == 2)				// exponential
+	{
+		if(user->fl->data[current] > 0.5)		// positive labeled
+		{
+			*fcn = pow(user->transPara, -f);
+			*derivative = -1 * log(user->transPara) * (*fcn);
+		}
+		else
+		{
+			*fcn = pow(user->transPara, f - 1);
+			*derivative = log(user->transPara) * (*fcn);
+		}
+	}
+	else if(user->transFcn == 3)
+	{
+		if(user->fl->data[current] > 0.5)		// positive labeled
+		{
+			*fcn = pow(1 - f, user->transPara - 1);
+			*derivative = (-1) * user->transPara * (*fcn);
+			*fcn *= 1 - f;
+		}
+		else
+		{
+			*fcn = pow(f, user->transPara - 1);
+			*derivative = user->transPara * (*fcn);
+			*fcn *= f;
+		}
+	}
+	else if(user->transFcn == 4)
+	{
+		if(user->fl->data[current] > 0.5)		// positive labeled
+		{
+			*fcn = -log(f);
+			*derivative = -1.0 / f;
+		}
+		else
+		{
+			*fcn = -log(1 - f);
+			*derivative = 1.0 / (1 - f);
+		}
+	}
+
+	if(user->fl->data[current] > 0.5)		// positive labeled
+	{
+		*fcn /= 2 * user->nPos;
+		*derivative /= 2 * user->nPos;
+	}
+	else
+	{
+		*fcn /= 2 * user->nNeg;
+		*derivative /= 2 * user->nNeg;
+	}
+
+	return f;
+}
+
+
+double preprocessLoo(LooCtx *user, double *x, double *recFcn)
+{
+	double totalLoss, loss, derivative, *beta, *fu_i, *pf_L, *pf_U, **prob, *f, *fl, *sw;
+	double *bpf, *pbf, *sb, **alpha, *beta1, **bf, temp1, temp2;
+	int i, j, L, U, N, current, cur_i;
+
+	L = user->L;
+	U = user->U;
+	N = L + U;
+	loss = 0;
+	fu_i = user->fu_i->data;
+	pf_L = user->pf_L->data;
+	pf_U = user->pf_U->data;
+	prob = user->prob->data;
+	f = user->f->data;
+	fl = user->fl->data;
+	bf = user->bf->data;
+	bpf = user->bpf->data;
+	pbf = user->pbf->data;
+	sb = user->sb->data;
+	alpha = user->loo_alpha->data;
+	beta1 = user->beta1->data;
+	sw = user->sumW->data;
+
+	for(i = 1; i <= N; i ++)
+	{
+		pf_L[i] = 0;
+		for(j = 1; j <= L; j++)
+			pf_L[i] += prob[i][j] * fl[j];
+	}
+
+	for(i = 1; i <= L; i++)
+		pf_U[i] = 0;
+
+	for(i = 1; i <= U; i++)
+	{
+		sb[i] = 0;
+		bpf[i] = 0;
+		pbf[i] = 0;
+		for(j = 1; j <= U; j++)
+			bf[i][j] = 0;
+	}
+
+	totalLoss = 0;
+	for(current = 1; current <= L; current++)
+	{
+		user->current = current;
+
+		if(current == 1 || L <= 5 || current % 20 == 0)
+		{
+			cout<<"current = "< inv_Puu_i->data[1];
+		for(i = 1; i <= U + 1; i ++)
+			beta[i] *= derivative;
+
+		beta1[current] = beta[1];
+
+		for(i = 1; i <= U; i ++)
+		{
+			pf_U[current] += prob[current][i + L] * fu_i[i + 1];			
+			sb[i] += beta[i + 1];
+			bpf[i] += beta[i + 1] * prob[i + L][current] * (fl[current] - fu_i[1]);
+		}
+
+		for(i = 1; i <= U; i ++)
+		{
+			cur_i = i + 1;
+			for(j = 1; j <= U; j++)
+				bf[i][j] += beta[cur_i] * fu_i[j + 1];
+		}
+
+		for(j = L + 1; j <= N; j ++)
+		{
+			alpha[j][current] = beta[j - L + 1] * (fu_i[1] - fl[current]);
+			alpha[current][j] = fu_i[j - L + 1];
+		}
+		alpha[current][current] = fu_i[1];
+	}
+
+	for(i=1; i<=U; i++)
+	{
+		pbf[i] = 0;
+		cur_i = i + L;
+		for(j=L+1; j<=N; j++)
+			pbf[i] += prob[cur_i][j] * bf[i][j-L];
+	}
+
+	for(i=1; i<=L; i++)
+	{
+		temp1 =  - pf_U[i] - pf_L[i];
+		temp2 = beta1[i] / sw[i];
+		for(j=1; j<=L; j++)
+		{
+			if(i!=j)
+				alpha[i][j] = fl[j];
+			alpha[i][j] = (alpha[i][j] + temp1) * temp2;
+		}
+		for(; j<=N; j++)
+			alpha[i][j] = (alpha[i][j] + temp1) * temp2;
+	}
+
+	for(; i <= N; i++)
+	{
+		cur_i = i - L;
+		temp1 = -pbf[cur_i] + bpf[cur_i] - pf_L[i] * sb[cur_i];
+		temp2 = 1.0 / sw[i];
+		for(j=1; j<=L; j++)
+			alpha[i][j] = (sb[cur_i] * fl[j] + alpha[i][j] + temp1) * temp2;
+		for(; j <= N; j++)
+			alpha[i][j] = (bf[cur_i][j - L] + temp1) * temp2;
+	}
+
+	cout< wLoo;
+}
+
+
+// actually, this sigma is sigma^-1
+void collectGradient(LooCtx *user, double *sigma, double *g)
+{
+	int i, j, L, current, cur_i, cur_j, min_i;
+	int flagEntropy, flagStep, flagEigen, flagRowEntropy, flagLoo;
+	double derivative, **weight, *fdata, *pfdata, **pdata, **loo_alpha;
+	double *prefdata, entAlpha, stepAlpha, eigenAlpha, rentAlpha, looAlpha, alpha;
+	double *l1, *r1, *pr1, *sumP2, *sumW, **expData, *plogp;
+	double wLoo, wEigen, wEntropy, wRowEntropy, wStep;
+	ITEM  *p, *q;
+	feature *pFeaCur, *qFeaCur, *pUpper, *qUpper;
+
+	current = user->current;
+	weight = user->weight->data;
+	fdata = user->f->data;
+
+	flagLoo = user->flagLoo;
+	flagEntropy = user->flagEntropy;
+	flagStep = user->flagStep;
+	flagEigen = user->flagEigen;
+	flagRowEntropy = user->flagRowEntropy;
+
+	wLoo = user->wLoo;
+	wEigen = user->wEigen * user->expEig / 2;	// should not change user->wEigen or trace value
+	wEigen *= 1 - user->epsilon;
+	wEntropy = user->wEntropy;
+	wRowEntropy = user->wRowEntropy;
+	wStep = user->wStep;
+	L = user->L;
+
+	l1 = r1 = pr1 = pfdata = prefdata = plogp = NULL;
+	sumP2 = sumW = plogp = NULL;
+	loo_alpha = expData = pdata = NULL;
+
+	sumW = user->sumW->data;
+	for(i=1; i<=user->feaNum; i++)
+		g[i] = 0;
+
+	if(flagLoo)
+		loo_alpha = user->loo_alpha->data;
+	if(flagEntropy)
+	{
+		pfdata = user->pf->data;
+		prefdata = user->preFactor->data;
+	}
+	if(flagStep)
+	{
+		l1 = user->l1->data;
+		r1 = user->r1->data;
+		pr1 = user->pr1->data;
+	}
+	if(flagEigen)
+	{
+		sumP2 = user->sumP2->data;
+		expData = user->expPtilde->data;
+	}
+	if(flagRowEntropy)
+	{
+		plogp = user->plogp->data;
+		pdata = user->prob->data;
+	}
+
+	if(user->flagLoo || user->flagEigen)
+		min_i = 1;
+	else
+		min_i = L + 1;
+
+	for(i=min_i; i<=user->N; i++)
+	{
+		p = user->set->items + user->realIndex[i];
+		if (i > L)
+			cur_i = i - L;
+
+		for(j = 1; j < i; j++)
+		{
+			q = user->set->items + user->realIndex[j];
+			if (j > L)
+				cur_j = j - L;
+
+			// first assemble all the coefficients
+			alpha = 0;
+			if(flagLoo)
+			{
+				looAlpha = loo_alpha[i][j] * weight[i][j] + loo_alpha[j][i] * weight[j][i];
+				alpha += looAlpha * wLoo;
+			}
+			if(flagEntropy && i > L)
+			{
+				entAlpha = (fdata[j] - pfdata[cur_i]) * prefdata[cur_i] * weight[i][j];
+				if(j > L)
+					entAlpha += (fdata[i] - pfdata[cur_j]) * prefdata[cur_j] * weight[j][i];
+				alpha += entAlpha * wEntropy;
+			}
+			if(flagStep && i > L)
+			{
+				if(j > L)			// unlabeled
+					stepAlpha = l1[i-L] * (r1[j-L] - pr1[i-L]) * weight[i][j]
+								+ l1[j-L] * (r1[i-L] - pr1[j-L]) * weight[j][i];
+				else				// labeled
+					stepAlpha = -l1[i] * pr1[i] * weight[i][j];
+				alpha += stepAlpha * wStep;
+			}
+			if(flagEigen)
+			{
+				eigenAlpha = (expData[j][i] - sumP2[i]) * weight[i][j] / sumW[i]
+							 + (expData[i][j] - sumP2[j]) * weight[j][i] / sumW[j];
+				alpha += eigenAlpha * wEigen;
+			}
+			if(flagRowEntropy && i > L)
+			{
+				rentAlpha = (plogp[cur_i] - log(pdata[i][j])) * weight[i][j] / sumW[i];
+				if(j > L)
+					rentAlpha += (plogp[cur_j] - log(pdata[j][i])) * weight[j][i] / sumW[j];
+				alpha += rentAlpha * wRowEntropy;
+			}
+
+			pUpper = p->features + p->featureNum;
+			qUpper = q->features + q->featureNum;
+			pFeaCur = p->features;
+			qFeaCur = q->features;
+
+			while(1)
+			{
+				if (pFeaCur >= pUpper || qFeaCur >= qUpper)
+					break;
+				if (pFeaCur->num == qFeaCur->num)
+				{
+					g[pFeaCur->num] += alpha * (pFeaCur->val - qFeaCur->val) 
+										* (pFeaCur->val - qFeaCur->val);
+					pFeaCur++;		qFeaCur++;
+				}
+				else if (pFeaCur->num < qFeaCur->num)
+				{
+					g[pFeaCur->num] += alpha * pFeaCur->val * pFeaCur->val;
+					pFeaCur++;
+				}
+				else
+				{
+					g[qFeaCur->num] += alpha * qFeaCur->val * qFeaCur->val;
+					qFeaCur++;
+				}
+			}
+
+			while(pFeaCur < pUpper)
+			{
+				g[pFeaCur->num] += alpha * pFeaCur->val * pFeaCur->val;
+				pFeaCur++;
+			}
+			while(qFeaCur < qUpper)
+			{
+				g[qFeaCur->num] += alpha * qFeaCur->val * qFeaCur->val;
+				qFeaCur++;
+			}
+		}
+	}
+
+	derivative = (1 - user->epsilon) * (-2);
+	for(i=1; i<=user->feaNum; i++)
+		g[i] *= sigma[i] * derivative;
+
+	if(flagRowEntropy)
+	{
+		derivative = -user->N * user->U * wRowEntropy;
+		for(i=1; i<=user->feaNum; i++)
+			g[i] += derivative;
+	}
+}
+
+
+int FormFunctionGradient(TAO_APPLICATION taoapp, Vec X, double *fcn, Vec G, void *ptr)
+{
+	LooCtx *user = (LooCtx*)ptr;
+	int i, info;
+	PetscScalar *xx, *gg;
+	double *x, *g, **pdata, **wdata, dtemp;
+	double *recFcn;
+
+	pdata = user->prob->data;
+	wdata = user->weight->data;
+
+	printf("In FormFunctionGradient:\t");
+	*fcn = 0;
+	
+	info = VecGetArray(X, &xx);		// CHKERRQ(info);
+	info = VecGetArray(G, &gg);		// CHKERRQ(info);
+	x = (double *)xx - 1;			// so now, index should starts from 1
+	g = (double *)gg - 1;
+
+	cout<<"Current sigma: "<<1/x[1]<<"  "<<1/x[2]< invUsable = 0;		// usable for P^tilde (WITH \epsilon)
+
+	recFcn = new double[user->L + 1];
+	calSumW(user);
+
+	if(user->numGradEva == 0)
+	{		
+		testAccuracy(user, x);
+		printf("==== Before learning hyper-parameters, the accuracy is %g %% and %g %% ====\n", 
+					user->postAccuracy, user->postAccuracy2);
+		user->preAccuracy = user->postAccuracy;
+		user->preAccuracy2 = user->postAccuracy2;
+	}
+	else 
+	{
+		if(user->checkAccuracyIter == 1)
+		{
+			testAccuracy(user, x);
+			if(user->svmC < 0)
+				printf("****  numGradEva = %d,\tthe accuracy is %g %%  and  %g %%,   pre is %g %% and  %g %%    ****\n", 
+							user->numGradEva, user->postAccuracy, user->postAccuracy2, 
+							user->preAccuracy, user->preAccuracy2);
+			else
+				printf("****  numGradEva = %d,\tthe accuracy is %g %%  and  %g %%,   pre is %g %% and  %g %%    svm is %g %%    ****\n", 
+							user->numGradEva, user->postAccuracy, user->postAccuracy2, 
+							user->preAccuracy, user->preAccuracy2, user->svmAccuracy);			
+		}
+		else
+			printf("****  numGradEva = %d\t", user->numGradEva);
+	}
+
+	if(user->flagLoo)
+	{
+		dtemp = preprocessLoo(user, x, recFcn);
+		cout<<"LOO loss = "< flagEntropy)
+	{
+		dtemp = preprocessEntropy(user, x);
+		cout<<"Entropy Fcn = "< flagStep)
+	{
+		dtemp = preprocessStep(user, x);
+		cout<<"Step Fcn = "< flagEigen)
+	{
+		dtemp = preprocessEigen(user, x);
+		cout<<"Eigenvalue Fcn = "< flagRowEntropy)
+	{
+		dtemp = preprocessRowEnt(user, x);
+		cout<<"Row Entropy Fcn = "< flagSquare)
+	{
+		dtemp = 0;
+		for(i=1; i<=user->feaNum; i++)
+			dtemp += (x[i] - user->initSigma) * (x[i] - user->initSigma);
+		dtemp *= user->wSquare;
+
+		cout<<"Square Reg = "< fcn = *fcn;
+	cout<<"Total: "<<*fcn< dispLoss)
+		displayLooLoss(user, recFcn);
+	cout<<"========================================================"< flagSquare)
+	{
+		for(i=1; i<=user->feaNum; i++)
+			g[i] += 2 * (x[i] - user->initSigma) * user->wSquare;
+	}
+
+	info = VecRestoreArray(X, &xx);		//CHKERRQ(info);
+	info = VecRestoreArray(G, &gg);		//CHKERRQ(info);
+
+	user->numGradEva++;
+	return 0;
+}
+
+
+void parsePara(LooCtx *user, int argc, char **argv)
+{
+	int flag, i;
+	long seed;
+	fstream input, input1;
+	char *filename;
+
+	user->standalone = 0;
+	getParaInt(&(user->standalone), argc, argv, "-sa", 0);
+
+	// balance is always multiplied to a class whose number is smaller
+	// so generally, balance should be larger than 1
+	// unless one really wants to discount the already less represented class
+	// the program does not check this point
+	
+	user->directory = NULL;
+	getParaString(&(user->directory), argc, argv, "-dir", 0);
+
+	if(user->directory == NULL)
+	{
+		user->directory = new char[3];
+		strcpy(user->directory, "./");
+	}
+
+	getParaFloat(&(user->initSigma), argc, argv, "-sig", 1);
+
+	if(user->standalone == 0)
+	{
+		// now load the type tag
+		filename = NULL;
+		getParaString(&filename, argc, argv, "-tt", 1);
+
+		input.open(filename, ios::in);
+		if(input.is_open() == 0)
+		{
+			cout<<"Cannot open index file "< L = user->N = 0;
+		input >> flag;
+		while(!input.eof())
+		{
+			user->N ++;
+			input >> flag;
+		}
+		input.close();
+
+		input1.open(filename, ios::in);
+		user->typeTag = new int[user->N + 1];
+
+		for(i=1; i <= user->N; i++)
+		{
+			input1 >> user->typeTag[i];
+			if(user->typeTag[i] == 1)
+				user->L ++;
+		}
+
+		input1.close();
+		cout<<"Index file read.  Using outer imported random index.\n";
+		cout.flush();
+	}
+	else
+	{
+		getParaInt(&(user->L), argc, argv, "-l", 1);
+		if(getParaLong(&seed, argc, argv, "-seed", 0) == 1)
+			user->timeRec = (time_t)seed;
+	}
+
+	user->checkAccuracyIter = 1;
+	getParaInt(&(user->checkAccuracyIter), argc, argv, "-k", 0);
+//	user->checkAccuracyIter = 1;
+
+	user->wEntropy = user->wLoo = user->wStep = user->wEigen = 0;
+	user->wSquare = user->wRowEntropy = 0;
+	flag = 0;
+	flag += getParaFloat(&(user->wEntropy), argc, argv, "-went", 0);
+	flag += getParaFloat(&(user->wLoo), argc, argv, "-wloo", 0);
+	flag += getParaFloat(&(user->wStep), argc, argv, "-wstep", 0);
+	flag += getParaFloat(&(user->wEigen), argc, argv, "-weig", 0);
+	flag += getParaFloat(&(user->wRowEntropy), argc, argv, "-wrow", 0);
+
+	if(flag == 0)
+	{
+		cout<<"-went, -wloo, -wstep, -weig, -wrow cannot be all unspecified.\n";
+		exit(1);
+	}
+
+	getParaFloat(&(user->wSquare), argc, argv, "-wsqr", 0);
+
+	user->testInclReg = 0;
+	getParaInt(&(user->testInclReg), argc, argv, "-tir", 0);
+
+	user->dispLoss = 0;
+	getParaInt(&(user->dispLoss), argc, argv, "-dl", 0);
+
+	user->epsilon = 0.00001;
+	getParaFloat(&(user->epsilon), argc, argv, "-ep", 0);
+
+	user->svmC = -1;
+	getParaFloat(&(user->svmC), argc, argv, "-svmc", 0);
+
+	user->svmT = 2;
+	getParaInt(&(user->svmT), argc, argv, "-svmt", 0);
+
+	user->svmTrans = 1;
+	getParaInt(&(user->svmTrans), argc, argv, "-tsvm", 0);
+
+	if(user->wEigen > 0)
+	{
+		user->expEig = 2;
+		if(getParaInt(&(user->expEig), argc, argv, "-expEig", 0) == 0)
+			cout<<"exponent of eigenvalue reg is set to 2 by default.\n";
+		else
+			cout<<"exponent of eigenvalue reg is set to "< expEig<<"\n";
+
+		user->eigOffset = 0;
+		getParaFloat(&(user->eigOffset), argc, argv, "-eo", 0);
+
+		user->dispEig = 1;
+		getParaInt(&(user->dispEig), argc, argv, "-de", 0);
+	}
+
+	if(user->wLoo > wLooThresh)
+	{
+		user->transFcn = 1;
+		getParaInt(&(user->transFcn), argc, argv, "-tf", 0);
+		switch (user->transFcn)
+		{
+			case 1: 
+				cout<<"Transform Fcn: linear."< transPara = 2;
+				getParaFloat(&(user->transPara), argc, argv, "-tp", 0);
+				cout<<"Transform Fcn: exponential, base = "< transPara< transPara = 2;
+				getParaFloat(&(user->transPara), argc, argv, "-tp", 0);
+				cout<<"Transform Fcn: polynomial, exponent = "< transPara< balance = 0;
+	getParaInt(&(user->balance), argc, argv, "-ba", 0);
+	if(user->balance)
+		cout<<"Using specified error cost.\n";
+}
+
+
+void calSVMAccuracy(LooCtx *user)
+{
+	char filename[400], commandLine[400];
+	FILE *fp;
+	fstream input;
+	int id, correct, i;
+	double temp;
+	ITEM  *p;
+	feature *pFeaCur, *pUpper;
+	
+	if(user->svmC < 0)
+		return;
+
+	// first write the training file;
+
+	id = rand();
+	sprintf(filename, "svmTrain_%d.dat", id);
+	fp = fopen(filename, "w");
+	if(fp == NULL)
+	{
+		cout<<"cannot open "< svmTrans == 1)
+		correct = user->N;
+	else
+		correct = user->L;
+
+	for(i=1; i <= correct; i++)
+	{
+		p = user->set->items + user->realIndex[i];
+		if(i <= user->L)
+			fprintf(fp, "%d ", 2 * p->iclass - 1);
+		else
+			fprintf(fp, "0 ");
+		pUpper = p->features + p->featureNum;
+		pFeaCur = p->features;
+	
+		while(pFeaCur < pUpper)
+		{
+			fprintf(fp, "%d:%g ", pFeaCur->num, pFeaCur->val);
+			pFeaCur++;
+		}
+		fprintf(fp, "\n");
+	}
+	fclose(fp);
+
+	if(user->svmT == 2)
+		sprintf(commandLine, "./svm_learn -t 2 -g %g -c %g svmTrain_%d.dat svmModel_%d.dat", 
+														user->svmG, user->svmC, id, id);
+	else if(user->svmT == 0)
+		sprintf(commandLine, "./svm_learn -t 0 -c %g svmTrain_%d.dat svmModel_%d.dat", 
+														user->svmC, id, id);
+	cout< L+1; i <= user->N; i++)
+	{
+		p = user->set->items + user->realIndex[i];
+		fprintf(fp, "%d ", 2 * p->iclass - 1);
+		pUpper = p->features + p->featureNum;
+		pFeaCur = p->features;
+	
+		while(pFeaCur < pUpper)
+		{
+			fprintf(fp, "%d:%g ", pFeaCur->num, pFeaCur->val);
+			pFeaCur++;
+		}
+		fprintf(fp, "\n");
+	}
+	fclose(fp);
+	
+	sprintf(commandLine, "./svm_classify svmTest_%d.dat svmModel_%d.dat svmPredict_%d.dat", id, id, id);
+	system(commandLine);
+
+	sprintf(filename, "svmPredict_%d.dat", id);
+	input.open(filename, ios::in);
+	if(! input.is_open() )
+	{
+		cout<<"cannot open "< L+1; i <= user->N; i++)
+	{
+		input >> temp;
+		if( user->set->items[user->realIndex[i]].iclass > 0.5 && temp >= 0 ||
+			user->set->items[user->realIndex[i]].iclass < 0.5 && temp < 0 )
+			correct ++;
+	}
+	input.close();
+
+	user->svmAccuracy = correct * 100.0 / user->U;
+	cout<<"Accuracy by SVM: "< svmAccuracy<<" %\n";
+	cout.flush();
+
+	sprintf(commandLine, "rm *%d.dat", id);
+	system(commandLine);
+}
+
+
+void writeRecord(LooCtx *user, int argc, char **argv)
+{
+	FILE *record;
+	int i;
+	char filename[400], *input;
+
+	input = NULL;
+	getParaString(&input, argc, argv, "-in", 1);
+
+	sprintf(filename, "record_%s", input);
+	record = fopen(filename, "a");
+
+	for(i=0; i timeRec, user->preAccuracy, user->postAccuracy);
+	if(user->svmC > 0)
+	{
+		if(user->svmTrans == 1)
+			fprintf(record, "TSVM = %g %%", user->svmAccuracy);
+		else
+			fprintf(record, "SVM = %g %%", user->svmAccuracy);
+	}
+
+	fprintf(record, "\n\n");
+
+	fclose(record);
+}
+
+
+int main(int argc, char **argv)
+{
+	int			info, i;			/* used to check for functions returning nonzeros */
+	long		lines, maxFeature, maxLine, maxFeatureIndex;
+	int			numClass;
+	double avgNorm;
+	int normalize = 1;
+	char *filename;
+	LooCtx		*user;						/* user-defined work context */
+	Vec x;									/* variables vector */
+	TAO_SOLVER tao;							/* TAO_SOLVER solver context */
+	FILE	*fp = NULL;
+	TAO_APPLICATION quadapp;				/* The PETSc application */
+	TaoTerminateReason reason;
+	PetscScalar *tempArray;
+
+//	TaoMethod  method = "tao_nls";			
+//	TaoMethod  method = "tao_ntr";			
+//	TaoMethod  method = "tao_cg_fr";		
+	TaoMethod  method = "tao_lmvm";			
+//	TaoMethod  method = "tao_cg_prp";	
+
+	user = new LooCtx;
+
+	user->timeRec = time(NULL);
+#ifdef MYDEBUG
+	user->timeRec = 1123075049;
+#endif
+
+	i = 0;
+	PetscInitialize(&i,&argv,(char *)0, help);
+	TaoInitialize(&i,&argv,(char *)0, help);
+
+	user->set = new itemset;
+	parsePara(user, argc, argv);
+
+	// read in the data
+	maxLine = 0;
+	maxFeature = 0;
+	lines = 0;
+	filename = NULL;
+
+#ifdef cygwin
+	filename = new char[400];
+	strcpy(filename, "D:\\loo_hyper\\toy.dat");
+#else
+	getParaString(&filename, argc, argv, "-in", 1);
+#endif
+
+	getParaInt(&normalize, argc, argv, "-no", 0);
+	PetscPrintf(MPI_COMM_WORLD, "Now start to load the data......\n");
+	getCounts(filename, &lines, &maxLine, &maxFeature);
+	readItems(filename, user->set, &numClass, &maxFeatureIndex, 
+					&avgNorm, normalize, lines, maxLine, maxFeature);
+
+	initLooCtx(user, lines, maxFeatureIndex);
+
+	buildClassListHyper(user, filename);			// it uses user->set
+
+	user->realIndex = new int[user->N+1];
+
+	user->set->items = user->set->items - 1;
+	PetscPrintf(MPI_COMM_WORLD, "===== Load Finishes.   Start Optimization =====\n");
+
+	if(user->standalone == 0)
+	{
+		delete []filename;
+		filename = new char[400];
+		sprintf(filename, "%s/tempResult.dat", user->directory);
+		simplifyFilename(filename);
+
+		fp = fopen(filename, "w");
+		if(fp == NULL)
+		{
+			cout<<"Invalid output result file name "< timeRec);
+		cout<<"rand seed = "< timeRec< L, 2);			// it will use user.set
+	}
+
+	user->numGradEva = 0;
+
+	info = VecCreateSeq(PETSC_COMM_WORLD, user->feaNum, &x);	//CHKERRQ(info);
+
+	initializeX(x, user);
+	calSVMAccuracy(user);
+
+	info = TaoCreate(MPI_COMM_WORLD, method, &tao); //CHKERRQ(info);
+	info = TaoApplicationCreate(MPI_COMM_WORLD, &quadapp); //CHKERRQ(info);
+	info = TaoSetMaximumIterates(tao, 35); //CHKERRQ(info);
+
+//	info = TaoSetTolerances( tao, 0, 0, 0, 0 ); //CHKERRQ(info);
+	info = TaoSetMonitor(tao, TaoDefaultMonitor, TAO_NULL ); //CHKERRQ(info);
+
+	info = TaoSetMaximumFunctionEvaluations(tao, 35);		//CHKERRQ(info);
+
+	info = TaoAppSetInitialSolutionVec(quadapp, x); //CHKERRQ(info);
+
+	/* Set the user function, gradient, hessian evaluation routines and data structures. */
+	info = TaoAppSetObjectiveAndGradientRoutine(quadapp, FormFunctionGradient, (void*) user);   //CHKERRQ(info);
+
+	/* Check for any tao command line options */
+	info = TaoSetOptions(quadapp, tao); //CHKERRQ(info);
+
+	/* Solve the bound constrained problem */
+	info = TaoSolveApplication(quadapp,tao);		//CHKERRQ(info);
+	info = TaoGetTerminationReason(tao, &reason);	//CHKERRQ(info);
+
+	/* Free TAO data structures */
+	info = TaoDestroy(tao);			//CHKERRQ(info);
+	info = TaoAppDestroy(quadapp);	//CHKERRQ(info);
+
+	// process the result
+	PetscPrintf(MPI_COMM_WORLD, "\n===== Leaving TAO with status %d.   Good Bye. =====\n\n", int(reason));
+
+	printf("==== Before learning hyper-parameters (LOO), the accuracy is %g %% and %g %% ====\n", 
+				user->preAccuracy, user->preAccuracy2);
+	
+	info = VecGetArray(x, &tempArray);   // CHKERRQ(info);
+	buildWP(user, tempArray - 1);	
+	testAccuracy(user, tempArray - 1);
+	printf("**** After learning hyper-parameters (LOO), the accuracy is %g %% and %g %% ****\n", 
+				user->postAccuracy, user->postAccuracy2);
+	
+	printf("number of gradient evaluation: %d\t", user->numGradEva);
+	printf("x[1] = %g\tx[2] = %g\t", 1/tempArray[0], 1/tempArray[1]);
+	if(user->standalone == 1)
+	{
+		cout< realIndex[1]<<" "< realIndex[2]<<" "
+			< realIndex[3]<<" "< realIndex[4];
+	}
+	cout< standalone == 0)
+	{
+		fp = fopen(filename, "w");
+		if(fp == NULL)
+		{
+			cout<<"Invalid output result file name "< postAccuracy, user->postAccuracy2, user->preAccuracy, user->preAccuracy2, user->numGradEva, int(reason), user->fcn, 1.0 / user->initSigma);
+
+		fclose(fp);
+	}
+	else
+	{
+		cout<<"seed: "< timeRec< maxits)
+   TAO_DIVERGED_NAN (-4),         (Numerical problems)
+   TAO_DIVERGED_MAXFCN (-5),      (nfunc > maxnfuncts)
+   TAO_DIVERGED_LS_FAILURE (-6),  (line search failure)
+   TAO_DIVERGED_TR_REDUCTION (-7),
+   TAO_DIVERGED_USER (-8),        (user defined)
+
+   TAO_CONTINUE_ITERATING  (0)
+
+where  res  - residual of optimality conditions  
+ res0  - initial residual of optimality conditions  
+ xdiff  - current trust region size  
+ f  - function value  
+ atol  - absolute tolerance  
+ rtol  - relative tolerance  
+ its  - current iterate number  
+ maxits  - maximum number of iterates  
+ nfunc  - number of function evaluations  
+ maxnfuncts  - maximum number of function evaluations  
+*/
+                                                                                                                                                                                                                                                                                                                                makefile                                                                                            0000700 0001754 0001001 00000002113 10661531036 011556  0                                                                                                    ustar   zhang305                        None                                                                                                                                                                                                                   
+# Set the TEST_ROOT properly, 
+#TEST_ROOT=$(HOME)/usr/test
+
+# This indirect "all" is because we include $(TAO_DIR)/bmake/tao_common later, 
+# so the "all" in this file will be confused
+all: myall
+
+MATLAB_ROOT=$(HOME)/test
+
+# Set Matlab directory information
+MATLAB_INCL_DIR = -I$(MATLAB)/include
+MATLAB_LIB_DIR = -L$(MATLAB)/bin/glnx86
+
+PETSC_INCL_DIR = -I$(PETSC_DIR)/include -I$(PETSC_DIR)/bmake/$(PETSC_ARCH) -I$(PETSC_DIR)/include/mpiuni
+TAO_INCL_DIR = -I$(TAO_DIR) -I$(TAO_DIR)/include
+
+LIBS = -lmatlb -lmex -lmmfile -lmwhg -lmwservices -lmwsglm -lmwsgl -lmx -lut
+LDLIBS = -Wl $(MATLAB_LIB_DIR) $(LIBS)
+
+CXX = g++
+LDFLAGS = -g -O
+CFLAGS = -g -O
+
+
+include $(TAO_DIR)/bmake/tao_common
+
+
+myall: loo.o common.o tao_chkopts
+	-$(CLINKER) -O3 -o loo loo.o common.o $(LDLIBS) $(TAO_LIB) $(PETSC_SNES_LIB)
+
+loo.o: loo.cpp common.h common.cpp
+	$(CXX) -c -Wall $(PETSC_INCL_DIR) $(TAO_INCL_DIR) $(MATLAB_INCL_DIR) $(CFLAGS) -D__SDIR__="" loo.cpp
+	
+common.o: common.h common.cpp
+	$(CXX) -c -Wall -g3 $(PETSC_INCL_DIR) $(TAO_DIR) $(CFLAGS) -D__SDIR__="" common.cpp
+	
+.PHONY: clean	
+myclean:
+	rm -f *.o loo
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

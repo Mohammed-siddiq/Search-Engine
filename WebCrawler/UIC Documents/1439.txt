@@ -1,0 +1,3 @@
+URL : http://lug.cs.uic.edu
+      LUG@UIC          HOME  ABOUT  EVENTS  CONTACT US   LINKS   ACM  DEPT OF CS  UIC WiFi in Linux  LUG Wiki           LUG  For individuals interested in Linux, Unix, and byproducts.  Listserv Sign up?         WELCOME!  This is the home page for LUG at UIC. LUG stands for Linux Users Group, this means that we focus on learning all things 
+					related to Linux. Linux is an open source operating system that uses the Linux kernel. Because of its open nature Linux and the Linux kernel can be modified to suit a particular purpose. Thanks to this you can find Linux in many places such as your phone, a car, and even the United States Postal Service use Linux. Want to know more? Signup for the Listserv or come to a meeting.                   

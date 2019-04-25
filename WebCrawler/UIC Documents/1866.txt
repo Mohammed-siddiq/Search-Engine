@@ -1,0 +1,19 @@
+URL : https://www.cs.uic.edu/~zhangx/GCG/
+  Generalized Conditional Gradient (GCG)     Overview  GCG is an open source Matlab solver for gauge (norm)
+regularized problems, that are commonly used in sparse coding and
+compressive sensing.  Examples include matrix completion,
+dictionary learning, and structured sparse estimation. The code includes the implementations used for all experiments in [1]. Download Latest: GCG version 2.0  Old stuff: GCG version 1.0  This version 1.0 implements the boosting algorithm in [2].
+Note the loss
+function for matrix completion needs to be customized in order to
+efficiently compute f(U V') where U and V have a small number of
+columns.  We provide a helper function here .   Disclaimer GCG is licensed under Mozilla
+Public License version 1.1 . The authors are not responsible
+for any implications from the use of the software.   Contacts   Xinhua
+Zhang | Yaoliang Yu | Dale
+Schuurmans   References     [1]    Yaoliang
+Yu , Xinhua Zhang , Dale
+Schuurmans   Generalized Conditional Gradient for Sparse Estimation  Journal of Machine Learning Research (JMLR)  Under review, 2014.  [ PDF ]       [2]    Xinhua Zhang , Yaoliang
+Yu , Dale
+Schuurmans  Accelerated
+Training for Matrix-norm Regularization: A Boosting Approach  Advances
+in Neural Information Processing Systems (NIPS), 2012.  [ PDF ]             

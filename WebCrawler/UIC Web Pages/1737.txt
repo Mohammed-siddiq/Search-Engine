@@ -1,0 +1,1392 @@
+<!DOCTYPE html><html lang="en"><head><title>University of Illinois at Chicago</title><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#009BC1"><meta name="google-site-verification" content="x4bg-s_z2XTL2GQjjZyktPBd3ibAzFZfRQb2eUHRaVc"><style>body{ font-family: Theinhardt, Arial, sans-serif; }
+.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
+.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
+.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
+.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
+.ms-grid.full{ max-width: none; padding-left: 0px; padding-right: 0px; width: 100%; overflow-x: hidden; }
+ .ms-grid.zero-margin .ms-row > [class*="col-"]{ padding-left: 0px; padding-right: 0px; }
+.ms-grid.zero-margin .ms-row{ margin-left: 0px; margin-right: 0px; }
+.ms-grid .ms-row{ -webkit-align-items: stretch; display: -webkit-flex; -webkit-flex-wrap: wrap; margin-left: -1vw; margin-right: -1vw; }
+.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
+[class*="col-"]{ float: left; width: 100%; position: relative; margin: 0px; padding-left: 1vw; padding-right: 1vw; }
+@media screen and (min-width: 540px){
+.ms-grid{ padding-left: 24px; padding-right: 24px; }
+}
+@media screen and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media screen and (min-width: 2000px){
+.ms-grid .ms-row{ margin-left: -0.5vw; margin-right: -0.5vw; }
+.ms-grid .ms-row > [class*="col-"]{ padding-left: 0.5vw; padding-right: 0.5vw; }
+}
+@media screen and (min-width: 320px){
+.xs-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 768px){
+.m-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 768px){
+.m-col-1-3{ width: 33.3333333333%; }
+}
+@media screen and (min-width: 768px){
+.m-col-2-push-1{ left: 50%; right: auto; }
+.m-col-2-pull-1{ right: 50%; left: auto; }
+}
+*{ border: 0px; box-sizing: border-box; margin: 0px; padding: 0px; }
+img{ vertical-align: bottom; }
+#home-page-title{ position: absolute; left: -999vw; }
+.ms-grid{ max-width: 1080px; }
+@media (max-width: 767px){
+.ms-grid{ padding-left: 20px; padding-right: 20px; overflow: hidden; }
+}
+@media (max-width: 1084px) and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media (min-width: 1140px){
+.ms-grid{ padding-left: 0px; padding-right: 0px; }
+}
+.ms-grid.extra-wide-grid{ max-width: 1400px; }
+.promo-header{ color: rgb(54, 54, 54); font-size: 60px; font-weight: 900; line-height: 1; }
+body{ background-color: rgb(248, 248, 248); }
+.calls-to-action{ background-color: rgb(255, 255, 255); font-size: 16px; line-height: 20px; }
+.calls-to-action .call-to-action-row{ list-style: none; }
+.calls-to-action .calls-to-action-row-container{ margin: 0px auto; max-width: 1400px; padding: 0px; }
+@media (min-width: 1140px){
+.calls-to-action .calls-to-action-row-container{ padding: 0px; }
+}
+.calls-to-action .calls-to-action-group-container{ float: left; padding: 0px 0px 0px 20px; position: relative; width: 100%; }
+@media (min-width: 768px){
+.calls-to-action .calls-to-action-group-container{ width: 50%; }
+}
+.calls-to-action .calls-to-action-group-container [class*="col-"]{ padding-left: 0px; padding-right: 0px; }
+.calls-to-action .calls-to-action-group-container-again{ list-style: none; }
+@media (min-width: 768px){
+.calls-to-action .calls-to-action-group-container-again{ width: 100%; }
+}
+@media (min-width: 1140px){
+.calls-to-action .calls-to-action-group-container-again{ position: absolute; right: 0px; width: 540px; }
+}
+.calls-to-action .calls-to-action-reminder-container{ float: right; padding: 0px 20px; width: 100%; }
+@media (min-width: 768px){
+.calls-to-action .calls-to-action-reminder-container{ width: 50%; }
+}
+@media (max-width: 1400px) and (min-width: 768px){
+.calls-to-action .calls-to-action-reminder-container{ padding: 0px 30px; }
+}
+.calls-to-action .call-to-action{ display: -webkit-flex; -webkit-align-items: center; color: rgb(0, 127, 165); font-weight: 700; height: 80px; padding: 0px 10px 0px 0px; position: relative; text-decoration: none; }
+@media (min-width: 768px){
+.calls-to-action .call-to-action{ height: 80px; }
+}
+.calls-to-action .call-to-action .call-to-action-icon-container{ height: 30px; width: 30px; }
+.calls-to-action .call-to-action .call-to-action-icon-container::before{ border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; }
+.calls-to-action .call-to-action svg{ fill: #007fa5; position: relative; z-index: 1; }
+.calls-to-action .call-to-action .call-to-action-label{ margin-left: 10px; }
+.calls-to-action .reminders-container{ display: -webkit-flex; -webkit-align-items: center; font-weight: 700; height: 80px; }
+@media (min-width: 768px){
+.calls-to-action .reminders-container{ -webkit-flex-direction: row-reverse; }
+}
+@media (min-width: 1140px){
+.calls-to-action .reminders-container{ width: 540px; }
+}
+.calls-to-action .reminders-icon-container{ display: block; height: 30px; margin-right: 10px; width: 30px; }
+.calls-to-action .reminders-icon-container::before{ border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; border-color: rgb(213, 0, 50); }
+.calls-to-action .reminders{ fill: #d50032; height: 30px; width: 30px; }
+.calls-to-action .reminders-anchor{ color: rgb(213, 0, 50); display: -webkit-flex; line-height: 30px; position: relative; text-decoration: none; }
+@media (min-width: 768px){
+.calls-to-action .reminders-anchor{ float: right; padding-left: 10px; padding-right: 22px; }
+}
+.calls-to-action .anchor-point{ fill: #d50032; height: 8px; width: 12px; }
+@media (min-width: 768px){
+.calls-to-action .anchor-point{ position: absolute; right: 0px; top: 11px; }
+}
+.call-to-action-icon-container{ position: relative; }
+.call-to-action-icon-container::before{ -webkit-animation: 1s; border: 3px solid rgb(0, 127, 165); content: ''; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.reminders-icon-container{ position: relative; }
+.reminders-icon-container::before{ -webkit-animation: 1s; border: 3px solid rgb(0, 127, 165); content: ''; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
+.header-menu-bar{ position: relative; }
+.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
+}
+@media (min-width: 1084px){
+.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-color: rgb(0, 127, 165); }
+.header-content{ margin: 0px auto; max-width: 1400px; position: relative; }
+.header-background-image-container{ bottom: 0px; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; }
+.header-background-image{ background-size: cover; bottom: -5px; -webkit-filter: blur(5px); left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
+.hero-image-container{ overflow: hidden; }
+.hero-image{ display: block; left: 50%; margin: 0px auto; position: relative; -webkit-transform: translateX(-50%); width: auto; height: 250px; }
+@media (min-width: 768px){
+.hero-image{ height: 600px; }
+}
+@media (max-width: 768px) and (min-width: 540px){
+.hero-image{ height: 600px; }
+}
+@media (min-width: 1084px){
+.hero-image{ max-height: none; }
+}
+.homepage-header-navigation .navigation-primary .circle-logo-container{ opacity: 0; }
+.key-message-block .promo-header{ font-size: 54px; line-height: 96%; margin-bottom: 14px; }
+@media (max-width: 1084px) and (min-width: 768px){
+.key-message-block .promo-header{ font-size: 48px; }
+}
+@media (max-width: 768px){
+.key-message-block .promo-header{ font-size: 36px; }
+}
+.key-message-block .message-cell{ padding: 20px 20px 40px; }
+@media (min-width: 768px){
+.key-message-block .message-cell{ max-height: 440px; padding: 14px 30px; }
+}
+@media (min-width: 1084px){
+.key-message-block .message-cell{ padding-top: 65px; padding-bottom: 50px; width: 540px; }
+}
+@media (min-width: 768px){
+.key-message-block .message-on-left{ display: -webkit-flex; -webkit-align-items: center; }
+}
+.key-message-block .message-on-left{ -webkit-justify-content: flex-end; }
+@media (min-width: 1140px){
+.key-message-block .message-on-left .message-cell{ float: right; padding-right: 50px; padding-left: 0px; }
+}
+.key-message-block .image{ background-color: transparent; background-size: cover; height: 224px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
+@media (max-width: 768px) and (min-width: 540px){
+.key-message-block .image{ height: 378px; }
+}
+@media (min-width: 768px){
+.key-message-block .image{ height: 440px; }
+}
+.link-block-group .link-block-anchor { margin-top: 40px; }
+@media (min-width: 540px){
+.link-block-group .link-block-anchor { max-width: 50%; }
+}
+.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
+.link-block { padding-top: 1px; position: relative; }
+.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; transition: all 0.4s; -webkit-transition: all 0.4s; width: 100%; }
+.link-block .subhead { margin: 15px 0px 4px; padding-right: 20px; position: relative; }
+.link-block .subhead .arrow { fill: #001e62; height: 10px; transition: all 0.3s cubic-bezier(0.7, 0.3, 0.75, 1.4); -webkit-transition: all 0.3s cubic-bezier(0.7, 0.3, 0.75, 1.4); position: absolute; right: 5px; top: calc(0.5em - 5px); width: 10px; }
+.link-block-anchor:hover, .link-block-anchor:focus { outline: none; }
+.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
+.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
+.navigation-eyebrow{ height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.navigation-eyebrow .navigation-eyebrow-inner{ margin: 0px auto; max-width: 1080px; position: relative; }
+.navigation-eyebrow .eyebrow-list{ display: -webkit-flex; color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; -webkit-justify-content: space-between; list-style: none inside; margin: 0px auto; padding: 0px 20px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list{ padding: 0px 0px 0px 25%; }
+}
+.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
+}
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; width: 100%; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button{ -webkit-align-self: center; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; width: 100%; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
+.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline: none; }
+.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
+.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
+}
+.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; transition: background-color 0.4s; -webkit-transition: background-color 0.4s; width: 40px; }
+.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin: 10px; transition: fill 0.4s; -webkit-transition: fill 0.4s; width: 20px; }
+.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); transition: all 0.4s; -webkit-transition: all 0.4s; width: 278px; z-index: 3; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
+}
+.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
+.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding: 0px 12px; font-size: 18px; width: 100%; }
+.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; clip: rect(1px 1px 1px 1px); position: absolute !important; }
+.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
+@media (min-width: 1084px){
+.navigation-primary{ pointer-events: auto; position: relative; }
+}
+.navigation-primary .navigation-primary-inner{ margin: 0px auto; max-width: 1080px; position: relative; min-height: 40px; }
+.navigation-primary .primary-nav-list{ display: -webkit-flex; -webkit-flex-wrap: wrap; -webkit-justify-content: space-between; line-height: 1; list-style: none inside; overflow: hidden; padding: 0px; position: absolute; right: 0px; transition: all 0.4s; -webkit-transition: all 0.4s; top: 0px; width: 260px; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list{ -webkit-flex-wrap: nowrap; left: 0px; margin: 0px auto; overflow: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; transition: 0s; -webkit-transition: 0s; top: 0px; width: auto; }
+}
+.navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
+}
+.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
+.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style: none inside; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding: 10px; }
+.navigation-primary .primary-nav-list .expander{ display: none; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ padding: 0px; position: relative; width: auto; }
+.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
+.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline: none; padding: 22px 0px; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow: hidden; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; transition: opacity 0.4s; -webkit-transition: opacity 0.4s; width: 260px; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
+.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding: 10px 20px; }
+.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); transition: all 0.33s; -webkit-transition: all 0.33s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ transition: 0s; -webkit-transition: 0s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ transition: 0.08s; -webkit-transition: 0.08s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ transition: 0.16s; -webkit-transition: 0.16s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ transition: 0.24s; -webkit-transition: 0.24s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ transition: 0.32s; -webkit-transition: 0.32s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ transition: 0.4s; -webkit-transition: 0.4s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ transition: 0.48s; -webkit-transition: 0.48s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ transition: 0.56s; -webkit-transition: 0.56s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ transition: 0.64s; -webkit-transition: 0.64s; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ transition: 0.72s; -webkit-transition: 0.72s; }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list{ pointer-events: none; }
+}
+.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); transition: all 0.33s; -webkit-transition: all 0.33s; width: 100%; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
+}
+.navigation-primary .primary-nav-list .menu-label{ opacity: 0; transition: opacity 0.45s 0.45s; -webkit-transition: opacity 0.45s 0.45s; }
+.navigation-primary .primary-nav-list .menu-toggle{ background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; left: -999vw; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; transition: all 300ms ease-out; -webkit-transition: all 300ms ease-out; width: 24px; left: 0px; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-color: rgb(255, 255, 255); transition: all 300ms ease-out; -webkit-transition: all 300ms ease-out; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
+@media (min-width: 1083px){
+.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
+}
+.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
+@media (max-width: 1120px) and (min-width: 1080px){
+.navigation-primary .circle-logo-container{ left: 20px; }
+}
+.navigation-primary .circle-logo-container span{ -webkit-appearance: none; clip: rect(1px 1px 1px 1px); position: absolute !important; }
+@media (max-width: 1084px){
+.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
+}
+.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; transition: all 0.5s; -webkit-transition: all 0.5s; }
+.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline: none; }
+.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
+.homepage-header-content .large-brand-mark-link{ display: block; left: 0px; max-width: 100%; padding: 0px; position: absolute; top: 0px; z-index: 1; height: 250px; }
+@media (min-width: 768px){
+.homepage-header-content .large-brand-mark-link{ height: 600px; }
+}
+@media (max-width: 768px) and (min-width: 540px){
+.homepage-header-content .large-brand-mark-link{ height: 600px; }
+}
+@media (min-width: 1084px){
+.homepage-header-content .large-brand-mark-link{ max-height: none; }
+}
+@media (min-width: 1084px){
+.homepage-header-content .large-brand-mark-link{ height: 320px; padding: 0px; top: -40px; width: 234px; }
+}
+@media (min-width: 1400px){
+.homepage-header-content .large-brand-mark-link{ left: 160px; }
+}
+.homepage-header-content .large-brand-mark-link span{ -webkit-appearance: none; clip: rect(1px 1px 1px 1px); color: rgb(255, 255, 255); position: absolute !important; }
+.homepage-header-content .large-brand-mark-link .large-brand-mark{ fill: #ffffff; height: calc(100% - 40px); max-width: 100%; margin: 20px; }
+@media (min-width: 1084px){
+.homepage-header-content .large-brand-mark-link .large-brand-mark{ height: auto; margin: 0px; }
+}/* Styles appended to the end of every critical path css stylesheet */
+.navigation-primary .primary-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navigation-eyebrow .eyebrow-list {
+    display: flex;
+    justify-content: space-between;
+}
+.calls-to-action .call-to-action {
+    align-items: center;
+    display: flex;
+}
+.calls-to-action .reminders-container {
+    display: flex;
+}
+.calls-to-action .reminders-anchor {
+    display: flex;
+}</style></head><body><header class="header  header--blue" role="banner">
+    <div class="header-background-image-container">
+        <div class="header-background-image" aria-hidden="true" style="background-image: url(/_assets/fb905369536efe058d3e644babb57125.jpg)"></div>
+    </div>
+        <div class="header-menu-bar homepage-header-navigation">
+        <nav class="navigation-eyebrow" role="navigation" aria-label="Eyebrow navigation">
+    <div class="navigation-eyebrow-inner">
+        <ul class="eyebrow-list">
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://oge.uic.edu/">International</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="https://today.uic.edu/resources/current-students">Current Students</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="https://today.uic.edu/resources/faculty-staff">Faculty and Staff</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="https://give.uic.edu/">+ Give</a></li>
+                            <li class="eyebrow-list-item search-button-item">
+                    <button class="search-button" type="button">
+                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-label="Expand search box"><title>Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>
+                    </button>
+                </li>
+        </ul>
+        <div class="search-input-container">
+            <form method="get" action="/search" role="search">
+                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
+                <input type="submit" class="submit-button" name="search" value="Submit">
+            </form>
+        </div>
+    </div>
+</nav>
+        <nav class="navigation-primary" role="navigation" aria-label="Primary navigation">
+    <div class="navigation-primary-inner">
+                <div class="circle-logo-container">
+            <a href="/">
+                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
+<span>University of Illinois at Chicago</span>            </a>
+        </div>
+                            <ul class="primary-nav-list">
+    <li><button class="menu-toggle" type="button" role="button" tabindex="-1">
+        <span class="menu-toggle-icon"></span>
+        <span>Expand menu</span>
+    </button></li>
+    <li class="menu-label-item"><span class="menu-label">Menu</span></li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/admissions-aid">Admissions &#038; Aid</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/academics">Academics</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &#038; Schools</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/research">Research</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &#038; Facilities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &#038; Around Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/chicago">Chicago</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/alumni">Alumni</a>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/about">About</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &#038; Directions</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &#038; Media Resources</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
+                                    </ul>
+                    </li>
+    </ul>
+            </div>
+</nav>    </div>
+    <div class="header-content homepage-header-content ">
+                    <a href="/" class="large-brand-mark-link"><svg class="large-brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234 320.6"><path d="M229.1 289.7l-4.6 2.2c-.4-1.7-1.4-2.7-3.1-2.7-2.3 0-3.4 1.9-3.4 5s1.1 4.9 3.4 4.9c1.6 0 2.5-.8 3-2.2l4.8 1.7c-1.3 2.8-3.8 4.8-7.8 4.8-5.6 0-8.8-3.8-8.8-9.2 0-5.5 3.4-9.2 8.9-9.2 4.2 0 6.7 2.4 7.6 4.7m-19.2 13.4h-5.3v-17.8h5.3v17.8zm-8.5-7.3c0 2.5-.3 3.7-1 4.9-1.2 2-4.3 2.7-7.1 2.7-2.7 0-5.9-.8-7.1-2.7-.7-1.2-1-2.4-1-4.9v-10.5h5.3v10.6c0 1.2.2 2 .6 2.5.4.5 1.1.7 2.1.7s1.7-.2 2.1-.7c.4-.5.6-1.3.6-2.5v-10.6h5.3v10.5zm32.5-2.5c0-15-12.2-27.2-27.2-27.2s-27.2 12.2-27.2 27.2 12.2 27.2 27.2 27.2c15 .1 27.2-12.1 27.2-27.2M150 137.8c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5 0 3.1-2.4 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7S142.6 145 150 145m0 27.7c7.8 0 12.2-4.4 12.2-10.4 0-2.8-.9-4.7-2-6h1.6v-6.1H148v11.4h5.4v-5.2c2 .2 3.5 1.6 3.5 4.3 0 3.5-2.7 4.9-6.9 4.9-4.1 0-6.6-1.6-6.6-4.7 0-2.3 1.3-3.7 3.7-4.3l-2.9-5.9c-3.1 1.2-6.3 4.5-6.3 10.1-.1 7.3 4.9 11.9 12.1 11.9m2.2 12.5v3.9l-4.8-1.4c-.9-.2-1.8-.4-2.3-.6l2.3-.6 4.8-1.3zm5.6 5.5v-7.1l3.9-1.2V175l-23.5 7.8v8.4l23.5 7.9v-7.3l-3.9-1.1zm-4.3 16.6c1.8.7 2.9 1.9 2.9 3.9 0 3-2.4 4.5-6.5 4.5s-6.6-1.5-6.6-4.5c0-2.2 1.3-3.5 3.6-4.1L144 201c-3.1 1.2-6.3 4.5-6.3 10.1 0 7.3 4.9 11.8 12.2 11.8 7.2 0 12.2-4.3 12.2-11.7 0-5.4-2.6-8.7-6.4-10.4l-2.2 6.5zm-15.2 27.6h23.5v-7.1h-23.5v7.1zm14.5 13.7h9v-7.1h-23.5v7.1h8.4v6.8h-8.4v7.1h23.5v-7.1h-9v-6.8zm.7 24.1c1.8.7 2.9 1.9 2.9 3.9 0 3-2.4 4.5-6.5 4.5s-6.6-1.5-6.6-4.5c0-2.2 1.3-3.5 3.6-4.1l-2.9-6.1c-3.1 1.2-6.3 4.5-6.3 10.1 0 7.3 4.9 11.8 12.2 11.8 7.2 0 12.2-4.3 12.2-11.7 0-5.4-2.6-8.7-6.4-10.4l-2.2 6.5zm-44.1-11.3v-5.9h17.8v-7.1h-17.8v-5.9h-5.7v18.9h5.7zm8.2 11.7v3.9l-4.8-1.4c-.9-.2-1.8-.4-2.3-.6l2.3-.6 4.8-1.3zm5.7 5.5v-7.1l3.9-1.2v-7.4l-23.5 7.8v8.4l23.5 7.9v-7.3l-3.9-1.1zM72.7 124.8c-1.5 1.2-4 4.7-4 10.3 0 5.8 3 9.7 7.4 9.7 4.7 0 6.7-3.6 7.5-8l.6-3.1c.3-1.8.5-2.9 1.7-2.9s1.9 1.3 1.9 3.6c0 2.8-1.3 5.4-3.5 7.2l3.8 4.3c1.9-1.3 5-5.2 5-11.4 0-6-2.4-10.4-7.8-10.4-4.4 0-6.2 2.9-7.1 7.5l-.7 3.5c-.3 1.9-.8 2.8-1.9 2.8-1.1 0-1.7-1.2-1.7-2.9 0-2.3 1-4.6 2.6-6.3l-3.8-3.9zm-3.6 32.9h23.5v-7.1H69.1v7.1zm11.8 21.9c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5-.1 3.1-2.5 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7s4.8 11.7 12.2 11.7m-11.8 19.8v6.8h23.5v-7.1H87c-3.8 0-6.7.2-6.7.2s2.5-1.4 4.9-3l7.5-4.6v-6.8H69.1v7.1h5.4c3.5 0 6.4-.1 6.4-.1s-1.7 1-5 3.2l-6.8 4.3zm0 20.9h23.5v-7.1H69.1v7.1zm0 21.6h23.5v-16.4h-5.7v9.3H69.1v7.1zm0 21.7h23.5v-16.4h-5.7v9.3H69.1v7.1zm0 14.1h23.5v-7.1H69.1v7.1zM40.2 0h-5.6v17.8h23.5v-7.1h-8.9V1h-5.7v9.8h-3.3V0zm6.1 39.4c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5 0 3.1-2.4 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7S39 46.6 46.3 46.6m3 18.8l-14.8-8.2v7.5l8.1 4-8.1 3.9v7.6l14.8-7.7H58v-7.1h-8.7zM40.2 102v-5.9H58V89H40.2v-5.9h-5.7V102h5.7zm-5.6 11.9h23.5v-7.1H34.6v7.1zm3.6 5.8c-1.5 1.2-4 4.7-4 10.3 0 5.8 3 9.7 7.4 9.7 4.7 0 6.7-3.6 7.5-8l.6-3.1c.3-1.8.5-2.9 1.7-2.9s1.9 1.3 1.9 3.6c0 2.8-1.3 5.4-3.5 7.2l3.8 4.3c1.9-1.3 5-5.2 5-11.4 0-6-2.4-10.4-7.8-10.4-4.4 0-6.2 2.9-7.1 7.5L43 130c-.3 1.9-.8 2.8-1.9 2.8s-1.7-1.2-1.7-2.9c0-2.3 1-4.6 2.6-6.3l-3.8-3.9zm1.7 38.6v-3.5c0-.9.1-1.6.4-2 .4-.6 1-.9 1.9-.9.9 0 1.5.3 1.9.9.3.4.4 1.1.4 2v3.5h-4.6zm18.2-6.8V144l-9 5.3c-.1-.3-.3-.7-.5-1-1.4-2.2-3.2-3.3-6.3-3.3-3.5 0-5.9 1.8-6.9 4.5-.5 1.3-.8 3-.8 5.6v10.2h23.5v-7.1h-8.2V156l8.2-4.5zm-17.9 20.6h-5.6v18h23.5v-18.7h-5.7v11.7h-3.5V173h-5.6v10.1h-3.1v-11zm6.7 33.3c1.7.4 3.5.8 3.5.8s-1.8.4-3.5.8l-12.3 3.3v7.4l23.5-7v-9l-23.5-7.1v7.5l12.3 3.3zM34.6 229h23.5v-7H34.6v7zm0 21.6v6.8h23.5v-7.1h-5.7c-3.8 0-6.7.2-6.7.2s2.5-1.4 4.9-3l7.5-4.6v-6.8H34.6v7.1H40c3.5 0 6.4-.1 6.4-.1s-1.7 1-5 3.2l-6.8 4.3zm23.9 23.9c0-3.6-1-7.8-3.6-9.3-1.6-.9-3.2-1.3-6.5-1.3H34.6v7.1h14c1.6 0 2.6.2 3.3.8.7.6 1 1.5 1 2.8 0 1.3-.3 2.2-1 2.8-.7.6-1.7.8-3.3.8h-14v7.1h13.9c3.3 0 4.9-.3 6.5-1.3 2.5-1.7 3.5-5.9 3.5-9.5M0 269.7v18.9h5.7v-5.9h17.8v-7.1H5.7v-5.9H0zm0-25.8v7.1h8.4v6.8H0v7h23.5v-7h-9V251h9v-7.1H0zm17.8-25.7v11.7h-3.5v-10.1H8.8v10.1H5.6v-11.1H0v18h23.5v-18.7h-5.7z"/></svg><span>The University of Illinois at Chicago</span></a>    <div class="hero-image-container">
+        <img class="hero-image" src="/_assets/fb905369536efe058d3e644babb57125.jpg" alt="Hero Image">
+    </div>
+            </div>
+</header>
+<main>
+
+    <h1 id="home-page-title">The University of Illinois at Chicago</h1>
+
+    <div class="ms-grid zero-margin full">
+                    <aside class="calls-to-action" role="complementary" aria-label="Calls to Action">
+    <div class="calls-to-action-row-container">
+        <div class="ms-row call-to-action-row">
+            <div class="calls-to-action-group-container">
+                <ul class="calls-to-action-group-container-again">
+                                    <li class="xs-col-1-2 m-col-1-3">
+                        <a class="call-to-action" href="http://admissions.uic.edu/book-visit?utm_source=uic.edu&amp;utm_medium=website&amp;utm_campaign=general-2018&amp;utm_content=cta_button">
+                            <div class="call-to-action-icon-container" aria-hidden="true">
+                                    <svg class="book-a-visit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="14.1" r="5.6"/><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm7.9 20.2L20.8 34c-.2.3-.5.5-.8.5-.3 0-.6-.2-.8-.5l-7.1-13.8c-.9-1.5-1.4-3.2-1.4-5 0-5.1 4.2-9.3 9.3-9.3s9.3 4.2 9.3 9.3c0 1.8-.5 3.5-1.4 5z"/></svg>                            </div>
+                            <div class="call-to-action-label">Book a Visit</div>
+                        </a>
+                    </li>
+                                    <li class="xs-col-1-2 m-col-1-3">
+                        <a class="call-to-action" href="http://admissions.uic.edu/undergraduate/request-information?utm_source=uic.edu&amp;utm_medium=website&amp;utm_campaign=general-2017&amp;utm_content=cta_button">
+                            <div class="call-to-action-icon-container" aria-hidden="true">
+                                    <svg class="request-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M13.9 12.6h12.2v2H13.9zM13.9 21.1h12.2v2H13.9zM13.9 16.9h12.2v2H13.9zM13.9 25.4h12.2v2H13.9z"/><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm9.6 31.9H10.5V8.1h19.1v23.8z"/></svg>                            </div>
+                            <div class="call-to-action-label">Request info</div>
+                        </a>
+                    </li>
+                                    <li class="xs-col-1-2 m-col-1-3">
+                        <a class="call-to-action" href="http://admissions.uic.edu/apply-now?utm_source=uic.edu&amp;utm_medium=website&amp;utm_campaign=general-2017&amp;utm_content=cta_button">
+                            <div class="call-to-action-icon-container" aria-hidden="true">
+                                    <svg class="apply-now" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm-4.4 31.1l-9.8-9.8 3.9-3.9 5.9 5.9L29.1 9.9l3.9 3.9-17.4 17.3z"/></svg>                            </div>
+                            <div class="call-to-action-label">Apply now</div>
+                        </a>
+                    </li>
+                                </ul>
+            </div>
+            <div class="calls-to-action-reminder-container ">
+                <div class="reminders-container">
+        <a class="reminders-anchor scroll-to" href="#campus-reminders">
+        <span class="reminders-icon-container" aria-hidden="true"><svg class="reminders" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm10.7 26.1L21 27l2-2.5-10 1v6.2c0 .6-.5 1.1-1.1 1.1s-1.1-.5-1.1-1.1V11.1c-.6-.4-1-1-1-1.8 0-1.2.9-2.1 2.1-2.1s2.1.9 2.1 2.1c0 .7-.4 1.4-1 1.8v.5l10-1v1.6l7.6-.7.1 14.6z"/></svg></span>
+        <span>Reminders <svg class="anchor-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8"><path d="M6 8L.4 2.2C-.1 1.7-.1.9.4.4s1.3-.5 1.8 0l3.9 4 3.9-4c.5-.5 1.3-.5 1.8 0s.5 1.3 0 1.8L6 8z"/></svg></span>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+</aside>
+            </div>
+
+    <div class="ms-grid zero-margin extra-wide-grid full">
+                    <div class="key-message-block">
+            <div class="ms-row">
+            <div class="m-col-1-2 m-col-2-push-1" aria-hidden="true">
+                <div class="image" style="background-image: url(/_assets/57e52fc55444b2040df816b2ea60b397.jpg)"></div>
+            </div>
+            <div class="m-col-1-2 m-col-2-pull-1 message-on-left">
+                <div class="message-cell">
+                    <h2 class="promo-header">Chicago&#039;s Public Research University</h2>
+                    <div class="text">
+                        <p class="p1">Located in the heart of one of the world’s great cities, the University of Illinois at Chicago is a vital part of the educational, technological and cultural fabric of the region. As Chicago’s only public research university with 30,000 students, 15 colleges, a hospital and a health sciences system, UIC provides you access to excellence and opportunity.</p>
+
+                    </div>
+                    <ul class="message-button-list">
+                                                                            
+                                                    <li class="message-button-list-item"><a class="red-button" href="/academics" role="button">Academic programs</a></li>
+                                                    <li class="message-button-list-item"><a class="red-button" href="/research" role="button">More about research</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+            <div class="ms-row">
+            <div class="m-col-1-2 " aria-hidden="true">
+                <div class="image" style="background-image: url(/_assets/d6b3106910d4205885cf374255314adf.jpg)"></div>
+            </div>
+            <div class="m-col-1-2 message-on-right">
+                <div class="message-cell">
+                    <h2 class="promo-header">Value Diversity</h2>
+                    <div class="text">
+                        <p>UIC is proud to be recognized as having one of the most ethnically and culturally rich college campuses in America. Our welcoming environment and diverse student body engender deeper learning and provide new perspectives on life. Come experience the strength of multiple voices, races, cultures, beliefs, identities, orientations and points of view.</p>
+
+                    </div>
+                    <ul class="message-button-list">
+                                                                            
+                                                    <li class="message-button-list-item"><a class="blue-button" href="/life-at-uic" role="button">Life on campus</a></li>
+                                                    <li class="message-button-list-item"><a class="blue-button" href="/chicago" role="button">Experience Chicago</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+            <div class="ms-row">
+            <div class="m-col-1-2 m-col-2-push-1" aria-hidden="true">
+                <div class="image" style="background-image: url(/_assets/4c6a783ba6f5ba46c96776c4f2e5c053.jpg)"></div>
+            </div>
+            <div class="m-col-1-2 m-col-2-pull-1 message-on-left">
+                <div class="message-cell">
+                    <h2 class="promo-header">Serve Others</h2>
+                    <div class="text">
+                        <p>All human advancement begins with an idea. Ideas change the world. And at UIC, ideas abound! Come join us. Come share your ideas.</p>
+
+                    </div>
+                    <ul class="message-button-list">
+                                                                            
+                                                    <li class="message-button-list-item"><a class="green-button" href="http://economicimpact.uic.edu/" role="button">Our impact</a></li>
+                                                    <li class="message-button-list-item"><a class="green-button" href="http://sldvs.uic.edu/" role="button">Your impact</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>                <div class="super-gap-bottom">
+                            <section class="campus-grid" role="region" aria-label="Campus Grid">
+    <div class="ms-row">
+        <div class="m-col-1-2">
+                        <div class="campus-grid-slogan-cell campus-grid-double-height" >
+                <a href="http://ignite.uic.edu">
+                    <h1 class="campus-grid-slogan">
+                                                    <span class="block">IGNITE</span>
+                                                    <span class="block">The</span>
+                                                    <span class="block">Campaign </span>
+                                                    <span class="block">for UIC</span>
+                                            </h1>
+                    <div class="campus-grid-sub-slogan">
+                        We are <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
+<span>University of Illinois at Chicago</span>                    </div>
+                </a>
+            </div>
+                    </div>
+        <div class="m-col-1-2">
+            <div class="ms-row">
+                <div class="s-col-1-2">
+                    <div class="campus-grid-single-height campus-grid-text-container athletics">
+                        <a href="https://uicflames.com/news/2018/11/10/mens-soccer-champions-again-flames-top-wright-state-for-horizon-league-title.aspx?path=msoc">
+                            <div class="ie-width-fix">
+                                Champions again! Flames top Wright State for Horizon League title
+                                <svg class="arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/></svg>                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s-col-1-2">
+                    <div class="campus-grid-single-height">
+                        <a class="campus-grid-image-link" href="https://uicflames.com/news/2018/11/10/mens-soccer-champions-again-flames-top-wright-state-for-horizon-league-title.aspx?path=msoc">
+                            <img class="object-fit-cover" src="/_assets/430c0072a323f386bf99896f45078b40.jpg" alt="Horizon League Championship_350x220">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-row">
+                <div class="m-col-1-1">
+                    <div class="campus-grid-single-height">
+                        <a class="campus-grid-image-link" href="http://www.uic.edu/life-at-uic">
+                            <img class="object-fit-cover" src="/_assets/462432bc51f9576c8a34db2b93377658.jpg" alt="sparky-cheerleaders_700x220">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ms-row">
+        <div class="s-col-1-2 m-col-1-4">
+            <div class="ms-row">
+                <div class="m-col-1-1">
+                    <div class="campus-grid-single-height campus-grid-text-container chicago">
+                        <a href="https://today.uic.edu/uic-awarded-2-4m-dod-grant-to-assist-illinois-military-dependent-communities">
+                            <div class="ie-width-fix">
+                                UIC awarded $2.4M DOD grant to assist Illinois’ military-dependent communities
+                                <svg class="arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/></svg>                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="m-col-1-1">
+                    <div class="campus-grid-single-height">
+                        <a class="campus-grid-image-link" href="https://today.uic.edu/uic-awarded-2-4m-dod-grant-to-assist-illinois-military-dependent-communities">
+                            <img class="object-fit-cover" src="/_assets/ad2ace39fac6897a6a2d761e94dee603.jpg" alt="gears_350x220">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s-col-1-2 m-col-1-4">
+            <div class="campus-grid-double-height culture">
+                <a class="campus-grid-image-link" href="http://diversity.uic.edu/">
+                    <img class="object-fit-cover" src="/_assets/f3be9a0a024173bcf7f731bf9bc6fa4c.jpg" alt="Inter-faith-UIC-philipines-b">
+                </a>
+            </div>
+        </div>
+        <div class="m-col-2-4">
+            <div class="ms-row">
+                <div class="s-col-1-2 s-col-2-push-1">
+                    <div class="campus-grid-single-height campus-grid-text-container academics">
+                        <a href="https://today.uic.edu/nsf-grant-to-fund-advanced-deep-learning-and-visualization-computing-platform">
+                            <div class="ie-width-fix">
+                                NSF grant to fund advanced deep learning and visualization computing platform
+                                <svg class="arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/></svg>                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s-col-1-2 s-col-2-pull-1">
+                    <div class="campus-grid-single-height">
+                        <a class="campus-grid-image-link" href="https://today.uic.edu/nsf-grant-to-fund-advanced-deep-learning-and-visualization-computing-platform">
+                            <img class="object-fit-cover" src="/_assets/24bb4c6a136542ef22968274792de5b4.jpg" alt="sensei_960x640">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-row">
+                <div class="s-col-1-2">
+                    <div class="campus-grid-single-height campus-grid-text-container miscellaneous">
+                        <a href="https://today.uic.edu/uic-scholar-honored-for-work-serving-the-public-good">
+                            <div class="ie-width-fix">
+                                UIC scholar honored for work serving the ‘public good’
+                                <svg class="arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/></svg>                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s-col-1-2">
+                    <div class="campus-grid-single-height">
+                        <a class="campus-grid-image-link" href="https://today.uic.edu/uic-scholar-honored-for-work-serving-the-public-good">
+                            <img class="object-fit-cover" src="/_assets/541d554b404fe61d84556da9154e9405.jpg" alt="UIC LAS &quot;Meeting of the Minds&quot; panel discussion &quot;1968&quot;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                                        <section class="calls-to-action-with-title" role="region" aria-labelledby="calls-to-action-with-title-header">
+    <h1 id="calls-to-action-with-title-header" class="calls-to-action-with-title-title">Take the Next Step</h1>
+    <div class="calls-to-action-with-title-anchor-container">
+            <a class="calls-to-action-with-title-anchor" href="http://admissions.uic.edu/visit-us">
+            <div class="calls-to-action-with-title-anchor-icon">    <svg class="book-a-visit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="14.1" r="5.6"/><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm7.9 20.2L20.8 34c-.2.3-.5.5-.8.5-.3 0-.6-.2-.8-.5l-7.1-13.8c-.9-1.5-1.4-3.2-1.4-5 0-5.1 4.2-9.3 9.3-9.3s9.3 4.2 9.3 9.3c0 1.8-.5 3.5-1.4 5z"/></svg></div>
+            <span class="calls-to-action-with-title-anchor-label">Book a visit</span>
+        </a>
+            <a class="calls-to-action-with-title-anchor" href="http://admissions.uic.edu/undergraduate/request-information">
+            <div class="calls-to-action-with-title-anchor-icon">    <svg class="request-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M13.9 12.6h12.2v2H13.9zM13.9 21.1h12.2v2H13.9zM13.9 16.9h12.2v2H13.9zM13.9 25.4h12.2v2H13.9z"/><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm9.6 31.9H10.5V8.1h19.1v23.8z"/></svg></div>
+            <span class="calls-to-action-with-title-anchor-label">Request info</span>
+        </a>
+            <a class="calls-to-action-with-title-anchor" href="http://admissions.uic.edu/apply-now">
+            <div class="calls-to-action-with-title-anchor-icon">    <svg class="apply-now" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm-4.4 31.1l-9.8-9.8 3.9-3.9 5.9 5.9L29.1 9.9l3.9 3.9-17.4 17.3z"/></svg></div>
+            <span class="calls-to-action-with-title-anchor-label">Apply now</span>
+        </a>
+            <a class="calls-to-action-with-title-anchor" href="/about/contact-us">
+            <div class="calls-to-action-with-title-anchor-icon">    <svg class="contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="31.4" r="1.3"/><path d="M25.6 8.5H14.4c-.2 0-.4.2-.4.4V29h12V8.9c0-.2-.2-.4-.4-.4z"/><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm8.2 31.1c0 1.4-1.2 2.6-2.6 2.6H14.4c-1.4 0-2.6-1.2-2.6-2.6V8.9c0-1.4 1.2-2.6 2.6-2.6h11.2c1.4 0 2.6 1.2 2.6 2.6v22.2z"/></svg></div>
+            <span class="calls-to-action-with-title-anchor-label">Contact us</span>
+        </a>
+        </div>
+</section>                    </div>
+    </div>
+    <div class="ms-grid">
+                    <div class="super-gap-bottom">
+                <section class="campus-reminders" id="campus-reminders" role="region" aria-label="Campus Reminders">
+    <h1 class="campus-reminders-header"><svg class="reminders" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0zm10.7 26.1L21 27l2-2.5-10 1v6.2c0 .6-.5 1.1-1.1 1.1s-1.1-.5-1.1-1.1V11.1c-.6-.4-1-1-1-1.8 0-1.2.9-2.1 2.1-2.1s2.1.9 2.1 2.1c0 .7-.4 1.4-1 1.8v.5l10-1v1.6l7.6-.7.1 14.6z"/></svg> Campus Reminders</h1>
+    <div class="reminders-flex">
+            </div>
+</section>            </div>
+                            <div class="component">
+                <aside class="home-lists" role="complementary" aria-label="News, Events, and Academic Dates">
+    <div class="ms-row">
+                    <div class="m-col-1-3 news-list">
+                <h1 class="home-list-header">News</h1>
+                <ul class="home-list">
+                                    <li class="home-list-item">
+                        <a class="home-list-item-anchor" href="https://today.uic.edu/uic-launches-hr-management-degree">
+                                                        <h2 class="home-list-title">UIC launches HR management degree</h2>
+                        </a>
+                    </li>
+                                    <li class="home-list-item">
+                        <a class="home-list-item-anchor" href="https://today.uic.edu/uic-and-deerfield-management-launch-west-loop-innovations-to-foster-development-of-new-therapeutics">
+                                                        <h2 class="home-list-title">UIC and Deerfield Management launch West Loop Innovations to foster development of new therapeutics</h2>
+                        </a>
+                    </li>
+                                    <li class="home-list-item">
+                        <a class="home-list-item-anchor" href="https://today.uic.edu/new-institute-aims-to-put-designers-at-the-table-for-health-care-decision-making">
+                                                        <h2 class="home-list-title">New institute aims to put designers at the table for health care decision-making</h2>
+                        </a>
+                    </li>
+                                    <li class="home-list-item">
+                        <a class="home-list-item-anchor" href="https://today.uic.edu/uic-faculty-union-reach-tentative-agreement-2">
+                                                        <h2 class="home-list-title">UIC, faculty union reach tentative agreement</h2>
+                        </a>
+                    </li>
+                                </ul>
+                <a class="button" href="https://today.uic.edu" role="button">More news</a>
+            </div>
+                            <div class="m-col-1-3 events-list">
+                <h1 class="home-list-header">Events</h1>
+                <ul class="home-list">
+                                            <li class="home-list-item">
+                            <a class="home-list-item-anchor" href="https://today.uic.edu/events/uic-project-management-professional-course">
+                                <time class="home-list-date" datetime=2019-04-13>April 13</time>
+                                <h2 class="home-list-title">UIC Project Management Professional Course</h2>
+                                <p class="home-list-blurb">Course provides in-depth instruction to enhance project and team management skills</p>
+                            </a>
+                        </li>
+                                            <li class="home-list-item">
+                            <a class="home-list-item-anchor" href="https://today.uic.edu/events/project-management-professional-course">
+                                <time class="home-list-date" datetime=2019-04-13>April 13</time>
+                                <h2 class="home-list-title">Project Management Professional Course</h2>
+                                <p class="home-list-blurb">Prep course fulfills the education requirements for exams</p>
+                            </a>
+                        </li>
+                                            <li class="home-list-item">
+                            <a class="home-list-item-anchor" href="https://today.uic.edu/events/why-should-i-say-your-name-correctly-community-dialogue-and-embroidery-workshop">
+                                <time class="home-list-date" datetime=2019-04-25>April 25</time>
+                                <h2 class="home-list-title">Why Should I Say Your Name Correctly? Community Dialogue and Embroidery Workshop</h2>
+                                <p class="home-list-blurb">Program sponsored by the UIC Department of Museum and Exhibition Studies</p>
+                            </a>
+                        </li>
+                                    </ul>
+                <a class="button" href="https://today.uic.edu/events" role="button">More events</a>
+            </div>
+                            <div class="m-col-1-3 academic-dates-list">
+                <h1 class="home-list-header">Academic Dates</h1>
+                <ul class="home-list">
+                                            <li class="home-list-item">
+                            <time class="home-list-date" datetime=2019-05-03>May 3</time>
+                            <h2 class="home-list-title">Spring semester 2019 instruction ends</h2>
+                        </li>
+                                            <li class="home-list-item">
+                            <time class="home-list-date" datetime=2019-05-06>May 6&ndash;10</time>
+                            <h2 class="home-list-title">Spring semester final examinations</h2>
+                        </li>
+                                            <li class="home-list-item">
+                            <time class="home-list-date" datetime=2019-05-10>May 10</time>
+                            <h2 class="home-list-title">Last day for Graduate College to receive certificates of approval for master’s and professional doctorate projects for spring term graduation</h2>
+                        </li>
+                                            <li class="home-list-item">
+                            <time class="home-list-date" datetime=2019-05-20>May 20</time>
+                            <h2 class="home-list-title">Summer Session 1 (4-Week Session) Begins</h2>
+                        </li>
+                                    </ul>
+                <a class="button" href="http://catalog.uic.edu/ucat/academic-calendar/#2017-2018" role="button">Academic calendar</a>
+            </div>
+            </div>
+</aside>
+            </div>
+            </div>
+</main>
+
+<footer class="footer" role="contentinfo">
+    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
+                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
+                                        <div class="footer-address">
+                        <div><strong>1200 West Harrison St.</strong></div>
+                        <div>Chicago, Illinois 60607</div>
+                        <div>(312) 996-7000</div>
+                    </div>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
+                    <h2 class="footer-list-title">Tools</h2>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://uic.blackboard.com/">
+        Blackboard
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
+        GoogleApps@UIC
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://my.uic.edu/">
+        my UIC
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
+        My UI Info: Pay
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://outlook.uic.edu">
+        UIC Outlook Online
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://accc.uic.edu/service/uicalendar">
+        UICalendar
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/contact-us">
+        Contact the webmaster
+    </a>
+</li>
+                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
+                    <h2 class="footer-list-title">Resources</h2>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://catalog.uic.edu/ucat/academic-calendar/">
+        Academic Calendar
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://today.uic.edu/resources/current-students">
+        Current Students
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://events.uic.edu">
+        Event Calendar
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://today.uic.edu/resources/faculty-staff">
+        Faculty and Staff
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://maps.uic.edu">
+        Maps
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://today.uic.edu">
+        UIC Today
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/visit-directions">
+        Visit &#038; Directions
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://clery.uic.edu/">
+        Clery Compliance
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
+        Nondiscrimination Policy
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/sexual-misconduct/">
+        Title IX: Sexual Misconduct
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://financialaid.uic.edu/consumer-information/department-education-complaint-process/">
+        Student Information Disclosures
+    </a>
+</li>
+                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
+                    <h2 class="footer-list-title">Quick Links</h2>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uicflames.com/">
+        Athletics
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
+        Directory
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
+        Disability Resources
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://emergency.uic.edu">
+        Emergency Information
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oge.uic.edu/">
+        International
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/job-opportunities">
+        Job Opportunities
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://library.uic.edu">
+        Library
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
+        Veterans Affairs
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://hospital.uillinois.edu">
+        UI Health
+    </a>
+</li>
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/acerca">
+        Acerca de la UIC (en español)
+    </a>
+</li>
+                                            </ul>
+                </div>
+                <div class="l-col-3-12">
+                    <div class="ms-row">
+                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
+                            <ul class="footer-button-list">
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
+                Book a Visit
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
+                Request Info
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
+                Apply Now
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="https://give.uic.edu/" role="button">
+                Give
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://advance.uic.edu/alumni-association/" role="button">
+                Join Alumni Association
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="/about/contact-us" role="button">
+                Contact Us
+            </a>
+        </li>
+    </ul>                        </div>
+                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
+                            <ul class="social-icons-list">
+            <li>
+            <a href="https://www.facebook.com/uic.edu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a href="https://twitter.com/thisisuic">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Tweeter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a href="https://instagram.com/uicamiridis/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+            </a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/user/thisisUIC">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+            </a>
+        </li>
+                    <li>
+            <a href="http://uicscience.tumblr.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Tumblr"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>
+            </a>
+        </li>
+                        <li>
+            <a href="https://news.uic.edu/social-media-directory">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="More"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>
+            </a>
+        </li>
+    </ul>
+<style>
+.optanon-show-settings-button.optanon-toggle-display {
+    width: 100% !important;
+}
+</style>
+<a class="optanon-show-settings">Cookie Settings</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-legal">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="l-col-1-2">
+                    &copy; 2019 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+                </div>
+                <div class="l-col-1-2 campuses">
+                                            <a href="http://www.uillinois.edu/">University of Illinois System</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.uis.edu/">Springfield</a> 
+                                    </div>
+            </div>
+        </div>
+    </div>
+  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
+</footer>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.uic.edu",
+  "logo": "/images/logo.png",
+  "contactPoint" : [
+    {
+      "@type" : "ContactPoint",
+      "telephone" : "+1-312-996-7000",
+      "contactType" : "customer service"
+    },
+    {
+      "@type" : "ContactPoint",
+      "telephone" : "+1-312-355-0379",
+      "contactType" : "customer service",
+      "contactOption" : "HearingImpairedSupported"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1200 West Harrison Street",
+    "addressLocality": "Chicago",
+    "addressRegion": "IL",
+    "postalCode": "60607",
+    "addressCountry": "USA"
+  }
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-20665772-1', 'auto');
+  ga('send', 'pageview');
+</script><link rel="stylesheet" property="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script><script src="//cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js"></script></body></html>�:d��l4�"��7 w�����^`�3h-�cf�R.{�7�}��h30kl,[�������'�>	��t�`#�~
+�Ţ�HΈg!�A!����u�l�R��У���p� �S��Ӌu��h��]i��,��׺����E�.��}� ��?�;N)j�|�>~[ȵ+��U}���F��ʇ����^���<v
+�v�R |�>����?S�.�X!A�v�w����x�B�����x��&Kh����i�����:�=t,���bp��y�,.����A����Ǿ
+H[Uގ�Pk���,:�c����u�WqO@��мt����^�>����f�hG|���b~v �;x��������6�V����K��yxx��-F�U��;�$|����s��S�������V޹3���E@�Cv�&Pl5��!7q��� �߉6���6P����5�:�!��� ���mr�����c��Q eB���j�߀������n�;�\ �ah�y��w返~��Ƿ������7�w�����#4����o�KP5A�-����o��(�'�3p�v�;��G˻��?��c��my��	����wgy�Ǩ�7�o��N߃�й�yoe���D�r�|�o��p6E`O�����:�����J�<*m@���Y�L��_�c/s�����zF~�355��.�&y��*��,���������o8�;���S>t·p�{�����/W�w��;�3��^��k������7p]��w����\���|躎;�[��gj'`�3+x �E
+0�n��z�9J���T����}Z)u�;�-��>7σ�	x�vL�Qy�x���~��3�n��S20	�������ߞh�=�������i/]�c�j`�����lo�x���VЄQ��Għ�
+�����&���prBp��?Zi��ge3�&2-#�ROg�o�� o��tU�eĨԳ�v��;5#'�$��#^o����-�/��R{�o
+��S$9�Aq �9�ҫw*e��HaԆ�p8hT#�F`+��7R'�̒�W셟�Q>i2Pl4*C�\�b�XF�(�El�~������ � 
+z?xIw�_�J�=A�������wBz����S�<ȯAX�r�A�K���:�C�7�@ ������)�
+�R3h*�� �p]�q�9��e���]��0��a���]GT�B6�6Ibl��fl�aTRDګ���� ƽ�.�>�m�	%�)�m�.ɉk0����f��? [Ғ�I�8"c�=bq��!�[/pa=d ��
+�i[��U-a=���eА ����^��~pl�4��4Q���<,f�Jyz9y�h�u-%�E�T����"E�� �Y��Ɨ�Ն��0#,%�V�׈F�U�Hb�(z���N�b�8f[��p_x[��p�gi��������%��X�,����m�]��m�mV^^�>\8�pOxA�]��"�t�:�Z`�a�K!7�U@)f�Cq���R� N T��E@i��2R�) ʀڠ�ҡ	���g����i/���ge������<t 5�@(� Q�4�K	�� �ҟU6!�G���<����/��g��'=#3��$22��U�.Q�[�qոkF���f�f�g���[�pe�3Fd�֒]���ɻ5���v�p�ֶN�?����ӵ��5����BJ���nI�J�9��GwJ��N��H�����~�N��}��Y@)���>�� uuR�S�dN��Ez��?�8fV�4l���N@��G�DYr��܇��
+��Rr'�P�n���`�-���t:.��i 5#u��~@����>���GD��>�����'���6G���D�q���.�ެ�����f�|���i��ه#�GP&�U�	ϴ?�i��i�ϴ��Cv�O�����t�J=}c�_���c�{�����1�+cd��X�v�W��2ew�t�J�<�N��N�|�}�Ӟig;Z�,�Ui�L�'�E�DP��	�&�O�w�rR����L�v����� _���|�}�ԑ�>�{Ǚُ}ʦj��G���M���gA��>H���+����(�(�&��Un'�������O\�V�O\�V�D����w ��?�f����+@�����e������l	�Ҷ��\z2=�bj^:%P��O��rd�,��2\z�sQ�j��w�N!��b0�����V��P��)VQ��uj�<�~����Gd��3���|�	�o�?����Η���;�'�2�A�K�#�g���y~g[b������p6c�}���s��>���vA��ޙ����k��n7x���'��=�uI�d�����\w+�ړ��<=�]��iOheS[�:Gk�������#�b�K�2w�a>�����h��.�γζN���&Y��`k_[��a�e�i�a��,6��md��j��$��������X4�j*��2��pf�X;�>"��f1_d>�e��'�Z�9�		�>[�������ojeTT� �����ǉ���䍷DK�n�-%%,��VA�����G��|�++���Ɉʈ��;-7�IY0M��D%t~�����/,�=<�ė*3搒|����C�j^��9�k%))>Į�W{�H9�6��Ìby-�(]i�B�ҌbY�2�����ޜ��؀��l�4B�<�����&PW�$0�Ci��k*���":W֓X��,�'��K�f�&�ni�<��f�x��{A�r�)!�j��JT;�]��Am�6	�ʧ*�;���7*+�K�\�*�̷y��(��E��\�F�W�qe�*�JZ^�{�U��t����PWHu�+��*�E��������*�)iy�1;���n�h+���5�ʲe[�_B�/�ʶ�e[���=����d����fe�d/���,:�$���v�Z�b���>�����_OW��HURfR�TauJU/���*��I1��^��veQEy�s:�����K44$ �o�R�z,ژ�|_���c�/����09�'���8�~<�פ7�oMߙ�?]oh(�8�h��X^[��5vg��X�T,,>�I��q�h@4�z<��f(�I���N>��@s		�ř�T��.��<�� .`P������h��π_-R"�D�7�:G�X� 7�(�ڒ26uB+h�� -\�ޙ������#3oF��� ����E�HU�7������'0�2�K�g	�09��u		$!3 �vq��k &FJZ'�5Hz�{�`"}��-��f4sv�?�k�������'��*3�Y���s,���rvE%8>O?�>��i���锁����)1�cz�����3D�9�N_����������`�V툈RG�t���"�q.z�m�VK@��B���$6ږ]l��.�?ZmW��A�}����w�`���DT�{�t<k�эnt��������F7�эnt���F7�эnt�����׈��$�˘|�U*�Vz����N���`^C~e0oA~c0o��>Y�I��9�i���|J0/�xM0oA�!���G���������/��Q��Z���TN��(��*?�jhP�2(�j�eZy��0 Y���Q���aM��T�
+j谩�l*h��є�7����T%�D��sPf	|�W�栾:`5�AZ�6�i��4�eSY9�T�/���N�V�r�j0Z߿g�U���+_�'xiS�u.zmP�*oP�jo�Yh{���P��B�u�����F���Z\^Qe��(ZZęYUS��]���fuy}u�*�vE�(#����2Fɲ2��fE���SW��贴�$$����+�9�K���s��V�����͙���PT���nf�5sjV��*(�Q�]�J`@b(��huye����ˍ�������%�u�U��*��UF=L���F�Q4Ø�x�(�|U�Q���ꚥ0E�ɋНI�H:F ,.E&f�s�$6`�eX|�������������X�]���n
+��F�]��Ta��&�U�^�XM�����₣�cU�VH����D�P:Ԋǁ��G����W'N�sTiD�g��6ud=����%=t������oq���0��w��/ b��
+endstreamendobj121 0 obj<</Filter/FlateDecode/Length 217>>stream
+h�TP=k�0��+4�tp�C!�u������Vr�F6�3���6ɕ�Г�I�ܽt�"�����#˸���'G�j��Ľ+��:�L�~["���F��4\"op7����;[dGSBN��wB�5���"Tж`q���Û�d!����ҫ]�[\�6Ț&��RO�=
+��??X��\5�c�~|V�H�;�y����2'���b$[p����Z�+� �j�
+endstreamendobj122 0 obj<</Filter/FlateDecode/Length 17190/Length1 36984>>stream
+h��w|�����Sv7ْMo�l6�dH%	� ����d5�&��"1�b�ET;`���f)Ɔ��/�b�]V��}�9�! �w}����~|C>��9S��3癙E$��,���0�.���M�~��]��e~s�9�4��m"R�-�9\��O!���~��:g�m_����P@5眥��|����?3wV�̏O{b)�Un�W2�>�p��
+����_t��7�v6�s�".=gAK3=|�:��7�_7���������w��<V�8i"��x��m낅�0n�\.�[�f�F<���D��Ť��fȏ��Bt7�0j;Sy��)�d�AVTU�խ$�&��[�p���ꩇ���ͲC�"ʔ}�0�4�d�f���t��"�����nz����U�Q2R������~�?$�R��$����O�%��dQ������������k�ǲ�8�u���>�ֳ����%��µ�������D�_"��Z��Z1l��ѳ��R���������V�J����ZZG��+������t%m���j��6ҵtm�����n����[i3|�e"�6i���v����}�t'�E�н��޿���-����t�w�*j	���R'�h'�q>��}���j>B��c��+��f�`�_��ϧh?=M�г�=��x��N�%z�?*y��"r��?蟈����No�[��OЇ�1��?���o��{�Z�֧�%jFM��u��J��z8���!)��J2�A~���m�V�Fm��չS�X�ȋ��wm��z��H�X�P����^{)�:��GQG�B�����J�~���}Q+�i�����Gy����λ}|�)}�y��ǥǽ'jB�e�ǉ��m������m#��F�K���ӂ_k+�5}ޛ�<P~������y���~�#���ϰA��֓-��ϯ���<F�}r�'�tc��c��$YR��x�U�*�$=��)T2Jf�"�IV)�KL�%*1��,T�DJQR4��8)^J�l�7�%��"�Ji}�zK(qJ�RF�,Vk���65����'HK�-�I�H����� ��\�����#�UӧM�2yRc���nb���Ǝ�=�zdUeE����e�O6tH��A%��rs�\�δ���p��d1�u8p$ʩtV59��&��rVW犼���>�&����xMZ5ǉ5ݨ9���n���)�;�Ѱ�G���=P�ttI�j�^_�ltxk�ZZui2��hᨌ�[��JM�Jo���M��d,w��2��P�ф�	)o���S�.i	9�rH'�[�x�Wɨl��P�PYaKMm�lT���՗{Z_�yb�t��3g_�]�4�)�<�9�yJ�WiF����c�7"���Y����P<�<˛㬨�f;�Y���H^]F���q�0x��oN�4,���$�b��nBy0MF������\���xW�6p�A3l>r�g7z�&Q�/X�%��%�͛��b�*�����{W�p�����o~Q��*��-s�gu8+*�o�^w���\+;�Q��	��'�P���w�z��#�����&�f��r/�{�V���
+1.GeGSP��mx���v;l;����8���XWeG���ޔ&�L��lG�-��n�����*9ý�>��R�'j�0��j+��2B�Mi���
+��P��ҲbEGs4H6
+V�S5D�~�Q2ʫE�"��W�RS���2$[`L�oH���a�?�_�k��sTΪ�3�:����㔅/F�����"%o.l2��Lb�^��hp�r6:C�	bn������9kj'5h����r\>�s^JEq0#�#��m�e��#�|o����Q�bGG����Ct�tH�A���5������x5���9����pGUGs�Ռ�N�����i�чs��g]�0�6։�m�ģ"�F������gD�SZW����Mjx�VǺ��,��M#;�Q����n�*�0��CdDO�	����UZ���|K�D�-$h���Kf[x�&æ�ͭ��)~.\����1S,υ�s;���E�XJ�J^�9���sx�$��^�s���9B�˄���za7 0p��9bO�hrb�B@5�M�PTD��.���!���pc*Bm
+4�����_�1�F
+5�<һ��Y��<��!cTK#�6�!��򆢇�@�Q���F-X,��~2�U���l�Іy�Z8�{��9��}�\�A����B��ī`�X+��Q][l��a��$�#oq����o��R�P��hc�,l��k�&�-PHbZJ��b��C���)O���Cc#^˭T��ý&���Ǖ���F���w-�*�>!������󱳈Ak=P�d�j����M�8��=��c?[b�f�]ɨ����\���'7�)�d{�M�'���ssBN�Z4sGG����_!�^/�D�=�x�1kOs�W���GmVÎ礗ay�;�����W��i�:�ƟJ:�הLV!�sZ���0h,�����}h�@��$3�B���F��4�$�V@��8h2�
+�4Ȯ>�zw�"��ߡ6a��2CS�r^ ��b��^߃�+O�ThM��jc��	�<�-G�"�Yg	*�a��ٛ���}�+�+���G(��쓥ΥT5��O��*dTG��J�����:��(/ҤSI���@�w�KHـ�(=@G@�PT��Q��j8��hz���pZ#�����:��fA�ŪPo�<���C[H>�i�b�b�5���Q��)t=�6y����y��n���Ö�&	*�< 	���/ �M��.��H6}e�,U����O�@����#�<I�NaӤ/b�5�Bi�ꀆ�IW�C!T�c�n�����1��F���(A�$%��R��R��t�I
+��{N�s')`?��XJ��O�_/��TI	�i��8��,m��
+�ƿEm��&�BgK����h��-�=Z�*t�:�ΕM�w����$�@��B�erE+ʹB�x�	j����ƱX��I,�^m����o�
+���Le �b�� �,��V�����_@���M�3d�_��Mq�(�	�\z���¦Iy�bu?��d)�coz���ʣʀ��4�G��&ȏS�|�&�4"?KC�W(I�{�4IZF�K�o���^�����:J�Z;ц�!4L���F��g#������o��K����>�}"����c�끽O�Y�� �<ɶ	�%C�J�h�f?���"o��C�4�e�|%��й��6h��|����[0�;�{5����2���n�����R+ǝ�UB-�2i�Xػ˅��4l��h��2͑s�����`L��-��w��[ř����e�l��B�F��k��}�<�#4��p�U���$�g0��=c��8O��i	��Q����L�/���H��a��gYO��[���yV��<|n�xqFM��#;E�e#��g��h��!�h�vh�v�ZA�#�uݛt����_�>�=Uh*�Ӊ4Qy��mس!�+r�}^�i
+�#H�G�R�����P���B��?���18�Tѻ'�Nu8�T'S�r:��t��Z�B(Kw��*_���i�n/|������%r:-��@�7�T/��g]��g{@K�F3����8F���(��p� ���w��}KBFC2j�u5����y��=5x�R�)Dӧ�^��]s�΀zW�XC.�8K�Ϛ�-�͇��7�i�a<�7��Yg��^�F��b#5�!X�=��ٱ���V�((pǩ���P3)Z�����]�q�
+�#^�8!�w"Ư��c�zTH�z܋���~�uo�	h�MU���e�Vg��Aɨ�?���=up��g���Q��t13���b��]�3\�)�wg�ubo�
+����\���/�H�n�c���Y5
+�:~�iwq��)T�u�{�oX�94B���J���/�@oC_�_���񳔕X�U4Z�G��I�����Y=�"��1����	�7�g��B�nZ�	�Fj���]�L����*�nqZL������:�B����b�f�y6���{����j��Ri%Y)��t@jU�Ik�OB�4��
+)��G��钾��7����wnƱ����V�L�I%�<���C-������)��|���f��9��5;i;T*����bZ����[Lr:��hCS?m�^9O�����|~�U��0�H�'�4�mP�"݂��A:Y��r�-8�;���!�~ ��L�^q��e��A���'�����w�ʱ�ە/�u�ｔ��i,�#�g)t-� y�D�	��j�Ӡ���~�~+�*����U��4]y��d(�?��}r��[��-4���xg@��Hh�П�W�Ǘ~��)��	%˻h���}�09e�ˇp�����t������R#=Kc�����8���6Cn�yڵ�{�Y4@^F��f�y9��s��ޛ�<%���B�B�N���~�y#t+�}}AC���:��
+]+��^C<��R݅Te8�59F�� �J���Zc�l��؆�u_�;b)��w�=��(�T��o�{�83�#�́*���5�Zh���AZ�P
+	�x]�w�ru6eu�*]�o>{rJ���Ϟ��� ?3�2~�9��{��w�o��a�7l����K����1>e��C�O8�1�#_r$�/9������x��.���6��b��x��:�5�Aƫ�2��x��2�%���/2^��>�5�c<�x��4c?�)Ɠ�'��s�{���Q�#��1�2�0v3v1v2|�N_R!�e��%0�g������/i ��q/���q7�.Ɲ�;�s��[[��2n�of���od������q�����q�j�U��+�����
+���e�u�`-cc5�R�%��}�b�"�*�J�
+�rƅ��K�3�03��m�����ā�����sg3�b�c�e�a�f�b�d�0f0�M��i���)�ɌI�F_� ��q&���QϨcLd�2&0�3�1�2�0j��Ռ��*F%��Q��8��f�1�3Nccea���K���A��@F1��Q��(`�3���F6�?�#���p12|qC�t��'"9�7He���°3�I#����g�1b1��h~B#�p��ư0����>C6�:��P2Cb����at3�1�`�����+�����ڌ��l���#����#���23�a|����%������|�N�S�!_,"K���/v0��C_l9��/�x���]_l%��/�
+x���M������k��Aƫ�rg��v�0^f��8��;�En�w�<�9���g�yO�bG ���S��'y�Opg��3�2c<�x��0w�w��]?�]�a�f���d���X/c���~�}�팿1��b��J��bN�a�������ዙ��q�q��\eW��Un�[��͜��k�ȸ�\��䋙 \�ͯeld\�C��k^�570�����������2_t#��=X닞
+��E�V��'�r�%\�b�r�{x�Z��]Xuʇ�q)OBO@���Mg���N����C��A�B�@wCwAwBw@�C�A[�-�f�ܔ�����M�uе�F��j�й)�+���P���%޾�HI�}"���1Z�2�3�a��8�1�1�.0�Q���(ad3��>���F$#�ΰ2�֠K23L##��0�,be�����a��k�+�K�����{л�;���[X�7�7���cУ�#��Э��-F��U��e��K�9�3�03����nFc8�4�r#�Ÿ�[�+;��^˘����èa�f�bT3F2���
+F#��`�0�dF��Hd$0�yq�X��`7t�����+��3t�	�+��=�9��)t���+x �;�"��<��,��4�z
+�Ī�vC������
+/g_Ș���2�?f3f1f2Z3͌&�t�4�T��d�$F#��q&���Q��g䱏s9�lFF?F#��bd�3�Ce(�!��F��A?�}����^��	�zzz	~Z�d�\��\"�\\��s��U����=+�/���]^�\1-�,߾������y.ؾ̣.�^&�V/�}�ǴD2/�n�Էj��]�n�o�پ�����0�l�վ�]���sG�Z����v9�2�KVaNm7�U-�n�,���Qۊ�䡇ڤW�$��&��&�ɨ��-=�J����&VQ����M9�z��u�Ϲ��=/ϗ��T�������>�3;o�g��������&�����iۧz��M�L�>�Ә��9��ȫ�x��{��j=��z���}l^�g����jϨ�՞	��ȼ*O�R�B)���j_e?bWMMɭ�rk��G��֤#I�J�dM\��!Q��C揄��	[v$�ZB1�F���[#VE��W">�P)bk�l�`�b�aU�[�[�������#����M����a�k��(�UVK�%ߢ˷�Y�[��m�+�r[�3����������6��U}g�e�߅�Ce�D��$��%^�%ŤT)�J����H��꬯�ή�2�'�xC'L�J�u��];ɫ_�%Ϥ���tec�$��{��?���ׯ��5����uk���*�v���_�	U��-l_�pQ��l|@�²��$|��Dɢ��*���g!ka��v�Ef����l�O���#�o���ן���H�RԳPyGF
+����8��,ҭGC�wUT���"+�Cz�B�
+��Re��V���B��Uf�B������{"K�H��~�px�3���P E�Fh���ޙ�'�t����ia�f+.4\)*��Jt�2\yIy��x��;]^�:�n�N�ΈK�
+	QR얌"��f��$+Q���]�!�d�ӳdt�K��̤��x#��v?���]�g�<*Q�0<]��b�u�!�f�c�$�Vc�Zta���$CHD��us���qFc\FbR��+�{(<��]}JMi䢏�v�ix���_�2Y�1�.�n�He�-�x�Ja�.�љf$��"����n��Df)R1�3�ӝN��KδxCd��H��C�eee�q��#�"���Ӧ%�=\(%�O����h�������Ӧrr@�#ۉ��-���(��n̈��u�TRa�3��*$�b��J��i��PTj7�g�$NT-����fi�>�9�hhUf��I�Ai����1:%4�"��aQ&U�ߩ^cRSl�3�o#��%�L;e�`��o��qw�)&�D��Ts\E�oM�����0����x:�1�����x�+7��Ą��gcz�K��Å�����R[��̀�F��LMs�(.)J�KbD���8Ov:#D�GO�%��+��ܛ���*U.��a�y�ك�Vf��_0��K+rc��C&U߲wP͠����3�gEe�ss2�j/�ϯ�(7�?K� sx���-����ܑ�=W�喋�:���j�9�f_���%Q�^�Y
+�x��R���K\K��T�9X�͵@�[ݡghs��>x�L|�cd�G��ૌ�0� �#KJ>����.v��h�,\$�J5+zcl����կo�а���%3=6�^Q�a�ּQ���.���y�ت٣�-Fs��?����;�n�K�&E&�l�I�${�D�3�Y�~�ܶ{������&��"����I)t��q���?�I���P�L2WkwhX�M��M\�ݺ>� �f��ﯶ�ȑO�]�8�7�����yQ��1��=G��_�t�e�\�2@��׽���v�WwLټ��cW>�^�<�\�9吗g$b[��m�rD90��xF����O���4���'�>A��6Sw��J�֟��b�xqJ����a�����C�ӫ�L�8)����݋�o�5�aF�A�S(����5�g��O�����n2&d�q�z���p0��=M��]Y��]i��2顀�Q]��XK2ٓYVi�!�l���MH>,�IQ�#{���J�w�?܉zm�a�=���r��&h{��b`���k�#J5��#�����R_OOѠ/1E��(�3��BsJa���n���U���/��s�1>�n�J4��M�&��u9������(�W�ͺt*�w�[;�����?PQ���F*�z<��Ӣ��N����+-�4�#R>n �@|13whi]����;��`|��CI�@�A��	�j�o��	Sɠ�|ڥD�r����_ST8%�jҴ�a��z�u�r��8-�S��e�9�iμ�7�ۤ&�o7�w̩������	����/�gւmmC����ܒ$W�����m�ML�66n��-ݝ��R]IE��J�@���������� M$p�4����np7��?1]sL�#R�ɌKL��[�)fٌ{�	7튐�yN�?x�0��
+������
+nZ���a>b`&Օ{�+�(�ғd�s[�E��B�Y:dI.�t�-��p�^���}4�V�	�z2�w�i��t�C��^%���nc�D���a"�v'884�:Kp@)�b@Ǉq��b�Q���6</��<oWr�sbh�4������Y2�G��;�����;���uZ�w�U���_5�>t@�9D/+�14ޞe����Y��]���4�a}KqhX�%,.-1-�f��Y��(K���js�N=�H5���`5Q�ub�6��]}v~)�����_V8�H���Ջ�v�H�,�E�^�\{?���A/��)����<����-��d)(���7���'v�3w�0��H<H�%�	fS�#R.b7�dW�S3 ���!Rq���q���)Y�)�ހ�h�"�ta!�E��#�������"L{��)'�S�t\�%�	�vc����]��<SrAFzA�Y�L�L)HK+H�Tz6�&{>�ɦ����F8�R�*�YR���e&���?Y"��N�I|�k�����,��[��I���U�U�t�t��uؓi5�Y���'��
+�]d<��pD��%�闕�f)�Io풖?��\�y�og{�E�#��Зfc/=�+�G��}��>�>f׺\���ؘ?;8ʮ������nˈjueg%��M'��ɖ���K4�Z�*�u,6;�))�9)/=-/�8%{hXFY�<�d���c�'�06����[�3{2���&dU�P)O7��u:3��&���%�2(
+7��[m��g�dǧ��_̦���s��F����8խ����sr��R��z�K������hSx�Ə���c쪦�'�:Ƭj���^Wu�y�[jy��W��JU�*�֧ŲJVI�d�x�mɒ��"[�mb0!$8	��a	��	���`l�T���t��'i��4t�t��4s:4ݜ�Vi�{��$؄N����_�[���������{��
+O��?x�o_:�����Om��۲��x�#׷v��WvG��#�6� ����܂���@,��Y1Px�V"�7tB �����N��Ւ
+���}NbJx��,wڵsՀ���7�*M�Z?���\.\�u�{�������z�����E�G�B]˖Ϗu^�Yg�0�_-y7�4�;J�r(�ܦ+`F*��I���֔�]�1��y�4߯4�6i�m���<SWn~�ϣa K�+�y�
+�{�$\*	w%2�c�_HG�8P�����7�ua6в�ͧ�
+�Ke�wX/tw��jl�/=��KOl��޿���o޲+��7K5	��l�>�І��r��pIZrHZR�|�8f'��"@�ƞCz�ƾu<Ъ�w[E�rǙ<��`Y]s9�9�X�j]�Wd�(���cHn ��do���><�@��:+^�/�tZ-Lz}^oY�r"kC<�H�Y���������vS��u��ɒ��v˩����D́#�k��NZN!���@Gmo�XPUd𾰏��Ժ����kZT2&����q�%)(|�T��Y���7�c�Yp�<��a�=去���7٥kN)��m*ISְ�6��2��V��Lg�C����\�T��?/��ȧ���E,BK�
+zZ�����m3�4i�����T6�[g���v��b+�]�4Т����Xצt�i���;��b�K��6��9��[�H;�]��n�Ś�gW��1��j��e����ä�$-���3h�%�{}I���  ���^!P��A����*��ѳs�8A��R��*/+6������3
+��n�Ut�)�.�'��K*¤�k�@s�$j���o�#�늭?��]H#��+�P�Af�A�T͹�����Q�z>Z@��(�x��+sˡg���=b'�+�5��uz$\�j�G�gn�l��G7�͘#r�z<���N��F����B5�S�|	k���4�bd�s,�$���K��c��JV/Ic._�E�4D��Q_�C4�Qf��y>���+��G9[R���/B����!��P�B���V+�� ���~%�K�,��u�Ѝ��3dѴ���&��TM,c��a��)s2�����EN�r�O^~Aga�41�hI�֨.;�_��R���՗���3:)IjC4f��z4fA�+[v�q���Ey�&�d(V�4	�������e~s�y��.������Vu]��%R�t����E7�&)|GE�Zґ�].�K�`*��NRnM�2�:����)�>���А����l�Om��&F%!HMЍ朕�"�_	��@)
++�%��Ɠ��yl�(p���%Ix9	����
+%���`�Y�o�?�É���V'.wڜ��p:	��Y�I�E����b���eX1�i~�������Y��h��l�#��}F�!5:���xEi�n?�q���*��+a�R����h��\p?�k��kW\k��Ƀ���X��C+he��<�8y����[�צ+[��Gl2F(dd+�=�]�}3�ܩ`kPmv�eF��涸����M�*�	G=�JrQ㛐��^$����_)G�4�h@���*U� �Xٴ��p+������o�2���UL�t��q꓾����4�~E�/�r�B���H�}mcM��nd������ ���H�����m���.)�	C,��֍��v֨��r�[�m�����Ӥ��Tț��9�?s�`�̙�~ݹ2>��{��[�ԕ��q3�����'l�VY�rs[�T=�Ӱ�"i�i����s��Xq��U*��Kޛ�X��Aq�T/W���B}CϺȵGw�;����?�Q����Qx����D.�\U%B�ѥ��F�=|r�ȳ7��)^+׻Q$z�}�{O���Q� 'o��y��� �)�mʜƸ��(6�R*G��Y�,,HW��X�SY�ʞde9��<�%�8�U_�I�Qy��YV+B�{���?��@�V��@��o��;��c�ز�P͋�Yr1�-U�2�Q:���D��,�׶�A$Q�8�kn��/��\���vp������ܙ�s�փ����!��d�OR�an�|(I乑s�aU3��%8S��� � ��w�cr���|1��]Y;*}�ۣ�7 cd������Q�XsY�B�y�P�t#�6��.lἄߔج�/[7o.G��jK7��x>	�S��?�G��ǳ1�X"�1B$m�0�~����-�n�������[b+�^��3#mN�N%T:Z�V.��M��>|�v����f�u�s7E���/b���#|4S⊖�E�r"�Pyh9�Zi���m��X����xK�V��gsgg��u�-��k�� �v��Q�D9���O�(�Pap�L>��!تUI�q���B�U�H�5��\������ť
+EB��14H���tt.R�b/F���Z��#R���80���_-�l�X	7��cB��Փ�y�������"�K~1�CP?��xNu4��k4[��?5u���3�h����{�!�o|���'
+$�FF@�g^nF�#/�~�0���5�=��+_�����v�h���B5`�<�!�h����� {�Օ�߲ȦJH��A2Lz+��[y��|2�t�?�e&����Wׄ�4U"�w�W�f��?��k�
+G���B�`z�+�������z�r`��ޣj�n=a���2}15�5�7;�>7�Ȥn�Ń�pO����k�nv}��)������>�X���J.��{���:�����ښF�\v+O�Q��	yt/"|��X�ƶ��yl�	�<U�r����qwz���M(�#��畕_����p�e�_�Z��(1׺=�f�ʝ�����X�|m�rv���Yz8��Sg��{��S��֦�eg�w�_�w�}H9��r�R�����+
+��O�&[l�˨�Q����򌊛�9�A"-m��e�pc��J��Ch�A-E���6�g{3E.�C�K�Z�V�T��)(�&�˲�[:�*6��t�c�Ӊr��Hh���Vl�@�f��X���Rqv�j�S�i���J�ȽZ��z�7��X����US���]�
+�^V��3繽2�~4���>F�>L�4%׭^5���xcZ���lJ�qrs�p�ܑMq���=��z�H_�"���V��?��^OLQ�D0?���XN];0�5yB->Uӵ��*ڊx_(� ����+-�2ܲ4���J�JH#%���)�#T�B��j��2�|�W��C�����(��n�h4��=����/^{0�byOe%�\��|���G>qk�t(��c��͇~x���f�s��Pk���I[��%�&e�oN��JO�M��?�rO�M�/�OF�S+ѵ&�7�y��{�zY�:RT����<�,��g{���jp�0��;��&{E�y��U}C�1���t����5Y�"����H���6U֧^/Ƥ�9��9~039X+�<�W;���ۋz���#{Kz�#��J�QN٨(�Kq��4�w����5�����)��U�-i���@@ᇍ� ;�/%R�JM�)�q��כ�V��&	_�)��s�?�"S�6��)�����M�]��,xs!Z�D�;Y'�y#���+�,g��4��!nyl�3M|��.�ݣe�H�B�о[
+noE1�=������#�Q���;��	b�ػ�w�7vǴB$�!v8��=͹չfO|���ٰJD�P"{3�bθ�����o�Bk�l�O��kj��Fh�eF�����avC+��7(Qj�r�Mgr���Fft�mA��f�#.�����$���"�~�PH�U�ͮ�EKd��n���!���Z�D+,R�s�iK�����}L5��%EkO,�,vl�ew��V��i�=�Ν*5'��і�,��{5�F�v�B(��pT������A�����<Rq�D*�|ѫ)�d�B�P�q������C3�ΒFӾb�ma媚��&��� 4�-	'pʛ}��]I��bK����B�Π9z4�n:�s�G*���)p4]�>8��_ݎU2
+�.~�VW��@���H�����W��E	��`�`iS/c���i�c!V��L[6�eb���!?���FWV�%\���zŽ�H~(Z�����ܢ ��޹�ӥ5������eω���ҕ��J�|I z�d͵�-.���n#���x3�{[L�����f�ƥƨ�1��q{� �'j����v��Sh$)�0�U,��]��Y4%G.3����H��I���s���!��Q���O�Qv���#P,�#����X��N�yl���2�-k�TYj�V�h���/p��V�Xɲ�Ѱ9�H�U^�z�U+'���U�/���1=&<(Ր�sR}&��e��	T�t(c��BF��!�A�']��ts�a�F�H���;ct���C0͓��<��uf��?�t�ژ�?@Q�\ZU9�Hi�*�N���@��Lz\q�<�okH[~F�DHN���j�Bm����|�Gi�'�+�?��.)�ݠ�\+�2��X��K�f<-s���C")^eK�qm��-��냡7ø溃.#6r�F��X�o��/x2�A~^���;N1$�FQ���(U�륃��$c	9I!�����L	�0'e(R���I����
+_$�(��q �� Q�;��z)ෘ�6���p�Ϩ���%%����h�>J���;G13yp�O�^D捁�c�'46�VЊ�<��nI
+
+�V������-�]�tk֮hk�f�I��ꌦT&���'�y�0��k�m�1:FDi᎗^ym���^9?I���P�E�E�Q��8���=8s\�!O�fɑ;|��Hĝ��[ĉQ�G2�R�%1��d�JLi��O�r����
+�֭&qC���7���]�q�k���5��&��G_{}V���ƈ�C�=G����u��$*��m:�>D�<|�Uٵz�����:��P��F,�a���g�9���W��O��|�tZ(�v:��>o*�J�t�	�8�tJ�Ӣ+�Q�[,~�y?nh����~�S��
+�X�|�g����c�X<n����j5��J�Hޅ�6q�F��Kj�N}����$,`�-r�ր�Fp��ʳ3ד�ٙ�6-�?��A��^�.,�"��F��2�Ǿ��@ Й�IZ�7l�������=�����k��́V4��"ˮ����C �ߜ�\P�2	?:*N������G�q� (�%�q>�V4����jޑ./���|Gࠣ}�u׹��?3y�X,0t㐩ce�S���E��ǅl���׻n��VI�P�7k�-��������wo`��f���o쏩��zo�ѫ�koZ�`m�$�5���\Q���8Y��oduO���u��Ύ�훆C�+:-�dC�ņ��S
+�=662�1�5"���	��4mK��	�Rhލ�OMMm�nO%&}ЦT��s�V�����nm4���f�U~��J���Z�������#��������b)��eU�U�4��߲W@9���-'��f��X�a�
+���C�жTw�ZqH����Wq��H��f�P��mP�B����P�+��
+�P���:(HBA�#P\�a(Aq
+�C�]�_e{���� >4U���En�Ů���_ӥR�Y�r�5����ౙ=�w���&����ߵ�cQ[�`�yk���:�Z3�	wŲ�VC�@]�+�����mKmx�����P�an�mJ�}~$Y�et��J��{h3����s��T,b�͝�4��FC<���\�E3��/�!C��2�kJ|��꧑ւ��U,����T�%M�q���2��G�r+;����������Du��PLAL1����'|q1t�^�\����s���}O}��l$�=u˭Ol�ާ4�p��1W��F{����J������6o|�����%��Ȧ;vt#��~t�mO���7!��_��#u R޵�J�(�C�B%������1��@��	��V��_
+e*T�<<̊]�9i�����[ԩx��sg܎$�1^�L�>��TOUU\W�>N�G@Y�K��˛	�{#(Bߴ�PT�˸��L<�ɐ��R��΢`"�jI��g�F����r�7��S��	SIEЫ�ie���C䍊/��/��4vg���@ei�dDHe�8i6_�Ej��;�����w =�VQ,i$6t0'O)�3v{f9�d�	� 2�T"C���ǋNy�?�A���sŝo��r��AW-jj��4k^05p)c��I�$݂�����ΐܾ+�֮�����&�lܸ""KE$.�c؉��k���M�ȳ���Hv9����箙-nGc�`��$�Sg�)��>��pw�;��-	j`+��Hh�T���$�1-��$O������4v��hޔ�����͟N'�*�W*Ǐ�W��p�������6��Ay&�U�4E&!S0������s�Y̑e��-�k��<��K�A��쭧��v�M+D$F�%"*б��aK���n�6l	Z6'6!fhR�.$]+��M5��O�վ&�N'W�Fά����V%����]c�ڔ*���j������6&�_ �?ش������ ��_/&!ue$�@�����/]9I��;˓�  �W�'�gWG����D�U,&��,O�#�I���H��d��>�'S�Փ�& ,�^Y��쇮�w��M�����.�������������)�tu�y�B7-���Qd�/Gў��ر�����3��>���3�
+�\������GS��
+	��k>9�Ů�R��\T�O����q ��j9UE�}F��� �1j�s)�
+�Gg����ߏ�&��8�[�a>g�6~�O���~ѺE�@�@��| � �~�t�`Xփ`3H*�,�C�k��C��� � G��)����WQ�vx| >�R?G��'��,���G@�H�V�� �� �@=�D��9�t�,����0��0��glC�� ����K�`���^0f�����s�^�j~���R�J�|]�r|��0�����׀O�k�q<�7�g��e���_Ο�e���o�����w����@D�Pp����)�#�x�ރ8A4 ��@/da��^��觬0"f[B~P)7^yF.��r�ps)��1,�
+>TJP�T)-��/8�@��wb]�4f��R2�R^�|)M���RZ ����F����#H���1�B���6ĵ)ķ)��Y�ׁRӈ���(ʙD�= �~iC|ޅ��(���,z���@�	T� �G%;�s�P�1�7�JL��&�u=ŕ��vt�@��ef��G��|��t�F�i��MU�Y���W��E{�wq��#��÷�X�J��w3|�{Pn�Ԃ��lCw�ѯ�|/�ґG��X,e�Mn�����>k�;5=:;9�'bo۵�>8y���������H�ξ��P��ɱ�ɚ��]�W�UJ�'g���;&�����k'gf'�'���ӣ��G�wڧ�_�n�/�<��;z�}x��,z~hvtvb�>�g<�^0�W�mj����ɉ��_D�z��D֭٣���%g?��d�J֠�)t?�����V �E�Y�"��(����ې큼��mÎ�Uo�7�+0�x�v�7��P?�w�eyaF���;�V\FC�G� ���
+endstreamendobj123 0 obj<</Filter/FlateDecode/Length 8624/Length1 23588>>stream
+h��{|Tյ��{�33!�+$��d��HBB�w$�Ǆ@x ��$$��W"I�X4X�`PA����V���d"4�W���O-�m�G�`�ZmUJ�{Uȹ��g&������߯_����k����{��8q$FDvZO��g$�:�>��M`~�ʲ���?l#b3���O|��WY��v��_><5��YF/]�vI���O4����ʲ�c����{E~\��D~N���Ъ��?h���"�D��WԔ����#�X�|�ʲ�ڙ�q��5�Ue++FG�&*��������x
+��F����w'l�h�:�ه�˶�N�߫���� �h	�d:��k:ѵ�֓zl2�Y���<d�����s�k,{�C�4M��of�$�S��6�.����(��\���Ӣ��A�;i'�3l4=Km4��ʧ�4���~�Ek�K����i���8�� ��=�:-������Go�H��Z�O����f��zP=N��
+V@��sy"K@�[�6@�ͣ�k��Oﱡf3����a�H�Q$-��srfh1=�ֱ(�Ji�v��d.��t�N�<p3i��Z�Z�R?cX�y�|���U���fx�6>Jd�Ƞx��fQ�?��Y6Zx�af�y���Y��%��#��Q	�B`4Nһ�gc��l/�W���k�-��Z����G�1:�F��| ��@#ht[i7�o��,��6��ح����}�~���ÑTw�3h�S�� �D�6D��S�߀V�}t�^�oa�?��d#�ͯ��s����'M�9��jh]CbV������x,�i����g��1��	�gú uo�,���I��73Ћ	l�˖���N��^g�s��W��O�$����9	5��!h�E�
+3p=F�v�w=G/�~,�%�G'Q�s>�g��?���V�~c�����e6�Q6��@�b>a�����ձw��6���%�%ƊQ(��f�]��Z۫��O����ֲ�U���y�1�,�k%�4�Ѵ���]M��j�[/��.ڋ~������ ����JD�Fv+�{�c��{���>�/��;����<���|#���8?��,�r�(���!��5�4��S���[�G,/Y�[s��m�>�����Ͽ�N����k���������Z��$O7��{���>�H<H��_ӫ�׳�3�\��D�Z:�ʦ������w[���-fUx�z�#������~�޻ѷ���� �_��xO�S�O�Cv�#��@4��0��'��Y|*����]�k����|f���񓢏p�$Q&����ų�w��k�Z����זj�c�+�k�W�S��U��YK��
+�<�2�ݖ��?[�Y-�|�b�:�ﬦ͍��y�� u~�-�X��W�?�u%j�MlF���
+q������{�5�j�������)j�|~��	�>I,���d{���S��֏��p�6�^#��E�����it�7�U�įcm�9�Al0��&�;�)}��4�C���7�P�e^ͷP�v��Uc��� �=�of#����p�3�N�G�tm(��Od{��gC�#v5ղ���=���Z��=�6���l������vTĲ߉T,}d���g�<��8��]�7t-,�z�iV�v>{���oY*E�]��?mJ���k���"��R
+}��D��6��[D7R*Fn�~7�3׳
+��3�rje�(��c� �q^��q�K��b��~���aVVפ�f͋������}���-���l6�H3�w �ߤ�p漃��)�-��Dxm`g�%�k�Ź聇/1N���)X��Z.v�;�e�a5Ψ8_�j�.����57�[��|�\DK��܃�w��q�I/����
+�/��y�{��v.����͢�C�8�i��$5i�b�L7o6OP?�GFh1N�wi%}�q�m4�}o6sD-N�S4�|�t�Te��������{��}7b�<��
+=�S�L�<i����^1&utJ�Ą�#��wu���!��D�пo��ގ�^���=�lV��	�(���)5|�>-ޕ��$�2�:	J}D9���Ref\l��.�����Ò9�4JKJ4�.�w4�e���s��ߒ�*6|)~��)�>6oTU��c��ח����[����{d��*{$%Rs�p���|\��l��>�;�����|Ѯl�o�+[z�noY�/N�7;&6�8)�ǲ�]�}���E$(�R��,Y>�jƨ���-Fsb[�ͭZ\�г�UQ���'ʊe��n�o���F]Ȣ�Ȭ�M��1��Um�lS�&÷kNQgm�L��Q���sJ�r���¼m��E>���O��U��RR�����2]UM�J11�M>��6��9d��h��TX���Ǹ�˲5����k[z��k������+"���wf*;t�S�˛�1�Lz䚆p��<)r�OdR9���'�O1C)_���U���C���n��h��0����z��,(����de�t�!ޗ��9R�53
+���ؤ�5���u >��ؖOJ��������������)
+�Z�'OrB���JM[H�o�Ԭi:����O��n���w��p��㭚�c��ue@�W�ʛ����6��6��\@?�C�X@��in��4Bo��")�?ݝ��V��b��G_��"Ë��*��e����Ks[T�W�Zm`%aF��Q�H�{��~�B��YJ�ł}�MJ�8?���E��lpX��y���z\���f�Ԕ�2r�J��Z���]���tH���Zoih�[��[b|97�UlB�Sf��m���a�r��msa��3�U�Y�<��C�g%�R*�2c��7�
+?�)��C��J�)�ʗ�2R2[Hƨ��d���C�d%���)�
+�:ǀZX�I��/��v/-p�W���%��X�,� ��p�ٴ��n`��QʵLD/��9�� �M�@nدB� �6>���t�� �(f �9����:B��"�UT�?O}>�����wh�VG��se��i$�8�FX��y�=��]����ru��)ȇ��[(4�y4��#}��Ⱦ���_?���
+4�f�΀|6�+;ʤ�f9����������������si�v��1�u���v/�T�R�VH}�鹿~�>��$��>}r���OA��/��5�.�c�\���}�(Պ]�Y�.K_�JX_�!��_��Z�6���O�X�m@����>�Q|J�,w"n*h
+�X�K�Clq�T��M��{��=��P���4D{���{$lD�'��>4����̏PG��9<���~�9�l~�^�~ �5@bd 0 �-*�QF�G;���<�C�  cH!8?!�����Q��� `< ۽x�l�6��?����e��ؔ�!cC�?�IŬ��:�������͗�f�/�����	[�^�<J��Z�u�ؒ1����}"�)c�u鉪m�elu�#d�K*<�#x��1�U>x�z�k"DC������XN}���y��Xt�]�n��:M�F����|���j~������[�(s)��=]���l�k�X�kG�EO�8������^~} !�3�
+��I*�Y�]���I}/-��~�4�t����/,0Br?�iK`wۖ�V�<r n>j4�_=4^k�t��Zwn���dm9MF9�/���<zв��'0�h����~�ڎ8�s_�%EC�z	*׀=D՚�h����D�Z��� ���l���:H�ͽC����S���S|v��N�9�]��%i�l���)���g�������9��!��������5��ᣴ0���р�_��Øoyf�b.�\c.��E��A�&гff6w��nJ�eѡ�T��~�u��n�����<�����}���>E�g�ޖ����P��d�{�p�n~�E�*q����r����l�O��=w:Ջ�o�mj�v*	X�(�1��9ҳ)eH�'m@�L�o��r/�Esڗ��[�$;0L���|�<���V���4T��*ۀsuY(R��q�2+q_P�=��X��)�N�\����K[$M���qh߭�ʥI����7?V��H�%���KN��*�7���2�# ����@^�Պ�_��Q��=�dZ��Rg�!�4JBsAWJI�a�S����㦩��޲m�s��yO�j���r/P�\c�u�H�E�#�<�b{�5��{P��D��n�mA٠ e��u��t�t�?������(ޠ��o?Ŋ�8����8g�t��q*/���|�w�z��"�B�v��բ�Q�� �7�̛��ӕ�E�m��Q�(Vk �>�MY�1Zο��q8�'����%���)<�s���A(_C���kq�������~J/៬C֫��F�(��|ph�~�v�7`;�ֲ=�av������G��6s��Ʋu�(m,��|"����@��~lD�π�X���L�3(d;����B�ΐm]J�z�y����5 �}��b�j����iW��%�8C K#�����b�CP�K^��>w��^Οˁ�5�x�M�-�ڕ��?��o�o#�}���؏UQ/v�|t>;�s�{)�|�}B��'��P�.�X!A�t�w�w����y�tF(:��v�"���蚷�@S$,�A�����#��B�Q�>!�}=o�M�$�P�-�`��c�Wi���q^j��	��@�~,�|�Ӹ���*��C������<���B�g_��Ќ���~qQ��	�{G^�%�u���&.���o��_	X;/����n�bp �:��cq��/�Ts��D��������w�4�߁_$��dw�n�Vs�r� ݡE��N�@�����?�	�q�I��^�>P���@t���{�<d�L��ې����O�u����M@pW��k�>m�*�#�����o����4����_���.t�}s���r4�-q	��!迥�?��sE��u��.y���hy���gy��-W�>�zB4B����,����F����{�:7:��S�8�� ]�/��2Φ쩟�I��M�k �=��'�#��(�A?�i���k{�eδv��������DI|�<�	AL��zW\������o8�;����|��r�ү�.��\}�5�����]�%�|W|M�5�B��h|��e�}W�o����ȇ��c���q�v���8�F b�H���]o;G��}���� d�VH�Nv6������y�vT�Qq�x���~��3�n��S20�������ߞh�}�������i/]�c�j`��G�B�M�����zZAF)�>"��T�����x�?F��	�)��y˟�d�M0-#�ROe�o�' o�StU�e���3v��;5#'� ��#�h����5�/��B{�o
+���Hr���@Ps��W�TʨÑ¨�q�4pШF<B��V`?�n�N �-%b��?w�|�d��
+hT(�|�L����P�f����nw(�h4胐} yIw�?��{��{��zw��y���N�`~�Z���]��?����� �vp�1t���O�2�A�P-5����P�u�X����ZL݅!�CF�:��u�A�.d�.`�$��fl��fF%Eԡ�:yY@� @`��0�R�C�W�#��9q�q��I,�w"Ȗ�L���?)�`�=bI����[/��z�@��ҶRi+[�zJieK�� ���^��~pl��4��4Q���<,f�Jyz9y�h�u-%�E������"E��`��$��/�[&aFXJ�',?L��b�N�,��lQ"�V��o�4�3�2i̶�]�������f9n9m9c�K��cɷ�Zj-�-�,�,a�,۬�4�6|}�p��)���p�ie�26���?�"u ��6@��@n����F	��*����8�4��\�"`i��g�H�&(j�ZK�&TFڟ�@�����0�����09;rv��:���CR����5HC�����(�e�ydY~�S6�m�`�F�m#�'-=#��$22��U�.^�[�qոk����f�f�g��[Kw��Ӈ��֒]����ɻ5���vw�ֶ��?�Ȍc3��53g��BJ��qnI�F���Ș���;%Hw� AN��@:Ph|?R'��>H��l��Qb��^�:�:)ߩt��z~�^���'���1[n	���1�S�n�����V��A�]J�D*#��-T��B,���� ��N��:�f�N��hb!�b߇�1��H��G�sR��D����p�;W�ޭқT��ҡ�^��O�?=�~�t�00|8e@�]��������v�6�b�����"S���Ri��o���X��c����k�:�~e�,7k����4\��N�NWi�'�i��Ӿ�i�g����)S�CT#Sv����
+{���l���i#���a�?-�ݟ6�?mȗ��;�O�/�:������:3��O�4M���c�h/�Х�Ss�>�O�A����E�A��I�(_��ɦ)���r���՟�ע�{)Q�z�?�]H��'�r�?q�V�[:�̟6ҙћ-��\ږ��KOf[�E�+@�
+{���T�l��e�]�A�I/�b.�W�9�.����RU"�r:�܊�b�y;�)j�n@-�'��:�#�I�q��E�w8�y
+�����4�^�+��p���[����eד�熶��~g[b��#���p6c�}���s�R�>���vA��ޙ����k��7�~��OI7h%z<���)�i{�9�V�'�yz8'�V;'B<��Mk��=�U���:�t�D��.�ʼ��X��O��޺�:�:�:�:ƚd5�����}m�6��������f��4���o�yړ ��ע~�c�d�)��e�?���Ʊv|}D�+�d��<�+��O�k��s}�|���53vk1r>���QaT�6��'"ƒ7�#麍��<_[9�-6|��=�,���(�&=*=rJ�9ٗHJ�i'*��5�wg^A����žTɘ���|S���y�7��������_�+�����3��0�4I�Y�I3�c-�l�2C��y����Fϲi���2Z�k(�@]���������|�4C<*��\YOb�����*$���n�$��I�x7���z���p��ܪ7+V�0v�fx�Q��6�$�3����`�Z�ެ(�?.-uy+�Rߖ5UQ��������N�K�WIZV�{�U���pe�e�P�Ku�+��ʽ�E���l����*�.ny�1+n�h+���5�ʲd[�]B�'�˶�d[y���=����f����feg-
+���4&�8���v�Z�c���9�����b_OW��HURFR�TauJU/���*��ɱ1�^��veREy��;�����K44$ �o�R�z,�؂<_���c�/���f39�'���8�v,�פ5�mMۙ�?Moh(�8�Hܱ8^W��5ng��8�T,*:�I��I�h@4�z<�l�f(��l}C�|�����2��]��y�\�� ��H���h�;��-R"�D�7�:[�X� 7�(�ڒ26uB+hْ -X��Y����O�##oF����||	�"U���Q[\Gu	�2�2�K�g	`���������i�8��5�#%���$�`�=x�>Hޖ�J3�9{�?�k��񓮵���*���,��9	6���rvE%8>O;�6��i���i��q���ޱ��H� ����G�����0��Q�D�pu�,��A������%l`O����=�=x֧3���Vf���g���R���kq�ŏ�b[^u�UUw�.vI"qᇡk�эo�o�эnt���F7�эnt���F7�эnt���ƿ4��)���DH�E��#������b[� ����Ĉ3����y�tep��D�����2Vz�PM��d���y�� o�1�[i�_Μ&�aA�Q�f�ziー����C�!�[����G;!�Y�}�Z��JZBeTj�ρB�R�L��U@}�ʠ,�V��i���dʏ���e�Ú�;<3� ���aS�4�@{�i"�J
+r�J��+@��R�P�J�E}u�jZ��mT�J%3h�5ʦ�2����_zW������`����V§j�Z�|���K��`���k��Uy��U{3��F�KT���\%j�S�WkU���rIYy��s���ҘY���"#�fum����UF��QFvY}�e��eeFA͊)�3��B��'�$!Ied�Xa̭^ZU_g̭��\���b�7{����ꕕu�*��[��lU~����*WC�����**W��^n�,�o�6VW.����\]YaT�2�a:���/�7���%KFe�*��u��T�l���ay��,��4�Ӳ,�K">̄~�
+��,�w-��m�/��1ׁ^�Hh�V�f 7�{#��Fo*1RJ�*�5VS�j?�A�����,�XՠR?a�4�YJCxXq�8���#����+p�}h9�Y���m�MY�3�YI�80����7;���0�����/ ���<
+endstreamendobj124 0 obj<</Filter/FlateDecode/Length 19736/Length1 41380>>stream
+h��wxTպ�ߵ���2ɤ2!3aH$:�H�4!@�`ZB��@ �QT0�*v�d 	V�`����QA=�b?"d�w�wb��������<7��w�{�5{���	"�Q3�4ibyր�s����[P�x�U3_'����@��e�=7��H�$2��Z<{�?�����$Ξ��׿҈
+�r��4����!�9����mwG�ǜ�V�i8z�MDQ��_TWK�4Wm�Fyӂڕ�{
+Ն�ǣ�ka킆.'��݁���ŋ�.�s��9��ō�_|v�(��#�T�"�#YM[M��ɬ��t�BVR"M��h��� �+�VS���"~���A��N%�E�]��0E�ߦ��N�����I4��b<��
+�L7�S�>ͤp[i�G�����?��ش���d�����Ɏ�@;���ȍ(�h�_"{��N�/;n�;���j�kS�D�[q6pZ��ˁ!zY�i���Ύ=�w�R��)4��Qբ��4��bd.�������6��P��Zu���_j-�Š��Q-ǟ��K�%����D+�g%]L�h5�����Fd��2�+�:Z�7s	]j8��@���xki]�KW�s-t]��|]�o��_��ß��̇-t�L�b^�Nwt��b�o�;1��3�݄�v��W�gi?��=�1�u59.��1\�1X�n8�y�V��u�޷�`OW"~�yw,��^sjr+��V�v������K7��%z������;��ۍ��:G�����a�ħ>�����vß��\�F�n���Ż��pR9r��� ��C�J����c�Mo�Gm䧽�o�:@�F�?]����`�.r���0C��C�i��y����#F��OӟP�kq�Yz;ԋ��L��3(�j|>����&�E�	��9>�򌩟1}��)�U�ފ��I'��/W4vLaA~^�hOΨF�>,{��Y}�d�LK����L���G��BC��	;���wa�˗V����c�����Zj���\����UcTs���5gu��᚞s5��5�F��t�]�W�ݮvQ]Z	�9�]��4|��4�`C!%w�
+��|��U�+\>���&������B�dR[hl���{q��9JF�Y0��M�Z��ZP[�TZY��HI�2b�g��3��,F[���3�U���C-W��ifMFx���vj�O��M-jAK�F_T���;��kէ	�r�/ӝ_��p���s_ |�T����=���'O�:R��S�ߓn�.�&\���lxB�/%E���=4_si%�]4��'OVF�O�ѯ�W���fy���5��U��.���k��꓉�7���/��|jZ�̺9��6����y�**}�|Om��m��P�����Ci�/˽����
+��w0��Ҹ%x�/6χD(x�/� _.WAKM>?�ޖ��� m�r�H��J_|^JZAKe�,���Q��9�U�H�y�0|U�ʆ*�-���^G�u)�7w�o�j��z�-�VW��P�������ܑ�`��2�������-���U;(��yc�K�~k�XGJU
+���Gr�ɔ곞ז�s����o�k���UА���QS�����s*�X�wX��9V^RS�rSЌ��b��G�\��w�s�3�R�>���-.w�VWo;8K*~U���\�Q
+.˂��9X�ᐯ�(�1��c;].��]-Vwqy�޸;� ����isZQ�U�у�4���k�.�����=�<����iY\P3g�ކ����]^9�a<kY�Z�*����XW����ޓ���J�<bSyu�A;��M�~E(y5�Um=p�� �^�U���.���T��ը�8�L�ٸ��\�.ȈYeLP]��1��)�i�1�/)a��m��^=k���T鋋��*�W��{���6���}��\_�;W��������C���'�Ը�OaBU�C�TT�&]�@Ee�+��U)�jSAu�/${�)u�ѩAx����V�V��ZR��0me��R�A!�P�иG�����/и�_s��*C��ʹU�t��h�{8^;�iJӿ(��%�=�X�X
+��u	��Qy%G(�˪x�,�x�:7.�ո0�Օc��^��H�D-�� ��Hz���0[�/�/�_݇�՗�)�RU�o�6+���0<Q�yC���KE����F<�^���Li;��Wbg��hɂ�>[jQ-6�?w��٪�a�6�pԢ�<㮦V��w_�r�O�L�~8��1����s�7%�O��s�f�[Z��߿���j;�z�U�S�;6�:�L���C�#��h�Z�/%�";��G1;/�hմK˧������[� 9t���0H�.	�w��.S8M�v�~KV4ڥh�qО�a�?�&�Ո'�t���Les�A�'��4�KԙA����������;X�x��o�Ș��:�;��f�W�3庢c�ā�s��(�|L��?��B�-�tAg�tꇶ��S4"H��ߑ��b��XG�h��-�=��	�i+h��ڌ��xVW�L���;�I��R��V"���ֶ�G����D��:�/(K�	��v*���Q����6P�lT>�Sx�wh�ٌ��?�V����C4��Q��R��w��$<S`�D*b߃Ε�(I�
+t�b>n���������7�g)�<��vF}�����:3��X}��v"�wb�,FD[�~��L ʲeU�? �A��j0�Z�g��GP�P��6J��C�Z+��A?�;���w��N㿪���;���\�N2�J���T����߲UxX��$ޥ�Ż���Hh5p�FP	f#����r-�6�/��S�F<�^�V�-?S�r��������+���l��_3�7����e���vj�i+�	�PM�R�6%pV�M���U|���)E9t}�Ҵ�(Ek�c`�S,Ř��c�9��k�z(W���Q�QwS;{�v��zQU���Ԩ�R��su�+���C�*�4F��-xG��|QG�bA��(�ӱ�MF��
+��p��ڏr�'���Q.'��e*�p�]ANe(�*�Ϛ���>k%:s\����������fw�msE ���]�?m7��F���G��6�;�:5�"0�\k�p�#A��T�����F�s�Cy�G���r#�8S��W���^eЗ��2�*e���ŏt��_�+�+�D-��z���9�L�|��N�l�|��&ʌ<�&�!�{�q9��x���j+r>�q^v,�����yj&��4���&u��gb�I?���3��gY�����V���>���V�8�*���E�sG�H��,	���1ΐ)Tl�ƾ�q��&�����*i�~�hm��8�k<X�0o������������h�G+ɬ�-ʀ�	�
+D��>�o��u�JTkG�	�M�q��T�+�����ě���4���w��A�b���u�+�w������D����}��ﳄ6��� ���I=/w�5��w�H�&=�
+�'�޹|�Rͧ�{�7Z�_�8�'~�z�*s/��iǾ��ߵ)	u������H��'E��0��i�4�b�_��.���Am̍/�.#O�����L��C���8���B�J\��n7s�����;u�n�1_Vs����\��.�GlÜ݆�;����]�{��iZ`v#�)@yu1m@�8��.RO! ��>��Z�
+�.�8�-�ϭw��	�9Q�<��~N����Q�	��r̽r�T�8��l��5���8�7+c�K3�18�zϪ���/癑c��LW
+�Ϻ�ޜ��Iݵıwc.n�gh��m�j�@y��*{\�����,�K���~��f��u!�s�^�v��NO���r0��C��:	��zZ��`�qo}N����m��nF�j=.�hȐ�e(��2pH��9_W����]H(�L�#Z�3b7�a(�Q�����2�n:�~R���skn]V)�ЧeT�\F�A�����A|���Wm�	V��`�棋����y�q��R�U&�I&�M���HV�ôG�6���.*A	��h{1�"0g�"�ܩ� �r9t�"~��-���X�O������yZ
+Yb�8�����(�m��KؗO�LP���]}:�֩~�lC��܎��`7h��4��@(3���l���%��b?�Ei�<��Aean��S�g��L0�6�y;��v�W�������������c��r+�h�}JU������\�C�#�)_P)�Ty�.�S���ܫl�l�=�W�h�R�y9�b�B�SJ��l�\��J����(Vc(�4�,5u	j_P^�	�i�� ��B馵T _��]���Z'�XĦZ^��:�s��5 L�*�5�w�׽`�>�M�S�f���h.�}�r��������g��{qM��i��m�f��A��D��RC'�m�l��6�z�CTW�rپ�1f�4�Js�4�Ҭ�f�4k�Y#�jiVIs�4+�Y!�ri��Y&�Ri�H�X�E�,�f�4�H�y�̕f�4���%M�4���I3S�Zij��!�ti�I3U�)�TKS%M�4J3Y�4ҔKS&M�4���(�iJ�/M�4�)�f�4c�)��@�|i�ɕf�4ir�%�Ҍ�f�4å&M�4C�"�`iI3P������4Y�����4��dH�[�^���&]�4iR��!�[��ҤH��)M�4ݤI��!M�4]�I���4���I+M�4��DIc�&R�il҄K&M�4!�X��Hc��$�&�*�"����F���4g��Y����$Ϳ��Q���^���V�o��Z�S�|%͗Ҝ��4���i>��4���3i�.ͧ�|"�����4I�4H�7iޗ���E�?K�4�J�4oK�4oJ�4�K�4�J�4/K�4/J�4�K�4�J�4G���4OKsX�C�<%͓�<!���<&ͣ���]��<"�~i�I�W�4m����#�ni�f�4��<$̓�< ����'ͽ��#����%�NivH�]�;��&���.�m�l��Vin��fin�f�47Js�4�Ks�4�Js�4���Z���i��Ji6I�Q�+��\�������������������������������������Fid�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#d�#���Y�?y�9�?9r)�.�'�4si=�:r8d-�ְ�fY�r���h�J�<�
+��,M|m���4rp��[.d1�"��\e�|���I�y,sY��f��Oʇ4p����e&K-K���|�4.Me��R�R�R�r!�d/KK9KK)�$��,XJXƳ���;� E,c��q�1,�~G1����g�c��k��>K�7����\s�p�}K6�P�!,���A,��,�Y�qcY,}��>,�,,�Yz��dI��XR��,n���t
+���s�$�tcIbq�$�'@��$�'B���s0�%��1,�,Q|����K8_c	e	�kV���u���Z
+�XT*\,d��tU�Y.�a���4_��K�b������	���	�o����,���W\���$�	��O�/8�9�q��|�U�ΥO��	�>f9�r��}��!?`���,�*�ҟY��w���d�;,os�-�7Y�`y�����*_ay��%���,�s�9�gY�a9��'��4��by��=��gy��Q��,�\� �a�ϲ�e�?>���O����X���fy�eK+�C�x���An�����},����r7�],;Yv�l����V�����ng��e+˭|�-\���&�-|�Fn�����u,ײ\ò��j�y�ZX�d�Ĳ��
+\-�r�L�e,�q� ��\��B��q،�z��:��|��o5�*\=�b�}%�
+��,M,�X�rӍ|�����:�"nl!�\�2��"�y,s��9,���f��,�\��e&K-K�����i�dSY�p����*��J��q'�y��
+�r�2�R�2���D�>�'�c7@J��} �J1�8,�Qĥ�,c8X�])��n���c�C���͐\t!d4��%�e�?绸�K#�QU�,��Q��ƒ�ꏪ��GUC�A,�Q��\��?J�X?��6�X���}�2Y2���,����,�,i,��(}�z������f
+7��V�,�|_7�$K"KW�}$�o���πĳıĲİD�Q|����,,6�p��5C9�be������kjTY�B�@�L�NGd��ld�����4�	�!�#�|�C�[��}��)���D��'�}����8��,b���s���O���bG���(��>�+����"�{���w����;߶�9�o¿a�p�^���+��l[�|	�E�����s>g��|�6���m�����{��!|>�O�/q>��|,|����e΃�@������^�����������V9[��������x< ���{��8����=;�;�.rn��~��v�u�ڊ�nE�p3�	l7�p��h��	�kC':�	���z������������l������콤�ٻ޻ֻ�u�7l�[�X[�v��ֵ����C�xWyW���^�]�]ٺ»��ɫ5�6-kR�k�M"�I�k
+5ٛ\Mj�2o�wik��'567���ƣ�
+5���������B�gM��^�ĻȻ�u�w��yx��ٳ�sZg{ge�{Z�u�3���5��Ӽ�[�y�fW{��V{��+�����
+����[�]�-k-�N̞���xIv�w|k�w\�XoQ�X��Bo�LI�$W�j�`B��"����8�8����sr�ё��D�WdW�7��X�u}�k���	�%(��^���]^��Q���h1�.��R�=����}�/�(44'���`��%����8�S
+�q���F��R㞲�fW"#Edd R�D�zd�3B�?�'����H�Ӧ���!���>��02��xs�&�)����BOX�~��
+�$�Պ��D��P}\��񬉄����<#���Je�>�)>�ɗZ�zJ�}�M>�VO�l⚪6��U�b����(_�y3u�-�u+���;vt˭*�5���1|@��*Uӗ6-��X6ӗ.�0��$��R���.]�����(S���j�K�,[���G��~��~�H��@F�˨^� .��f��k�����`X��2�,��"�, ��E`���`h �����TQ�� ��40Lՠ
+T��d����R0	L@	��8PƂ1��|�r�h�9`� �#�p0d��`��` ���,��� ��@O��@*�ܠ;H.�ɠH����ă8b@4�v	"���0
+B�X���6:�O(@ �z��� g��38~�?����;�-�|N�����$8�	� �����3�w�)�|����#�!� ���
+����w���-�&x�^��W���%�"x<�ςg��'�48�����	�8x<
+�vp <��}`/��6�{�n�0�Z�C�A� �������]`'���;�6p����[�-�fp�n7���u�Zp��W�p%�6�+��T?�Y`����/��ֿ��X��_`����/��ֿ��X��_`�����{�� ��{�� ��{�� ��{�� ��{�� ��{�� ��{�� ��{�� ��ֿ��X�k_`��}��/��־��X�k��N���O�����'a�t=ä��ꛦR�Bè�&Д�Ɇ9O����q���>�'1_ra�[���y"5�v 11�}`�y�U�_���X6c/�9���W��~x2zX�I�����ٿ~5jX��co��OD�D�F(K��ݽ�28=m���F)����G(FlА��ԁ�5VFF)zY�o��V'�5+��9���#cmf����gd��|J�Ⱦ�,�Ŭ����Cs��/��WKT���n�Vkt���nQ���"Nc��9O����<bjN��P������	]{�H)�c��b�Q�VKtTx���g��K��H���Ζ`X܁��:S,u�4�v�z��������Ik��&~�:�I�]�]����Ƨ��H�/g����������ws��D�N��pe��)�kn����V�5y)'''zذ��iӢ����h?9 j F<c�od���fc���5BuwOK2T�8w�����*�NgjL����g���wR��Ha~��5=��;1B[->O_��TKx���B�-D3E8�5X�UU��a�Ϯ&̩]D���J�ʦ�=���(q�#�>���B_������8��Ņe�3�ʙz�L�r�^9�Q$>8���b���&���Ƞ��ao�������=�a���������0��K�v�f����9Ƽ&��3m��l������S���4d`
+F/N��ɪ�Wq�����Մ3{bݒ���]z��"Җm��1���=;�&fW���+�uBꘋJ_==�2/M,�`v٨�q�t��tgfŪ��c��C�-TD���I��#&��`x�HgGv��2��X8������g�M��Q��
+�>*�/�Q��JƓH$#(AdQ
+��LL����M�����2K��:"��o�H�~����9.�L�����֧��������ֽtmI��o�ϞW]谚T�f�0q��ɛ���nJ���A��P�z���+�Qq���v��35��������^p��5��X?:-+����ϲk1ˢ�I+<�rRD�>sb���>�D��1	�m�c�̡D����$gLbp�$�&�1$�!�pD��]���x�ȱx[Έi����)a9o\;��S�u|i����o+�?h�CW�i[�P�0�~���_�w�:w�e��D�j>���虺=ˤ�m���7�|���S��:=����J�'$$����'���֜&����DZ���� m��6�Y?mI#��el#���7޳��N��d�5Z��z�F���,��j2��,�VlZ�EXm�ژhG��{k�v�F;���B�I1щvKGk���w�Z�~���6KL��1�~���wL��1��~[7J�fA����t5���{��v�7����u$jعމ�tF�6��j:�_�{	��f�U%��JG�J�}���-��V_�n��>���Ѷq�>8}`�;`�aC��!1�	�f �$��ն3��'$�5K2I6��Γpd�@2������Zm��d���ͧ*UKM����wU��Q��sQc�9l�.�_�zZp�UR��,8yz�W��R���4Z����%oR���U��rlHCmHCmȷ�-:������aߋ_T���Q��~��~�b�Œ��h�1�9�4`�t�I��π�sŅ�i�x0��7�f^�C�s/MM��9:�9֜/�H��Kh����?I�Dj���u�˯�捥�[���cWK�%�'i#c-F�ضb���G��?,������n�s0�J�-h"����}w��S�z�nps a�h8��"8"�M;��w�?��k��# �X
+c�[p�d�>c%0%LA	S�S�SP�N@�fΟ:f�7!O�N�9<��3���ߎv�6��v�I�k��Ր���U�uޕ<����1+�cVnǬ܎Y�3���hÄy$s�3�۩�?�nd{�6EϜ��5���x�a�S��u=]����B�.Ţ�	hQطDnu��.\��dM����显Lw�T�j�j���^i/���A��A���,�ԡ�8k��Ҷ���.����Ҕ,\h5�B�����bg:�E�n7� 1�]@p��J�d���Q'4&���4x%K�f���1�xe @���|������`�
+��:��u�����M��� a0���@���!�#�<7I<�i����6��B��c�؝���IS:��N:���4)`�$0=L*�A`fl�?���~$�>�a��	&e��v�ɐ�H�!�.�.�UTFF*�-�%���l�N��[uf������ʕ�n���k�y��FǄ;�u�͝�4� t��n�5&ȇYw&��Q�L��#C��Ps}ߌk�;��ܺ�S鱿ÿ�"�Z
+�1{����[*?&@�[t�&�P&�M(`�l2LY��aM��'=
+�ES=�+�(�У��9	I�١�3,"�R-����ܜC��u,�|k�����{z���������;��[�~qU<���o{te�ߟ;�j��?>q��gV-��?|c���3ѽ'7]��E�qў������MCje!je!j��Ԋɩ����
+Xy7�Ǎ�qsZq#�F#E����Z���d�ǵu�NVnn�^��:�B</���M���y�07�^u�H�H��T����?D|~��;*��]�����7O�]���|X��+&Y��<֋=(z�_���.�U�UЪ
+h�p������x<�hx^��W��Ѩ�+�A~st�D��	8��*NFb5��_�勊�H�P����C(��*X, �F"U2ǪM!��obɝ�dע��U� ������G�=+��\2f�A����.���~�w]�:�h�͹�Rp��5!UP��%[�uok3��+�rw�\e�ԕ��mΟ%�A�)coǺa�i�Ic�Q�]��k�����F1�Ɉ<�,3���iC�u"��8���D��<��v>�S���ٕ�I>5�`ӦN�(V��""��� 
+"�#<�x1��xK�bG����B�4�+v��,��f"1ŝ吪������JVT.���z��u�v~e�{�d����D��.�6�:5/���j����\����$N�Y�M�N�����Wo�za\s���������
+Ă�la~{s�kѶ��ۖ$v���6�3W��n�	��wd����=2@[j~ �p�&"v�#�#6rن�)S\��j#"�nŶ3���'��	�t�Fck:쯺3�*�*���U�zN�ȹ�^?�RM�jx� ���	=�͐�$��{u���������P��!�Aϒ�<&Bb��z���Y�[�[�[�[�[N��e�/C*D�?�D&�	�� ��(�K�Y��6^q�u!��=�;�y��^���ƅ;��;�4~���x|OO��Gw�*�~���e�ƥ{'	k=��|��J��P�d���I���>�G�Nbi�+a���x �|�$��M � (L4L�X����{	�
+����/\�?D�,����OݙŢ�Tw��+��&\z���!�w�}�F���|S���(0�)�q�M4�8pj!��9���y�y=�s��9�wV��$4z���dk�Mc`?����s��aEy��g��eǡ3�|r��J`�Z�0L�j�N�qB��1�T �k?���l>_�@�e�%�5��X�!���-��=������+�8�b����ƃ��_�e�0ū��rC{q[���)�@�o+�'.?Ʋ��=+�=ޞt��֜�(�l#��"�!7���0��0�Ő�`m��nSb�:Jn�m׈&��X�����r ��].��0���� H�;���_jGI,]���nj�ʩ*�9�X9UT��~+!�F�@� [Գu�l��}�+�d7��X-(	$J�������>����W��4�/v�)7k5��QΞ%sk>�(��z��x�-���i�j!?�./���7v�l
+���8�A����nG�-4.�u�ik��_���= �}Y�j��G��3���,yEy�
+^轄W~�It��<&|�օ�O ��Έ4ff�-~R�4TG#C�~n�O�F%!�k�z�����/v6��U�#�[,�z9�D��?�1:͐,�)�g�C����g2��9�D�u�}�������'����f��P��U����̯�An����ۻ���Г�X8ٱn���1�#����K�ֲ����[���]���۹ţ���E%�ui=����n���aa��M3�e�n��q�ң�B�8+��
+
+�k�ʄj9T�닄�WQ����5�lh��v`Yb���F�q���Xܶ�6�8�Q\RJhQb�U����a�Q�uhǝ߻��slz�f�z�1���'�X�%���x�j����V����v�:��:�(r�)"�("e)�`��QK+`��ҊŦ��H�����NR߀�lC���C�Q�
+֒:�.�J�TKm�MRϚV�H}"R �x�	� \����Xf탫��)��������A���w��Q{U�v�.����N�蛇��m�����b��P��5#�� Z�WK`9�i�!�/��	Y��C�7�߈xb#BK.�K���Gz_K��|Y[�T��TtLz�JG���?����=�$~�/��$]�_F�l��o��z���`S�UJ�(_K��&��%U�uje��|�9�� ��Q��s������rZK�j'(6�d�����:�=���W'�$n�ٹ�+ S���%)��L��F�`вv��u��-7���w�cK���S#
+(���ߥ�	2���Y8d���9��z+��Μ�29�#	M���/�F�0s6?���m�p�RF�Al�t�=�Ʋ�/�ՙ�u��3��R��Vku�]�J��̞�3����ai���#tM6����㐫�-8x�P�'��*�`իh��e���R�C���F�"��j�/$8xjj�[���u~Z*�'�&~�ua�U؋�٘@V6��K�qȖ kB����7��_��1x*�F02�$MD����p^�D<If)���&I���C /E���>~miCXd�1lh��֡_h�e6�n%��l����u芟�Ɣ�wI.��"��D��
+�����"w&�KT_�c�E���3�U��:W��5��^eˆ�%�Ej�5�"Ѩ�P�w�ۃ��Ԟ��uN��;��y['R�k��v݁�����ל΄��܊�G�^��|��a�i m�pE�`ںp��۾���w���.'qC��LϿia��bLy�)�����ڻ�.n��r��֬�>�ع:���eQ���+���k-ǖm�gV��p�=���繛��~���	�3�͇K9�0[~W��.���aX�zX�nY�1X�;X�m��w&"�i��d^},9귏H�SJ�AZ)����8�H+E��8&�l�L<�1�1ז*7u��o�2`5<P^�k�o��3n]�Z�x����;\��x��)�<�!W�13���=V
+��	����d7�t|�,H�zN��0f�����t��(�?l��>��M(�P�,��`(�"e�Z�.@hloK �A@��S���!^�R���p�s�â���f�,�($/J�٬8�fD"��Qr��'�(̆��j��bh��j��j�28,�$�*+�%��beW?_Uc*���J^0�Fuݵ�G�%�AI��s� �X�����A�A]�w!"`��h�C�L��`���
+7����+����Oan��	Fh������y��肘�1Q�Tl�:�N~���A3\��be/ݙ�h/�ߚr�aT_��#:���$uC#R~��ӭ��⎚\O�뼽S�h�ǂ*���\��� R@2lF�cP`A��J��^��<	��
+��A��u�C]���rr�^����ܢR�����h�s�5�J�(��E�ySco���I�_�,��R�j�DmtY-n���ܺ���K��&o,{g�J�x�W��
+��b��Y���c�tw���A��f��u�f���A�A��8�w/�?��#���Q��ݲ���)�9b�I5�C�*�(N�|q�����lh?�!�@���_p�s�� �F��?�C�PG�뢫1#�� �-�h@�R}�]�7.�E@�ԓf Sמ��mO��T)=f�F��m���qCA�+)	%ʉ�ҵ��T��/u��۶��-�9_�����Xx��u�X��^��t���ս>���������8���{�s����]S̭܋���~�e�ʦ��lڟg-a-a�އQV�Ha�,'�RJ-Ջ����t���L�R��%t���V�z��P����N#O��J��R"���e^ײ��}�w���`���ɷ��Ԟ����}���}}���\yt�Ҏ���������]���e�`��ZT��\e�XVV����w����\Ru�f��p��LxI.��E�P+��Q���e�s0k���_U_�-�-��̼&*>4X�"�2�\��h@#l&O]�1VW�g�Š��5����uU�*�CN�L%�?%�����"E�fG�2(Zg@�e�+#-�P��"��̾�ySܽ�5�W��P�Dj�)\Mk4Vw�loji^�f��mE��rkIk-��i�)5R�y�bGsG�7j 4C�	���g������6=\�m��aU]+�JFR�nT�.h�H��K�+�c�NR1���B�s�'���:�h�Vd��h����-�M�V`~�/�W�[yBn���s��%c�ᢴ[�P���2�?i�!�r���ɾ&C�vJ�����7㌊����Į��`[�L�1j:�/�ĸ9&N,^(F���Z��V�)���9��|8��y��%-kʍZ���,o�(��"�\і�/�б�������ocm؊�q�&̓�^$��H*�T�2��Pk�%�ݺ���fh�)�m�Aj�U�5gN��,��)����R-@��i8_<e�_/�o5Q��3U��&��o�!�I��U�� �������q��S�Rm��"g�fj��*��{?�l߁��!�� EEE�֨䤢�D��GeK�*�xT��O�m��C�(�b�^EGa��H�r�U�ː��f�[�>����R�,o]К�f]�SF����գ�H��2ɥkz��kWe�B�5�5F�s���Mw��U��ױU��K�;�W>șvA|�>���h���W�΄��#�x�EY�Y9�f�t4�:����]Y���@ /t@( ���!?�IW} �Q�����C��A�Z-|��HCU���z�v��~�+�YG���xH�SsH���d�Q(!�T׆d�B�`�[!��p��!u��������
+�sX�A�&+$��~���SėI��R羁fzI��!&�F��I!_��V����j\�"�[`���݇�~��.��{⭠�����A�"^�D] F�8��A{hO��F���`�Sft����Π\FG�9d@��e�s�7�m�n�HN4Z�l9\n{�4��5"��	��M�;�>x�:B#�_FHN�.��@$e�Ӳ?�$�V�k2���D����]�S�>RUy��Yco�]K�=�?C�q�7
+�U>P�0���F�s��P��F�*^�i�ﰹѶP&���������-2�(��;3�M��A���[��a�~šu��Jc����u-�h
+9���AU<��W6`U܂�z�h��(eE���@k�Y��Pf�6�e���� ˻�|-{(�x#�k��魬�Sa��:�>;�^�ѫ�� 1O#D����%�*ɚ.w�4�U�� !�sMy�E��Nw؈ӕ��Vs
+l�<�J+��1�^Б���*��|�&Ce��9 ��	a�1'\l�z'�;�MJ�m ����((�9��!g޲���09�+	+��&d�E��'��HjM����2��D�ٛ�����ջi��|OÅ<���V@�I�|����x�֤E��+�6���t3)��U�a��T$&U+�6�ED}(�M�T�&���up������3RT�(�� "(�������1�Y~�(��=F��F��ҽ����kz�&�8CA�6���yt}S�4m�{|1;M�c>O�F�u�gW�U�He�	�]�)���=65����a���s����e�	�?igY{�[C�u�{sb�s�Յq/��G}(J�҂P{�d�Zo��V���[@���B{����ͥ��(F#�8}�Z��Pnp����>�a)�t�L���c�'sd� V:S:�HC��2���X�k��b�*m1�W�`�{��kD�k��蘜���p���:�HS� �g3\1�Y��SG�	M@�����>Z~]�os��#�亁t�
+���&�����1�AN���X����uRgr��~#�ƧH��1CC���4$�t�]:�2�0p����I��a�#żM�:;H+es�|3����8�\'o4�����+A�'���Yy
+�Au���@>�@D�������+�!���2/���pK�����߭�Zu�
+��v�C���V��8�4�X]�Z��ʲW^�,�G-Ϫp�F��'?{m۶_����H��at��7����q�(���3���3�4�J��|��Lm���:���%�G#J�������<�F�[T+V�\I��jv�|�ܾ����d�J��U,��1x��W�S?�9ޝ�<S���%�qh矅��&�=1o4m���a�,�P�U��S��FR�̄�X[�E���Z�R�(�-L�"�z�juk_v�T�G�^�z�V��==�Z=ڗ��_ֺ�V\��:���*8�_��hc,T_s5t	Q#�(Pq��ѣ�z$H]��b#(�v@ݣ�SqPk�l��VE@�2،F���2f���7Ӏ�����g�8K�Z'�M@V|B���h� �{�#:ˣ� x���eZ��R���^�U�H�<?�ԗ��7|tu4U?�T%��W��w�4n�����1��+�hp36��D���x�ԯIz�<L���VD�nH��/*�[O��`"��!x#Rg�0w.O���R�˧��c
+��=M���To��z�=�M�L��D�A�i�T%g���fT��Y�6$��L:���WW�A�>iX�
+�qfg��"r�y k>���v��ĉ�mO^��K��bÛ�:V���u6����l���ݺ���-��dǆk}�zK�:�w��sYt��T��M����}�+�;�f��Kٕ�ʾ���U����&����yEo�֙����;�ޮ�r㚫���~���Ҕr{G�_PPW�I�+�H;���T���&�������k��8tۘOND}�r����OI���-��a���Ɠ"͠h#�'i4���18&�����B O�I6:��a!��?#�%�b]�����J[�g��d]q�$�O_����<�1�t��{v��zg�c�i�՝O����ŝ0��{���L~��'��/�������ε�㞶м���	}���l���b)�Wb(�!7�@�	B�D�� .aoD�I� #�� ����JfW �+9n\4�p�8��{l�K6���bG�(���Q��S��1�~�	��q�'��4��62��3R]��A��ꌦl�9Ĕ�PGuH��^Y�
+a���Kl��jFGͬ���ZM�4@�!��j���h3¤X��FO�zQ��������fH����8��{I�b��O�ɮ�h?u��/��y�����c"�Պ`�i�E�<�D����l�Ê
+���m+�â�E�������f-��B�8bU��*TZv&Ё��=l&a$�Ys�A���S]��4����6�3-z��"���ɫ�FW˂�4��>��4��e״��o*e�k�<�1��!4�Kq�	5`V<t��Db�-�4F��`���P�ֲ▾�]�?s�+�Q��m�>�!��R�:�-���d�A��Ҍ�Y­��<���������m0�Q����tT�W#"�wj�j�O���'���*����,i�ٷ^QM���z�q�};j����x$�$�UTX� �|;o�OVd�����h,���e����d6t�i��+�^�@�6cq��+�B-1�Z�P~E��]�=�n�F���n��5�ۖ�4jB��[n��Y�H,�yt�+J���m=W����xKۚ���8�Մ��[�埽"��Z�>o˂$�~��f�W��|5��}��ř�R1 ��,�T@\V����`,�28-+��>���j���T����`~�O��j
+�HlCŋ$�6�P�" �'J*la+�X@�"&� ��
+�H�p�[eo�������)�$��Ф�+��ϟ��2?D���}� �!̡'R�)�*��`�Ƞ�*�)u��&~�c��<7�.{6�QR��R�D�Q��Z�?`�8Q�4����� ��d2>T}�j�-��l���OU����o�p���W���)����[-�N�yl��n�F8���s?�oϴ!�� -��z�hD�R;��<�Q�a�T@��E��Q��>�Ɛ]��c�-��2D�ҏӜ��Ҝ�K�H3�4j��Q�6���Mު�msLg�,2�tp�(sz�%�xdp���2���(Pp�c�0QRFX�G������Ey�Z��b���u<߽�si�e��N��Q��w�ܴ��-E�ĕ_����mz-�0�N^cw;|����V��ZG7�}0CB���*�e��Ο�rg\M�'��z�
+���c#O_ZT_�+�G.O�+1Ls��=� o]ZX����K���O&��bxv���.-��\Z?���_Z�m�ʧ��b��'+�{��<qps�9qy�Z��x2�'޶Y�5���_]'�����a�����$j�%֏a�ֹ�p��$��}���˗���?�X�-P��T>�O�S�T>�Yɼ��%ۤ�)ˑ�Ʋ诔G�JK��z������?���?+m�0����	9eɁa��0�G_'�O��5�pH�F�3܃���9�\���!!n%n#��-�������,�[�wĻ�{�'��d�����ẍ�0����Y�W]X/ևc�˱��z�Jxv�[����� 8� �r0�]���F�p7�� ��#��>�x��g=!QDa��vVW	��KR֋ Sc݄,�H[-���(��[}���̬ԥS���Q��џKE�]�D7+����<G�Z�"��;��}�{��f���?�iq��t����7�{�#�q�p](.N�$�0��8�A�,���y��F��(�0N�4&Q�����
+.�rq�&�Y͟_���?n��W�?�C�)��B�����s�c5[-���F+=��Fϣ���u�}���A6`6�;�����X�]<�,��u"+��F�[t�Sb��?*U��Fd㯝I���&�O�V�k#	��7�&�Mp-�|�3�*��]!]�LH�������M�I�E����_%���s�Y�Հ9H���<:���Z�j�ȗGC�
+D>9��6=�ȥ2$Q�)�m�*�G��^F��̘1�4#��SC��#%#$G�<�hEˡ74�ƺ���SU�Բ���l��%��5��j$��ږ�"���=]zے
+�5wP�U�lh�2�����|�C���^)�ϟ�|;Ԟ��]���a U�����z�z{ZvY��z=+�����-}5��P�ʑ�o;j��'�Ϭ1K��ڕL#�]r�Ph�*���1�g6(z7��
+rE6}l6�ld�[�Ѡ�J�����"w�m���o3��/�.��I��"���ӕD͎g�z7���4ԙ6u���M�aSo�Ҿ/A�Bf�f�ʛ�W hxA
+endstreamendobj125 0 obj<</Filter/FlateDecode/Length 11887/Length1 26428>>stream
+h�ܚy@SW����%!���C����
+ٔMA��+���nk�j���M�:V�/t�����ֱ3c[�Mkg��6]��n�N7����>A���������f��s�s����s2�"
+��$Q݄I�9��o��oP�%-�JO'������5�\�ny��PH�Xۖ�[r��%j����-^�6�J���c��֖��|�K4OFy�avQh3���Z��a�^�1�}��esZ�kAy�t�w,iY��zRB�6�O��-KZU�u'Q�
+-_�r��J��V���uy�Ǔ��0��I�"\��&�f%�NdJ���"�HUDQ�͢|�į<予��I.	��E6P	Ǎ���.��Z���b�F���x+Q�n��������L��.�MG�m�M[�����t��Y:Ao���g�������@�D��jw��P�b�cٍ\��:gQm��l_��Vm=]�02�mC��`��pF�Y,��j���#����xk��=��7�*����d�BM4��CuTO�4�fQ͡��Jm4����k-�%�j�e��VP;|��V��W,�_G�im�"����ޠ�.�M���g��,�Y��e�6|_N�i]j�����u�N��y]}6}��Z�����ê�A�&��-��~�[w�t���O������je���[Q� ݆�w z��WW������S��mG�:FG�>F������>�τ!OK��w�2���k>_�/����_��z�x�|?�	��?��~�-[��۱[����ש�/�vo_}��=��D�l����Z�=����^_����[t����=�7}�Yr�݉om��zS���t?u�H���|o�Az��^p��G�0=F]g�;W��-�u.l��У�(=�����n;�ԑ@��@��z�����"���;�����x�^î�7z7A��r�
+�*��_��H��1q<�C�M�f�y*f͜1}�ԦFoä��u���TWU�[Q^VZ2�S<��p���yóge���$�8c"���9�d4(�$
+�Y�hv�R�}r�{ܸ,-�n������炩��:>W�^�u~Mj����᚞�5���
+�2]�n��d���%L�oDzW������ӵzZN�3!�$%���<f~��'4��}k�w�7����s���՜�I�$-H����
+i�=!���<��(D�'�������7��9���t��}��>�ޗk�6g��:��LǕ]6�ݜ<�=�ez�OjA����c�Ϟ�Kw���7|�Gn�e���}ntV=�� �OI��]�&����|KK�bH�}OZR{ĳnByo�07�ϗ���eg��f#��\��y�v�ɓ������gzK"�Z��ޒ�͛�I�R�7��̏�m���ʄ�������R�gϙ�����]V�~kh�yʐ������l�oi�C,��P���v/�E�K�.mLjԛ��"J}�Z���˴y��;��x�Z_���#���p���H.�&m��R,JjyG��6���1���jt$�<Mp_����I[%�͗�>�K�G�[����=�1��jR��Z0�*��.)D�˥g�-)t5
+ꭆQ5��y� #���ӊ$�i�8GRS��)9sRR|�>}�`8;'翜��&��*o-�3��:U�v�y��/��I[�q�ER
+�\�Dt���U�q�����nu7�C��F��4_��[=�]]?�Q_�@�4������(	Ž�1X���]V=?Vϟ͎�W\�[��0��'uh���oڐZٲ� l^�
+�n�����h�R7��8��t,/o�?R��]9��=��С�ub�F�m�0��J�2���t;�z���6��b����/
+bisI��d�5��ף[Eͪ��K�h=MDƤ�w�m�Keݠ��t	��L�6��t�l���D�d�yt���"�̇��ݖ��j�sq����&��(,%���M>�=�� �}fwk���.��Ś����nD`Q���I�n�S�Fr��֥�KU�N:���jӡ������JJ����X��9-�<�ۨ�5�T�iB��v�*�� ��5*�6Z8���Po���&_S�6h�&=�m>��e�>�Tm�즎0w��n�U0�l���ѤF�8��`M�$c0f>Ǎ�9�.x[�9�꼗�liŖ(���2;��=��b	1���C�ii�`�TR�MM<y=�=Pc�|�(��+�Ujs��vLU����M}Mt��΢MZ�Ɉb_HJe6no��]��ؤ��@��jԞ<~�R��{���|�2���&9�S�CM��iY�������a
+�p��)�,aďN�:�C�ǟz惠�&n��cIn���r�˰ܦ>�[ep��4�S�AL+/�U�ԨK�bMҧ��X
+���ڀ�� MT�iiɧi�&�C�D�&���F�#�,h<T���C�]jt�����4ch��rr�3���&�N��0�RH��Q�������0� �W�nD�U�Q��d��oP8���ܣ�ݿUr=kt���%T_E_G�Q�B����;��ߨ��tu�&Y�J��\Hr+��ZKE���w3e肜P&�
+y�Z����[hѯ�vM��I���
+_��`<8y���
+���.�Ac�Ѫ�,�������V�'~M)�Tk0P���jØ7S���T�	�̖�a�cT.�N��?�f��,&��~}y6�D��&�'p�I��6����tI�t�!���/�E�-���h�b��7}%'P}?���M�!��5!]$5PM@���޼��j/R��Ko���:�5��o��B-2lS�LO�Er��4lE�)��iB?�5�tE?�g믅�0Fi�����K�����"��*�/��T�^�k�
+��X8�j����R��	����Wn1�7U�\�+���U��P��������P��!0�9e�ܥ~��A��iȯl�X_Ȱ��GՋOS1K�R�
+b��B��敻Xr��!|�Ɖ�
+�8���O� �Z!��mR�i���V��ۄy.��Ԥ��"�Z�Ǿ\��.V�����֪�H{(�!���l�R]*����_�~��/�����mt���=���o�~a6�.,Q?o��L: ���m��Ik�����B[��	�=+^F�����ċi�x9]-�F��H\��N�3&�ӟ��m��8�m��C����Ay��ۡ{u{+�,%���a������%�@�+��g��(#
+�u��}�ht@�}�]�C<=���B�Ρ�>NO��
+'p9��³�jW�Z���M�����?ġg�+7jwi��m8��;D�sڙ����ø/��}��q펠��W_�=��c�3\5�mpvK��w�s�)铞�`�!c�<5Ź���|8�kg���vƨ/�Y�󪾷��V�	� 5���Φ�<�@=�{�H���g�:J^��v�LS�υ��U��shS�)m_Wi/���8�u�@��T@\�����]��I�þ[�ky�1�X̡V1G}� ��|��)�!�U�1�8SD��$�=�',&ES����X�:)~���@A�(��yT��^�܇w�:��I�B_K���7��y�Bߊ���d� b�9AU�����&}=�c4��T��;6�c�y�$�{&�*p����޷>T2����F�t�'����U{�^r�pM��1e������P;=m����H��n3��^�fS��BˍA�k����o�6�I��/q�i�����������>��Le��O�*_���w�v���x���>=^��${���]c�~��G��]o���;���E����X��������Ϣ�V��S�#�þ�نl�=e��shփ�����9^�2-��@_���A���5���}���n�R��=[
+��9!p.�ϴ�8� 9R}�<�, ���s,-pV9�A�gbS�c����9C�J�ތ��5��{�<6��?C-ZC~�T���Z�'�Mډsj���1�ԏ�j���fy ͓���B�ޥI܋�x/ο��Dz�~�@�һ�w���B����΂!��뵘�i	�J��*�_@� �k��:]�����&�0]��n�v˱���wO,�����{�-����tZ0I����W�8�M:�3�4�G�]�㽔N�3a��:".����mqe�����m�&nS?=�T��l���
+�%���D�Ѩ��[�z?��C�Z�r�GG�":����n�8� ��I
+�&��c��ÃtB~v+w�)�ډ�%��+���=�D�N�YH����߫H��HWI��di?�KO�N�ϾqL�MY�7����Y���{h��͔�@�B}W�b�~S���G�H~�y��<�oV�V��d��t�F~!���Oxf���I�q��¤��G>F3��Q��')�)���r@�A� 74 �[�����QΧP�M2�>0�\�_{n~��j�(!0��y~�.%��GĆ���ҥ�Kl��+¹����)�A��s�s�+tHx�^�������O}Q|P=!��� ޭ�D=�*�8{߃>��B�W��h-<�>&����i�8Q�D���R���P��I��%X��~,�"��!F�'�8�拕�e�O����w�8�扵�\<����(��Pt���3�$���5�j�Ǡۡ�4Gوs�vh��:�s-��Ԣ\Js�'�f�u͂r�B����BS���G��(SVh��ϴk_'v�+`���7�{�vfZ�6�A=*G�b�s�@7@'tY�a�U�K�x����-�I]��hg����Οh�2��G����J�(�ݟX�`,g,�'KK��b�"�`!c�?���O(�1�����9�`67ha4s�,�L|90�1�1�1���hdLaLfx���zFcc�?���\��QŨd�c�eT0�e~G%P�wT%�1��Q3F�5@��1�1�1�1��,`�sgy��a�g.#��ead33���Ln���qY:#�1�k�2R�A2���p�$���d$2�q�x��7�c�2b�,���HF#���v6�8ʰ�1�̰0̌ l`���F���0d�"qNd�!�����p�s�0~f���������I�����1���2�a|�U�b|��n��2>�*�1>e���>a|����!W�;�6��x��.��d�o����S��e�_o�����?s��8�*�^a��Ɨ'/2^`<�5O0���?2��x�q��}I��?�8�x�5x�q��4�)Ɠ�'�s�#�.6>�8�x�q����8��|<��9��A�� ��q?�>ƽ��np7�b�ɸ�q;�6��~ƭ����>����s���ȹ�-��V�fdp�F���{���#[�k��k�ϫ�ϫ���+��NF׼����Gz�������e�m\s+����_����ĸ���q1�"�$�da=����^�X�#�湬b���ڹ�
+�r�2�R��b�"~��<��|d0������#�؝����Gh�f������8��3�� 3�[����ˀi�p��Tx"��h􇛁)���p����]h`LbL�����8؅:��6����
+��Q��jF+�c�a87�
+�R��2F��>(�۵�r���x��&��o�
+�f��Z�2F1F2F��@�ߞ	���#�<�p�]h�����5e��5Gf3�\��<��� F:O)�1�'��Ha$3��` �L�)�xN/���5�nǈe�p�hFO0�����vngc�2����9��60�m3� �m`b��5e�)�Qd򨠊z=��4��3l?��H� ���.t��_з�s�߄�u~}}	u���O�}��gЧ�?�O`�����C���ȿ���zz�:��W�|�_�7�S����zz�W������Ћ����	�O!��Y��C� �s��L��a;���!K�����Σ!�O��w>��'C�:�����pv�;^�<���(tzy?xu|���CЃ�P't?t��罖�{,�w�wY.v�i���ۡ۠�~�Vh�;h/t�%�y3t���滜7��C{���u���k�[�ט�:�6�s^e������eR�s�T��*8�x7{/������轤s�ײQ�ltl��x��΍oo���{7x/���]�]�]׹ֻ�s�W^�z�j��B�j�l�0d� �j�j�j)x��ݻ���K�u��}��(_���"��.��G������[�
+�2���eޥmK�1���;�y�
+�z[;�z����4{g�����^0�;�s�����;�'4x���I�މ���	��a�-���tV{�
+�y+;�y�Tx���o�w�K6m��1r%C����29|�gRXh�3NL�J'�
+�b7�^+�Ƽ#zb�3+B�_�~/��h9��>���lQ�()R{��چ
+��e̡��g��r�V�F
+���H��)��}��v)��e�*�����'�C�N��}�V�c�_��/5D�����80���"�ⴈ�b����Vx,YC*H\�@��L�{H�tVHO
+��W������22�����j_P�4��×2I���O�v��;uZ�AA��� �6�"�̣�/۵�J�}	��ҁ	%Mվ�Z���Ӫ�&Tiʘ�r�ʌ�U3�5s��9a���Ќ���U�k�[��)��p5`�J|Vl�2�w~�����?���5S��X����[��$2�(�_�Ox4+*+�T8�,tS%��$�K��L����0YL�7H����z���(6P�;�3��wN�'��w�Ou�Μ�1";{���d�a�F��=`��������3Z>l��`�R�-揖rsE�*�ԭ��Y��NO�&�1�9˗�O�kD�"�g��h���Ф�ii�l��l���>�l@�̑q=�JF��슊��*�1�����=���o�/���_�HC�͛���d6����#:eTERl�+<4�lU£���0KjQՙ���h��l���bb�LAfC��Lv�����z%�
+h���F�j��6o�#		d�����89.2H�H����#���i1�q����v�iBv��p����\w�&!�}Gʑ����ܜ���)�BY��bM���4t,kȏO�YZ1~E}��b�d�Yڲ���Ε�i�W�=��r��4�#rtrJFJ�+o�]E��ə���g�E�Gt��=�r։���T��3P�wOK�/eUqQ=~����I�B4�\.
+���Ȉ1c����
+�'4ޑOB|�@�0Ϥ\:�;��a�x�l<��ۆ������޽q���q�c��]����;4/?<IQ97)'�(F��ǹ��J��l�ŉߴwK�ؔ�������y#8DR��C����ƹr�)�r�Κ-��b������bCsI�I��nI�J>c��w64n����(��ی�11�TW�5<:(ȝ�(�|x増���$�=(*���֫�����x���&q��J0%����ԁ��L�y���
+�R��.1�NA�&����A?�U����J5��8�4'�ѯϚ9��\{��(�����Δޗ��ˢ���ј��7r�L9yPD�݆��hU�`ttdv��+��6�˩i�,�9{IYޔҡN�y�˚��b�V�h	��U�T0}UQ�U{�\V:�x��*���_���6,j_��.�.Z|]��5��d����|Ov�=	i�~Hs*�b�wv���ik��Rl�Ϟ�Z�3�|��]�p������6���_Թ���D �M�l��[�V��̩�2�ǐ1�l� 9($�p�������~CKZ՘�	Fi|XjRTBr�p���R�-t��B��I�����;o/�vw�"OHTR\X ���ʤ��~񘓲�� h@�枸����
+�Ld��)�jd�8@�4`�����������WQ$��j��|f��0��(ʒ�E��ѥGѨ)�R"�QC��l̨=,�M0G�bc�a��s
+�4�[6�e+��J�&U�;��WV9G^s��E%�I�c�c�QQ�ufv����X:�e^����s���}xSa���o�)�K�z����D)"�%�x"�mx:?P����꠪��<��}��l{؈l���8S���U٣��/�7��(��p^4��o`�q��>ѨՐ�yv��g�Q����V=$((H6������4]ޔ�7y��f7��p_]՘�������n�c�ʃ�F;�.�
+	6�'�G��M��a���]�6zPI}~nqVMkA\V!	jQ�ni�������}a�v��������we�8O�(OeTT�g�L��??6���Q��q��>�$O�}�㈖3ǋ���֮y!�����s��O lP�1��4�a�}y�
+�}1s���(i�(Lf�12>5:�(3�b?a	�A���N�Ȇ��Y#��,ɨe4��F�e$߹�l��%8�|I��л�4jH��`0(��=2:wS\~È��vKLt��|�����ZJ�Y�*H��
+����0StLT�e�ċ���1(a��x\;%
+���{�Cr���%����^�TK:�+�xYɯt���ɞ��T�}]�crm�������K����ǻ������]��%���#VF�������%�6v�͓�H���b
+N.l�7eL��>�b���tD���x�(~u�L.�q�➙�����MHK�6����p@G�EEe�eO[��R]<0g�����޹����3i�eY�r��X�Y�)+hm�����c,dv[b,c��J�O�U�X3%6$�W$�(�Qj��ܥ�<�x�=�dn�����N�_ف��yy��r��	�=y#'##Fĸ9R�B튰L1;2�×ͪ�׉戤�X�E�,E&iUd�N���leӗ��Lg2ƚ,&YƗ�7&&a�;b��=ޞ�f�����M=��	sWJ3uXr�[;��9�+%��)���C�ΈD�g{,fgbb�3]N���V<ɕ�����n��S�w�q����u��!���o�^��C�)��A�	�a�bs �.��p�%���Ib��/bs0��S��Sb��bS~����6#?��8F�o#�4�_��"��1�9�"+������˯���V���Y�ׂzc��H���|R���9Re�D�B�jM��ɓW���q�CSM��JW��a�j`۪������~�����N�Nl'���MZ�I��i���6-��M�֐ڭ�B��Mt��
+�E��4A�����ֵ� �M�`�1i���VIv��s�Rh�����{߽����s���U̖�x�Y�@`��Z�".B��齊yϢ��V�+3�ҊHK>!g��J�Э]���f�F�CCa��wס���V�Uoo��o��յ��5�uˉm����:�E
+[�'`�=c`�[��(YP���t��g�Uk%��Np�J��}C��8��%�}I E����"�R/K)���ؑo��{,�X�]�v75ut���қ��tt���N>t��]���;�K>t�+���cw�lnw{r3-��`r��".ϟ$_���!>PG��6NUE�*�	S�	Z����b"������~(vy�dą-������v,��/[���R��>�S�p��,��R��7%׵��,�P0C<G�$�A�$r�x�ip��mw����(� nq�o��g�[���å�B�^�����@��#C�M�5���Om�k����A�i�B<n�t��
+�u���zN�5!���!��P�Ⱥ�M
+D���6��L���k/�M��й�:������7 ��b���˼�O�EN�E�W �N�7��W3bp����2��7߻�2�v��D��W��gJ(�>��{��Cێ$��;q<�+DTU��ѱl�����R<%�DW����ů���kPm�sl�k�MI}��_[/�x�E�X�I�Y�Ewtq�Ҽ�1^�Y�02�J.7X�Fώm����� y�e}�z��i��ȇ)��w��v�����ǝΣ�c�ae2�;���w ���t9��)��n�$h^ȫi�;�.�y:B�i�V\�'��(��1�r���Y�J`ׂ=��7�*�|�_8)�T� {�N�쏐}G�԰�;�j�Y���C��}���DTr����t������V[�ЍC�֛�]���lT*�)��7�F[���֎��x��f����u��,h���h�t��@l4���h�ӛ�
+�C'��N�>�
+[khk�7��n���#�v�l����)o|���6i.�݋� ���b,��_@��$8;����.Vлd�^����b�B,f,b�C<O�J5�f��#�Y.g!a�| l��p4M�oWr2Π:�J�\1���(���l�)��V��0�`���ie�Rf]=�����2�W��W��(�c^5�!R��<Y�L��5w�4{�lV���5ۼ�-,��D��v�^:+(:;`=�։.β�>˸�gk[ܺ"��D�T׈�Z�ѡ�	��o<���X&|XB$+�)E>�{@?���j�I	GЏy��U�;��>/�Z��s��;j��uƮ����R5 t0�G �f���I��]O���s�!��ǕqsS£r$T���
+f{��5q����%2Ѫ@=��-n1�	�D���j��]Ì�ƛ]>��a,׻�v���v������[�:�<����^�݄�cJ�V�[�:F��y1*v���v����ì�!I��y޷�!��s �Y9�&��3N�A9�?�;�_��l8Gh`�x.��{��D��@�ꁹ��Q���ګ��D%J�R�D�ː���I��nbL���5�=�/�Z{}M������v�7Rx+��;-�8�8I�n�6���c���4yJi��AH��ˁˣD8��:�a�pZY���\%����r���>��T	\@�lC���_q��5�Z ҃�~f�
+�T޸:n%�rcm�8����I�4/�pWl����������^f��vo����9�޾����	�{>���1x�X7y}��P��MN�Q�Eq�����ߕ�+�9���gd�"jŜg����L	����'���u`�����C��If��EP��͑U�h���詩3�i������o�}~���:m��mQ)��_t>B|̠*U�ʗ 4�l"3�L��r�]�������V&��%Q}��u��Es��E�qm���(�W2\,Ӻ����_�X~�r�ޏ��oW��U�JU�R��|6q�T�*U������ǈHA#�HF(���E~ȱ7�K��k&��;;vb?�;�X�9�o�w�{��~�~
+?����_��g�C�g�Ccăơ�A�(�&�$J��hڏ2h
+eQDy4�
+hA�.,@�On}Hj}XhM.,����N���Y�z����$�c5����b��$�r�FI"���Ol�F���g��1�C(��ւwI:�L�~I�@?%�2�!��_v�
+�$6K:F5��N 5񂤓(@�A�) )I���t��`%ZP��@<' �`��P�Z��SP�-k��n�~
+�#P'�Ez	�4\���0|O����v��2�"#�Kõ ���<��ᚆ�d�uL��I�-��V� \����-���ݽ�4aDY�Y�hx�Jq��GAK��i�Y�K#�-���f�nA���:����񃙉|n:������s�T!�ˆ��)~$�oa�IO��ӓ��}�[��=��̞|�)Q eb�R��L��La:ϧ�|z_f��Χ'�B>5�>�����;ˊ{�<H>���1��l� �G�Bz�Oe'��������L��Ϥ�C_�-mF}�mAI�+,kD���,�Z6����S������6/x,*�.�y�@Z�!�-�ч0�ZMߤ�|�䢋;��m/�g����y~�}������  �H�
+endstreamendobj1 0 obj<</Filter/FlateDecode/First 677/Length 1467/N 86/Type/ObjStm>>stream
+h�Ę[O9����q����T!���mA@Շ()LiԐ���
+���=gB3!�EaNl��ŗ��g�	aX`R&8�Z��i!Y�	�z-�@�P�G�����h��Tx�$�dMJY&9d 1vU �f]��� ���h��Y	�L��bєG]�w�)�*U4�SP�hT@s�I�¢��i8ߺ`��X�L�e��+Fô���ĎDHc<��Y��HÙ�qH�	L��ah�|^ ߀�01����P�9�b઀��A"o0�$�414/XtU!pQ)��4�g$�Rɶ���#�,x�m�Q�C��#.�G'tQ������8�H�VhD*�A�0���8��!8��=)H.\��a1�A��0:�c�L��1T}�1�<\�?B�)�H]�1 $��w�p6���4Y`�rvZ�`_�+�PQ���I]Λ�,Y۰V�m��;&��jVF2U��eq��ˋVﴪ��=��\�ד�ȓ�ɐ��&ᨒ�kE�����T�(�ݵ1�����f��»�z_W��dQL��uY|�_Ϋ��_x�˵R=�.�������l:/�~LS׏�(N��e���d^�T��gY-��m��梞.�^�8?��a�]����ޯn[���/������H��	J��lʛ��	ʩ��	�{�r*	&	&	&MOSSSSLLLLLEEEEEE�� �&�&�&��=�z�КІІ����������`�(�oĴ�'meO���	�gɞ%{�?"�eʷ	���������xq�h�'W�j��Ѭm� ��+ty�+�֥_W爩흨}��o��齎�IP��g݄M1�7{�t[�gY�[�`�,m��-��UN��lc�"Mʾ�̾HJ��n>��C�ovӈ�<�4x&��E�r�:K�dyb��.K;et�D�Ke�0�ìx���/���t��W�nA[gx���,v��Hqn�1R��on�#4O�rM��C��G�l�Z�t[�+���u��j$��b����,O|�'!��3<�����Y&t��x�����~�f�-��㰉�MK�j�:K���ksҏ�.δ8�:��9I��o�b�	����t��L�V6op����q�qr���.�����G}[�/�WuI�fR7]�X����lz5��������6��է�,>���Z�G���݄G.2*���\H�����>�|9�럘��]��h6r��w��IJ��H��%�mIJ�s����_d
+�}�Z���0���h��Axz����z>���ˮ��d1�$wů�����H�_@�ز
+n3zIѿ��e-�UQ�;��~9��[�m/�^o#�\B�?� ��;�����^ �3m���Ex��w��Qw�o��v`���s;��S[7Ma⦹~��k����\��؟U?�K @�\����Y����T��v�#�i,:&xt�9�gk��� G@�
+endstreamendobj2 0 obj<</Filter/FlateDecode/First 11/Length 44/N 2/Type/ObjStm>>stream
+h޲4V0P�4Q0�T����+�-���b��B��.vv  �_�
+endstreamendobj3 0 obj<</Length 4025/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <xmp:CreatorTool>Acrobat PDFMaker 10.1 for Word</xmp:CreatorTool>
+         <xmp:ModifyDate>2013-03-25T11:57:34-05:00</xmp:ModifyDate>
+         <xmp:CreateDate>2011-08-08T16:14:31-05:00</xmp:CreateDate>
+         <xmp:MetadataDate>2013-03-25T11:57:34-05:00</xmp:MetadataDate>
+         <pdf:Producer>Acrobat Distiller 10.1.0 (Windows)</pdf:Producer>
+         <pdf:Keywords/>
+         <dc:format>application/pdf</dc:format>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>bszum</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Microsoft Word - Request to Defer Graduate Degree Admission updated 02.11.doc</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default"/>
+            </rdf:Alt>
+         </dc:description>
+         <xmpMM:DocumentID>uuid:1aaa08ba-4cc8-4717-bf83-6975c57f3153</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:58a7de37-e3a4-4ab6-89f7-4c23d1842699</xmpMM:InstanceID>
+         <xmpMM:subject>
+            <rdf:Seq>
+               <rdf:li>8</rdf:li>
+            </rdf:Seq>
+         </xmpMM:subject>
+         <pdfx:Company>uic</pdfx:Company>
+         <pdfx:Comments/>
+         <pdfx:SourceModified>D:20110808211325</pdfx:SourceModified>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj4 0 obj<</Filter/FlateDecode/First 5/Length 50/N 1/Type/ObjStm>>stream
+h޲4U0P���w�/�+Q0���L)���
+��T��$���� ���
+endstreamendobj5 0 obj<</Filter/FlateDecode/First 5/Length 257/N 1/Type/ObjStm>>stream
+h�L�OK�PĿ�ޚ��M�Z��A(*��K��ѧI��?���]K��f��7��.A�z������Z��8��q�ɻ�,�t����Xj��j<E�]��J�p��窘)5��Vv���öz��O��*A�����':E��Ԭ��\�Y�X��?�ֲ]��q�Å�(�G;3i>�}�/lGB5�!�oj�(p	���:/կ��F��{�sx��@΃g����G�� žY"(�h��g@8h�kPY��h����G� �k
+endstreamendobj6 0 obj<</DecodeParms<</Columns 5/Predictor 12>>/Filter/FlateDecode/ID[<78548630B9A56E3788B5536392787035><2E4DEC55BE6F664DA379017DDA94FAD4>]/Info 96 0 R/Length 61/Root 98 0 R/Size 97/Type/XRef/W[1 3 1]>>stream
+h�bb &F�U%Ll2 ��D
+��H�>�T���X��q��$�j��?X� � ��
+endstreamendobjstartxref
+116
+%%EOF

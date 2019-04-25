@@ -1,0 +1,1520 @@
+  
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+    <head>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+                (window,document,'script','dataLayer','GTM-W2Q8D2K');
+    </script>
+    <!-- End Google Tag Manager -->
+
+        <title>
+                            Zheleva, Elena  | Department of Computer Science | University of Illinois at Chicago
+                    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1556026128" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1556026128" type="text/css" media="all">
+
+    
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- This site is optimized with the Yoast SEO plugin v10.1.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://cs.uic.edu/profiles/elena-zheleva/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Zheleva, Elena - Department of Computer Science" />
+<meta property="og:url" content="https://cs.uic.edu/profiles/elena-zheleva/" />
+<meta property="og:site_name" content="Department of Computer Science" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Zheleva, Elena - Department of Computer Science" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=b4c9174b7cf9f719000391f4aed55c5c"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.9.2'></script>
+<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://cs.uic.edu/?p=173' />
+<link rel="alternate" type="application/json+oembed" href="https://cs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcs.uic.edu%2Fprofiles%2Felena-zheleva%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcs.uic.edu%2Fprofiles%2Felena-zheleva%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//cs.uic.edu/?wordfence_lh=1&hid=BFC2054E38847DBA60242E8620D4CE3B');
+</script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" type="text/javascript">//<![CDATA[//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+</head>
+      
+  <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+  <div class="l-page profile-template-default single single-profile postid-173 post-type--profile  site-type-b theme--navy no-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    Skip to
+    <span class="_main">
+    <a href="#article">the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+        <a class="_search" href="#google_translate_element">Google Translate</a>,
+    <a class="_search" href="#search">the site search form</a>
+    or go to the
+    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+  <div class="eyebrow-mobile">
+    <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+    </div>
+
+            <div class="site-title-eyebrow-mobile">
+          <a href="https://cs.uic.edu">Department of Computer Science</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="icon-search">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+        <div class="header-navigation-logo header-logo">
+                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+            </div>
+        <div class="header-navigation__eyebrow-menus">
+            <div class="header-navigation__logo-and-site-title">
+                                <div class="site-title-main ">
+                    <a href="https://cs.uic.edu">Department of Computer Science</a>
+                  </div>
+                          </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary Navigation" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://cs.uic.edu">Department of Computer Science</a>
+  </div>
+
+  <h2 class="assistive-text">Google Translate</h2>
+  
+
+
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/undergraduate/"
+        target="_self">
+
+        Undergraduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Undergraduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
+                <a
+                  class="menu-main__second-link"
+                  href="http://engineering.uic.edu/undergraduate-admissions/"
+                  target="_blank">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-major/"
+                  target="_self">
+
+                  CS Major
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-minor/"
+                  target="_self">
+
+                  CS Minor
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/undergrad-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1390">
+                <a
+                  class="menu-main__second-link"
+                  href="http://ecc.uic.edu/computer-science/"
+                  target="_blank">
+
+                  Internships and Jobs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1489">
+                <a
+                  class="menu-main__second-link"
+                  href="http://engineering.uic.edu/scholarships"
+                  target="_blank">
+
+                  Scholarships
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-organizations/"
+                  target="_self">
+
+                  Student Organizations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/graduate/"
+        target="_self">
+
+        Graduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Graduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/admissions/"
+                  target="_self">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/ms-program/"
+                  target="_self">
+
+                  MS Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-522 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/phd-program/"
+                  target="_self">
+
+                  PhD Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/cs-dissertations/"
+                  target="_self">
+
+                  PhD Dissertations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/post-grad-outcomes/"
+                  target="_self">
+
+                  Post-Graduation Outcomes
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/cs-research/"
+        target="_self">
+
+        Research
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Research menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/research-areas-2/"
+                  target="_self">
+
+                  Research Areas
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1339">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/featured-research/"
+                  target="_self">
+
+                  Featured Research
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/labs/"
+                  target="_self">
+
+                  Labs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/lectures-seminars/"
+                  target="_self">
+
+                  Lectures and Seminars
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/reus/"
+                  target="_self">
+
+                  Research Experiences for Undergraduates
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/faculty-staff/"
+        target="_self">
+
+        Faculty and Staff
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Faculty and Staff menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/department-head/"
+                  target="_self">
+
+                  Department Head
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty/"
+                  target="_self">
+
+                  Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/emeritus-faculty/"
+                  target="_self">
+
+                  Emeritus Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/adjunct-faculty/"
+                  target="_self">
+
+                  Adjunct Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/staff/"
+                  target="_self">
+
+                  Staff
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty-resources/"
+                  target="_self">
+
+                  Faculty Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/open-positions/"
+                  target="_self">
+
+                  Open Positions
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-567">
+      <a
+        class="menu-main__first-link"
+        href="/cs-news/"
+        target="_self">
+
+        News
+      </a>
+
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351">
+      <a
+        class="menu-main__first-link"
+        href="/events/"
+        target="_self">
+
+        Events
+      </a>
+
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
+            <a href="http://engineering.uic.edu/donate/" target="_blank">Giving</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
+            <a href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
+            <a href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+      <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+</ul>
+
+    <button aria-label="Search the site" id="search" class="search-toggle">
+      <span class="icon-search">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+
+    <div class="search-input-container">
+      <div class="search-input-container__form">
+        <form method="get" action="/search" role="search" aria-label="Search this site">
+          <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+          <input type="submit" class="submit-button" name="search" value="Submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+  </div>
+
+    
+        
+</header>
+
+    <main id="main" class="l-content-wrapper" role="main">
+
+
+      <div class="l-full">
+
+
+        <div class="l-content ">
+                                    
+          <article class="post-type-profile" id="article">
+            
+
+    <div class="profile-header">
+      <div class="_colA">
+        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Elena-Zheleva-157x180.jpg" alt="Photo of Zheleva,&#x20;Elena">
+      </div>
+
+      <div class="_colB">
+
+        <h1>Elena  Zheleva</h1>
+
+        <p class="_academic-title">Assistant Professor</p>
+
+        <p class="_alternate-title"></p>
+
+        <p class="_department">Department of Computer Science</p>
+
+        
+      </div>
+    </div>
+
+    <div class="profile-body">
+      <div class="_colA">
+      </div>
+
+      <div class="_colB">
+        <div class="contact-wrapper">
+
+          <section class="u-definition-list-primary-contact">
+
+                                <div class="_row -inline">
+            <h2 class="_section-title">Contact</h2>           </div>
+                              <div class="_row -inline">
+            <h2 class="_label">Building &amp; Room:</h2>
+            <p class="_content">1140 SEO</p>
+          </div>
+          
+          
+                   <div class="_row -inline">
+            <h2 class="_label">Office Phone Voice:</h2>
+            <p class="_content"><a href="tel:(312) 966-7172">(312) 966-7172</a></p>
+          </div>
+          
+          
+            
+                        <div class="_row -inline -email-field-buffer">
+              <h2 class="_label">Email:</h2>
+              <p class="_content"><a href="mailto:ezheleva@uic.edu">ezheleva@uic.edu</a></p>
+            </div>
+            
+            
+            
+                        <div class="_row">
+              <h2 class="_label">Related Sites:</h2>
+              <div class="_content u-rich-text">
+                <ul class="list--inset list--external">
+                                  <li><a href="https://www.cs.uic.edu/~elena/ "target="_blank" rel="noopener">View full profile</a></li>
+                                </ul>
+              </div>
+            </div>
+            
+          </section>
+
+          <section class="u-definition-list-secondary-contact">
+
+                                              
+          
+         
+                      
+            
+          </section>
+
+        </div>
+
+                <section>
+          <h2 class="_section-title">About</h2>
+          <div class="u-rich-text">
+          <p class="section-heading">BIO</p>
+<p class="large ">I am an assistant professor in Computer Science at the University of Illinois at Chicago. Prior to joining UIC, I spent a few years in industry as a data scientist, working on large-scale recommender systems, <a href="https://www.brighttalk.com/webcast/12339/158813">personalization</a>, incentivized sharing, and <a href="https://source.opennews.org/articles/simbot-give-me-five/">data science tools for journalists</a>. I built and led the data science team at LivingSocial, and later was a principal data scientist at Vox Media. I also spent a year in government as an AAAS Science &amp; Technology Policy Fellow at the National Science Foundation, contributing to national initiatives at the intersection of data science and public policy. Many of the research problems I am interested to solve are informed by my industry and public policy experience. I received my Ph.D. in Computer Science in 2011 from the University of Maryland, College Park where my advisor was Lise Getoor.</p>
+<p>&nbsp;</p>
+<p class="section-heading">RESEARCH INTERESTS</p>
+<p class="large">My research spans different aspects of <b><a href="http://cra.org/data-science/">data science</a></b>, including machine learning, causal inference, graph mining, network science, and privacy. My research goal is to unify these aspects in a single framework that allows us to reason better with data and solve important societal problems. I am especially interested in algorithms for heterogeneous graphs and networks, with focus on:</p>
+<ul class="large">
+<li>How we can improve machine learning methods by addressing bias in (found) data</li>
+<li>How we can build cohesive data science frameworks that include both causal inference and machine learning</li>
+<li>How we can empower people in their privacy choices through personalized privacy assistants</li>
+</ul>
+<p class="large">I am motivated by compelling applications, and some of the areas that I study are personalization, social media, social networks, journalism, and e-commerce.</p>
+<p>&nbsp;</p>
+<p class="large">If you are a prospective student interested to work with me, you need to <a href="https://www.cs.uic.edu/graduate-admissions/">apply to the CS Ph.D. program</a>. If you are already admitted to the program, send me an email with your interests and CV. You may also want to read this article on <a href="https://people.cs.umass.edu/~wallach/how_to_be_a_successful_phd_student.pdf">how to be a successful Ph.D. student</a>.</p>
+<div class="col-lg-6 text-left"></div>
+<p>&nbsp;</p>
+<p class="section-heading">NEWS</p>
+<p><b>January 2019</b>: Chris Tran and I will be presenting our paper on "Learning Triggers for Heterogeneous Treatment Effects" at AAAI 2019</p>
+<p><b>November 2019</b>: Giving an invited talk at the UCSC Workshop on Privacy in Graphs</p>
+<p><b>October 2018</b>: Co-organizing the 3rd workshop on <a href="http://nebigdatahub.org/3rd-tds-workshop/">Translational Data Science</a> hosted by NYU</p>
+<p><b>September 2018</b>: Our letter to <i>Nature</i> on "<a href="https://www.nature.com/articles/d41586-018-06804-4">How to deliver translational data-science benefits to science and society</a>" has been published</p>
+<p><b>August 2018</b>: Excited to receive a four-year <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1801644">NSF grant to study retrospective data management for enabling long-term security and privacy</a>, with Chris Kanich and Blase Ur</p>
+<p><b>August 2018</b>: Co-organizing the 2nd <a href="https://sites.google.com/view/dsandj2017/">Workshop on Data Science, Journalism &amp; Media</a> at KDD 2018</p>
+<p><b>February 2018</b>: Giving an invited talk at the Northwestern University Institute on Complex Systems <a href="https://www.nico.northwestern.edu/news-events/wednesdays-at-nico/">Seminar Series</a></p>
+<p><b>February 2018</b>: Giving an invited talk at the UIC Social Psychology Seminar Series</p>
+<p><b>February 2018</b>: Invited speaker at UIUC's <a href="https://www.westem.engineering.illinois.edu/">weSTEM Conference</a></p>
+<p><b>October 2017</b>: Invited talk at DePaul University's CDM Research Colloquium</p>
+<p><b>August 2017</b>: Giving a keynote at the <a href="http://www.mlgworkshop.org/2017/">Mining and Learning with Graphs (MLG) Workshop</a> at KDD 2017</p>
+<p><b>August 2017</b>: Co-organizing the <a href="https://sites.google.com/view/dsandj2017/">Workshop on Data Science + Journalism</a> at KDD 2017</p>
+<p><b>August 2017</b>: Our paper on "Optimizing the Effectiveness of Incentivized Social Sharing" was accepted at ASONAM 2017</p>
+<p><b>June 2017</b>: Co-organizing the <a href="https://cdis.uchicago.edu/tds-17">workshop on Translational Data Science</a> in Chicago</p>
+<p><b>May 2017</b>: Receiving a <a href="https://dcfemtech.github.io/awards.html">DCFemTech Award</a> which recognizes "powerful women programmers, designers, and data scientists" in Washington, DC</p>
+<p><b>April 2017</b>: Invited talk on <i>Data Science in Social Spaces: Personalization vs. Privacy</i> at <a href="https://www.cs.uic.edu/~elena/">DIMACS Workshop on Privacy and Security in Big Data</a></p>
+<p><b>April 2017</b>: Serving as publicity co-chair for <a href="http://icde2017.sdsc.edu/">ICDE 2017</a></p>
+<p><b>February 2017</b>: Our paper on "<a href="https://www.cs.uic.edu/~elena/pubs/kotsogiannis-wsdm17.pdf">Directed Edge Recommender System</a>" is accepted at WSDM 2017</p>
+<p><b>November 2016</b>: Presenting in the <a href="http://www.bigdatau.org/data-science-seminars">NIH BD2K Webinar Series</a> on "Databases &amp; Data Warehouses, Data: Structures, Types, Integrations"</p>
+<p><b>September 2016</b>: Starting 2016-2017 <a href="http://www.aaas.org/program/science-technology-policy-fellowships">AAAS Scence &amp; Technology Policy Fellowship</a> in Big Data &amp; Analytics at the <a href="http://www.nsf.gov/cise/bigdata">National Science Foundation</a></p>
+
+          </div>
+        </section>
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Selected Publications</h2>
+          <div class="u-rich-text">
+                          <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Creating Social Contagion through Firm-mediated Message Design: Evidence from A Randomized Field Experiment.</i> Management Science Journal. 2019 (forthcoming).</p>
+<p>C. Baru, S. Bird, A. Blatecky, D. Culler, R. Grossman, B. Howe, V. Janeja, M. Lee, R. Machiraju, E. Zheleva. <i>Translational Data Science: From Foundations to Impact</i>. Harvard Data Science Review. Position paper. 2019 (forthcoming).</p>
+<p>C. Tran, E. Zheleva. <i>Learning Triggers for Heterogeneous Treatment Effects</i>. AAAI Conference on Artificial Intelligence (<b>AAAI</b>) 2019. <a href="https://www.cs.uic.edu/~elena/pubs/tran-aaai19.pdf">PDF</a>.</p>
+<p>T. Sun, L. Shi, S. Viswanathan, E. Zheleva. <i>Motivating Effective Mobile App Adoptions: Evidence From A Large-Scale Randomized Field Experiment</i>. Information Systems Research Journal (<b>ISR</b>). 2019 (forthcoming).</p>
+<p>J. Pfeiffer, E. Zheleva. <i>Incentivized Social Sharing: Characteristics and Optimization</i>. Lecture Notes in Social Networks book series (LNSN). Springer. December 2018.</p>
+<p>Noah Hirsch, Chris Kanich, Mohammad Taha Khan, Xuefeng Liu, Mainack Mondal, Michael Tang, Christopher Tran, Blase Ur, William Wang, Günce Su Yilmaz, Elena Zheleva. <i>Making Retrospective Data Management Usable</i>. Poster. 14th Symposium On Usable Privacy and Security (<b>SOUPS</b>). Baltimore, MD, August 2018.</p>
+<p>J. Pfeiffer, E. Zheleva. <i>Optimizing the Effectiveness of Incentivized Social Sharing</i>. 9th IEEE/ACM International Conference on Advances in Social Network Analysis and Mining (<b>ASONAM</b>) 2017. <a href="https://www.cs.uic.edu/~elena/pubs/pfeiffer-asonam17.pdf">PDF</a>.</p>
+<p>I. Kotsogiannis, E. Zheleva, A. Machanavajjhala. <i>Directed Edge Recommender System</i>. 10th ACM International Conference on Web Search and Data Mining (<b>WSDM</b>) 2017. <a href="https://www.cs.uic.edu/~elena/pubs/kotsogiannis-wsdm17.pdf">PDF</a>.</p>
+<p>T. Sun, L. Shi, S. Viswanathan, E. Zheleva. <i>Motivating Mobile App Adoption: Evidence From A Large-Scale Field Experiment</i>. Conference on Information Systems and Technology (<b>CIST</b>) 2016. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2984506">PDF</a>.</p>
+<p>T. Sun, S. Viswanathan, E. Zheleva. <i>Monetize Sharing Traffic Through Incentive Design: A Randomized Field Experiment.</i> Conference on Information Systems and Technology (<b>CIST</b>) 2015. INFORMS 2015. <a href="http://www.fox.temple.edu/conferences/cist/papers/Session%205A/CIST_2015_5A_2.pdf">PDF</a></p>
+<p>T. Sun, S. Viswanathan, E. Zheleva. <i>Creating Social Contagion through Message Design: A Randomized Field Experiment.</i> International Conference on Information Systems (<b>ICIS</b>) 2014. INFORMS 2014 Service Science Best Student Paper, Third Place.</p>
+<p>T. Sun, S. Viswanathan, E. Zheleva. <i>Antecedences and Consequences of Multichannel Sharing Behaviors</i>. <b>INFORMS</b> 2014.</p>
+<p>T. Sun, S. Viswanathan, E. Zheleva. <i>Impact of Message Design on Online Interactions: An Empirical Investigation.</i> International Conference on Electronic Commerce (<b>ICEC</b>) 2014.</p>
+<p>J. Pfeiffer III, E. Zheleva. <i>Incentivized Sharing in Social Networks.</i> <b>VLDB</b> workshop on Online Social Systems (WOSS) 2012. <a href="http://www.cs.purdue.edu/homes/jpfeiff/pubs/IncentivizedSharing_WOSS2012.pdf">PDF</a>.</p>
+<p>E. Zheleva, E. Terzi, L. Getoor. <i>Privacy in Social Networks.</i> Synthesis Lectures on Data Mining Series. <b>Book </b>published by Morgan and Claypool Publishers. 2012. <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2012/zheleva:morganclaypool12/">Abstract</a>. <a href="http://www.umiacs.umd.edu/~getoor/Publications/PrivacyInSocialNetworks-Zheleva.pdf">PDF</a>.</p>
+<p>E. Zheleva. <i>Prediction, Evolution and Privacy in Social and Affiliation Networks</i>. <b>PhD Dissertation</b>. July, 2011. <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2011/zheleva:phdthesis11/">Abstract, PDF</a>.</p>
+<p>E. Zheleva, L. Getoor. <i>Privacy in Social Networks: a Survey</i>. Invited <b>book chapter</b> in <i>Social Network Data Analytics</i>. Ed. by Charu Aggarwal. Springer. March 2011. <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2011/zheleva:snda10/">Abstract</a>, <a href="http://www.springerlink.com/content/p1t26n1504v93202/">PDF</a>.</p>
+<p>E. Zheleva, L. Getoor, S. Sarawagi. <i>Higher-order Graphical Models for Classification in Social and Affiliation Networks</i>. <b>NIPS</b> Workshop on Networks Across Disciplines: Theory and Applications 2010.<a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2010/zheleva:nips10/">Abstract, PDF</a>.</p>
+<p>E. Zheleva, J. Guiver, E. Mendes Rodrigues, N. Milic-Frayling. <i>Statistical Models of Music-listening Sessions in Social Media</i>. 19th International World Wide Web Conference (<b>WWW</b>) 2010 (12% acceptance rate). <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2010/zheleva:www10/">Abstract, PDF</a>. <a href="http://videolectures.net/elena_zheleva/">Conference talk</a> on <a href="http://videolectures.net/">VideoLectures</a>.</p>
+<p>E. Zheleva, H. Sharara, L. Getoor. <i>Co-evolution of Social and Affiliation Networks</i>. 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>) 2009 (10% acceptance rate). <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2009/zheleva:kdd09/">Abstract, PDF</a>. Also presented at INFORMS 2009.</p>
+<p>E. Zheleva, L. Getoor. <i>To Join or not to Join: The Illusion of Privacy in Social Networks with Mixed Public and Private User Profiles</i>. 18th International World Wide Web Conference (<b>WWW</b>) 2009 (12% acceptance rate). <a href="http://linqspub.soe.ucsc.edu/basilic/web/Publications/2009/zheleva:www09/">Abstract, PDF</a>. <a href="http://www.umiacs.umd.edu/~elena/files/ez-www09.pdf">Slides</a>.</p>
+<p>E. Zheleva, A. Kolcz, L. Getoor. <i>Trusting Spam Reporters: A Reporter-based Reputation System for Email Filtering</i>. ACM Transactions on Information Systems (<a href="http://tois.acm.org/"><b>TOIS</b></a>), vol. 27, no. 1, December 2008.<a href="http://portal.acm.org/citation.cfm?id=1416950.1416953&amp;coll=portal&amp;dl=ACM&amp;idx=J779&amp;part=transaction&amp;WantType=Transactions&amp;title=ACM%20Transactions%20on%20Information%20Systems%20(TOIS)&amp;CFID=17092617&amp;CFTOKEN=17287755">Abstract, PDF</a>. <a href="http://www.google.com.au/patents/US8825769">Patent</a>.</p>
+<p>E. Zheleva, L. Getoor, J. Golbeck, U. Kuter. <i>Using Friendship Ties and Family Circles for Link Prediction</i>. <b>KDD</b> Workshop on Social Network Mining and Analysis 2008. <a href="https://linqs.soe.ucsc.edu/sites/default/files/papers/zheleva-snakdd08.pdf">PDF</a>.</p>
+<p>E. Zheleva, L. Getoor. <i>Preserving the Privacy of Sensitive Relationships in Graph Data</i>. <b>KDD</b>Workshop on Privacy, Security, and Trust in KDD (<a href="http://www-kdd.isti.cnr.it/pinkdd07/">PinKDD</a>) 2007. LNCS vol. 4890, p. 153-171, 2008. <a href="https://linqs.soe.ucsc.edu/sites/default/files/papers/zheleva-pinkdd07.pdf">PDF</a>.</p>
+<p>A. Don, E. Zheleva, M. Gregory, S. Tarkan, L. Auvil, T. Clement, B. Shneiderman, C. Plaisant. <i>Discovering Interesting Usage Patterns in Text Collections: Integrating Text Mining with Visualization</i>. 16th ACM International Conference on Information and Knowledge Management (<b>CIKM</b>) 2007.<a href="http://cgis.cs.umd.edu/localphp/hcil/tech-reports-search.php?number=2007-08">Abstract, PDF</a>. <a href="http://monk.lis.uiuc.edu:6060/openlaszlo-3.3.3-servlet/my-apps/featurelens/src/featurelens.lzx?debug=false&amp;lzt=html">Application</a>.</p>
+<p>E. Zheleva, A. Arslan. <i>Fast Motif Search in Protein Sequence Databases</i>. Computer Science Symposium 2006.</p>
+<p>V. Kantabutra, B. Tsendjav, E. Zheleva. <i>Glide Algorithm with Tunneling: A Fast, Reliably Convergent Algorithm for Neural Network Training</i>. Conference on Artificial Neural Networks in Engineering (<b>ANNIE</b>) 2003.</p>
+<p>V. Kantabutra, E. Zheleva. <i>Gradient Descent with Fast Gliding over Flat Regions: A First Report</i>.IEEE Industrial Electronics Conference (<b>IECON</b>) 2002.</p>
+
+                      </div>
+        </section>
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Service to Community</h2>
+          <div class="u-rich-text">
+          <p class="large text-muted"><b>Organizing Committees</b><br />
+<a href="http://nebigdatahub.org/3rd-tds-workshop/">Third Workshop on Translational Data Science 2018</a><br />
+<a href="https://sites.google.com/view/dsjm2018/">2nd Workshop on Data Science, Journalism &amp; Media at KDD 2018</a><br />
+<a href="https://sites.google.com/view/dsandj2017/">1st Workshop on Data Science + Journalism at KDD 2017</a><br />
+<a href="https://cdis.uchicago.edu/tds-17">First Workshop on Translational Data Science 2017</a><br />
+<b>Publicity Chair</b>: ICDE 2017</p>
+<p class="large text-muted"><b>Area Chair</b>: NIPS 2017, NIPS 2018</p>
+<p class="large text-muted"><b>Conference Program Committee Member</b>:<br />
+AAAI Conference on Artificial Intelligence (AAAI) <a href="http://www.aaai.org/Conferences/AAAI/aaai10.php">2010</a>, 2019<br />
+International Conference on Machine Learning (ICML) <a href="https://icml.cc/Conferences/2018">2018</a><br />
+World Wide Web Conference (WWW) <a href="http://www.www2017.com.au/">2017</a>, <a href="https://www2018.thewebconf.org/">2018</a>, 2019<br />
+ACM Conference on Web Search and Data Mining (WSDM) <a href="http://www.wsdm2013.org/">2013</a>, <a href="http://www.wsdm-conference.org/2014">2014</a>, <a href="http://www.wsdm-conference.org/2015">2015</a>, <a href="http://www.wsdm-conference.org/2017/">2017</a><br />
+Conference on Neural Information Processing Systems (NIPS) <a href="https://nips.cc/Conferences/2016">2016</a><br />
+Joint Conference on Artificial Intelligence (IJCAI) <a href="http://ijcai-16.org/index.php/welcome/view/home">2016</a><br />
+European Conference on Machine Learning (ECML) <a href="http://www.ecmlpkdd2013.org/">2013</a>, 2014, 2015<br />
+AAAI Conference on Weblogs and Social Media (ICWSM) <a href="http://www.icwsm.org/2013/index.php">2013</a><br />
+ACM Conference on Knowledge Discovery and Data Mining (KDD) <a href="http://www.sigkdd.org/kdd2010/">2010</a><br />
+ACM Conference on Information and Knowledge Management (CIKM) <a href="http://www.cikm2008.org/">2008</a>, <a href="http://www.comp.polyu.edu.hk/conference/cikm2009/about/">2009</a><br />
+ACM Symposium on Applied Computing (SAC) <a href="http://www.acm.org/conferences/sac/sac2010/">2010</a></p>
+<p class="large text-muted"><b>Journal Reviewer</b>: <a href="https://www.computer.org/web/tkde">TKDE</a>, <a href="https://www.computer.org/web/tnse">TNSE</a>, <a href="http://toit.acm.org/">TOIT</a>, <a href="http://www.vldb.org/vldb_journal/">VLDB Journal</a>, <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10618">DAMI</a>, <a href="http://pubsonline.informs.org/journal/isre">ISR</a></p>
+
+          </div>
+        </section>
+        
+
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Education</h2>
+          <div class="u-rich-text">
+          <p>Ph.D., University of Maryland, 2011</p>
+
+          </div>
+        </section>
+        
+
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Selected Presentations</h2>
+          <div class="u-rich-text">
+          <p>February 2018 - Personalization of Social Sharing. Northwestern University Institute on Complex Systems (NICO) Seminar Series Winter 2018</p>
+<p>February 2018 - Panel on How to Survive &amp; Thrive on the Tenure-Track. UIUC's weSTEM Conference</p>
+<p>October 2017 - Data Science in Social Spaces: Machine learning, causal inference, privacy. DePaul University's CDM Research Colloquium</p>
+<p>August 2017 - Sharing and Gifting: Lessons from E-commerce. Keynote at the Mining and Learning with Graphs Workshop at KDD 2017.</p>
+<p>April 2017 - Data Science in Social Spaces: Personalization vs. Privacy. DIMACS Workshop on Privacy and Security in Big Data.</p>
+<p>November 2016 - Databases &amp; Data Warehouses, Data: Structures, Types, Integrations. BD2K Seminar Series.</p>
+<p>April 2013, 2014 - Deal Personalization. Class on Data Mining for Business Intelligence, Wharton School of Business, UPenn</p>
+<p>March 2013 - Incentivized Sharing in Social Networks. Class on Networks, Crowds and Markets, Stern School of Business, NYU</p>
+<p>February 2013 - Analytics in a Personalized Online World: Complex Networks and Incentives. Smith School of Business, UMd</p>
+<p>June 2012 - A/B Testing, Personalization and Privacy. Digital Marketing Analytics Roundtable, DMAR</p>
+<p>November 2011 - Data Science Classroom: Naive Bayes and Logistic Regression. DC Data Science Meetup</p>
+<p>February 2011 - Prediction and Privacy in Social and Affiliation Networks. Tepper School of Business, CMU</p>
+<p>November 2009 - Privacy in Social Networks. Workshop on Security and Artificial Intelligence, AISec 2009</p>
+
+          </div>
+        </section>
+        
+
+        
+
+        
+
+        
+
+      </div>
+    </div>
+
+          </article>
+        </div>
+
+                                            
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="simple-footer-contact">
+  <div class="simple-footer-contact__wordmark">
+    <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark  uic-wordmark--mega-footer">
+
+  <div class="_mark">
+    <a href="http://uic.edu" class="uic-logo-icon ">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+  </div>
+
+  <div class="_text">
+    <a href="https://cs.uic.edu">
+                  <span class="_line">College of</span>
+              <span class="_line">Engineering</span>
+              </a>
+  </div>
+
+</div>
+            </div>
+            </div>
+  </div>
+
+
+  <div class="simple-footer-contact__contact">
+    <h2 class="simple-footer-contact__header">Contact</h2>
+    <div class="simple-footer-contact__contact_container">      <div class="site-phone">Phone: <a href="tel:(312) 996-3422">(312) 996-3422</a></div>
+        <div class="site-email"><a href="mailto:info@cs.uic.edu">info@cs.uic.edu</a></div>
+</div>
+    <div class="simple-footer-contact__contact_container">  <div class="site-unit-name_SiteContact2"><h3>Webmaster</h3></div>
+            <div class="site-email_SiteContact2"><a href="mailto:coecomm@uic.edu">coecomm@uic.edu</a></div>
+</div>
+  </div>
+
+
+  <div class="simple-footer-contact__site-social-links">
+     <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+        <li class="site-social-links__list-item"><a class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+    </a></li>
+          </ul>
+</div>
+  </div>
+
+</div>
+    
+    </div>
+  </div>
+
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.4.3</div>
+
+<div class="site-copyright">
+  &copy; 2019 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <a class="optanon-show-settings">Cookie Settings</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+</footer>
+
+	    </div>
+
+
+  <!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
+</script>
+
+<!-- Google Tag Manager (noscript) --><script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=b4c9174b7cf9f719000391f4aed55c5c'></script>
+
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-20665772-1', 'auto');
+    
+        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
+    
+        ga('send', 'pageview');
+    
+        ga('csTracker.send', 'pageview');
+      </script>
+
+
+  
+  
+  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+
+  </body>
+</html>

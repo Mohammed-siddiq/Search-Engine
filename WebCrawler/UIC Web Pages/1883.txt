@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 //EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Bayesian Online Multilabel Classification (BOMC)</title>
+<style type="text/css">
+.style1 {
+				margin-bottom: 9px;
+}
+</style>
+</head>
+
+<body>
+
+<h1 align="center"> Bayesian Online Multilabel Classification (BOMC)</h1>
+<h3 align="center"> &nbsp;</h3>
+<h4 align="center"> version 1.0</h4>
+<h4 align="center"> September 29, 2011</h4>
+
+
+
+<h2> Overview </h2>
+<p> 
+BOMC is an open source toolkit&nbsp; for online multilabel classification using 
+Bayesian models [1, 2].&nbsp; It is implemented in F# 1.9.3.4 on Microsoft 
+Visual Studio 2008, and can be compiled and run on Linux systems via
+<a href="http://www.mono-project.com/Main_Page">Mono</a>.&nbsp; The graphical 
+model, as shown in Figure 1~3 of [1], is extend from TrueSkill<sup>TM</sup> [2] 
+to deal with multilabel, and the inference engine is expectation propagation.</p>
+
+<p>We refer the interested users to two other illustrative F# implementations of 
+TrueSkill<sup>TM</sup> :
+<a href="http://blogs.technet.com/b/apg/archive/2008/06/16/trueskill-in-f.aspx">
+original</a> [2] and
+<a href="http://blogs.technet.com/b/apg/archive/2008/04/05/trueskill-through-time.aspx">
+temporal</a> [3].</p>
+
+
+<h2> Download </h2>
+<a href="BOMC.zip">BOMC version 
+1.0</a>
+
+
+<h2> Disclaimer </h2>
+BOMC is licensed under <a href="http://www.mozilla.org/MPL/MPL-1.1.html">Mozilla Public License
+version 1.1</a>. The authors are not responsible for any implications
+from the use of the software.
+
+
+
+<h2> Contacts </h2>
+<h4>
+<a href="http://webdocs.cs.ualberta.ca/~xinhua2/">Xinhua Zhang</a> | 
+<a href="http://people.cs.uchicago.edu/~ankans/">Thore Graepel</a> | 
+<a href="http://research.microsoft.com/en-us/people/rherb/">
+		Ralf Herbrich</a></h4>
+
+
+<h2> References </h2>
+<table>
+<tbody><tr>
+<td valign="top">[1]</td>
+<td> 
+		<p style="margin-top: 0; margin-bottom: 0">Xinhua Zhang,
+		<a href="http://research.microsoft.com/en-us/people/thoreg/">Thore 
+		Graepel</a>, <a href="http://research.microsoft.com/en-us/people/rherb/">
+		Ralf Herbrich</a></p>
+		<p style="margin-top: 0; margin-bottom: 0"><i>Bayesian Online Learning 
+		for Multi-label and Multi-variate Performance Measures</i></p>
+		<p style="margin-top: 0; " class="style1">International Conference on 
+		Artificial Intelligence and Statistics (AISTATS), 2010. [<a href="../papers/ZhaGraHer10.pdf">PDF</a>]</td>
+</tr>
+
+				<tr>
+<td valign="top">[2]</td>
+<td> 
+<a href="http://research.microsoft.com/en-us/people/rherb/">
+		Ralf Herbrich</a>,
+<a href="http://research.microsoft.com/en-us/um/people/minka/">Tom Minka</a>,
+		<a href="http://research.microsoft.com/en-us/people/thoreg/">Thore 
+		Graepel</a><br>
+<em>Trueskill</em><sup><em>TM</em></sup><em>: A Bayesian skill ranking system</em>. <br>
+Neural Information Processing Systems (NIPS) 2007.&nbsp;</td>
+</tr>
+
+				<tr>
+<td valign="top">[3]</td>
+<td> 
+Pierre Dangauthier, <a href="http://research.microsoft.com/en-us/people/rherb/">
+		Ralf Herbrich</a>,
+<a href="http://research.microsoft.com/en-us/um/people/minka/">Tom Minka</a>, 
+and
+		<a href="http://research.microsoft.com/en-us/people/thoreg/">Thore 
+		Graepel</a><br>
+<em>Trueskill</em><sup><em>TM</em></sup><em>: Through Time: Revisiting the 
+History of Chess</em>.<br>
+Neural Information Processing Systems (NIPS) 2008.&nbsp;</td>
+</tr>
+
+</tbody></table>
+
+
+<p>
+<font size="1">
+Last modified: 29 September, 2011</font></p>
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3998334;
+var sc_invisible=1;
+var sc_partition=48;
+var sc_click_stat=1;
+var sc_security="318a3d16";
+</script>
+
+<script type="text/javascript" src="BMRM_files/counter.js"></script><noscript><div
+class="statcounter"><a href="http://www.statcounter.com/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/3998334/0/318a3d16/1/" alt="hit counter"
+></a></div></noscript>
+<!-- End of StatCounter Code -->
+</body></html>

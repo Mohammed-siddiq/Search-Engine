@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js side-institute" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="next" href="/institute/learning-sciences-research-institute" />
+<meta property="og:title" content="Learning Sciences Research Institute" />
+<meta property="og:description" content="Multidisciplinary learning for the 21st century student
+
+LSRI is committed to improving learning and learning environments for 21st century students around the globe. Located in the heart of Chicago" />
+<meta property="og:image" content="https://lsri.uic.edu/sites/default/files/styles/thumbnail/public/backgrounds/institute/chalk.png?itok=xBMpSNNE" />
+<meta property="og:url" content="https://lsri.uic.edu/learning-sciences-research-institute" />
+<meta property="og:site_name" content="LSRI" />
+<link rel="shortcut icon" href="https://lsri.uic.edu/misc/favicon.ico" />
+<meta name="viewport" content="width=device-width, maximum-scale = 1.0" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://lsri.uic.edu/" />
+<link rel="shortlink" href="https://lsri.uic.edu/" />
+  <title>LSRI |</title>
+  <script type="text/javascript" src="//use.typekit.net/rtq3rce.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="/sites/all/themes/lsri/js/masonry.pkgd.min.js"></script>
+  
+  <link rel="stylesheet" href="https://lsri.uic.edu/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://lsri.uic.edu/sites/default/files/css/css_2vg32lv_i5ijcz_2gVW3hS5GqtmAglvFlDqgmyOpFiU.css" />
+<link rel="stylesheet" href="https://lsri.uic.edu/sites/default/files/css/css_qXnmq5f7b4wTjiIl4CQ5FP_X9BknQnw3W9ZcBx3xp7s.css" />
+<link rel="stylesheet" href="https://lsri.uic.edu/sites/default/files/css/css_9VYq_T4YJuqHoy3gpio1JjHKT5q_Nbin3fNDE-hPu-o.css" />
+  <script src="https://lsri.uic.edu/sites/all/libraries/modernizr/modernizr.min.js?pc3xzv"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")</script>
+<script src="https://lsri.uic.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="https://lsri.uic.edu/misc/drupal.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/modules/contrib/extlink/extlink.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/modules/google_analytics/googleanalytics.js?pc3xzv"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-38925675-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/vendor/custom.modernizr.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/foundation/foundation.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/foundation/foundation.dropdown.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/foundation/foundation.forms.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/foundation/foundation.orbit.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/plugins.js?pc3xzv"></script>
+<script src="https://lsri.uic.edu/sites/all/themes/lsri/js/scripts.js?pc3xzv"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"lsri","theme_token":"ZTewiJgK6dss2p5AM1Nt--vGaii-HgT8SFQg3RSh6ko","js":{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/lsri\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/lsri\/js\/foundation\/foundation.js":1,"sites\/all\/themes\/lsri\/js\/foundation\/foundation.dropdown.js":1,"sites\/all\/themes\/lsri\/js\/foundation\/foundation.forms.js":1,"sites\/all\/themes\/lsri\/js\/foundation\/foundation.orbit.js":1,"sites\/all\/themes\/lsri\/js\/plugins.js":1,"sites\/all\/themes\/lsri\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/lsri\/css\/app.css":1,"sites\/all\/themes\/lsri\/css\/custom.css":1,"sites\/all\/themes\/lsri\/css\/master.css":1,"sites\/all\/themes\/lsri\/css\/uic-footer.css":1,"public:\/\/google_fonts.css":1}},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true}});</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = '//www.bugherd.com/sidebarv2.js?apikey=i07jxjuuxbxqjzpiyzgq2g';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-202 node-type-home-page-institute-side side-institute" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!--.page -->
+<div role="document" class="page">
+
+  <!--.l-header region -->
+  <header role="banner" class="l-header">
+    <section class="row">
+      <div class="large-3 small-12 columns">
+        <div class="logo">
+                    <a href="/" title="Home" rel="home" id="logo">
+            <img src="https://lsri.uic.edu/sites/all/themes/lsri/images/elements/lsri_official_logo.png" alt="Home" />
+          </a>
+                  </div>
+      </div>
+      <div class="large-7 small-12 end columns">
+        <nav class="top-bar primary">
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+          </ul>
+                          <section class="block block-menu top-bar-section block-menu-menu-institute-side-menu">
+
+      
+  <div  class="block-content">    <span class="search_modal_trigger right"></span><ul class="right institute-menu"><li class="first has-dropdown not-click"><a href="/institute/learning-sciences-research-institute" title="">About LSRI</a><ul class="dropdown"><li class="first leaf super-sub-class"><a href="/institute/learning-sciences-research-institute" title="">Learning Sciences Research Institute</a></li>
+<li class="leaf"><a href="/institute/what-we-do" title="">What We Do</a></li>
+<li class="leaf"><a href="/institute/how-we-do-it" title="">How We Do It</a></li>
+<li class="leaf"><a href="/institute/about-learning-sciences" title="">About Learning Sciences</a></li>
+<li class="leaf"><a href="/institute/news-events" title="">News &amp; Events</a></li>
+<li class="leaf"><a href="/institute/speaker-series" title="">Speaker Series</a></li>
+<li class="last leaf"><a href="http://lsri.uic.edu/visiting-lsri" title="">Visit LSRI</a></li>
+</ul></li>
+<li class="has-dropdown not-click"><a href="/institute/award-winning-researchers" title="">Who We Are</a><ul class="dropdown"><li class="first leaf super-sub-class"><a href="/institute/award-winning-researchers" title="">Award-Winning Researchers</a></li>
+<li class="leaf"><a href="/institute/meet-lsri-co-directors" title="">Our Co-Directors</a></li>
+<li class="leaf"><a href="http://lsri.uic.edu/faculty-staff" title="faculty and staff">Faculty and Staff</a></li>
+<li class="leaf"><a href="http://lsri.uic.edu/faculty-staff?title=&amp;field_personnel_type_tid=25" title="Alumni from faculty and staff">Alumni</a></li>
+<li class="leaf"><a href="http://lsri.uic.edu/faculty-staff?title=&amp;field_personnel_type_tid=26" title="">Affiliates</a></li>
+<li class="leaf"><a href="/institute/lsri-advisory-board" title="">Advisory Board</a></li>
+<li class="leaf"><a href="/institute/student-researchers" title="">Student Researchers</a></li>
+<li class="last leaf"><a href="/institute/job-opportunities" title="">Job Opportunities</a></li>
+</ul></li>
+<li class="has-dropdown not-click"><a href="/institute/project-stories" title="">Projects</a><ul class="dropdown"><li class="first leaf super-sub-class"><a href="/institute/project-stories" title="">Project Stories</a></li>
+<li class="last leaf"><a href="/institute/research-projects" title="">Research Projects</a></li>
+</ul></li>
+<li class="last has-dropdown not-click"><a href="/institute/our-funders-and-partners" title="">Collaboration</a><ul class="dropdown"><li class="first leaf super-sub-class"><a href="/institute/our-funders-and-partners" title="">Our Funders and Partners</a></li>
+<li class="leaf"><a href="/institute/funding-opportunities" title="">Funding Opportunities</a></li>
+<li class="last leaf"><a href="/institute/partner-lsri" title="">Partner with LSRI</a></li>
+</ul></li>
+</ul>  </div>
+</section>                  </nav>
+      </div>
+      <div class="large-2 small-12 columns">
+                  <section class="block block-block arrow block-block-6">
+
+      
+  <div  class="block-content">    <p><a class="button arrow" href="/learning-sciences-phd-program">Ph.D. Program</a></p>
+  </div>
+</section>            </div>
+    </section>
+
+
+  </header>
+  <!-- <div class="header-bg"></div> -->
+	    
+
+  	  	<section class="institute home" >
+	    <div class="">
+    								<div class="row backend-info">
+					<div class="large-12 columns">
+																		<div class="large-12 columns">
+																				</div>
+																							</div>
+			</div>
+							      <a id="main-content"></a>
+
+      			      	          
+      
+  <div  class="block-content">    <script type="text/javascript">
+	if (typeof custom_book_json === 'undefined') {
+		var custom_book_json = {"link":{"title":"Learning Sciences Research Institute","href":"learning-sciences-research-institute","nid":"202"},"below":[{"link":{"title":"Learning Sciences Research Institute","href":"institute\/learning-sciences-research-institute","nid":"206"},"below":[{"link":{"title":"What We Do","href":"institute\/what-we-do","nid":"204"}},{"link":{"title":"How We Do It","href":"institute\/how-we-do-it","nid":"205"}},{"link":{"title":"About Learning Sciences","href":"institute\/about-learning-sciences","nid":"203"}},{"link":{"title":"News \u0026 Events","href":"institute\/news-events","nid":"321"}},{"link":{"title":"Speaker Series","href":"institute\/speaker-series","nid":"322"}}]},{"link":{"title":"Award-Winning Researchers","href":"institute\/award-winning-researchers","nid":"207"},"below":[{"link":{"title":"Meet the LSRI Co-Directors","href":"institute\/meet-lsri-co-directors","nid":"208"}},{"link":{"title":"The LSRI Advisory Board","href":"institute\/lsri-advisory-board","nid":"209"}},{"link":{"title":"Student Researchers","href":"institute\/student-researchers","nid":"210"}},{"link":{"title":"Job Opportunities","href":"institute\/job-opportunities","nid":"211"}}]},{"link":{"title":"Project Stories","href":"institute\/project-stories","nid":"212"},"below":[{"link":{"title":"Research Projects","href":"institute\/research-projects","nid":"213"}}]},{"link":{"title":"Our Funders and Partners","href":"institute\/our-funders-and-partners","nid":"214"},"below":[{"link":{"title":"Funding Opportunities","href":"institute\/funding-opportunities","nid":"270"}},{"link":{"title":"Partner with LSRI","href":"institute\/partner-lsri","nid":"269"}}]}]}	}
+</script>
+<!-- Templates - home-page- -node-home-page-institute-side.tpl.php -->
+<div class="row">
+	<div class="small-10 small-centered columns title-bigmutha">
+		<div class="field field-name-title field-type-ds field-label-hidden field-wrapper"><h1>Learning Sciences Research Institute</h1></div>		<h2>At the University of Illinois at Chicago</h2>	</div>
+</div>
+<div class="row">
+	<div class="small-8 small-centered columns content">
+	<h3>Multidisciplinary learning for the 21st century student</h3>
+<p>LSRI is committed to improving learning and learning environments for 21st century students around the globe. Located in the heart of Chicago on UIC's campus, LSRI is home to the nation's leading researchers in the field, and it offers a unique doctoral program dedicated to cultivating the next generation of learning scientists.</p>
+	<div class="field-collection-container clearfix"><div class="field field-name-field-button-collection field-type-field-collection field-label-hidden field-wrapper"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><!-- field-collection-item- -field-button-collection- -full.tpl.php -->
+	<a href="/institute/learning-sciences-research-institute" class="round button">Who We Are and What We Do</a><!-- /field-collection-item- -field-button-collection- -full.tpl.php -->
+</div></div></div>	</div>
+</div>
+<!-- /home-page- -node-home-page-institute-side.tpl.php -->
+  </div>
+      			
+			
+							<!-- region-home-footer.php -->
+<div class="row">
+	<!-- Templates - block--bean- -action-block- --home-page.tpl.php -->
+  <section class="block block-bean block-bean-action-block-home-page program-callout small-10 small-centered columns">
+
+    
+  
+  <div  class="block-content">    <!-- Templates - action-block- -bean.tpl.php -->
+<div  about="/block/action-block---home-page" typeof="" class="ds-action-block entity entity-bean bean-action-block view-mode-default row">
+<header class="small-2 columns">
+	<h4><h3>Ph.D. PROGRAM</h3></h4>	</header>
+<div class="small-12 large-7 columns">
+	<p>Our learning sciences Ph.D. program is unique because unlike traditional education programs, we help you address today's pressing challenges in education through a truly interdisciplinary approach.</p>
+</div>
+<footer class="small-12 large-3 columns">
+	<div class="field-collection-container clearfix"><div class="field field-name-field-button-collection field-type-field-collection field-label-hidden field-wrapper"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><!-- field-collection-item- -field-button-collection- -full.tpl.php -->
+	<a href="/learning-sciences-phd-program" class="round button">Learn About the Graduate Program</a><!-- /field-collection-item- -field-button-collection- -full.tpl.php -->
+</div></div></div></footer>
+</div>
+<!-- /action-block.tpl.php -->
+  </div>
+</section><!-- /block--bean- -action-block- --home-page.tpl.php -->
+<!-- /block- -book- -navigation.tpl.php -->
+  <section class="block block-book block-book-navigation">
+
+    
+  <div  class="block-content">    <!-- Templates - book-all-books-block.tpl.php -->
+		<div class="small-12 large-2 large-centered columns down-nav">
+		<a href="/institute/learning-sciences-research-institute" class="red small button">About LSRI</a>				<br />
+		<a href="/institute/learning-sciences-research-institute" class="arrow"><img src="/sites/all/themes/lsri/images/elements/arrow-red-down.png" alt="arrow down" /></a>	</div>
+	<!-- /book-all-books-block.tpl.php -->
+  </div>
+</section><!-- /block- -book- -navigation.tpl.php -->
+</div>
+<!-- /region-home-footer.php -->
+			    </div>
+    <!--/.main region -->
+
+    
+      </section>
+  <!--/.main-->
+
+  	
+
+      	<!-- Search Form Modal -->
+  	<div id="search_form_modal" style="display:none">
+  		<form class="search-form custom" action="/search/node" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label for="edit-keys">Search the Site </label>
+ <input type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" />
+</div>
+<div class="test"><button id="edit-submit" name="op" value="Search" type="submit" class="form-submit">Search</button>
+</div></div><input type="hidden" name="form_build_id" value="form-VBH6jj-JyW7YKO7ICz6kPAfUmCYAfp4DaTf2Q2Y8y_4" />
+<input type="hidden" name="form_id" value="search_form" />
+</div></form>  	</div>
+  	<!-- /Search Form Modal -->
+  </div>
+<!--/.page -->
+      <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+</body>
+</html>

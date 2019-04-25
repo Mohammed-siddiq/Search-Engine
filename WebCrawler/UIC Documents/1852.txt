@@ -1,0 +1,1664 @@
+URL : http://www.cs.uic.edu/~wolfson/mobile_ps/dexa021.ps
+77 D 97 D I I<15F8141FA2EC01F0A21403A215E0A21407A215C0A2140FEB1F8F90387FCF80EBF0EF
+3803C03FEA0780390F001F00A2001E5B123E003C133E127C147E5A147CA214FC5AECF830
+A3903801F060A2EA7803010E13C0393C1CF980381FF07F3907C01E001D297CA723>I I<130E131F5BA2133E131C90C7FCA7EA03E0487EEA0C78EA187C1230A2
+12605B12C0A2EA01F0A3485AA2485AA2EBC180EA0F81A2381F0300A213066C5A131CEA07
+F06C5A11287DA617>105 D<1407EC0F80141FA21500140E91C7FCA7EB03E0EB07F8EB0C
+3C1318EB303E136013C0A248485AA2C7FCA25CA4495AA4495AA4495AA4495AA21238D87C
+1FC7FC12FC133E485AEA70F8EA7FE0EA1F80193380A61B>I<133EEA07FEA2EA007CA213
+FCA25BA21201A25BA21203EC07809038E01FC0EC38600007EB61E014C3EBC187EBC307D8
+0FC613C09038CC038001B8C7FC13E0487E13FEEB3F80EB0FC0486C7E1303003E1460A212
+7EECC0C0127CECC18012FC903801E30038F800FE0070137C1B297CA723>I<137CEA0FFC
+A2EA00F8A21201A213F0A21203A213E0A21207A213C0A2120FA21380A2121FA21300A25A
+A2123EA2127EA2EA7C18A3EAF830A21320EA786013C0EA3F80EA0F000E297EA715>I<3B
+07801FC007E03B0FE07FF01FF83B18F0E0F8783C3B30F1807CE03E903AFB007D801ED860
+FEEB3F005B49133E00C14A133E5B1201A24848495BA35F4848485A1830EE01F0A23C0F80
+03E003E060A218C0933801E180271F0007C013E3933800FF00000E6D48137C341B7D993B
+>I<3907801FC0390FE07FF03918F0E0F83930F1807CEBFB00D860FE133C5B5B00C1147C
+5B1201A248485BA34A5AEA07C01660EC03E0A23A0F8007C0C0A2EDC180913803C300D81F
+0013C7EC01FE000EEB00F8231B7D9929>I I<9038F007C03901FC1FF039031E
+78780006EBE03C90381FC01C000CEB801E14005B0018141F133E1200137E153E137CA213
+FC157C5B1578000114F0A2EC01E0EC03C03903FC07809038FE1F00EBE7FCEBE1F0D807E0
+C7FCA25BA2120FA25B121FEAFFF8A22025809922>I<3807803E390FE0FF803818F3C139
+30F703C0EBFE073860FC0F13F8158039C1F0070091C7FC1201A2485AA4485AA4485AA448
+C8FCA2120E1A1B7D991F>114 D<131C133EA25BA45BA4485AB512E0A23801F000485AA4
+485AA4485AA448C7FC1460A214C0123EEB0180EB0300EA1E06EA1F1CEA0FF8EA03E01326
+7EA419>116 D I<90387C03C03901FF0FF03907079C30390E03B0
+78000CEBF0F8001813E1123015F0396007C0E015001200A2495AA449C7FC15301238007C
+1460EAFC3E15C0EAF87E39F06F03803970C70700383F83FE381F01F81D1B7D9926>120
+D E
+%EndDVIPSBitmapFont
+%DVIPSBitmapFont: Ff cmr7 7 3
+/Ff 3 51 df<140EB3A2B812E0A3C7000EC8FCB3A22B2B7DA333>43
+D<13381378EA01F8121F12FE12E01200B3AB487EB512F8A215267BA521>49
+D<13FF000313E0380E03F0381800F848137C48137E00787F12FC6CEB1F80A4127CC7FC15
+005C143E147E147C5C495A495A5C495A010EC7FC5B5B903870018013E0EA018039030003
+0012065A001FB5FC5A485BB5FCA219267DA521>I E
+%EndDVIPSBitmapFont
+%DVIPSBitmapFont: Fg cmr10 10 9
+/Fg 9 94 df<146014E0EB01C0EB0380EB0700130E131E5B5BA25B485AA2485AA212075B
+120F90C7FCA25A121EA2123EA35AA65AB2127CA67EA3121EA2121F7EA27F12077F1203A2
+6C7EA26C7E1378A27F7F130E7FEB0380EB01C0EB00E01460135278BD20>40
+D<12C07E12707E7E7E120F6C7E6C7EA26C7E6C7EA21378A2137C133C133E131EA2131F7F
+A21480A3EB07C0A6EB03E0B2EB07C0A6EB0F80A31400A25B131EA2133E133C137C1378A2
+5BA2485A485AA2485A48C7FC120E5A5A5A5A5A13527CBD20>I<15301578B3A6007FB812
+F8B912FCA26C17F8C80078C8FCB3A6153036367BAF41>43 D 49 D I<121C127FEAFF80A5EA7F00121CC7FCB2121C127FEAFF80A5EA7F
+00121C092479A317>58 D<007FB812F8B912FCA26C17F8CCFCAE007FB812F8B912FCA26C
+17F836167B9F41>61 D 91
+D 93 D E
+%EndDVIPSBitmapFont
+%DVIPSBitmapFont: Fh cmmi10 10 28
+/Fh 28 122 df<1403EC3FF891387FFF80D901E313C014800103133F9138001F80ED0700
+92C7FC80A280A2808013018080130080147F81143F8149B47E130790380F8FF0EB3E0F49
+6C7E13F83801F003D803E07F1207380FC0011380121FEA3F0014005A127EA212FE5D4813
+01A35DA24813035D6C13075D127C4A5A6C91C7FC5C6C133E6C6C5A3807C0F03801FFE0D8
+003FC8FC223D7DBB25>14 D<15FE913803FF8091380F83E091383E01F091387C00F85C49
+4813FC0103147C4948137E5C130F495AA249C7FC16FE5B137EA2150113FE4914FCA20001
+140316F85BED07F01203ED0FE04914C0151F000715806DEB3F00157E6D5B390FEE01F090
+38E707E09038C3FF80D9C0FCC7FC001F90C8FCA25BA2123FA290C9FCA25AA2127EA212FE
+A25AA2127027377EA42B>26 D<121C127FEAFF80A5EA7F00121C0909798817>58
+D<121C127FEAFF80A213C0A3127F121C1200A412011380A2120313005A1206120E5A5A5A
+12600A19798817>I I<150C151E153EA2153C157CA2157815F8A215F01401A215E01403A215C01407A2158014
+0FA215005CA2141E143EA2143C147CA2147814F8A25C1301A25C1303A2495AA25C130FA2
+91C7FC5BA2131E133EA2133C137CA2137813F8A25B1201A25B1203A25B1207A25B120FA2
+90C8FC5AA2121E123EA2123C127CA2127812F8A25A12601F537BBD2A>I<126012FCB4FC
+EA7FC0EA1FF0EA07FCEA01FF38007FC0EB1FF0EB07FCEB01FF9038007FC0EC1FF0EC07FC
+EC01FF9138007FC0ED1FF0ED07FCED01FF9238007FC0EE1FF0EE07FCEE01FF9338007F80
+EF1FC0A2EF7F80933801FF00EE07FCEE1FF0EE7FC04B48C7FCED07FCED1FF0ED7FC04A48
+C8FCEC07FCEC1FF0EC7FC04948C9FCEB07FCEB1FF0EB7FC04848CAFCEA07FCEA3FF0EA7F
+C048CBFC12FC1270323279AD41>I<1760177017F01601A21603A21607160FA24C7EA216
+331673166316C3A2ED0183A2ED0303150683150C160115181530A21560A215C014011580
+DA03007FA202061300140E140C5C021FB5FC5CA20260C7FC5C83495A8349C8FC1306A25B
+A25B13385B01F01680487E000716FFB56C013F13FF5EA2383C7DBB3E>65
+D<0103B77E4916F018FC903B0007F80003FE4BEB00FFF07F80020FED3FC0181F4B15E0A2
+141FA25DA2143F19C04B143F1980027F157F190092C812FE4D5A4A4A5AEF0FF04AEC1FC0
+05FFC7FC49B612FC5F02FCC7B4FCEF3FC00103ED0FE0717E5C717E1307844A1401A2130F
+17035CA2131F4D5A5C4D5A133F4D5A4A4A5A4D5A017F4BC7FC4C5A91C7EA07FC49EC3FF0
+B812C094C8FC16F83B397DB83F>I<9339FF8001C0030F13E0037F9038F80380913A01FF
+807E07913A07F8000F0FDA1FE0EB079FDA3F80903803BF0002FFC76CB4FCD901FC80495A
+4948157E495A495A4948153E017F163C49C9FC5B1201484816385B1207485A1830121F49
+93C7FCA2485AA3127F5BA312FF90CCFCA41703A25F1706A26C160E170C171C5F6C7E5F00
+1F5E6D4A5A6C6C4A5A16076C6C020EC8FC6C6C143C6C6C5C6CB4495A90393FE00FC0010F
+B5C9FC010313FC9038007FC03A3D7CBA3B>I<0103B7FC4916E018F8903B0007F80007FE
+4BEB00FFF03F80020FED1FC0180F4B15E0F007F0021F1503A24B15F81801143F19FC5DA2
+147FA292C8FCA25C18035CA2130119F84A1507A2130319F04A150FA2010717E0181F4A16
+C0A2010FEE3F80A24AED7F00187E011F16FE4D5A4A5D4D5A013F4B5A4D5A4A4A5A057FC7
+FC017F15FEEE03FC91C7EA0FF049EC7FC0B8C8FC16FC16C03E397DB845>I<0103B812F0
+5BA290260007F8C7123F4B1407F003E0020F150118005DA2141FA25D19C0143FA24B1330
+A2027F1470190092C7126017E05C16014A495A160F49B6FCA25F9138FC000F01031407A2
+4A6DC8FCA201075C18034A130660010F160693C7FC4A150E180C011F161C18184A1538A2
+013F5E18F04A4A5AA2017F15074D5A91C8123F49913803FF80B9FCA295C7FC3C397DB83D
+>I<902603FFF893383FFF80496081D900079438FF80000206DC01BFC7FCA2020E4C5A1A
+7E020C1606190CDA1C7E16FE4F5A02181630A20238166162023016C1F00181DA703F1583
+95380303F002601506A202E0ED0C076202C01518183001016D6C140F06605B028015C0A2
+0103923801801FDD03005B140092380FC00649173F4D91C8FC01065DA2010E4B5B4D137E
+130C6F6C5A011C17FEDCE1805B011802E3C7FCA2013802E6130104EC5C1330ED03F80170
+16034C5C01F05CD807FC4C7EB500E0D9C007B512F01680150151397CB851>77
+D<0003B812FEA25A903AF8003FC00101C0913880007E4848163C90C7007F141C121E001C
+92C7FCA2485CA200305C007017180060130112E0485CA21403C716005DA21407A25DA214
+0FA25DA2141FA25DA2143FA25DA2147FA292C9FCA25CA25CA21301A25CA21303A25CEB0F
+FC003FB6FC5AA237397EB831>84 D<49B500F890387FFFF095B5FC1AE0D9000301809038
+0FFC004BC713E00201ED07804EC7FC6E6C140E606F5C705B606F6C485A4D5A031F91C8FC
+EEE0065F6F6C5A5F03075B705A16F96FB45A94C9FC6F5AA36F7EA34B7FED037F9238063F
+C0150E4B6C7E1538ED700F03E07F15C04A486C7EEC0300020613034A805C4A6D7E14704A
+1300494880495A49C86C7E130E011E153F017E4B7ED803FF4B7E007F01E0011FEBFFC0B5
+FC6144397EB845>88 D I<147E903803FF809039
+0FC1C38090391F00EFC0017E137F49133F485A4848EB1F8012075B000F143F48481400A2
+485A5D007F147E90C7FCA215FE485C5AA214015D48150CA21403EDF01C16181407007C15
+38007E010F1330003E131F027B13706C01E113E03A0F83C0F9C03A03FF007F80D800FCEB
+1F0026267DA42C>97 D<163FED1FFFA3ED007F167EA216FEA216FCA21501A216F8A21503
+A216F0A21507A2027E13E0903803FF8790380FC1CF90381F00EF017EEB7FC049133F485A
+4848131F000715805B000F143F485A1600485A5D127F90C7127EA215FE5A485CA21401A2
+48ECF80CA21403161CEDF0181407007C1538007E010F1330003E131F027B13706C01E113
+E03A0F83C0F9C03A03FF007F80D800FCEB1F00283B7DB92B>100
+D<16F8ED03FEED0F8792381F0F80ED3E3F167F157CA215FC1700161C4A48C7FCA414035D
+A414075DA20107B512F0A39026000FE0C7FC5DA4141F5DA4143F92C8FCA45C147EA514FE
+5CA413015CA4495AA45C1307A25C121E123F387F8F80A200FF90C9FC131E12FEEA7C3CEA
+7878EA1FF0EA07C0294C7CBA29>102 D<14E0EB03F8A21307A314F0EB01C090C7FCAB13
+F8EA03FEEA070F000E1380121C121812381230EA701F1260133F00E0130012C05BEA007E
+A213FE5B1201A25B12035BA20007131813E01438000F133013C01470EB806014E014C013
+81EB838038078700EA03FEEA00F815397EB71D>105 D<150FED3F80A2157FA31600151C
+92C7FCABEC0F80EC3FE0ECF0F0903801C0F849487E14005B130E130C131CEB1801133801
+305BA2EB0003A25DA21407A25DA2140FA25DA2141FA25DA2143FA292C7FCA25CA2147EA2
+14FEA25CA21301001E5B123F387F83F0A238FF87E0495A00FE5BD87C1FC8FCEA707EEA3F
+F8EA0FC0214981B722>I I 110 D<3903E001F83907F807FE390E3C
+1E07391C3E381F3A183F703F800038EBE07F0030EBC0FF00705B00601500EC007E153CD8
+E07F90C7FCEAC07EA2120013FE5BA312015BA312035BA312075BA3120F5BA3121F5B0007
+C9FC21267EA425>114 D 116 D<01F8EB03C0D803FEEB07E0D8070F130F000E018013F0121C121800381407003014
+03D8701F130112601500D8E03F14E000C090C7FC5BEA007E16C013FE5B1501000115805B
+150316001203495B1506150E150C151C151815385D00015C6D485A6C6C485AD97E0FC7FC
+EB1FFEEB07F024267EA428>118 D<903907E001F090391FF807FC9039783E0E0F9039E0
+1F1C1FD801C09038383F803A03800FF07F0100EBE0FF5A000E4A1300000C157E021F133C
+001C4AC7FC1218A2C7123FA292C8FCA25CA2147EA214FEA24A130CA20101141C001E1518
+003F5BD87F81143801835C00FF1560010714E03AFE0E7C01C0D87C1C495A2778383E0FC7
+FC391FF00FFC3907C003F029267EA42F>120 D<13F8D803FE1470D8070F14F8000EEB80
+01121C121800381403003015F0EA701F1260013F130700E0010013E012C05BD8007E130F
+16C013FE5B151F000115805BA2153F000315005BA25D157EA315FE5D1401000113033800
+F80790387C1FF8EB3FF9EB0FE1EB00035DA2000E1307D83F805B007F495AA24A5A92C7FC
+EB003E007C5B00705B6C485A381E07C06CB4C8FCEA01FC25367EA429>I
+E
+%EndDVIPSBitmapFont
+%DVIPSBitmapFont: Fi cmsy10 10 8
+/Fi 8 55 df<007FB81280B912C0A26C17803204799641>0 D<121C127FEAFF80A5EA7F
+00121C0909799917>I 3 D 15
+D 20 D<181EA4181F84A285180785727EA2727E727E85197E85F11F80F10FC0F107F0
+007FBA12FCBCFCA26C19FCCCEA07F0F10FC0F11F80F13F00197E61614E5A4E5AA24E5A61
+180F96C7FCA260181EA4482C7BAA53>33 D<91381FFFFE91B6FC1303010F14FED91FF0C7
+FCEB7F8001FEC8FCEA01F8485A485A485A5B48C9FCA2123EA25AA2127812F8A25AA2B712
+FE16FFA216FE00F0C9FCA27EA21278127CA27EA27EA26C7E7F6C7E6C7E6C7EEA00FEEB7F
+80EB1FF06DB512FE010314FF1300021F13FE283279AD37>50 D 54 D E
+%EndDVIPSBitmapFont
+/Fj 134[29 1[44 29 1[18 26 26 1[33 33 33 48 18 2[18 33
+33 1[29 33 29 1[33 12[37 33 9[22 4[48 21[17 4[22 22 37[33
+2[{TeXBase1Encoding ReEncodeFont}26 66.4176 /Times-Italic
+rf /Fk 204[25 25 25 49[{TeXBase1Encoding ReEncodeFont}3
+49.8132 /Times-Roman rf /Fl 204[29 29 29 49[{
+TeXBase1Encoding ReEncodeFont}3 58.1154 /Times-Roman
+rf /Fm 105[33 28[33 33 48 33 33 18 26 22 1[33 33 33 52
+18 33 18 18 33 33 22 29 33 29 33 29 3[22 1[22 5[48 41
+37 44 2[48 48 1[41 2[22 48 48 37 41 48 44 1[48 7[33 33
+33 33 33 33 33 33 33 33 1[17 22 17 2[22 22 37[37 2[{
+TeXBase1Encoding ReEncodeFont}58 66.4176 /Times-Roman
+rf
+%DVIPSBitmapFont: Fn cmsy6 6 1
+/Fn 1 4 df<15E0A34A7EA34A7EA34A7EA34A7EA2140DEC1DFF14191418A24A7F157FA2
+02607F153FA202C07F151FA2D901807F150FA2D903007F1507A20106801503A2010E8013
+0C1501011C80131881A24981167FA24981163FA24981161FA20001821203486C81D81FF8
+4A7EB50107B512E0A3333C7DBB3A>3 D E
+%EndDVIPSBitmapFont
+/Fo 105[42 1[37 37 24[37 42 42 60 42 42 23 32 28 42 42
+42 42 65 23 42 23 23 42 42 28 37 42 37 42 37 3[28 1[28
+3[78 1[60 51 46 55 1[46 60 60 74 51 2[28 60 60 46 51
+60 55 1[60 5[23 23 42 42 42 42 42 42 42 42 42 42 23 21
+28 21 2[28 28 28 36[46 2[{TeXBase1Encoding ReEncodeFont}69
+83.022 /Times-Roman rf /Fp 105[42 1[46 46 24[32 37 37
+55 37 42 23 32 32 42 42 42 42 60 23 37 23 23 42 42 23
+37 42 37 42 42 9[69 1[60 46 42 2[51 60 1[69 46 2[28 60
+1[51 51 60 2[51 3[56 2[28 5[42 5[21 28 21 2[28 28 37[42
+2[{TeXBase1Encoding ReEncodeFont}52 83.022 /Times-Italic
+rf /Fq 105[50 28[50 1[72 50 55 33 39 44 1[55 50 55 83
+28 55 33 28 55 50 33 44 55 44 55 50 9[100 1[72 66 1[72
+2[78 1[94 3[39 4[72 72 1[72 11[50 50 50 50 50 2[25 33
+42[55 2[{TeXBase1Encoding ReEncodeFont}42 99.6264 /Times-Bold
+rf
+%DVIPSBitmapFont: Fr cmsy8 8 1
+/Fr 1 4 df<15E0A34A7EA34A7EA34A7EA34A7EA2140DEC1DFF14191418A24A7F157FA2
+02607F153FA202C07F151FA2D901807F150FA2D903007F1507A20106801503A2010E8013
+0C1501011C80131881A24981167FA24981163FA24981161FA20001821203486C81D81FF8
+4A7EB50107B512E0A3333C7DBB3A>3 D E
+%EndDVIPSBitmapFont
+/Fs 134[50 50 72 50 50 28 39 33 1[50 50 50 78 28 50 28
+28 50 50 33 44 50 44 50 44 8[72 94 1[72 61 55 2[55 72
+72 89 3[33 1[72 2[72 66 66 1[92 7[50 50 50 50 2[50 50
+50 28 25 1[25 2[33 33 40[{TeXBase1Encoding ReEncodeFont}51
+99.6264 /Times-Roman rf /Ft 137[60 1[40 47 53 1[66 60
+66 100 33 1[40 33 1[60 40 53 66 53 66 60 11[86 80 1[86
+2[93 1[113 8[86 22[40 42[66 2[{TeXBase1Encoding ReEncodeFont}26
+119.552 /Times-Bold rf end
+%%EndProlog
+%%BeginSetup
+%%Feature: *Resolution 600dpi
+TeXDict begin
+%%PaperSize: A4
+
+%%EndSetup
+%%Page: 1 1
+1 0 bop 442 374 a Ft(Real-T)n(ime)29 b(T)-9 b(raf\002c)30
+b(Updates)h(in)f(Mo)o(ving)g(Objects)f(Databases)750
+690 y Fs(Goce)c(T)m(rajce)n(vski,)e(Ouri)i(W)-8 b(olfson)1993
+654 y Fr(\003)1993 690 y Fs(,)24 b(Bo)h(Xu)g(and)f(Peter)i(Nelson)1122
+806 y(Dept.)k(of)25 b(Computer)g(Science)g(\(M/c)g(152\))1237
+922 y(Uni)n(v)o(ersity)e(of)i(Illinois)e(at)i(Chicago)1201
+1039 y(851)f(S.)h(Mor)n(gan,)f(Chicago,)h(Il)g(60607)1077
+1155 y(gtrajce)n(v)-6 b(,w)o(olfson,bxu,nelson@cs.uic.edu)617
+1505 y Fq(Abstract)-83 1704 y Fp(This)36 b(work)f(addr)m(esses)g(the)g
+(pr)l(oblem)g(of)g(updating)e(Mo)o(ving)-182 1804 y(Objects)19
+b(Databases)e(\(MOD\))i(using)f(r)m(eal-time)h(tr)o(af)o(\002ce)f
+(informa-)-182 1904 y(tion.)24 b(The)18 b(motion)g(of)g(the)g(object)g
+(is)h(r)m(epr)m(esented)f(by)g(a)g Fo(trajectory)p Fp(,)-182
+2003 y(whic)o(h)37 b(can)g(be)h(constructed)e(using)h(the)h(available)e
+(electr)l(onic)-182 2103 y(maps)24 b(and)f(the)i(information)e(about)g
+(tr)o(af)o(\002c)g(patterns.)37 b(Howe)o(ver)-9 b(,)-182
+2203 y(the)16 b(statistical)h(information)e(about)g(tr)o(af)o(\002c)h
+(patterns)g(may)h(c)o(hang)o(e)-182 2302 y(due)29 b(to)h(accidents,)h
+(e)n(xtr)m(eme)g(weather)e(conditions,)i(r)l(oad)f(work,)-182
+2402 y(etc...)d(In)20 b(this)i(work,)f(we)h(pr)m(esent)f(a)g(model)g
+(for)g Fo(updating)e Fp(the)i(tr)o(a-)-182 2501 y(jectories)26
+b(of)g(mo)o(ving)f(objects)g(when)h(une)n(xpected)e(tr)o(af)o(\002c)h
+(condi-)-182 2601 y(tions)20 b(occur)-9 b(.)-83 2701
+y(Many)17 b(sites)i(pr)l(o)o(vide)e(an)g(up-to-date)e(information)i
+(about)f(tr)o(af-)-182 2800 y(\002c)29 b(conditions)f(on)i(major)f(e)n
+(xpr)m(essways.)54 b(Howe)o(ver)-9 b(,)32 b(the)e(une)n(x-)-182
+2900 y(pected)i(tr)o(af)o(\002c)h(conditions)f(may)h(af)o(fect)g(not)g
+(only)g(the)g(vehicles)-182 3000 y(on)21 b(the)g(e)n(xpr)m(essways)h
+(for)g(whic)o(h)f(an)g(on-line)g(monitoring)f(is)i(pr)l(o-)-182
+3099 y(vided,)f(b)n(ut)g(may)h(also)f(have)g(an)g(ef)o(fect)g(on)g(the)
+h(str)m(eets)h(near)e(those)-182 3199 y(e)n(xpr)m(essways.)47
+b(W)-8 b(e)29 b(pr)l(opose)e(a)g(model)g(of)h(this)g
+Fo(spill-o)o(v)o(er)d(ef)n(fect)-182 3298 y Fp(and)g(we)j(utilize)f(it)
+g(in)g(the)g(pr)l(ocess)g(of)f Fo(identifying)f Fp(the)i(tr)o(ajecto-)
+-182 3398 y(ries)21 b(whic)o(h)f(ar)m(e)g(af)o(fected)f(by)h(by)g(the)h
+(abnormal)d(tr)o(af)o(\002c.)-182 3729 y Fq(1)o(.)25
+b(Intr)n(oduction)i(and)e(Moti)o(v)o(ation)-83 3943 y
+Fo(When)32 b(constructing)e(a)j Fp(tr)o(ajectory)f Fo(\(c.f.)60
+b(Section)31 b(2.\))61 b(of)31 b(a)-182 4043 y(mo)o(ving)22
+b(object,)i(one)f(needs)h(to)g(tak)o(e)g(into)f(consideration)f(dif)n
+(fer)n(-)-182 4142 y(ent)30 b(speed)f(along)h(a)g(particular)f
+(street-block/e)o(xpressw)o(ay)-5 b(,)29 b(dur)n(-)-182
+4242 y(ing,)39 b(say)-5 b(,)39 b(a)d(day)-5 b(.)70 b(The)36
+b(v)n(alues)f(of)g(the)h(speed)f(along)g(a)h(gi)n(v)o(en)-182
+4341 y(se)o(gment)28 b(during)g(dif)n(ferent)g(time)h(periods)g(\(e.g.)
+52 b(rush)29 b(hour)f(vs.)-182 4441 y(late)18 b(night\))g(may)g(be)g
+(obtained,)f(for)h(e)o(xample,)f(by)h(monitoring)e(the)-182
+4541 y(speed)30 b(patterns.)56 b(W)-7 b(e)31 b(call)h(this)f(attrib)n
+(ute)f(a)h Fp(speed)20 b(pr)l(o\002le)p 1195 4571 423
+4 v 30 w Fo(of)30 b(a)-182 4640 y(se)o(gment.)-83 4740
+y(Ho)n(we)n(v)o(er)m(,)24 b(e)n(v)o(en)g(if)i(the)f(speed)g(pro\002les)
+f(are)h(considered,)f(one)-182 4840 y(may)16 b(still)j(e)o(xperience)c
+(une)o(xpected)f(v)n(ariations)i(due)h(to)g(accidents;)-182
+4939 y(road-w)o(orks;)26 b(bad)f(weather;)j(etc.)42 b(In)26
+b(this)g(case,)i(some)d(sort)h(of)f(a)-182 5039 y(real-time)30
+b(information)e(needs)i(to)h(be)f(utilized)h(by)f(the)h(Mo)o(ving)p
+-182 5090 788 4 v -99 5144 a Fn(\003)-63 5167 y Fm(Research)53
+b(supported)e(by)g(ARL)e(Grant)j(D)m(AAL01-96-2-0003,)60
+b(NSF)-182 5246 y(Grants)22 b(ITR-0086144,)i(CCR-9816633,)h
+(CCR-9803974,)g(IRI-9712967,)g(EIA-)-182 5325 y(0000516,)17
+b(INT)-6 b(-9812325)1974 1505 y Fo(Objects)21 b(Database)g(\(MOD\))f
+(to)h(update)f(the)h(motion)f(plans)h(of)f(the)1974 1605
+y(objects)h(whose)h(trajectory)e(is)j(af)n(fected)d(by)i(the)g(une)o
+(xpected)d(traf-)1974 1704 y(\002c)28 b(conditions.)47
+b(Otherwise,)30 b(the)e(\(location-time\))e(information)1974
+1804 y(stored)c(in)h(the)g(MOD)g(will)h(be)f(inaccurate.)31
+b(Speci\002cally)-5 b(,)23 b(the)g(an-)1974 1904 y(swer)e(to)h(the)f
+(query)f Fp(\223whic)o(h)h(objects)g(will)h(arrive)g(at)f(the)g
+(destina-)1974 2003 y(tion)f(befor)m(e)g(4PM\224)p Fo(,)g(will)h(be)f
+(incorrect.)2073 2111 y(Real-time)54 b(traf)n(\002c)e(information)f(is)
+j(a)n(v)n(ailable)f(for)f(man)o(y)1974 2211 y(metropolitan)27
+b(cities.)53 b(The)28 b(Uni)n(v)o(ersity)g(of)h(Illinois)g(at)h
+(Chicago)1974 2310 y Fp(\(www)-6 b(.ai.uic.edu\))39 b
+Fo(maintains)h(the)i(information)c(about)i(traf)n(\002c)1974
+2410 y(patterns)24 b(on)g(the)h(major)f(e)o(xpressw)o(ays)g(around)f
+(Chicagoland)g(\(I-)1974 2509 y(55;)34 b(I-290;)e(I-90/94;)g(I-294\))c
+(which)h(is)h(updated)e(e)n(v)o(ery)g(2)i(min-)1974 2609
+y(utes)2108 2579 y Fl(1)2141 2609 y Fo(.)c(The)20 b(sources)g(of)h
+(information)d(are)i(traf)n(\002c)g(sensors/)h(detec-)1974
+2709 y(tors)c(which)g(are)g(mostly)g(located)f(on)h(highw)o(ays)f
+(\(e.g.)23 b(toll)18 b(booths\))1974 2808 y(and)h(intersections)h(of)g
+(major)f(streets.)2073 2916 y(This)32 b(kind)f(of)g(information)e(can)i
+(be)g(used)g(to)h(detect)f(an)h(oc-)1974 3016 y(curence)14
+b(of)i(abnormal)e(traf)n(\002c)i(conditions)e(on)i(gi)n(v)o(en)e
+(sections)i(of)g(a)1974 3115 y(road)i(netw)o(ork.)24
+b(In)19 b(order)f(to)h(utilize)h(this)g(information,)d(the)i(MOD)1974
+3215 y(needs)j(to:)30 b(1.\))i Fp(Identify)p 2427 3245
+254 4 v 22 w Fo(the)23 b(trajectories)f(which)g(are)g(af)n(fected)g(by)
+1974 3314 y(the)g(abnormal)e(traf)n(\002c;)i(and)g(2.\))29
+b Fp(Update)p 2939 3345 245 4 v 21 w Fo(the)22 b Fp(\(location-time\))d
+Fo(in-)1974 3414 y(formation)f(about)h(their)h(motion)f(plans.)2073
+3522 y(It)25 b(is)g(a)f(common)f(tendenc)o(y)f(that,)j(upon)e(an)h(une)
+o(xpected)d(con-)1974 3621 y(gestion)h(on)h(a)h(particular)e(route,)h
+(some)g(dri)n(v)o(ers)f(choose)g(an)h(alter)n(-)1974
+3721 y(nate)16 b(route)f(which)h(is)h(close)f(to)h(the)f(initial)g
+(\(congested\))e(one.)23 b(This,)1974 3821 y(in)e(turn,)e(will)j
+(increase)e(the)g(traf)n(\002c)g(density)g(on)h(some)f(neighbour)n(-)
+1974 3920 y(ing)28 b(street)h(\226)g(which)f(will)h(cause)g(some)f(of)h
+(the)f(dri)n(v)o(ers)g(there)g(to)1974 4020 y(mo)o(v)o(e)19
+b(a)i(bit)g(further)e(a)o(w)o(ay)h(from)g(the)h(point)e(where)h(the)h
+(abnormal)1974 4119 y(traf)n(\002c)e(originated.)k(The)d(ef)n(fect)f
+(\223recursi)n(v)o(ely\224)f(repeats)h(itself)i(un-)1974
+4219 y(til,)j(at)g(some)f(distance)f(from)g(the)h(point)g(of)f(the)h
+(abnormal)f(traf)n(\002c,)1974 4319 y(the)28 b(density)f(is)h(at)h(its)
+f(\223normal\224)f(v)n(alue)g(for)g(the)h(particular)e(time)1974
+4418 y(period)g(\(i.e.)45 b(the)27 b(ef)n(fects)g(of)g(the)g(abnormal)f
+(traf)n(\002c)g(are)i(ne)o(gligi-)1974 4518 y(ble\).)c(W)-7
+b(e)22 b(call)e(this)h(a)g Fp(spill-o)o(ver)p 2618 4548
+318 4 v 20 w Fo(ef)n(fect)f(of)f(the)i(abnormal)d(traf)n(\002c.)2073
+4625 y(If)i(a)h(MOD)f(is)g(to)h(be)e(properly)f(modi\002ed)h(upon)f
+(the)i(occurence)1974 4725 y(of)k(the)h(abnormal)e(traf)n(\002c)h
+(conditions,)g(the)g(spill-o)o(v)o(er)f(ef)n(fect)h(can)1974
+4825 y(not)k(be)g(ne)o(glected.)47 b(Most)29 b(of)f(the)g(reported)e
+(approaches)h(on)g(re-)1974 4924 y(routing)h(of)i(arterial)f(traf)n
+(\002c)h(upon)f(abnormal)f(conditions)g([5)o(,)i(9])p
+1974 5009 788 4 v 2064 5065 a Fk(1)2093 5088 y Fm(NTU)m(A)c(maintains)j
+(the)e(real-time)i(traf)n(\002c)f(information)h(for)d(Athens.)50
+b(The)1974 5167 y Fj(Intellig)o(ent)23 b(T)l(r)o(ansportation)e
+(Systems)f Fm(\(ITS\))f Fj(\(www)-5 b(.itsonline)o(.com\))23
+b Fm(has)c(links)h(to)1974 5246 y(maps)f(with)h(the)g(real-time)i(traf)
+n(\002c)f(update)g(for)f(o)o(v)o(er)g(25)f(major)h(cities)h(throughout)
+1974 5325 y(the)d(w)o(orld.)p eop
+%%Page: 2 2
+2 1 bop -182 83 a Fo(are)19 b(based)g(on)f(the)i(results)f(from)f
+(queuing)f(theory)-5 b(,)18 b(analyzing)f(dif-)-182 183
+y(ferent)i(distrib)n(utions)g(for)g(the)h(arri)n(v)n(al)f(rate.)25
+b(Ho)n(we)n(v)o(er)m(,)18 b(to)i(the)g(best)-182 282
+y(of)i(our)f(kno)n(wledge,)f(the)i(spill-o)o(v)o(er)f(ef)n(fects)h(ha)n
+(v)o(e)f(not)h(been)g(con-)-182 382 y(sidered)d(when)h(identifying)e
+(the)i(trajectories)f(which)h(are)g(af)n(fected)-182
+482 y(by)f(abnormal)g(traf)n(\002c)h(in)g(MOD.)-83 582
+y(The)g(main)g(contrib)n(utions)e(of)i(this)h(w)o(ork)e(are)h(as)h
+(follo)n(ws:)-182 682 y Fi(\003)29 b Fo(W)-7 b(e)31 b(de\002ne)e(a)h
+(model)f(of)g(a)h Fp(tr)o(af)o(\002c)f(incident)g Fo(to)g(represent)g
+(the)-182 782 y(ef)n(fects)f(of)g(abnormal)e(traf)n(\002c)i(conditions)
+f(and)h(we)h(demonstrate)-182 881 y(ho)n(w)15 b(to)h(update)f(a)h
+(trajectory)f(which)h(is)g(af)n(fected)f(by)h(the)g(abnormal)-182
+981 y(traf)n(\002c.)-182 1080 y Fi(\003)31 b Fo(W)-7
+b(e)32 b(also)f(present)g(a)g(model)f(for)h(a)g(spill-o)o(v)o(er)f(ef)n
+(fect)g(and)h(we)-182 1180 y(demonstrate)23 b(ho)n(w)h(to)i(identify)d
+(the)j(trajectories)e(which)g(need)h(to)-182 1280 y(be)20
+b(updated.)-83 1380 y(The)h(rest)g(of)g(the)g(paper)f(is)i(structured)e
+(as)i(follo)n(ws.)27 b(In)20 b(Section)-182 1480 y(2.)56
+b(we)31 b(outline)f(the)h(model)f(of)g(a)h(trajectory)f(and)g(its)h
+(construc-)-182 1580 y(tion.)55 b(Section)30 b(3)g(introduces)f(the)h
+(model)g(of)g(a)h(traf)n(\002c)f(incident)-182 1679 y(and)g(sho)n(ws)h
+(ho)n(w)g(to)g(update)f(a)i(particular)e(trajectory)f(which)i(is)-182
+1779 y(af)n(fected)e(by)i(the)g(abnormal)d(traf)n(\002c.)57
+b(Section)31 b(4.)56 b(presents)31 b(the)-182 1879 y(spill-o)o(v)o(er)
+21 b(ef)n(fect)h(and)g(discusses)h(the)g(identi\002cation)f(of)g(af)n
+(fected)-182 1978 y(trajectories)h(in)h(a)h(MOD.)f(In)g(Section)f(5.)37
+b(we)24 b(position)f(our)h(w)o(ork)-182 2078 y(with)i(respect)h(to)f
+(the)h(rele)n(v)n(ant)e(literature,)i(summarize)f(and)g(out-)-182
+2177 y(line)20 b(directions)f(for)h(future)f(w)o(ork.)-182
+2413 y Fq(2)o(.)i(Repr)n(esenting)h(the)f(Motion)f(of)h(a)f(Mo)o(ving)g
+(Object)-83 2633 y Fo(Commonly)-5 b(,)15 b(a)i(mo)o(ving)d(object)i(is)
+h(represented)e(as)i(a)g(point)e(and)-182 2732 y(its)27
+b(motion)f(is)i(represented)c(as)k(some)e Fp(\(location,time\))f
+Fo(informa-)-182 2832 y(tion)20 b(\(c.f.)k([12)o(,)c(21)o(]\):)-182
+2932 y Fi(\017)c Fp(A)h Fo(trajectory)p -56 2963 319
+4 v 16 w Fp(of)f(a)h(mo)o(ving)f(object)g(is)i(a)f(piece-wise)f(linear)
+h(func-)-182 3031 y(tion)26 b Fh(f)45 b Fg(:)35 b Fh(T)47
+b Fi(!)36 b Fg(\()p Fh(x;)14 b(y)s Fg(\))p Fp(,)29 b(r)m(epr)m(esented)
+e(as)g(a)g(sequence)f(of)h(points)-182 3131 y Fg(\()p
+Fh(x)-103 3143 y Ff(1)-65 3131 y Fh(;)14 b(y)13 3143
+y Ff(1)49 3131 y Fh(;)g(t)116 3143 y Ff(1)154 3131 y
+Fg(\))p Fp(,)28 b Fg(\()p Fh(x)314 3143 y Ff(2)352 3131
+y Fh(;)14 b(y)430 3143 y Ff(2)467 3131 y Fh(;)g(t)534
+3143 y Ff(2)571 3131 y Fg(\))p Fp(,)29 b(...,)e Fg(\()p
+Fh(x)843 3143 y Fe(n)889 3131 y Fh(;)14 b(y)967 3143
+y Fe(n)1012 3131 y Fh(;)g(t)1079 3143 y Fe(n)1124 3131
+y Fg(\))27 b(\()p Fh(t)1245 3143 y Ff(1)1318 3131 y Fh(<)34
+b(t)1447 3143 y Ff(2)1519 3131 y Fh(<)g(:::)h(<)-182
+3231 y(t)-152 3243 y Fe(n)-107 3231 y Fg(\))p Fp(.)28
+b(F)-9 b(or)22 b(a)f(given)f(a)h(tr)o(ajectory)g Fh(T)12
+b(r)r Fp(,)22 b(its)g(pr)l(ojection)e(on)h(the)g Fh(X)7
+b Fp(-)p Fh(Y)-182 3330 y Fp(plane)19 b(is)i(called)f(the)g
+Fo(route)p 445 3344 171 4 v 19 w Fp(of)h Fh(T)12 b(r)r
+Fp(.)-182 3431 y Fo(Thus,)32 b(the)e(object)f(is)i(at)g
+Fg(\()p Fh(x)659 3443 y Fe(i)687 3431 y Fh(;)14 b(y)765
+3443 y Fe(i)793 3431 y Fg(\))31 b Fo(at)f(time)h Fh(t)1155
+3443 y Fe(i)1182 3431 y Fo(,)i(and)d(during)e(each)-182
+3531 y(se)o(gment)k Fg([)p Fh(t)180 3543 y Fe(i)208 3531
+y Fh(;)14 b(t)275 3543 y Fe(i)p Ff(+1)386 3531 y Fg(])p
+Fo(,)38 b(the)33 b(object)g(mo)o(v)o(es)g(along)g(a)h(straight)f(line)
+-182 3630 y(from)22 b Fg(\()p Fh(x)82 3642 y Fe(i)111
+3630 y Fh(;)14 b(y)189 3642 y Fe(i)216 3630 y Fg(\))25
+b Fo(to)e Fg(\()p Fh(x)440 3642 y Fe(i)p Ff(+1)553 3630
+y Fh(;)14 b(y)631 3642 y Fe(i)p Ff(+1)742 3630 y Fg(\))p
+Fo(,)25 b(and)f(at)g(a)g(constant)f(speed.)35 b(The)-182
+3730 y(e)o(xpected)18 b(location)p -182 3761 583 4 v
+31 w(of)32 b(the)g(object)g(at)h(an)o(y)e(time)h Fh(t)45
+b Fi(2)h Fg([)p Fh(t)1557 3742 y Fe(i)1585 3730 y Fh(;)14
+b(t)1652 3742 y Fe(i)p Ff(+1)1763 3730 y Fg(])-182 3829
+y(\(1)31 b Fi(\024)g Fh(i)g(<)h(n)p Fg(\))25 b Fo(is)h(obtained)d(by)h
+(a)i(linear)e(interpolation)f(between)-182 3929 y Fg(\()p
+Fh(x)-103 3941 y Fe(i)-75 3929 y Fh(;)14 b(y)3 3941 y
+Fe(i)30 3929 y Fg(\))27 b Fo(and)e Fg(\()p Fh(x)314 3941
+y Fe(i)p Ff(+1)427 3929 y Fh(;)14 b(y)505 3941 y Fe(i)p
+Ff(+1)616 3929 y Fg(\))p Fo(.)43 b(An)26 b(illustration)f(of)h
+(trajectory)e(and)-182 4029 y(its)d(route)e(is)i(sho)n(wn)f(in)g
+(Figure)g(1.)-83 4129 y(Note)h(that)f(a)h(trajectory)e(can)h(represent)
+f(both)h(the)g(past)h(and)f(fu-)-182 4229 y(ture)26 b(motion)g(of)h
+(objects.)44 b(Gi)n(v)o(en)26 b(the)h Fp(start)p 1148
+4229 25 4 v 31 w(point)f Fo(and)g(the)h Fp(des-)-182
+4329 y(tination)p 83 4329 V 28 w(point)i Fo(\(plus,)i(possibly)-5
+b(,)30 b(a)g(sequence)e(of)i(other)e(\223to-be-)-182
+4428 y(visited\224)e(points\))g(one)h(can)f(determine)g(the)g(route)g
+(of)h(the)g(object.)-182 4528 y(In)17 b(order)g(to)h(e)o(xplain)f(ho)n
+(w)g(we)h(do)g(so,)g(we)h(need)e(to)h(de\002ne)f(an)h
+Fp(elec-)-182 4628 y(tr)l(onic)30 b(map)g Fo(\(map\):)45
+b Fi(\017)30 b Fp(A)h Fo(map)p 639 4659 143 4 v 30 w
+Fp(is)g(a)g(gr)o(aph,)g(r)m(epr)m(esented)f(as)h(a)-182
+4727 y(r)m(elation)26 b(wher)m(e)i(eac)o(h)f(tuple)g(corr)m(esponds)f
+(to)h(a)h(bloc)n(k)f(with)h(the)-182 4827 y(following)19
+b(attrib)n(utes:)-182 4926 y Fo(\226)25 b(Polyline:)36
+b Fp(Eac)o(h)25 b(bloc)n(k)g(is)i(a)f(polygonal)d(line)j(se)m(gment.)41
+b(P)-7 b(oly-)-182 5026 y(line)21 b(gives)h(the)f(sequence)f(of)i(the)f
+(endpoints:)k Fg(\()p Fh(x)1273 5038 y Ff(1)1311 5026
+y Fh(;)14 b(y)1389 5038 y Ff(1)1426 5026 y Fg(\))p Fp(,)22
+b Fg(\()p Fh(x)1580 5038 y Ff(2)1618 5026 y Fh(;)14 b(y)1696
+5038 y Ff(2)1733 5026 y Fg(\))p Fp(,)-182 5126 y(.)e(.)g(.)g(,)21
+b Fg(\()p Fh(x)38 5138 y Fe(n)84 5126 y Fh(;)14 b(y)162
+5138 y Fe(n)206 5126 y Fg(\))-182 5225 y Fo(\226)20 b(Length:)k
+Fp(Length)19 b(of)i(the)f(bloc)n(k)p Fo(.)-182 5325 y(\226)g(Fid:)25
+b Fp(The)c(bloc)n(k)f Fo(id)g Fp(number)p Fo(.)1974 83
+y(\226)34 b(Speed)p 2259 83 25 4 v 29 w(Pro\002le:)54
+b Fp(T)-6 b(ypical)34 b(drive)h(time)g(fr)l(om)g(one)f(end)g(of)g(the)
+1974 183 y(bloc)n(k)20 b(to)g(the)g(other)-9 b(,)20 b(in)g(minutes,)g
+(for)h(eac)o(h)e(period)g(of)i(a)f(day)-5 b(.)p Fo(.)1974
+282 y Fp(Plus,)34 b(among)c(other)o(s,)35 b(a)c(set)h(of)g(g)o
+(eo-coding)d(attrib)n(utes)j(whic)o(h)1974 382 y(enable)23
+b(tr)o(anslating)f(between)i(an)f Fo(\(x,y\))g Fp(coor)m(dinate)f(and)h
+(an)g(ad-)1974 482 y(dr)m(ess,)e(suc)o(h)e(as)i Fo(\2231030)d(North)i
+(State)h(St.)-6 b(\224)p Fp(:)1974 581 y(\(e)o(.g)o(.)24
+b Fo(\226)c(L)p 2263 581 V 30 w(f)p 2321 581 V 29 w(add:)25
+b Fp(Left)c(side)f(fr)l(om)h(str)m(eet)g(number\).)2073
+702 y Fo(Such)38 b(maps)g(are)g(pro)o(vided)d(by)-5 b(,)42
+b(among)36 b(the)i(others,)k(Geo-)1974 802 y(graphic)e(Data)h(T)-6
+b(echnology)2857 772 y Fl(2)2929 802 y Fo(Co.)89 b(An)41
+b(intersection)f(of)h(tw)o(o)1974 902 y(streets)31 b(is)h(the)f
+(endpoint)d(of)j(the)g(four)e(block-polylines.)54 b(Thus,)1974
+1001 y(each)21 b(map)g(is)i(an)f(undirected)d(graph,)i(with)g(the)h
+(tuples)g(represent-)1974 1101 y(ing)e(edges)g(of)f(the)i(graph.)2073
+1222 y(An)34 b(e)o(xternal)e(routine,)j(a)n(v)n(ailable)d(in)i(most)f
+(Geographic)e(In-)1974 1322 y(formation)c(Systems,)k(\(gi)n(v)o(en)c(a)
+i(priori\))f(computes)f(the)i(shortest)1974 1422 y(cost)23
+b(\(distance)e(or)h(tra)n(v)o(el-time\))f(path)h(in)h(the)f(map)g
+(graph.)30 b(Gi)n(v)o(en)1974 1521 y(the)19 b Fp(be)m(gin)p
+2283 1521 V 28 w(time)p Fo(,)g(we)g(compute)f(the)g(trajectory)g(by)g
+(computing)f(for)1974 1621 y(each)k(straight)g(line)h(se)o(gment)f(the)
+h(time)f(at)i(which)e(the)g(object)g(will)1974 1720 y(arri)n(v)o(e)e
+(to)i(the)f(end)g(point)g(of)g(the)g(se)o(gment.)25 b(F)o(or)20
+b(this)h(purpose,)d(the)1974 1820 y(only)h(rele)n(v)n(ant)g(attrib)n
+(utes)h(are)g Fp(P)-7 b(olyline)20 b Fo(and)g Fp(Speed)p
+3513 1820 V 28 w(pr)l(o\002le)p Fo(.)2103 3067 y @beginspecial
+0 @llx 0 @lly 345 @urx 219 @ury 2052 @rwi @setspecial
+%%BeginDocument: aaamodel.eps
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: aaamodel.fig
+%%Creator: fig2dev Version 3.1 Patchlevel 2
+%%CreationDate: Wed Mar 13 21:10:59 2002
+%%For: gtrajcev@bert.cs.uic.edu (Goce Trajcevski)
+%Magnification: 1.00
+%%Orientation: Portrait
+%%BoundingBox: 0 0 345 219
+%%Pages: 0
+%%BeginSetup
+%%IncludeFeature: *PageSize Letter
+%%EndSetup
+%%EndComments
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+save
+-246.0 227.0 translate
+1 -1 scale
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+%%EndProlog
+
+$F2psBegin
+10 setmiterlimit
+n 0 792 m 0 0 l 612 0 l 612 792 l cp clip
+ 0.06000 0.06000 sc
+7.500 slw
+% Polyline
+n 5400 3000 m 6150 3000 l 6750 2475 l 7875 2700 l 8625 2175 l gs col-1 s gr 
+% Polyline
+ [66.7] 0 sd
+n 6150 3000 m 6150 900 l 5400 900 l 5400 3000 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6750 2475 m 6750 375 l 6150 900 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6750 375 m 7875 600 l 7875 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 7875 600 m 8625 150 l 8625 2175 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 5400 2400 m 6150 2400 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 5400 1875 m 6150 1875 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6150 2400 m 6750 1950 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6150 1875 m 6750 1425 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6750 1950 m 7875 2175 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6750 1425 m 7875 1650 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 7875 1650 m 8625 1125 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 7875 2175 m 8625 1650 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 5400 1200 m 6150 1200 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6150 1200 m 6750 675 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6750 675 m 7875 900 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 7875 900 m 8625 450 l gs col-1 s gr  [] 0 sd
+15.000 slw
+% Polyline
+n 5400 3000 m 6150 2700 l 6300 2250 l 6750 1725 l gs col-1 s gr 
+% Polyline
+n 6750 1725 m 7575 1575 l 7875 1275 l 8175 750 l 8625 300 l gs col-1 s gr 
+% Polyline
+gs  clippath
+4395 3619 m 4167 3717 l 4322 3524 l 4065 3721 l 4138 3816 l  cp clip
+n 5400 2775 m 4125 3750 l gs col-1 s gr gr
+
+% arrowhead
+n 4395 3619 m 4167 3717 l 4322 3524 l 4359 3571 l 4395 3619 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+6240 519 m 6300 279 l 6360 519 l 6360 195 l 6240 195 l  cp clip
+n 6300 750 m 6300 225 l gs col-1 s gr gr
+
+% arrowhead
+n 6240 519 m 6300 279 l 6360 519 l 6300 519 l 6240 519 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+9531 1740 m 9771 1800 l 9531 1860 l 9855 1860 l 9855 1740 l  cp clip
+n 8625 1800 m 9825 1800 l gs col-1 s gr gr
+
+% arrowhead
+n 9531 1740 m 9771 1800 l 9531 1860 l 9531 1800 l 9531 1740 l  cp gs 0.00 setgray ef gr  col-1 s
+/Times-Roman ff 210.00 scf sf
+5025 1350 m
+gs 1 -1 sc (T3) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+5025 975 m
+gs 1 -1 sc (T4) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+9150 1650 m
+gs 1 -1 sc (X) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+4200 3375 m
+gs 1 -1 sc (Y) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+6075 375 m
+gs 1 -1 sc (T) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+4875 2550 m
+gs 1 -1 sc (T1=1) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+4875 2025 m
+gs 1 -1 sc (T2=2) col-1 sh gr
+/Helvetica ff 180.00 scf sf
+5400 3300 m
+gs 1 -1 sc (A) col-1 sh gr
+/Helvetica ff 180.00 scf sf
+6150 3300 m
+gs 1 -1 sc (B) col-1 sh gr
+/Helvetica ff 180.00 scf sf
+6750 2775 m
+gs 1 -1 sc (C) col-1 sh gr
+/Helvetica ff 180.00 scf sf
+7875 2925 m
+gs 1 -1 sc (D) col-1 sh gr
+/Helvetica ff 180.00 scf sf
+8625 2400 m
+gs 1 -1 sc (E) col-1 sh gr
+$F2psEnd
+rs
+
+%%EndDocument
+ @endspecial 2073 3249 a Fd(Figure)61 b(1.)g(T)-7 b(rajector)q(y)61
+b(and)g(its)f(construction)2073 3349 y(based)23 b(on)g(a)g(r)n(oute)g
+(and)g(speed)g(pr)n(o\002les)2073 3674 y Fo(Note)33 b(that)f(we)h(need)
+f(to)g(use)h(a)f Fp(time)h(\226)g(dependent)d(shortest)1974
+3774 y(path)j Fo(algorithm,)j(as)f(presented)e(in)h([2].)67
+b(This)34 b(is,)39 b(essentially)-5 b(,)1974 3873 y(an)25
+b Fh(A)2140 3843 y Fc(\003)2204 3873 y Fo([10)o(])g(based)g(e)o
+(xtension)f(of)h(Dijkstra')-5 b(s)25 b(algorithm,)g(where)1974
+3973 y(the)f(cost)h(of)g(an)f(edge)g(in)h(a)g(graph)e(depends)g(on)i
+(the)f(start)h(time)g(to)1974 4072 y(tra)n(v)o(el)d(along)f(that)i
+(edge)f(\(details)g(are)g(gi)n(v)o(en)f(in)i([20)o(]\).)31
+b(As)23 b(a)g(con-)1974 4172 y(sequence,)h(it)h(may)f(be)h(a)g(case)g
+(that)f(an)h(object)f(tra)n(v)o(eling)f(along)h(a)1974
+4272 y(line)k(se)o(gment)g(will)h(\223enter\224)e(tw)o(o)i(dif)n
+(ferent)e(speed-pro\002le)f(peri-)1974 4371 y(ods.)36
+b(Thus,)24 b(although)e(the)h(route)g(consists)i(of)e(one)h(se)o
+(gment,)f(the)1974 4471 y(trajectory)16 b(between)g(the)h(route)f
+(end-points)f(may)i(ha)n(v)o(e)f(more)h(than)1974 4571
+y(one)25 b(se)o(gment.)42 b(This)27 b(is)g(illustrated)e(in)i(Figure)e
+(1.)43 b(Observ)o(e)25 b(that)1974 4670 y(while)e(tra)n(v)o(eling)f
+(along)h(the)g(route)g(se)o(gments)p 3358 4603 133 4
+v 22 w Fh(B)t(C)31 b Fo(and)p 3659 4603 138 4 v 23 w
+Fh(D)r(E)5 b Fo(,)24 b(the)1974 4770 y(object)i(enters)g(tw)o(o)h(dif)n
+(ferent)d(time)j(periods)e(for)h(the)g(speed)g(pro-)1974
+4869 y(\002le.)p 1974 5009 788 4 v 2064 5065 a Fk(2)2093
+5088 y Fj(\(www)-5 b(.g)o(eo)o(gr)o(aphic.com\))34 b
+Fm(Note)c(that)h(the)g(GDT)e(maps)g(do)h(not)g(pro)o(vide)h(a)1974
+5167 y Fj(speed)p 2128 5167 20 4 v 25 w(pr)m(o\002le)22
+b Fm(b)o(ut)g(the)o(y)g(pro)o(vide)h(a)e(single)i Fj(Drive)p
+3186 5167 V 25 w(time)f Fm(attrib)o(ute.)36 b(Ho)n(we)n(v)o(er)m(,)24
+b(as)1974 5246 y(we)e(e)o(xplained,)j(the)e(v)n(alues)g(of)f
+Fj(Speed)p 2899 5246 V 25 w(pr)m(o\002le)h Fm(can)f(be)h(obtained)h(by)
+d(monitoring)1974 5325 y(the)d(traf)n(\002c.)p eop
+%%Page: 3 3
+3 2 bop -182 83 a Fq(3)o(.)40 b(Updating)g(a)f(T)-7 b(rajectory)40
+b(under)h(Real)f(\226)f(T)n(ime)-33 199 y(T)-7 b(raf\002c)-83
+403 y Fo(In)21 b(this)g(section,)f(we)h(analyze)e(the)i(update)f(of)g
+(a)h(particular)e(tra-)-182 502 y(jectory)i(due)h(to)h(abnormal)e(traf)
+n(\002c)h(conditions.)31 b(This)22 b(occurs,)h(for)-182
+602 y(e)o(xample,)18 b(when)h(there)g(are)g(accidents)g(or)h(road)e(w)o
+(orks)h(along)g(cer)n(-)-182 702 y(tain)24 b(se)o(gments)g(of)h(a)g
+(polyline)e(in)i(a)h(gi)n(v)o(en)d(block\(s\).)37 b(The)24
+b(ef)n(fect)-182 801 y(of)16 b(the)h(abnormal)e(traf)n(\002c)i(is)h
+(that)f(the)g(speed)g(in)g(a)g(particular)f(block,)-182
+901 y(say)25 b Fh(i)p Fo(,)h(does)f(not)f(match)h(the)g(one)f(for)h
+(the)g Fh(j)5 b Fo(-th)24 b(time)i(period)d(\(i.e.)-182
+1001 y Fh(v)-142 1013 y Fe(cur)r(r)r(ent)117 1001 y Fi(6)p
+Fg(=)f Fh(v)244 1013 y Fe(i;j)323 1001 y Fo(\).)-95 1906
+y @beginspecial 0 @llx 0 @lly 587 @urx 260 @ury 2152
+@rwi @setspecial
+%%BeginDocument: trafficabn.eps
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: trafficabn.fig
+%%Creator: fig2dev Version 3.1 Patchlevel 2
+%%CreationDate: Thu Mar 14 19:28:12 2002
+%%For: gtrajcev@bert.cs.uic.edu (Goce Trajcevski)
+%Magnification: 1.00
+%%Orientation: Portrait
+%%BoundingBox: 0 0 587 260
+%%Pages: 0
+%%BeginSetup
+%%IncludeFeature: *PageSize Letter
+%%EndSetup
+%%EndComments
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+save
+-13.0 267.0 translate
+1 -1 scale
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+%%EndProlog
+
+$F2psBegin
+10 setmiterlimit
+n 0 792 m 0 0 l 612 0 l 612 792 l cp clip
+ 0.06000 0.06000 sc
+15.000 slw
+% Polyline
+gs  clippath
+240 444 m 300 204 l 360 444 l 360 120 l 240 120 l  cp clip
+n 300 2700 m 300 150 l gs col-1 s gr gr
+
+% arrowhead
+n 240 444 m 300 204 l 360 444 l 300 444 l 240 444 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+3756 2640 m 3996 2700 l 3756 2760 l 4080 2760 l 4080 2640 l  cp clip
+n 300 2700 m 4050 2700 l gs col-1 s gr gr
+
+% arrowhead
+n 3756 2640 m 3996 2700 l 3756 2760 l 3756 2700 l 3756 2640 l  cp gs 0.00 setgray ef gr  col-1 s
+7.500 slw
+% Polyline
+n 600 675 m 3300 675 l gs col-1 s gr 
+% Polyline
+ [66.7] 0 sd
+n 1200 2025 m 1200 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 600 675 m 300 675 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 1200 2025 m 300 2025 l gs col-1 s gr  [] 0 sd
+% Polyline
+n 525 675 m 1200 2025 l 2775 2025 l 3150 675 l gs col-1 s gr 
+% Polyline
+ [66.7] 0 sd
+n 2775 2025 m 2775 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 525 675 m 525 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 3150 675 m 3150 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+n 5700 3600 m 6525 3900 l 8100 2700 l 9300 2925 l gs col-1 s gr 
+% Polyline
+ [66.7] 0 sd
+n 5700 3600 m 5700 1200 l 6525 1500 l 6525 3900 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 6600 1500 m 8100 525 l 8100 2700 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 8100 525 m 9300 750 l 9300 2925 l gs col-1 s gr  [] 0 sd
+% Polyline
+n 6525 3300 m 8100 2175 l 8100 1800 l 6525 2925 l 6525 3300 l gs col7 0.75 shd ef gr gs col-1 s gr 
+% Polyline
+n 6525 2925 m 8100 1800 l 8100 975 l 6525 2025 l 6525 2925 l gs col7 0.75 shd ef gr gs col-1 s gr 
+15.000 slw
+% Polyline
+gs  clippath
+6240 594 m 6300 354 l 6360 594 l 6360 270 l 6240 270 l  cp clip
+n 6300 1425 m 6300 300 l gs col-1 s gr gr
+
+% arrowhead
+n 6240 594 m 6300 354 l 6360 594 l 6300 594 l 6240 594 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+5170 4221 m 4981 4381 l 5072 4151 l 4884 4415 l 4981 4484 l  cp clip
+n 5700 3375 m 4950 4425 l gs col-1 s gr gr
+
+% arrowhead
+n 5170 4221 m 4981 4381 l 5072 4151 l 5121 4186 l 5170 4221 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+9681 2340 m 9921 2400 l 9681 2460 l 10005 2460 l 10005 2340 l  cp clip
+n 9300 2400 m 9975 2400 l gs col-1 s gr gr
+
+% arrowhead
+n 9681 2340 m 9921 2400 l 9681 2460 l 9681 2400 l 9681 2340 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+n 5700 3525 m 6525 3600 l 7500 2625 l gs col-1 s gr 
+% Polyline
+n 7500 2625 m 7725 2025 l gs col-1 s gr 
+% Polyline
+n 8100 1200 m 9300 975 l gs col-1 s gr 
+% Polyline
+ [15 25.0] 25.0 sd
+n 7500 2625 m 8100 2025 l 9300 1800 l gs col-1 s gr  [] 0 sd
+7.500 slw
+% Polyline
+ [66.7] 0 sd
+n 7500 2625 m 7500 3150 l gs col-1 s gr  [] 0 sd
+15.000 slw
+% Interp Spline
+gs n 7725 2025 m
+	7676.9 1731.4 7676.9 1600.1 7725 1500 curveto
+	7769.0 1408.4 7862.8 1333.4 8100 1200 curveto
+ gs col-1 s gr
+ gr
+
+/Times-Roman ff 210.00 scf sf
+375 3000 m
+gs 1 -1 sc (t) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+1050 3075 m
+gs 1 -1 sc (t+td) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+2325 3075 m
+gs 1 -1 sc (t+td+tp) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+3000 2550 m
+gs 1 -1 sc (t+td+tp+tr) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+9600 2250 m
+gs 1 -1 sc (X) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+4875 4200 m
+gs 1 -1 sc (Y) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+6525 450 m
+gs 1 -1 sc (T) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+8175 2250 m
+gs 1 -1 sc (t) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+8175 1950 m
+gs 1 -1 sc (t+tp) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+8175 1125 m
+gs 1 -1 sc (t+tp+tr) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+375 600 m
+gs 1 -1 sc (v\(i,j\)) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+375 1950 m
+gs 1 -1 sc (v\(i,j\)') col-1 sh gr
+/Helvetica ff 210.00 scf sf
+675 1350 m
+gs 1 -1 sc (disturbance) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+1350 1950 m
+gs 1 -1 sc (persistent) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+2775 1350 m
+gs 1 -1 sc (recovery) col-1 sh gr
+/Helvetica-Oblique ff 210.00 scf sf
+375 300 m
+gs 1 -1 sc (speed) col-1 sh gr
+/Helvetica-Oblique ff 210.00 scf sf
+3900 3000 m
+gs 1 -1 sc (time) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+6075 4350 m
+gs 1 -1 sc (b.\) Updating an affected trajectory) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+5700 3900 m
+gs 1 -1 sc (A) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+6525 4125 m
+gs 1 -1 sc (B) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+8100 3000 m
+gs 1 -1 sc (C) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+9300 3225 m
+gs 1 -1 sc (D) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+225 3825 m
+gs 1 -1 sc (a.\) speed-changes due to a traffic ) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+225 4110 m
+gs 1 -1 sc (incident) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+7425 3450 m
+gs 1 -1 sc (M) col-1 sh gr
+$F2psEnd
+rs
+
+%%EndDocument
+ @endspecial -83 2089 a Fd(Figure)40 b(2.)g(Eff)o(ects)g(of)f(abnormal)
+g(traf\002c)h(condi\255)-83 2188 y(tions)-83 2436 y Fo(As)28
+b(illustrated)f(on)g(part)g(a.\))46 b(of)27 b(Figure)g(2,)i(a)e
+Fp(tr)o(af)o(\002c)g(incident)-182 2535 y Fo(which)19
+b(occurs)h(at)g(time)h Fh(t)f Fo(has)h(three)f(parts:)-182
+2635 y Fi(\017)g Fo(disturbance)e(interv)n(al)p -120
+2649 656 4 v 19 w Fp(\226)j(between)e Fh(t)i Fp(and)e
+Fh(t)f Fg(+)g Fh(t)1267 2647 y Fe(d)1306 2635 y Fp(,)i(during)f(whic)o
+(h)-182 2735 y(the)f(speed)g(dr)l(ops)g(fr)l(om)i(its)f(normal)f(value)
+g Fh(v)1118 2747 y Fe(i;j)1215 2735 y Fp(to)h(some)f(value)g
+Fh(v)1727 2747 y Fe(p)1766 2735 y Fp(.)-182 2834 y Fi(\017)g
+Fo(persistant)i(interv)n(al)p -122 2866 591 4 v 17 w
+Fp(\226)e(between)g Fh(t)11 b Fg(+)g Fh(t)985 2846 y
+Fe(d)1042 2834 y Fp(and)17 b Fh(t)11 b Fg(+)g Fh(t)1332
+2846 y Fe(d)1381 2834 y Fg(+)g Fh(t)1487 2846 y Fe(p)1525
+2834 y Fp(,)19 b(during)-182 2934 y(whic)o(h)g(the)i(speed)e(is)j
+(constant)d(\()h(=)h Fh(v)911 2946 y Fe(p)973 2934 y
+Fi(\024)h Fh(v)1100 2946 y Fe(i;j)1179 2934 y Fp(\))p
+Fo(.)j(and)-182 3034 y Fi(\017)18 b Fo(reco)o(v)o(ery)g(interv)n(al)p
+-122 3065 561 4 v 18 w Fp(\226)g(during)g(whic)o(h)g(the)g(speed)h
+(incr)m(eases)f(fr)l(om)-182 3133 y Fh(v)-142 3145 y
+Fe(p)-84 3133 y Fp(to)h(its)g(normal)g(value)f(for)h(the)g(curr)m(ent)g
+(se)m(gment)f(and)g(the)h(given)-182 3233 y(time)h(interval.)-182
+3332 y Fo(W)-7 b(e)18 b(assume)f(that)g(the)g(object)g(is)h(ha)n(ving)e
+(a)h(constant)g Fp(acceler)o(ation)p 1352 3346 435 4
+v -182 3432 a Fo(during)g(the)j(disturbance)d(\()p Fh(a)650
+3444 y Fe(d)712 3432 y Fg(=)22 b(\()p Fh(v)871 3444 y
+Fe(p)926 3432 y Fi(\000)15 b Fh(v)1046 3444 y Fe(i;j)1124
+3432 y Fg(\))p Fh(=t)1228 3444 y Fe(p)1267 3432 y Fo(\))k(and)g(the)h
+(reco)o(v-)-182 3532 y(ery)31 b(\()p Fh(a)28 3544 y Fe(r)108
+3532 y Fg(=)44 b(\()p Fh(v)289 3544 y Fe(i;j)395 3532
+y Fi(\000)26 b Fh(v)526 3544 y Fe(p)565 3532 y Fg(\))p
+Fh(=t)669 3544 y Fe(r)705 3532 y Fo(\))32 b(interv)n(als.)59
+b(The)31 b(v)n(alues)g(of)g(each)-182 3631 y(of)23 b
+Fh(t)-59 3643 y Fe(r)-23 3631 y Fh(;)14 b(t)44 3643 y
+Fe(p)83 3631 y Fh(;)g(t)150 3643 y Fe(d)188 3631 y Fo(,)25
+b(as)f(well)g(as)g Fh(v)627 3643 y Fe(p)690 3631 y Fo(depend)d(on)i
+(the)h(type)f(of)g(the)g(abnor)n(-)-182 3731 y(mality)i(\(e.g.)40
+b(light)26 b(accident,)g(hea)n(vy)e(accident,)i(road-w)o(ork,)f(etc)
+-182 3831 y(.)12 b(.)g(.)g(\))28 b(and)20 b(are)h(obtained)f(from)g
+(historic)g(pro\002les.)27 b(The)21 b(site)g(which)-182
+3930 y(monitors)j(the)i(traf)n(\002c)f(condition)f(transmits)i(the)g
+(type)f(of)h(the)f(ab-)-182 4030 y(normality)18 b(to)j(the)f(MOD)g
+(serv)o(er)-5 b(.)-83 4129 y(Each)18 b(of)g(the)h(interv)n(als)f(is)h
+(illustrated)f(on)g(part)h(a.\))24 b(of)18 b(Figure)g(2.)-182
+4229 y(Due)25 b(to)h(lack)f(of)h(space,)g(we)g(do)g(not)f(present)g
+(all)h(the)g(formal)e(de-)-182 4329 y(tails)c(here)e(\(see)h([20)o
+(]\),)g(ho)n(we)n(v)o(er)m(,)e(we')l(d)h(lik)o(e)h(to)h(point)e(out)h
+(that)g(the)-182 4428 y(abnormality)24 b(may)h(spread)h(o)o(v)o(er)f
+Fh(>)34 b Fg(1)26 b Fo(se)o(gment,)g(in)h(which)e(case)-182
+4528 y(we)d(need)f(to)g(modify)f(\(see)i(belo)n(w\))f(all)h(the)g(af)n
+(fected)e(se)o(gments)h(of)-182 4628 y(a)f(gi)n(v)o(en)f(trajectory)-5
+b(.)-83 4727 y(Note)34 b(that,)j(in)d(practice,)i(not)d(all)h(of)g(the)
+g(interv)n(als)f(may)g(be)-182 4827 y(signi\002cant.)h(F)o(or)23
+b(e)o(xample,)g(an)g(accident)g(which)g(blocks)g(se)n(v)o(eral)-182
+4926 y(lanes)e(of)g(the)g(road)f(happens)g(instantaneously)-5
+b(,)18 b(persists)k(until)f(the)-182 5026 y(emer)o(genc)o(y/)i(police)i
+(v)o(ehicles)g(arri)n(v)o(e)g(and)h(the)g(to)n(w)g(trucks)f(clear)-182
+5126 y(the)20 b(scene,)g(and)f(reco)o(v)o(ers)g(gradually)f(to)i(the)h
+(normal)e(conditions,)-83 5225 y(Figure)39 b(2,)44 b(part)39
+b(b)m(.\),)k(illustrates)d(the)g(modi\002cations)e(of)h(an)-182
+5325 y(af)n(fected)i(trajectory)g(for)h(a)h(scenario)f(which)g
+(corresponds)e(0-)1974 83 y(disturbance)22 b(interv)n(al.)34
+b(The)24 b(accident)f(occured)f(at)i(time)g Fh(t)p Fo(,)h(when)1974
+183 y(the)g(object)g(w)o(as)h(at)g(location)f Fh(M)34
+b Fo(along)25 b(the)g(se)o(gment)p 3619 116 133 4 v 25
+w Fh(B)t(C)6 b Fo(.)42 b(The)1974 282 y(dotted)29 b(polyline)g(after)h
+Fh(M)39 b Fo(illustrates)31 b(what)f(w)o(ould)f(ha)n(v)o(e)h(been)1974
+382 y(the)d(normal)f(trajectory)g(of)h(the)g(mo)o(ving)e(object)i
+(throughout)d(the)1974 482 y(se)o(gments)p 2302 415 155
+4 v 19 w Fh(M)9 b(C)26 b Fo(and)p 2618 415 137 4 v 20
+w Fh(C)6 b(D)r Fo(.)25 b(Note)20 b(ho)n(w)f(the)h(object)g(mo)o(v)o(es)
+e(slo)n(wer)1974 581 y(than)28 b(normal)f(during)g(the)h(persistent)g
+(interv)n(al.)49 b(During)27 b(the)h(re-)1974 681 y(co)o(v)o(ery)d
+(interv)n(al,)i(the)f(object)h(accelerates,)g(which)f(results)h(in)g
+(an)1974 780 y(\(in)m(v)o(erse\))i(parabola)h(shape)i(in)f(the)h(v)o
+(ertical)f(plane.)58 b(If)32 b(the)f(tra-)1974 880 y(jectory)h(enters)g
+(the)h(af)n(fected)e(traf)n(\002c)h(at)h(point)f Fh(M)9
+b Fg(\()p Fh(x)3597 892 y Fe(M)3671 880 y Fh(;)14 b(y)3749
+892 y Fe(M)3823 880 y Fh(;)g(t)p Fg(\))p Fo(,)1974 980
+y(then)26 b(for)g(its)i(distance)e(from)g Fh(M)36 b Fo(at)27
+b(time)g Fh(t)3271 992 y Fe(c)3332 980 y Fo(we)g(ha)n(v)o(e:)37
+b Fh(d)p Fg(\()p Fh(t)3776 992 y Fe(c)3811 980 y Fg(\))e(=)1974
+1079 y Fh(v)22 b Fi(\001)e Fg(\()p Fh(t)2141 1091 y Fe(c)2194
+1079 y Fi(\000)f Fh(t)p Fg(\))j Fo(during)e(the)h(persistent)g(and)g
+Fh(d)p Fg(\()p Fh(t)3311 1091 y Fe(c)3345 1079 y Fg(\))26
+b(=)e Fh(v)f Fi(\001)c Fg(\()p Fh(t)3659 1091 y Fe(c)3713
+1079 y Fi(\000)f Fh(t)p Fg(\))i(+)1974 1179 y Fh(a)i
+Fi(\001)g Fg(\()p Fh(t)2147 1191 y Fe(c)2203 1179 y Fi(\000)g
+Fh(t)g Fi(\000)g Fh(t)2459 1191 y Fe(p)2497 1179 y Fg(\))2529
+1149 y Ff(2)2567 1179 y Fh(=)p Fg(2)j Fo(during)e(the)j(reco)o(v)o(ery)
+c(interv)n(al.)39 b(In)25 b(order)1974 1279 y(to)j(comply)f(with)i(the)
+f(de\002nition)f(of)h(a)h(trajectory)e(\(c.f.)49 b(Section)1974
+1378 y(2.\))29 b(we)22 b(approximate)d(the)j(parabolic)e(3D)h(shape)h
+(of)f(the)h(reco)o(v)o(ery)1974 1478 y(interv)n(al,)29
+b(with)f(a)g(straight)g(3D)g(line)g(se)o(gment)f(between)g(its)i(end-)
+1974 1577 y(points.)1974 1819 y Fq(4.)52 b(Detecting)i(the)f(T)-7
+b(rajectories)53 b(which)g(ar)n(e)g(Af-)2123 1935 y(fected)27
+b(by)e(an)g(Abnormal)g(T)-7 b(raf\002c)2073 2160 y Fo(Gi)n(v)o(en)29
+b(the)g(road)f(se)o(gments)g(in)h(which)g(an)g(incident)f(occured)1974
+2260 y(at)22 b(time)f Fh(t)p Fo(,)h(we)f(need)g(to)g(identify)f(the)h
+(trajectories)g(which)g(need)f(to)1974 2359 y(be)29 b(updated.)51
+b(In)30 b(order)e(to)h(determine)f(if)i(a)g(gi)n(v)o(en)e(trajectory)g
+(is)1974 2459 y(af)n(fected)17 b(by)h(the)h(incident,)f(we)h(need)f(to)
+h(check)e(\(details)i(are)f(gi)n(v)o(en)1974 2558 y(in)g([20)n(]\))g
+(if)f(its)i(route)e(coincides)f(with)i(some)f(of)h(the)f(line)h(se)o
+(gments)1974 2658 y(of)i(the)g(incident,)f(sometime)2819
+2628 y Fl(3)2872 2658 y Fo(between)g Fh(t)i Fo(and)f
+Fh(t)e Fg(+)g Fh(t)3522 2670 y Fe(d)3579 2658 y Fg(+)g
+Fh(t)3692 2670 y Fe(p)3749 2658 y Fg(+)g Fh(t)3862 2670
+y Fe(r)3899 2658 y Fo(.)2073 2761 y(Ho)n(we)n(v)o(er)m(,)36
+b(recall)e(that)g(\(c.f.)67 b(Section)33 b(1.\))67 b(when)34
+b(the)g(traf-)1974 2860 y(\002c)22 b(density)f(une)o(xpectedly)e
+(changes)h(to)i(some)g Fh(\032)3422 2872 y Fe(abnor)r(mal)3736
+2860 y Fo(due)f(to)1974 2960 y(an)k(incident,)g(some)f(of)h(the)g(v)o
+(ehicles)f(will)i(mo)o(v)o(e)e(to)h(the)g(near)n(-by)1974
+3060 y(routes,)f(causing)f(the)h Fp(spill)p 2775 3060
+25 4 v 30 w(o)o(ver)g Fo(ef)n(fect.)35 b(Hence,)24 b(e)n(v)o(en)f
+(though)f(a)1974 3159 y(particular)f(object')-5 b(s)23
+b(route)e(did)i(not)f(include)g(the)g(se)o(gment)g(where)1974
+3259 y(the)27 b(abnormal)f(traf)n(\002c)h(occurred,)g(its)h(trajectory)
+e(may)h(still)i(need)1974 3358 y(to)19 b(be)h(updated.)j(Since)c(the)h
+(traf)n(\002c)f(sensors/detectors)f(are)i(mostly)1974
+3458 y(a)n(v)n(ailable)40 b(on)g(e)o(xpressw)o(ays)g(and)g(major)g
+(streets,)47 b(we)41 b(need)f(a)1974 3558 y(model)16
+b(to)h(grasp)f(the)h(consequences)e(of)h(the)h(traf)n(\002c)g(spill-o)o
+(v)o(er)e(and)1974 3657 y(identify)k(all)i(the)f(trajectories)f(which)h
+(need)g(to)g(be)g(updated.)2028 4735 y @beginspecial
+0 @llx 0 @lly 569 @urx 292 @ury 2232 @rwi @setspecial
+%%BeginDocument: spread.eps
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: spread.fig
+%%Creator: fig2dev Version 3.1 Patchlevel 2
+%%CreationDate: Wed Mar 13 21:14:23 2002
+%%For: gtrajcev@bert.cs.uic.edu (Goce Trajcevski)
+%Magnification: 1.00
+%%Orientation: Portrait
+%%BoundingBox: 0 0 569 292
+%%Pages: 0
+%%BeginSetup
+%%IncludeFeature: *PageSize Letter
+%%EndSetup
+%%EndComments
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+save
+-40.0 304.0 translate
+1 -1 scale
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+ /DrawEllipse {
+	/endangle exch def
+	/startangle exch def
+	/yrad exch def
+	/xrad exch def
+	/y exch def
+	/x exch def
+	/savematrix mtrx currentmatrix def
+	x y tr xrad yrad sc 0 0 1 startangle endangle arc
+	closepath
+	savematrix setmatrix
+	} def
+
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+%%EndProlog
+
+$F2psBegin
+10 setmiterlimit
+n 0 792 m 0 0 l 612 0 l 612 792 l cp clip
+ 0.06000 0.06000 sc
+7.500 slw
+% Ellipse
+n 8325 2250 75 75 0 360 DrawEllipse gs col-1 s gr
+
+% Ellipse
+n 8325 2250 75 75 0 360 DrawEllipse gs col-1 s gr
+
+% Ellipse
+n 8325 2250 75 75 0 360 DrawEllipse gs col7 0.00 shd ef gr gs col-1 s gr
+
+15.000 slw
+% Polyline
+n 6000 3600 m 8400 2700 l gs col-1 s gr 
+% Polyline
+n 6000 1200 m 8400 375 l gs col-1 s gr 
+% Polyline
+n 8400 375 m 6000 1200 l 5550 1650 l 5550 3150 l 6000 3600 l 8400 2700 l
+ 8850 2250 l 8850 675 l 8400 375 l gs col7 0.90 shd ef gr gs col-1 s gr 
+% Polyline
+n 6000 3600 m 6450 3075 l 8850 2250 l gs col7 0.90 shd ef gr gs col-1 s gr 
+% Polyline
+n 6000 1200 m 6450 1650 l 8850 675 l gs col7 0.90 shd ef gr gs col-1 s gr 
+% Polyline
+n 6450 1650 m 6450 3075 l gs col7 0.90 shd ef gr gs col-1 s gr 
+% Polyline
+ [100.0] 0 sd
+n 5550 1650 m 8100 750 l 8400 375 l gs col7 0.90 shd ef gr gs col-1 s gr  [] 0 sd
+% Polyline
+ [100.0] 0 sd
+n 8400 2700 m 7950 2325 l 5625 3150 l gs col-1 s gr  [] 0 sd
+7.500 slw
+% Polyline
+gs  clippath
+8219 2143 m 8302 2235 l 8186 2193 l 8321 2283 l 8354 2233 l  cp clip
+n 8100 2100 m 8325 2250 l gs col7 0.00 shd ef gr gs col-1 s gr gr
+
+% arrowhead
+n 8219 2143 m 8302 2235 l 8186 2193 l 8203 2168 l 8219 2143 l  cp gs 0.00 setgray ef gr  col-1 s
+15.000 slw
+% Polyline
+gs  clippath
+3681 3540 m 3921 3600 l 3681 3660 l 4005 3660 l 4005 3540 l  cp clip
+n 1125 3600 m 3975 3600 l gs col-1 s gr gr
+
+% arrowhead
+n 3681 3540 m 3921 3600 l 3681 3660 l 3681 3600 l 3681 3540 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+1065 894 m 1125 654 l 1185 894 l 1185 570 l 1065 570 l  cp clip
+n 1125 3600 m 1125 600 l gs col-1 s gr gr
+
+% arrowhead
+n 1065 894 m 1125 654 l 1185 894 l 1125 894 l 1065 894 l  cp gs 0.00 setgray ef gr  col-1 s
+7.500 slw
+% Polyline
+n 1125 3600 m 2025 3150 l 2025 1650 l 1125 1200 l gs col-1 s gr 
+15.000 slw
+% Polyline
+gs  clippath
+4300 4635 m 4088 4761 l 4215 4550 l 3986 4779 l 4071 4864 l  cp clip
+n 5100 3750 m 4050 4800 l gs col-1 s gr gr
+
+% arrowhead
+n 4300 4635 m 4088 4761 l 4215 4550 l 4258 4592 l 4300 4635 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+gs  clippath
+5040 744 m 5100 504 l 5160 744 l 5160 420 l 5040 420 l  cp clip
+n 5100 3750 m 5100 450 l gs col-1 s gr gr
+
+% arrowhead
+n 5040 744 m 5100 504 l 5160 744 l 5100 744 l 5040 744 l  cp gs 0.00 setgray ef gr  col-1 s
+7.500 slw
+% Polyline
+gs  clippath
+8725 787 m 8646 691 l 8761 739 l 8631 642 l 8595 690 l  cp clip
+n 8925 900 m 8625 675 l gs col-1 s gr gr
+
+% arrowhead
+n 8725 787 m 8646 691 l 8761 739 l 8743 763 l 8725 787 l  cp gs 0.00 setgray ef gr  col-1 s
+% Polyline
+n 2025 2325 m 1125 2325 l gs col-1 s gr 
+15.000 slw
+% Polyline
+gs  clippath
+9831 3690 m 10071 3750 l 9831 3810 l 10155 3810 l 10155 3690 l  cp clip
+n 5100 3750 m 10125 3750 l gs col-1 s gr gr
+
+% arrowhead
+n 9831 3690 m 10071 3750 l 9831 3810 l 9831 3750 l 9831 3690 l  cp gs 0.00 setgray ef gr  col-1 s
+7.500 slw
+% Polyline
+ [66.7] 0 sd
+n 2025 3150 m 1125 3150 l gs col-1 s gr  [] 0 sd
+% Polyline
+ [66.7] 0 sd
+n 2025 1650 m 1125 1650 l gs col-1 s gr  [] 0 sd
+% Polyline
+n 7200 4275 m 7575 3375 l 8325 3075 l 8250 2175 l 8250 2250 l gs col-1 s gr 
+% Polyline
+n 8700 675 m 9075 450 l 9150 225 l gs col-1 s gr 
+% Polyline
+ [66.7] 0 sd
+n 8250 2175 m 8025 1800 l 8475 1575 l 8325 1050 l 8625 750 l gs col-1 s gr  [] 0 sd
+/Times-Roman ff 180.00 scf sf
+900 3750 m
+gs 1 -1 sc (T1) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+1275 1200 m
+gs 1 -1 sc (T2) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+6150 3675 m
+gs 1 -1 sc (at T1) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+5775 1125 m
+gs 1 -1 sc (at T2) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+4875 375 m
+gs 1 -1 sc (T) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+4350 4875 m
+gs 1 -1 sc (X) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+8475 2325 m
+gs 1 -1 sc (trajectory becomes) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+8850 2550 m
+gs 1 -1 sc (affected) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+9000 750 m
+gs 1 -1 sc (trajectory) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+9000 975 m
+gs 1 -1 sc (no longer) col-1 sh gr
+/Times-Roman ff 210.00 scf sf
+9000 1200 m
+gs 1 -1 sc (affected) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+9900 3525 m
+gs 1 -1 sc (Y) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+1350 2175 m
+gs 1 -1 sc (Dmax) col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+825 3225 m
+gs 1 -1 sc (T1') col-1 sh gr
+/Times-Roman ff 180.00 scf sf
+1200 1725 m
+gs 1 -1 sc (T2') col-1 sh gr
+/Helvetica ff 210.00 scf sf
+675 4725 m
+gs 1 -1 sc (a.\) spreading of abnormal traffic) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+675 5010 m
+gs 1 -1 sc (on neighbouring streets.) col-1 sh gr
+/Helvetica-Oblique ff 210.00 scf sf
+3225 3525 m
+gs 1 -1 sc (distance from) col-1 sh gr
+/Helvetica-Oblique ff 210.00 scf sf
+3225 3825 m
+gs 1 -1 sc (incident segment) col-1 sh gr
+/Helvetica-Oblique ff 210.00 scf sf
+750 525 m
+gs 1 -1 sc (duration of incident) col-1 sh gr
+/Helvetica ff 210.00 scf sf
+5175 4725 m
+gs 1 -1 sc (b.\) spill-over effect on a trajectory) col-1 sh gr
+$F2psEnd
+rs
+
+%%EndDocument
+ @endspecial 2073 4918 a Fd(Figure)g(3.)h(Spill\255o)n(ver)f(eff)o
+(ects)g(of)g(abnormal)f(traf\002c)2073 5018 y(conditions)p
+1974 5167 788 4 v 2064 5223 a Fk(3)2093 5246 y Fm(One)14
+b(can)f(use)h(a)f(3D)g(inde)o(x)h(for)f(the)h(\002ltering)h(stage)f
+(\226)e(so)h(f)o(ar)m(,)i(the)e(STR)g(tree)h([12])1974
+5325 y(and)j(the)h(Octree-)h(based)f(one)f(in)g([17)q(])g(are)g
+(closest)i(to)e(our)g(model)h(of)f(trajectory\).)p eop
+%%Page: 4 4
+4 3 bop -83 83 a Fo(Figure)26 b(3)h(presents)f(our)f(model)h(of)g(the)g
+(spreading)f(of)h(abnor)n(-)-182 183 y(mal)21 b(traf)n(\002c)g
+(conditions.)27 b(P)o(art)21 b(a.\))28 b(illustrates)22
+b(ho)n(w)f(f)o(ar)g(the)g(traf)n(\002c)-182 282 y(incident)i(along)g(a)
+i(certain)e(se)o(gment)g(is)i(spreading)e(to)h(the)g(neigh-)-182
+382 y(boring)17 b(streets,)j(as)f(a)h(function)d(of)i(time)g(\(we)g
+(\223re)n(v)o(ersed\224)e(the)i(ax)o(es)-182 482 y(for)k(compatibility)
+g(with)i(part)f(b)m(.\))37 b(\226)24 b(the)g(time)h(is)g(on)f(the)h(v)o
+(ertical)-182 581 y(axis\).)40 b Fh(T)102 551 y Fc(0)90
+602 y Ff(1)153 581 y Fo(is)27 b(the)e(time)h(when)f(the)g(spill)p
+1017 581 25 4 v 30 w(o)o(v)o(er)f(reaches)h(its)i(maxi-)-182
+681 y(mum)19 b(distance)h(\226)g Fh(D)433 693 y Fe(max)570
+681 y Fo(.)-83 780 y(No)n(w)-5 b(,)20 b(as)i(part)e(b)m(.\))26
+b(of)21 b(Figure)f(3)g(illustrates,)i(in)e(order)g(to)h(check)-182
+880 y(if)f(a)g(particular)f(trajectory)f(is)j(af)n(fected)e(by)g
+(abnormal)f(traf)n(\002c)i(con-)-182 980 y(ditions,)d(it)h(suf)n
+(\002ces)f(to)h(check)e(if)i(the)f(trajectory)f(intersects)i(the)f(3D)
+-182 1079 y(spill)p -34 1079 V 30 w(o)o(v)o(er)h(body)h(\(again,)g(a)h
+(3D)h(inde)o(x)e(can)g(be)i(utilized\).)-83 1179 y(Let)c
+Fh(D)114 1191 y Fe(max)268 1179 y Fo(denote)e(the)i(maximal)e(distance)
+i(from)e(the)i(incident)-182 1279 y(se)o(gment)22 b(which)i(is)h(af)n
+(fected)d(during)g(the)i(time)g(of)g(the)g(abnormal)-182
+1378 y(traf)n(\002c)j(conditions.)45 b(Further)m(,)27
+b(let)h Fh(i)g Fo(be)f(the)h(se)o(gment)e(where)h(the)-182
+1478 y(incident)21 b(occurs,)h(during)e(the)i Fh(j)5
+b Fo(-th)22 b(period)f(of)h(the)g(speed)g(pro\002le.)-182
+1577 y(If)15 b Fh(v)-68 1547 y Fe(a)-71 1599 y(i;j)24
+1577 y Fo(is)i(the)f(speed)f(during)g(the)h(persistent)f(time)h(of)g
+(the)g(abnormal)-182 1677 y(traf)n(\002c,)31 b(let)g
+Fh(\016)43 b Fg(=)e Fh(v)410 1647 y Fe(a)407 1699 y(i;j)485
+1677 y Fh(=v)567 1689 y Fe(i;j)676 1677 y Fo(denote)28
+b(the)i(ratio)g(of)f(the)h(abnormal)-182 1777 y(vs.)35
+b(normal)22 b(traf)n(\002c.)34 b(The)23 b(spill-o)o(v)o(er)f(ef)n
+(fect,)i(is)g(propagated)c(as)k(a)-182 1876 y(linear)d(function)f(of)i
+(the)g(distance)g(from)f(the)h(se)o(gment)f Fh(i)p Fo(.)30
+b(If)22 b Fh(k)k Fo(is)c(a)-182 1976 y(se)o(gment)c(which)h(is)i(at)f
+(distance)f Fh(D)853 1988 y Fe(k)914 1976 y Fo(from)f(the)i(se)o(gment)
+e Fh(i)p Fo(,)i(with)f(a)-182 2076 y(normal)f(speed)i
+Fh(v)323 2088 y Fe(k)q(;j)435 2076 y Fo(during)e(the)i
+Fh(j)5 b Fo(-th)20 b(time)g(interv)n(al)f(of)g(the)h(speed)-182
+2175 y(pro\002le,)f(we)h(ha)n(v)o(e)g(the)g(follo)n(wing)f(equation:)
+275 2322 y Fh(v)318 2292 y Fe(a)315 2345 y(k)q(;j)p 275
+2370 132 4 v 275 2446 a Fh(v)315 2458 y Fe(k)q(;j)439
+2389 y Fg(=)537 2333 y(\()p Fh(D)638 2345 y Fe(max)793
+2333 y Fi(\000)f Fh(D)945 2345 y Fe(k)986 2333 y Fg(\))h
+Fi(\001)f Fh(\016)k Fg(+)c Fh(D)1289 2345 y Fe(k)p 537
+2370 793 4 v 830 2446 a Fh(D)899 2458 y Fe(max)-83 2600
+y Fo(The)26 b(equation)f(simply)g(states)j(that)e(the)g(closer)g
+(certain)g(street)-182 2699 y(\()p Fh(k)s Fo(\))i(is)i(to)f(the)g
+(incident)f(se)o(gment)g(\()p Fh(i)p Fo(\),)j(the)e(closer)f(its)i
+Fp(abnormal)-182 2799 y Fo(vs.)25 b Fp(normal)18 b Fo(speed)h(ratio)g
+(is)i(to)e(the)g(one)g(on)g(the)g(incident)g(se)o(gment)-182
+2898 y(itself)32 b(\(for)e(the)i Fh(j)5 b Fi(\000)p Fo(th)31
+b(interv)n(al)f(of)i(the)f(speed)g(pro\002le\).)58 b(At)32
+b(the)-182 2998 y(distance)e Fh(D)190 3010 y Fe(max)327
+2998 y Fo(,)k(there)c(is)i(no)f(abnormality)d(\(i.e.)58
+b(the)30 b(ratio)h(of)-182 3098 y Fp(abnormal)18 b Fo(vs.)26
+b Fp(normal)19 b Fo(speed)h(is)h(1\).)-182 3323 y Fq(5)o(.)k(Related)h
+(W)-7 b(ork)24 b(and)i(Concluding)f(Remarks)-83 3532
+y Fo(The)38 b(database)g(community)e(has)i(been)g(v)o(ery)f(acti)n(v)o
+(e)h(in)g(re-)-182 3631 y(searching)16 b(v)n(arious)g(aspects)i(of)g
+(interest)f(for)g(the)h(MOD:)g(1.\))24 b Fp(Mod-)-182
+3731 y(eling)41 b(and)g(linguistic)g(issues)p Fo(:)69
+b([16)o(])42 b(introduced)d(the)j(MOST)-182 3831 y(model)24
+b(for)h(representing)e(mo)o(ving)h(objects)h(\(similar)h(to)f([15)o
+(]\))g(as)-182 3930 y(a)32 b(function)f(of)h(\(location,)i(v)o(elocity)
+p 924 3930 25 4 v 28 w(v)o(ector\).)61 b(The)32 b(underlying)-182
+4030 y(query)16 b(language)h(is)i(nonstandard,)d(based)i(on)g(the)g
+(Future)f(T)-6 b(empo-)-182 4129 y(ral)26 b(Logic)f(\(FTL\).)g(Similar)
+h(issues)h(are)f(tackled)f(in)h([23)n(].)43 b(A)26 b(tra-)-182
+4229 y(jectory)c(model)g(similar)i(to)f(ours)g(is)h(gi)n(v)o(en)e(in)h
+([24)o(])h(and)e(the)i(w)o(ork)-182 4329 y(presents)d(ne)n(w)h
+(operators)f(for)g(special)i(cases)f(of)g(spatio-temporal)-182
+4428 y(range)31 b(queries.)62 b(The)32 b(series)i(of)e(w)o(orks)h([3)o
+(,)g(4)o(,)g(6])g(address)f(the)-182 4528 y(issues)h(of)g(modeling)e
+(and)i(querying)d(mo)o(ving)h(objects)i(by)g(pre-)-182
+4628 y(senting)h(a)h(rich)g(algebra)f(of)h(operators)e(and)i(a)g
+(comprehensi)n(v)o(e)-182 4727 y(frame)n(w)o(ork)22 b(of)i(data)g
+(types;)i(2.\))36 b Fp(Uncertainty)p Fo(:)d(A)24 b(formal)f(quan-)-182
+4827 y(titati)n(v)o(e)32 b(approach)e(to)i(the)h(uncertainty)d(when)i
+(modeling)e(mo)o(v-)-182 4926 y(ing)d(objects)h(is)g(presented)f(in)h
+([11)o(].)48 b([25)n(,)28 b(26)o(])g(introduce)e(a)j(cost)-182
+5026 y(based)22 b(approach)e(to)j(determine)e(the)h(size)h(of)g(the)f
+(uncertainty)f(for)-182 5126 y(optimizing)f(the)i(communication)d(cost)
+j(and)g(query)f(imprecision.)-182 5225 y(A)30 b(model)e(of)i
+(uncertainty)d(and)j(its)g(implication)f(on)g(the)g(spatio-)-182
+5325 y(temporal)g(queries)g(is)i(gi)n(v)o(en)e(in)h([21)o(];)36
+b(3.\))54 b Fp(Inde)n(xing)p Fo(:)44 b(A)31 b(lot)f(of)1974
+83 y(w)o(ork)g(has)h(been)f(done)g(on)h(selecting)f(an)h(appropiate)e
+(inde)o(x)h(for)1974 183 y(certain)24 b(types)g(of)h(queries)e(both)h
+(in)h(primal)f([12)n(,)h(15)o(,)g(13)o(,)g(14)o(,)g(17)o(])1974
+282 y(and)17 b(in)i(dual)e(space)h([1,)g(7,)g(8)o(].)25
+b([18)o(,)18 b(19)o(])g(present)g(speci\002cations)f(of)1974
+382 y Fp(what)j Fo(an)g(inde)o(xing)e(in)j(MOD)f(should)f(consider)-5
+b(.)2073 483 y(Ho)n(we)n(v)o(er)m(,)41 b(to)d(the)h(best)f(of)g(our)g
+(kno)n(wledge,)i(none)d(of)h(the)1974 582 y(w)o(orks)26
+b(has)h(addressed)e(the)i(issue)g(of)f(identifying)f(and)h(updating)
+1974 682 y(the)d(trajectories)f(which)h(are)g(af)n(fected)f(by)g
+(abnormal)f(traf)n(\002c)i(con-)1974 781 y(ditions,)35
+b(utilizing)c(the)i(a)n(v)n(ailable)f(sources)g(of)g(real-time)f(traf)n
+(\002c)1974 881 y(information.)2073 982 y(W)-7 b(e)30
+b(presented)c(a)j(model)e(of)h(a)g(trajectory)f(and)g(described)g(its)
+1974 1081 y(construction)e(based)i(on)g(electronic)f(map)h(and)g
+(statistical)h(infor)n(-)1974 1181 y(mation)g(about)f(the)h(speed)h
+(pro\002les.)49 b(In)28 b(order)f(to)i(k)o(eep)f(the)g(tra-)1974
+1281 y(jectory)f(up)h(to)h(date)f(in)g(the)h(MOD)f(serv)o(er)m(,)h(we)g
+(sho)n(wed)e(ho)n(w)h(to)1974 1380 y(\223react\224)g(to)g(the)g
+(abnormal)e(changes)h(in)i(traf)n(\002c)f(conditions.)47
+b(W)-7 b(e)1974 1480 y(ga)n(v)o(e)24 b(a)h(model)f(of)h(ho)n(w)f(to)h
+(update)f(a)i(gi)n(v)o(en)d(trajectory)h(which)g(is)1974
+1580 y(af)n(fected)e(by)h(abnormal)e(traf)n(\002c.)34
+b(Since)24 b(the)f(ef)n(fects)g(of)g(abnormal)1974 1679
+y(traf)n(\002c)i(may)f(not)h(be)g(localized)g(on)f(the)h(road)g(se)o
+(gment)f(where)g(an)1974 1779 y(abnormality)f(has)j(occured,)f(we)h
+(presented)f(a)h(model)e(of)i(a)g(spill-)1974 1878 y(o)o(v)o(er)19
+b(ef)n(fect.)25 b(W)-7 b(e)22 b(also)e(sho)n(wed)g(ho)n(w)g(to)h
+(identify)e(and)h(update)f(the)1974 1978 y(all)30 b(trajectories)f
+(which)f(are)i(af)n(fected)e(by)h(the)g(spill-o)o(v)o(er)f(ef)n(fect.)
+1974 2078 y(Our)d(results)g(ha)n(v)o(e)g(been)f(partially)g
+(implemented)g(in)h(our)f(\(ongo-)1974 2177 y(ing\))19
+b(DOMINO)h(project)g([22)n(].)2073 2278 y(Currently)-5
+b(,)36 b(we)f(are)f(in)m(v)o(estigating)e(ho)n(w)h(to)i(utilize)f
+(triggers)1974 2378 y(for)27 b(updating)f(the)h(MOD)h(upon)e(a)i
+(detection)f(of)g(abnormal)f(traf-)1974 2477 y(\002c,)21
+b(and)f(we)g(are)h(e)o(xperimenting)c(wigh)j(inde)o(xing)e(methods)i
+(to)g(be)1974 2577 y(used)h(in)h(the)g(\002ltering)f(stage)h(of)f
+(detecting)g(the)g(af)n(fected)g(trajecto-)1974 2676
+y(ries.)40 b(Another)24 b(e)o(xtension)g(of)h(our)f(w)o(ork,)i(which)e
+(is)i(a)g(long)e(term)1974 2776 y(goal,)g(is)h(the)f(optimization)e(of)
+i(spatio-temporal)d(query)i(process-)1974 2876 y(ing.)32
+b(Namely)-5 b(,)22 b(in)h(the)g(presence)f(of)g(user)n(-de\002ned)f
+(functions,)h(the)1974 2975 y(re\002nement)d(stage)h(of)g(the)g(query)f
+(processing)g(is)i(not)f(ne)o(gligible.)1974 3211 y Fq(Refer)n(ences)
+2025 3422 y Fb([1])42 b(A.)21 b(K.)f(Agarw)o(al,)i(L.)f(Ar)o(ge,)g(and)
+h(J.)f(Erickson.)36 b(Inde)o(xing)22 b(mo)o(ving)2154
+3513 y(points.)27 b(In)19 b Fa(19th)g(A)n(CM)g(PODS)f(Confer)m(ence)p
+Fb(,)i(2000.)2025 3602 y([2])42 b(S.)24 b(E.)g(Dre)o(yfus.)48
+b(An)25 b(appraisal)h(of)g(some)f(shortest)h(\226)f(path)h(algo-)2154
+3694 y(rithms.)g Fa(Oper)o(ations)20 b(Resear)m(c)o(h)p
+Fb(,)g(17\(3\),)f(1969.)2025 3783 y([3])42 b(M.)23 b(Erwig,)i(M.)e
+(Schneider)m(,)j(and)e(R.)f(H.)h(Guting.)43 b(T)-5 b(emporal)24
+b(and)2154 3874 y(spatio)18 b(\226)f(temporal)h(datasets)g(and)h(their)
+e(e)o(xpressi)n(v)o(e)i(po)n(wer)l(.)25 b(T)-5 b(ech-)2154
+3965 y(nical)19 b(Report)g(225-12/1997,)i(Informatik)e(berichte,)g
+(1997.)2025 4055 y([4])42 b(L.)18 b(F)o(orlizzi,)g(R.)g(H.)h(Gutting,)g
+(E.)f(Nardelli,)h(and)h(M.)f(Schneider)l(.)28 b(A)2154
+4146 y(data)16 b(model)g(and)g(data)g(structures)g(for)g(mo)o(ving)g
+(objects)h(databases.)2154 4237 y(In)i Fa(A)n(CM)f(SIGMOD)p
+Fb(,)g(2000.)2025 4327 y([5])42 b(D.)25 b(Getmann,)j(K.)d(H.)g(Head,)j
+(and)e(P)-8 b(.)25 b(B.)g(Mirelmandi.)49 b(The)26 b(mi-)2154
+4418 y(los)21 b(inte)o(grated)i(free)n(w)o(ay)f(\226)g(surf)o(ace)h
+(street)e(control)h(strate)o(gy)-5 b(.)37 b(IN-)2154
+4509 y(FORMS)15 b(Online,)i(1997.)23 b(Institute)16 b(for)h(Operation)g
+(REsearch)g(and)2154 4601 y(MAnagement)j(Sciences.)2025
+4690 y([6])42 b(R.)47 b(H.)h(Guting,)56 b(M.)49 b(H.)e(Bohlen,)57
+b(M.)48 b(Erwig,)55 b(C.)48 b(Jensen,)2154 4781 y(N.)22
+b(Lorentzos,)i(M.)f(Schneider)m(,)h(and)f(M.)g(V)-8 b(azir)o(giannis.)
+39 b(A)23 b(foun-)2154 4872 y(dation)c(for)g(representing)h(and)f
+(queirying)h(mo)o(ving)g(objects.)27 b Fa(A)n(CM)2154
+4964 y(T)o(ODS)p Fb(,)17 b(2000.)2025 5053 y([7])42 b(D.)24
+b(K)m(ollios,)j(D.)e(Gunopulos,)j(and)f(V)-10 b(.)25
+b(J.)g(Tsotras.)47 b(On)25 b(inde)o(xing)2154 5144 y(mobile)19
+b(objects.)27 b(In)19 b Fa(18th)h(A)n(CM)e(PODS)g(Confer)m(ence)p
+Fb(,)i(1999.)2025 5234 y([8])42 b(G.)19 b(K)m(ollios,)g(D.)g
+(Gunopulos,)j(and)e(V)-10 b(.)19 b(J.)g(Tsotras.)29 b(Nearest)20
+b(neigh-)2154 5325 y(bour)f(queries)h(in)f(a)f(mobile)i(en)m
+(vironment.)28 b(In)19 b Fa(STDBM)p Fb(,)f(1999.)p eop
+%%Page: 5 5
+5 4 bop -131 83 a Fb([9])41 b(T)-6 b(.)29 b(Maze)i(and)f(A.)f(Kamyab)m
+(.)61 b(Simulation)29 b(and)h(analysis)g(of)g(ar)o(-)-3
+174 y(terial)f(traf)n(\002c)f(operations)j(along)f(us)f(61)h(corridor)f
+(in)g(b)o(urlington)-3 266 y(io)n(w)o(a.)67 b(Center)31
+b(for)g(T)m(ransporation)i(Research)f(and)g(Education,)-3
+357 y(Io)n(w)o(a)20 b(State)e(Uni)n(v)o(ersity)-5 b(,)19
+b(1998.)28 b(Final)18 b(Report.)-169 444 y([10])42 b(N.)18
+b(J.)g(Nilsson.)26 b Fa(Pr)m(oblem)18 b(\226)h(Solving)g(methods)g(in)g
+(Arti\002cial)f(Intel-)-3 535 y(lig)o(ence)p Fb(.)28
+b(McGra)o(w)19 b(Hill,)f(1971.)-169 623 y([11])42 b(D.)20
+b(Pfoser)f(and)h(C.)g(Jensen.)30 b(Capturing)20 b(the)g(uncertainty)h
+(of)f(mo)o(v-)-3 714 y(ing)g(objects)f(representation.)28
+b(In)19 b Fa(SSDB)p Fb(,)f(1999.)-169 801 y([12])42 b(D.)19
+b(Pfoser)m(,)f(Y)-10 b(.)18 b(Theodoridis,)i(and)f(C.)f(Jensen.)27
+b(No)o(v)o(el)19 b(approaches)-3 892 y(in)f(query)g(processing)g(for)f
+(mo)o(ving)i(objects)e(databases.)25 b(In)17 b Fa(VLDB)p
+Fb(,)-3 984 y(2000.)-169 1071 y([13])42 b(S.)20 b(Saltenis)h(and)g(C.)f
+(Jensen.)34 b(R-tree)21 b(based)h(inde)o(xing)g(of)e(general)-3
+1162 y(spatio-temporal)g(data.)26 b(T)-5 b(echnical)19
+b(Report)g(TR-45,)f(T)m(imeCenter)m(,)-3 1254 y(1999.)-169
+1341 y([14])42 b(S.)24 b(Saltenis)h(and)h(C.)e(Jensen.)47
+b(Inde)o(xing)27 b(of)e(mo)o(ving)h(objects)f(for)-3
+1432 y(location-based)18 b(services.)k(T)-5 b(echnical)17
+b(Report)g(TR-63,)f(T)m(imeCen-)-3 1523 y(ter)m(,)j(2001.)-169
+1611 y([15])42 b(S.)34 b(Saltenis,)j(C.)d(S.)g(Jensen,)39
+b(S.)33 b(T)-6 b(.)34 b(Leutene)o(gger)m(,)39 b(and)c(M.)g(A.)-3
+1702 y(Lopez.)43 b(Inde)o(xing)25 b(the)f(positions)g(of)g
+(continuously)h(mo)o(ving)g(ob-)-3 1793 y(jects.)i(T)-5
+b(echnical)19 b(Report)g(TR)f(-)h(44,)g(T)m(imeCenter)m(,)g(1999.)-169
+1880 y([16])42 b(A.)19 b(P)-8 b(.)17 b(Sistla,)h(O.)g(W)-6
+b(olfson,)19 b(S.)f(Chamberlain,)h(and)g(S.)f(Dao.)27
+b(Mod-)-3 1972 y(eling)f(and)g(querying)g(mo)o(ving)h(objects.)47
+b(In)25 b Fa(13th)h(Int'l)f(Conf)o(.)g(on)-3 2063 y(Data)20
+b(Engineering)g(\(ICDE\))p Fb(,)d(1997.)-169 2150 y([17])42
+b(J.)25 b(T)-6 b(ayeb,)26 b(O.)f(Uluso)o(y)-5 b(,)27
+b(and)e(O.)g(W)-6 b(olfson.)46 b(A)24 b(quadtree)i(\226)f(based)-3
+2242 y(dynamic)20 b(attrib)o(ute)f(inde)o(xing)h(method.)28
+b Fa(The)18 b(Computer)i(J)n(ournal)p Fb(,)-3 2333 y(41\(3\),)g(1998.)
+-169 2420 y([18])42 b(Y)-10 b(.)55 b(Theodoridis,)65
+b(T)-6 b(.)55 b(Sellis,)63 b(A.)55 b(N.)g(P)o(apadopoulos,)65
+b(and)-3 2511 y(Y)-10 b(.)30 b(Manolopoulos.)63 b(Speci\002cations)30
+b(for)f(ef)n(\002cient)g(inde)o(xing)i(in)-3 2603 y(spatiotemporal)20
+b(databases.)28 b(In)19 b Fa(IEEE)f(SSDBM)p Fb(,)g(1999.)-169
+2690 y([19])42 b(Y)-10 b(.)24 b(Theodoridis,)h(J.)e(R.)g(O.)g(Silv)n
+(a,)h(and)g(M.)g(A.)f(Nascimento.)42 b(On)-3 2781 y(the)23
+b(generation)g(of)g(spatiotemporal)g(datasets.)38 b(In)23
+b Fa(6th)f(Int'l)g(sym-)-3 2873 y(posium)e(on)f(Lar)m(g)o(e)h(Spatial)f
+(Datasets)p Fb(,)g(1999.)-169 2960 y([20])42 b(G.)17
+b(T)m(rajce)n(vski,)i(O.)e(W)-6 b(olfson,)18 b(and)g(B.)f(Xu.)24
+b(Modeling)19 b(and)f(query-)-3 3051 y(ing)j(trajectories)f(of)g(mo)o
+(ving)h(objects)g(with)e(uncertainty)-5 b(.)32 b(T)-5
+b(echni-)-3 3142 y(cal)26 b(Report)g(UIC)e(-)i(EECS)e(-)h(01)h(-)f(2,)i
+(Dept.)e(of)h(EECS,)d(Uni)n(v)-5 b(.)26 b(of)-3 3234
+y(Illinois)19 b(at)f(Chicago,)i(May)g(2001.)-169 3321
+y([21])42 b(G.)25 b(T)m(rajce)n(vski,)j(O.)d(W)-6 b(olfson,)27
+b(F)-6 b(.)24 b(Zhang,)k(and)e(S.)f(Chamberlain.)-3 3412
+y(The)j(geometry)g(of)g(uncertainty)g(in)f(mo)o(ving)i(objects)e
+(databases.)-3 3504 y(In)19 b Fa(EDBT)p Fb(,)f(2002.)-169
+3591 y([22])42 b(G.)26 b(T)m(rajece)n(vski,)i(O.)e(W)-6
+b(olfson,)27 b(C.)f(Hu,)h(H.)f(Lin,)h(and)g(F)-6 b(.)25
+b(Zhang.)-3 3682 y(Managing)43 b(uncertain)e(trajectories)f(of)h(mo)o
+(ving)g(objects)g(with)-3 3773 y(domino.)28 b(In)19 b
+Fa(ICEIS)p Fb(,)f(2002.)-169 3861 y([23])42 b(M.)25 b(V)-8
+b(azir)o(giannis,)25 b(Y)-10 b(.)24 b(Theodoridis,)i(and)f(T)-6
+b(.)24 b(Sellis.)42 b(Spatiotem-)-3 3952 y(poral)22 b(composition)h
+(and)f(inde)o(xing)g(for)f(lar)o(ge)h(multimedia)f(appli-)-3
+4043 y(cations.)28 b Fa(Multimedia)19 b(systems)g(J)n(ournal)p
+Fb(,)h(6\(4\),)f(1998.)-169 4130 y([24])42 b(M.)25 b(V)-8
+b(azir)o(giannis)26 b(and)f(O.)g(W)-6 b(olfson.)47 b(A)25
+b(spatiotemporal)h(model)-3 4222 y(and)21 b(language)g(for)e(mo)o(vign)
+h(objects)g(on)g(road)g(netw)o(orks.)30 b(In)19 b Fa(MO-)-3
+4313 y(BIDE)p Fb(,)f(2001.)-169 4400 y([25])42 b(O.)50
+b(W)-6 b(olfson,)57 b(S.)49 b(Chamberlain,)59 b(S.)49
+b(Dao,)57 b(L.)49 b(Jiang,)58 b(and)-3 4491 y(G.)22 b(Mendez.)37
+b(Cost)21 b(and)i(imprecision)f(in)g(modeling)h(the)f(position)-3
+4583 y(of)k(mo)o(ving)g(objects.)47 b(In)26 b Fa(14)f(Int'l)g(Conf)o(.)
+g(on)h(Data)f(Engineering)-3 4674 y(\(ICDE\))p Fb(,)18
+b(1998.)-169 4761 y([26])42 b(O.)18 b(W)-6 b(olfson,)18
+b(A.)g(P)-8 b(.)16 b(Sistla,)h(S.)g(Chamberlain,)i(and)g(Y)-10
+b(.)18 b(Y)-7 b(esha.)25 b(Up-)-3 4853 y(dating)d(and)g(querying)h
+(databases)f(that)f(track)g(mobile)h(units.)34 b Fa(Dis-)-3
+4944 y(trib)o(uted)19 b(and)h(P)-6 b(ar)o(allel)19 b(Databases)p
+Fb(,)g(7,)g(1999.)p eop
+%%Trailer
+end
+userdict /end-hook known{end-hook}if
+%%EOF

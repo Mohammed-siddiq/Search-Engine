@@ -1,0 +1,19 @@
+URL : https://www.cs.uic.edu/~zhangx/SmoothOPT
+  Smoothing for Multivariate Scores (SMS)    version 2.0  August 13, 2012  Overview  SMS is an open source, extensible and scalable convex solver for a number of machine learning problems cast in the form of regularized risk
+minimization problem [1].  It is particularly advantageous for optimizing 
+multivariate performance measure [2].  The implementation is "extensible" because the (problem-specific)
+loss function modules are encapsulated with a common interface for the main 
+optimizer.  Thus it is very simple to incorporate solutions to new 
+problems.   At present, SMS can solve the
+following problems:    Binary Hinge Loss Precision/Recall Break-even Point (PRBEP) [2] Area under Receiver Operating Characteristic curve (ROCArea) [2]    SMS is implemented with optimized efficiency.  It features parallel 
+optimization, which is fuelled by the PETSc and TAO packages.  We also provide data files in PETSc format, which can be parsed 
+and loaded an order of magnitude faster than the conventional LibSVM format.  Download  SMS version 
+2.0 [Compatible with PETSc 3.3-p2 and TAO 2.1, updated on Aug 13, 
+2012]   SMS version 
+1.0 [Compatible with PETSc 3.2-p2 and TAO 2.0-dev7]   Disclaimer SMS is licensed under Mozilla 
+Public License version 1.1 . The authors are not responsible for any 
+implications from the use of the software.  All experimental result in figure  all_figures.zip  Contacts   Xinhua Zhang | Ankan Saha | SVN Vishwanathan   References    [1]    Xinhua Zhang , Ankan Saha , S. V. N. Vishwanathan  Smoothing Multivariate 
+		Performance Measures  Journal of Machine Learning 
+		Research (submitted)  [ PDF ]  Uncertainty in Artificial 
+		Intelligence (UAI), 2011.  [ PDF ]     [2]  Thorsten Joachims, A Support Vector Method for Multivariate Performance 
+Measures, ICML, 2005.     Last modified: 13 August, 2012      

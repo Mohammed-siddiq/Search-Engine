@@ -1,0 +1,1686 @@
+  
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+    <head>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+                (window,document,'script','dataLayer','GTM-W2Q8D2K');
+    </script>
+    <!-- End Google Tag Manager -->
+
+        <title>
+                            Liu, Bing  | Department of Computer Science | University of Illinois at Chicago
+                    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1556026128" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1556026128" type="text/css" media="all">
+
+    
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- This site is optimized with the Yoast SEO plugin v10.1.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://cs.uic.edu/profiles/bing-liu/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Liu, Bing - Department of Computer Science" />
+<meta property="og:url" content="https://cs.uic.edu/profiles/bing-liu/" />
+<meta property="og:site_name" content="Department of Computer Science" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Liu, Bing - Department of Computer Science" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=b4c9174b7cf9f719000391f4aed55c5c"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.9.2'></script>
+<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://cs.uic.edu/?p=83' />
+<link rel="alternate" type="application/json+oembed" href="https://cs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcs.uic.edu%2Fprofiles%2Fbing-liu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcs.uic.edu%2Fprofiles%2Fbing-liu%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//cs.uic.edu/?wordfence_lh=1&hid=E469AD3324238E6604BAF2F23543C735');
+</script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" type="text/javascript">//<![CDATA[//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+</head>
+      
+  <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+  <div class="l-page profile-template-default single single-profile postid-83 post-type--profile  site-type-b theme--navy no-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    Skip to
+    <span class="_main">
+    <a href="#article">the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+        <a class="_search" href="#google_translate_element">Google Translate</a>,
+    <a class="_search" href="#search">the site search form</a>
+    or go to the
+    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+  <div class="eyebrow-mobile">
+    <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+    </div>
+
+            <div class="site-title-eyebrow-mobile">
+          <a href="https://cs.uic.edu">Department of Computer Science</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="icon-search">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+        <div class="header-navigation-logo header-logo">
+                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+            </div>
+        <div class="header-navigation__eyebrow-menus">
+            <div class="header-navigation__logo-and-site-title">
+                                <div class="site-title-main ">
+                    <a href="https://cs.uic.edu">Department of Computer Science</a>
+                  </div>
+                          </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary Navigation" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://cs.uic.edu">Department of Computer Science</a>
+  </div>
+
+  <h2 class="assistive-text">Google Translate</h2>
+  
+
+
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/undergraduate/"
+        target="_self">
+
+        Undergraduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Undergraduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
+                <a
+                  class="menu-main__second-link"
+                  href="http://engineering.uic.edu/undergraduate-admissions/"
+                  target="_blank">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-major/"
+                  target="_self">
+
+                  CS Major
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-minor/"
+                  target="_self">
+
+                  CS Minor
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/undergrad-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1390">
+                <a
+                  class="menu-main__second-link"
+                  href="http://ecc.uic.edu/computer-science/"
+                  target="_blank">
+
+                  Internships and Jobs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1489">
+                <a
+                  class="menu-main__second-link"
+                  href="http://engineering.uic.edu/scholarships"
+                  target="_blank">
+
+                  Scholarships
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-organizations/"
+                  target="_self">
+
+                  Student Organizations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
+                <a
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/graduate/"
+        target="_self">
+
+        Graduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Graduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/admissions/"
+                  target="_self">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/ms-program/"
+                  target="_self">
+
+                  MS Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-522 menu-item-has-children">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/phd-program/"
+                  target="_self">
+
+                  PhD Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/cs-dissertations/"
+                  target="_self">
+
+                  PhD Dissertations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/post-grad-outcomes/"
+                  target="_self">
+
+                  Post-Graduation Outcomes
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
+                <a
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/cs-research/"
+        target="_self">
+
+        Research
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Research menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/research-areas-2/"
+                  target="_self">
+
+                  Research Areas
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1339">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/featured-research/"
+                  target="_self">
+
+                  Featured Research
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/labs/"
+                  target="_self">
+
+                  Labs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/lectures-seminars/"
+                  target="_self">
+
+                  Lectures and Seminars
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
+                <a
+                  class="menu-main__second-link"
+                  href="/cs-research/reus/"
+                  target="_self">
+
+                  Research Experiences for Undergraduates
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
+      <a
+        class="menu-main__first-link"
+        href="/faculty-staff/"
+        target="_self">
+
+        Faculty and Staff
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Faculty and Staff menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/department-head/"
+                  target="_self">
+
+                  Department Head
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty/"
+                  target="_self">
+
+                  Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/emeritus-faculty/"
+                  target="_self">
+
+                  Emeritus Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/adjunct-faculty/"
+                  target="_self">
+
+                  Adjunct Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/staff/"
+                  target="_self">
+
+                  Staff
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty-resources/"
+                  target="_self">
+
+                  Faculty Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
+                <a
+                  class="menu-main__second-link"
+                  href="/faculty-staff/open-positions/"
+                  target="_self">
+
+                  Open Positions
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-567">
+      <a
+        class="menu-main__first-link"
+        href="/cs-news/"
+        target="_self">
+
+        News
+      </a>
+
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351">
+      <a
+        class="menu-main__first-link"
+        href="/events/"
+        target="_self">
+
+        Events
+      </a>
+
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
+            <a href="http://engineering.uic.edu/donate/" target="_blank">Giving</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
+            <a href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
+            <a href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+      <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+</ul>
+
+    <button aria-label="Search the site" id="search" class="search-toggle">
+      <span class="icon-search">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+
+    <div class="search-input-container">
+      <div class="search-input-container__form">
+        <form method="get" action="/search" role="search" aria-label="Search this site">
+          <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+          <input type="submit" class="submit-button" name="search" value="Submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+  </div>
+
+    
+        
+</header>
+
+    <main id="main" class="l-content-wrapper" role="main">
+
+
+      <div class="l-full">
+
+
+        <div class="l-content ">
+                                    
+          <article class="post-type-profile" id="article">
+            
+
+    <div class="profile-header">
+      <div class="_colA">
+        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Bing-Liu-157x180.jpg" alt="Photo of Liu,&#x20;Bing">
+      </div>
+
+      <div class="_colB">
+
+        <h1>Bing  Liu</h1>
+
+        <p class="_academic-title">Distinguished Professor</p>
+
+        <p class="_alternate-title"></p>
+
+        <p class="_department">Department of Computer Science</p>
+
+        
+      </div>
+    </div>
+
+    <div class="profile-body">
+      <div class="_colA">
+      </div>
+
+      <div class="_colB">
+        <div class="contact-wrapper">
+
+          <section class="u-definition-list-primary-contact">
+
+                                <div class="_row -inline">
+            <h2 class="_section-title">Contact</h2>           </div>
+                              <div class="_row -inline">
+            <h2 class="_label">Building &amp; Room:</h2>
+            <p class="_content">Daley Library 3-190 C</p>
+          </div>
+          
+          
+                   <div class="_row -inline">
+            <h2 class="_label">Office Phone Voice:</h2>
+            <p class="_content"><a href="tel:(312) 355-1318">(312) 355-1318</a></p>
+          </div>
+          
+          
+            
+                        <div class="_row -inline -email-field-buffer">
+              <h2 class="_label">Email:</h2>
+              <p class="_content"><a href="mailto:liub@uic.edu">liub@uic.edu</a></p>
+            </div>
+            
+            
+            
+                        <div class="_row">
+              <h2 class="_label">Related Sites:</h2>
+              <div class="_content u-rich-text">
+                <ul class="list--inset list--external">
+                                  <li><a href="https://www.cs.uic.edu/~liub/ "target="_blank" rel="noopener">View full profile</a></li>
+                                  <li><a href="https://scholar.google.com/citations?user=Kt1bjZoAAAAJ&hl=en "target="_blank" rel="noopener">Google Scholar</a></li>
+                                  <li><a href="https://dblp.uni-trier.de/pers/hd/l/Liu_0001:Bing.html "target="_blank" rel="noopener">DBLP</a></li>
+                                </ul>
+              </div>
+            </div>
+            
+          </section>
+
+          <section class="u-definition-list-secondary-contact">
+
+                                              
+          
+         
+                      
+            
+          </section>
+
+        </div>
+
+                <section>
+          <h2 class="_section-title">About</h2>
+          <div class="u-rich-text">
+          <p>Bing Liu is a distinguished professor of Computer Science at the University of Illinois at Chicago (UIC). He received his Ph.D. in Artificial Intelligence (AI) from the University of Edinburgh. Before joining UIC, he was a faculty member at the School of Computing, National University of Singapore (NUS). His research interests include sentiment analysis, lifelong learning, chatbot, natural language processing (NLP), data mining, machine learning, and AI. He has published extensively in top conferences and journals (his <a href="https://scholar.google.com/citations?user=Kt1bjZoAAAAJ">Google Scholar page</a>). Three of his papers have received Test-of-Time awards: two from SIGKDD (ACM Special Interest Group on Knowledge Discovery and Data Mining), and one from WSDM (ACM International Conference on Web Search and Data Mining). He is also a recipient of ACM SIGKDD Innovation Award (the most prestigious technical award from SIGKDD). He has also authored four books: two on sentiment analysis, one on lifelong learning, and one on Web mining. Some of his work has been widely reported in the international press, including a front-page article in the New York Times. On professional services, he has served as the Chair of ACM SIGKDD from 2013-2017, as program chair of many leading data mining conferences, including KDD, ICDM, CIKM, WSDM, SDM, and PAKDD, as associate editor of leading journals such as TKDE, TWEB, DMKD and TKDD, and as area chair or senior PC member of numerous NLP, AI, Web, and data mining conferences. He is a Fellow of the ACM, AAAI, and IEEE.</p>
+<ul>
+<li><b>Research Interests</b>: Sentiment analysis and opinion mining, lifelong machine learning, data mining, machine learning, and natural language processing (NLP).</li>
+<li><b>Research Publications</b>: He has published extensively in top conferences and journals such as KDD, ICML, WWW, ACL, EMNLP, AAAI, IJCAI, TKDE, TWEB, CL, etc. His papers with citations can be found from his <a href="https://scholar.google.com/citations?user=Kt1bjZoAAAAJ">Google Scholar</a> page (or his publication page or <a href="http://dblp.uni-trier.de/pers/hd/l/Liu_0001:Bing.html">DBLP</a>). He has also authored four <b>books</b> (3 monographs and 1 textbook):</li>
+<li>Z. Chen and B. Liu. "Lifelong Machine Learning." Morgan &amp; Claypool Publishers. First edition, November 2016; Second edition, August 2018.</li>
+<li>B. Liu. “<a href="http://www.amazon.com/Sentiment-Analysis-Opinions-Sentiments-Emotions-ebook/dp/B00Y37YXIG">Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</a>.” Cambridge University Press, June 2015.</li>
+<li>B. Liu. “Sentiment Analysis and Opinion Mining.” Morgan &amp; Claypool Publishers, May, 2012.</li>
+<li>B. Liu. “<a href="http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1302988351&amp;sr=1-3">Web Data Mining: Exploring Hyperlinks, Contents and Usage Data</a>.” Springer, First Edition, 2006; Second Edition, 2011.</li>
+</ul>
+<ul>
+<li><b>Research Contributions</b>: He is best known for his pioneering work on sentiment analysis and opinion mining (KDD-2004 paper: KDD-2015 <i>test-of-time</i> paper award), fake/deceptive opinion detection, and association rules based classification (KDD-1998 paper: KDD-2014 <i>test-of-time</i> paper award). He is also a pioneer researcher of PU learning (or learning from positive and unlabeled examples) (or <i>set expansion</i>), Web data extraction and interestingness in data mining. In 2013, he started to work on lifelong machine learning and wrote the first ever book dedicated to the topic with his student, published in Nov 2016.</li>
+</ul>
+<ul>
+<li><b>Press Coverage</b>: His work has also made important sociatal impact. He and his work have been reported widely in popular press and tech news media internationally, including <a href="http://www.nytimes.com/2012/01/27/technology/for-2-a-star-a-retailer-gets-5-star-reviews.html?_r=3&amp;ref=business"><i>a front-page article</i></a> in the <b><i>New York Times</i></b>.</li>
+</ul>
+
+          </div>
+        </section>
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Selected Publications</h2>
+          <div class="u-rich-text">
+                          <p><b><span style="font-size: large;">Published Books</span></b></p>
+<table>
+<tbody>
+<tr>
+<td valign="top"><center><a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html"><span style="font-size: medium;"><b>Lifelong Machine Learning</b></span></a></center><center><b><span style="color: #ff0000;">(Second Edition)</span></b></center><br />
+<center><a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html"><img src="http://www.cs.uic.edu/~liub/lifelong-learning-2-cover.jpg" width="170" height="221" border="0" /></a></center></p>
+<ul>
+<li><a href="https://doi.org/10.2200/S00832ED1V01Y201802AIM037">Download for free</a>, if your institution is on this <a href="http://www.morganclaypool.com/page/licensed">list</a> &#8212;&#8211; [<a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf">Draft, 1st edition</a>].</li>
+<li><a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1289">Morgan &amp; Claypool Publishers</a>, 207 pages, August, 2018.</li>
+<li>Order from <a href="https://www.amazon.com/Lifelong-Learning-Synthesis-Artificial-Intelligence/dp/1627055010">Amazon.com</a></li>
+</ul>
+</td>
+<td valign="top"><center><a href="https://www.cs.uic.edu/~liub/FBS/sentiment-opinion-emotion-analysis.html"><span style="font-size: medium;"><b>Sentiment Analysis:</b></span> <span style="font-size: medium;"><b>mining opinions, sentiments, and emotions</b></span></a></center><br />
+<center><a href="https://www.cs.uic.edu/~liub/FBS/sentiment-opinion-emotion-analysis.html"><img src="http://www.cs.uic.edu/~liub/FBS/9781107017894.jpg" width="170" height="221" border="0" /></a></center></p>
+<ul>
+<li>How to build a <i>Sentiment Analysis</i> system, and much more</li>
+<li><a href="http://www.cs.uic.edu/~liub/SA-book/Table_of_Contents.pdf">Table of Contents</a>, 381 pages</li>
+<li><a href="http://www.cambridge.org/us/academic/subjects/computer-science/knowledge-management-databases-and-data-mining/sentiment-analysis-mining-opinions-sentiments-and-emotions">Cambridge Univ. Press</a>, June 2015.</li>
+<li>Order from <a href="http://www.amazon.com/Sentiment-Analysis-Opinions-Sentiments-Emotions-ebook/dp/B00Y37YXIG">Amazon.com</a></li>
+</ul>
+</td>
+<td valign="top"><center><a href="http://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.html"><span style="font-size: medium;"><b>Sentiment Analysis and Opinion Mining</b></span><b></b></a></center><b><br />
+</b><center><img src="http://www.cs.uic.edu/~liub/FBS/Opinion-Mining.jpg" width="170" height="221" border="0" /></center></p>
+<ul>
+<li>A comprehensive introduction and survey</li>
+<li><a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=439&amp;osCsid=e3efut4kcd6s1utvbuhr7mo891">Morgan &amp; Claypool</a>, May 2012, 167 pages</li>
+<li>Order from <a href="http://www.amazon.com/Sentiment-Analysis-Opinion-Mining-Bing/dp/1608458849/ref=sr_1_1?ie=UTF8&amp;qid=1337885465&amp;sr=8-1">Amazon.com</a></li>
+</ul>
+</td>
+<td valign="top"><center><a href="http://www.cs.uic.edu/~liub/WebMiningBook.html"><span style="font-size: medium;"><b>Web Data Mining:</b></span> <span style="font-size: medium;"><b>exploring hyperlinks, contents, and usage data</b></span></a></center><br />
+<center><a href="http://www.cs.uic.edu/~liub/WebMiningBook.html"><img src="http://www.cs.uic.edu/~liub/book/Web-Data-Mining.jpg" width="170" height="221" border="0" /></a></center></p>
+<ul>
+<li>2nd Edition, 2011, 622 Pages</li>
+<li>Order from <a href="http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1302988351&amp;sr=1-3">Amazon.com,</a></li>
+<li>Order from <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-642-19459-7">Springer</a></li>
+<li>Get the <a href="http://www.springerlink.com/content/978-3-642-19460-3#section=912389&amp;page=1&amp;locus=0">eBook</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+                          <h3>Papers in Conferences, Journals, and as book chapters</h3>
+<ol>
+<li>Wenpeng Hu, Zhou Lin, Bing Liu, Chongyang Tao, Zhengwei Tao, Jinwen Ma, Dongyan Zhao, Rui Yan. Overcoming Catastrophic Forgetting via Model Adaptation for Continual Learning. to appear in <i>Proceedings of the Seventh International Conference on Learning Representations (ICLR-2019)</i>, New Orleans, Louisiana, May 6 – 9, 2019.</li>
+<li>Shuai Wang, Guangyi Lv, Sahisnu Mazumder, Geli Fei, and Bing Liu. Lifelong Learning Memory Networks for Aspect Sentiment Classification. To appear in <i>Proceedings of 2018 IEEE International Conference on Big Data (IEEE BigData 2018)</i>, Seattle, December 10-13, 2018.</li>
+<li>Lei Shu, Hu Xu, and Bing Liu. <a href="https://arxiv.org/abs/1801.05609">Unseen Class Discovery in Open-world Classification</a>. arXiv:1801.05609 [cs.LG], 18 Jan. 2018.</li>
+<li>Shuai Wang, Sahisnu Mazumder, Bing Liu, Mianwei Zhou, and Yi Chang. <a href="https://arxiv.org/abs/1801.12345607883.pdf">Target-Sensitive Memory Networks for Aspect Sentiment Classificationy</a>. <i>Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL-2018)</i>, Melbourne, Australia, July 15th to 20th, 2018.</li>
+<li>Hu Xu, Bing Liu, Lei Shu and Philip S. Yu. <a href="https://arxiv.org/abs/1801.0788334567.pdf">Double Embeddings and CNN-based Sequence Labeling for Aspect Extraction</a>. <i>Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL-2018, short paper)</i>, Melbourne, Australia, July 15th to 20th, 2018.</li>
+<li>Hu Xu, Bing Liu, Lei Shu and Philip S. Yu. Lifelong Domain Word Embedding via Meta-Learning. <i>Proceedings of International Conference on Artificial Intelligence (IJCAI-ECAI-2018)</i>. July 13-19 2018, Stockholm, Sweden.</li>
+<li>Sahisnu Mazumder, Nianzu Ma, and Bing Liu. <a href="https://arxiv.org/abs/1802.06024">Towards a Continuous Knowledge Learning Engine for Chatbots</a>. arXiv:1802.06024 [cs.CL], 16 Feb. 2018.<br />
+<b>Previous title</b>: &#8220;<a href="https://arxiv.org/abs/1802.06024">Towards an Engine for Lifelong Interactive Knowledge Learning in Human-Machine Conversations</a>&#8220;.</li>
+<li>Lei Zhang, Shuai Wang, Bing Liu. <a href="https://arxiv.org/abs/1801.07883">Deep Learning for Sentiment Analysis: A Survey</a>. arXiv:1801.07883 [cs.CL], <i>Wiley Interdisciplinary Reviews-Data Mining and Knowledge Discovery, 8(4). doi: 10.1002/widm.1253</i>, 2018 (invited paper).</li>
+<li>Wenpeng Hu, Bing Liu, Jinwen Ma, Dongyan Zhao, Rui Yan. <a href="https://openreview.net/pdf?id=rkRR1ynIf">Aspect-Based Question Generation</a>. to appeear in <i>ICLR 2018 Workshop Track</i>, Vancouver, BC, Canada, April 30 &#8211; May 3, 2018.</li>
+<li>Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, Bing Liu. <a href="https://arxiv.org/abs/1704.01074">Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory</a>. arXiv:1704.01074 [cs.CL], 2017, <i>AAAI-2018</i>. <b>This paper has been reported extensively in <a href="https://www.google.com/search?q=%22Emotional+Chatting+Machine%22&amp;oq=%22Emotional+Chatting+Machine%22&amp;aqs=chrome..69i57.2508j0j7&amp;sourceid=chrome&amp;ie=UTF-8%22"><span style="color: red;">Tech News Media</span></a> recently (April and May 2017)</b>.</li>
+<li>Yasheng Wang, Yang Zhang, and Bing Liu. <a href="https://uofi.box.com/s/hwp5gg5svm4u8huto1jd136nat0z1g8z">Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association</a>. <i>Proceedings of 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP-2017)</i>, September 7–11, 2017, Copenhagen, Denmark.</li>
+<li>Lei Shu, Hu Xu, Bing Liu. DOC: Deep Open Classification of Text Documents. <i>Proceedings of 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP-2017, oral presentation short paper)</i>, September 7–11, 2017, Copenhagen, Denmark.</li>
+<li>Konstantin Bauman, Bing Liu, and Alexander Tuzhlin. Aspect Based Recommendations: Recommending Items with the Most Valuable Aspects Based on User Reviews. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2017)</i>. Halifax, Nova Scotia &#8211; Canada, August 13 &#8211; 17, 2017</li>
+<li>Lei Shu, Hu Xu, and Bing Liu. Lifelong Learning CRF for Supervised Aspect Extraction. <i>Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL-2017, oral presentation short paper)</i>, July 30-August 4, 2017, Vancouver, Canada.</li>
+<li>Sahisnu Mazumder and Bing Liu. Context-aware Path Ranking for Knowledge Base Completion. <i>Proceedings of International Joint Conference on Artificial Intelligence (IJCAI-2017)</i>, August 19-25, 2017, Melbourne, Australia.</li>
+<li>Huayi Li, Geli Fei, Shuai Wang, Bing Liu, Weixiang Shao, Arjun Mukherjee and Jidong Shao. Bimodal Distribution and Co-Bursting in Review Spam Detection. <i>Proceedings of International World Wide Web Conference (WWW-2017)</i>, April 3-7, 2017, Perth, Australia.</li>
+<li>Lei Shu, Bing Liu, Hu Xu, and Annice Kim. Lifelong-RL: Lifelong Relaxation Labeling for Separating Entities and Aspects in Opinion Targets. <i>Proceedings of 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP-2016)</i>, November 1–5, 2016, Austin, Texas, USA.</li>
+<li>Geli Fei, Shuai Wang, and Bing Liu. 2016. Learning Cumulatively to Become More Knowledgeable. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2016)</i>, August 13-17, San Francisco, USA.</li>
+<li>Shuai Wang, Zhiyuan Chen, Geli Fei, Bing Liu and Sherry Emery. Targeted Topic Modeling for Focused Analysis. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2016)</i>, August 13-17, San Francisco, USA.</li>
+<li>Shuai Wang, Zhiyuan Chen, and Bing Liu. Mining Aspect-Speciﬁc Opinion using a Holistic Lifelong Topic Model. <i>Proceedings of the International World Wide Web Conference (WWW-2016)</i>, April 11-15, 2016, Montreal, Canada.</li>
+<li>Shuai Wang, Zhiyuan Chen, Bing Liu and Sherry Emery. Identifying Search Keywords for Finding Relevant Social Media Posts. <i>Proceedings of Thirtieth AAAI Conference on Artificial Intelligence (AAAI-2016)</i>, February 12–17, 2016, Phoenix, Arizona, USA.</li>
+<li>Qian Liu, Bing Liu, Yuanlin Zhang, Doo Soon Kim and Zhiqiang Gao. Improving Opinion Aspect Extraction using Semantic Similarity and Aspect Associations. <i>Proceedings of Thirtieth AAAI Conference on Artificial Intelligence (AAAI-2016)</i>, February 12–17, 2016, Phoenix, Arizona, USA.</li>
+<li>Geli Fei, and Bing Liu. 2016. Breaking the Closed World Assumption in Text Classification. <i>Proceedings of NAACL-HLT 2016 </i>, June 12-17, San Diego, USA.</li>
+<li>Geli Fei and Bing Liu. Social Media Text Classification under Negative Covariate Shift. <i>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP-2015)</i>, September 17-21, 2015. Lisbon, Portugal.</li>
+<li>Zhiyuan Chen, Nianzu Ma and Bing Liu. Lifelong Learning for Sentiment Classification. <i>Proceedings of the 53st Annual Meeting of the Association for Computational Linguistics (ACL-2015, short paper)</i>, 26-31, July 2015, Beijing, China.</li>
+<li>Qian Liu, Zhiqiang Gao, Bing Liu and Yuanlin Zhang. Automated Rule Selection for Aspect Extraction in Opinion Mining. <i>Proceedings of International Joint Conference on Artificial Intelligence (IJCAI-2015)</i>, July 25-31, 2015.</li>
+<li>Jing Wang, Clement. T. Yu, Philip S. Yu, Bing Liu, Weiyi Meng. “Diversionary comments under blog posts.&#8221; Accepted. <i>ACM Transactions on the Web (TWEB)</i>, 2015.</li>
+<li>Huayi Li, Zhiyuan Chen, Arjun Mukherjee, Bing Liu and Jidong Shao. &#8220;Analyzing and Detecting Opinion Spam on a Large-scale Dataset via Temporal and Spatial Patterns.&#8221; Short paper at <i>ICWSM-2015</i>, 2015.</li>
+<li>Huayi Li, Arjun Mukherjee, Jianfeng Si and Bing Liu. Extracting Verb Expressions Implying Negative Opinions. <i>Proceedings of Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI-15)</i>. 2015</li>
+<li>Huayi Li, Arjun Mukherjee, Bing Liu, Rachel Kornfieldz and Sherry Emery. Detecting Campaign Promoters on Twitter using Markov Random Fields. <i>Proceedings of IEEE International Conference on Data Mining (ICDM-2014)</i>, December 14-17, 2014.</li>
+<li>Huayi Li, Zhiyuan Chen, Bing Liu, Xiaokai Wei and Jidong Shao. Spotting Fake Reviews via Collective Positive-Unlabeled Learning. <i>Proceedings of IEEE International Conference on Data Mining (ICDM-2014, short paper)</i>, December 14-17, 2014.</li>
+<li>Jianfeng Si, Arjun Mukherjee, Bing Liu, Sinno Jialin Pan, Qing Li, and Huayi Li. Exploiting Social Relations and Sentiment for Stock Prediction. <i>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2014)</i>, October 25-29, Doha, Qatar.</li>
+<li>Zhiyuan Chen and Bing Liu. Mining Topics in Documents: Standing on the Shoulders of Big Data. <i>Proceedings of the 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2014)</i>, August 24-27, New York, USA. [<b>Code</b>] [<b>Dataset</b>]</li>
+<li>Geli Fei, Zhiyuan Chen, and Bing Liu. Review Topic Discovery with Phrases using the Polya Urn Model. <i>Proceedings of the 25th International Conference on Computational Linguistics (COLING 2014)</i>, Auguest 23-29, Dublin, Ireland.</li>
+<li>Zhiyuan Chen and Bing Liu. Topic Modeling using Topics from Many Domains, Lifelong Learning and Big Data. <i>Proceedings of the 31st International Conference on Machine Learning (ICML 2014)</i>, June 21-26, Beijing, China. [<b>Code</b>] [<b>Dataset</b>]</li>
+<li>Zhiyuan Chen, Arjun Mukherjee, and Bing Liu. Aspect Extraction with Automated Prior Knowledge Learning. <i>Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL 2014)</i>, June 22-27, Baltimore, USA.</li>
+<li>Tieyun Qian, Bing Liu, Li Chen, Zhiyong Peng. Tri-Training for Authorship Attribution with Limited Training Data. ACL-2014 (Short paper) 2014: 345-351</li>
+<li>Qian Liu, Zhiqiang Gao, Bing Liu and Yuanlin Zhang. A Logic Programming Approach to Aspect Extraction in Opinion Mining. <i>Proceedings of IEEE/WIC/ACM International Confernece on Web Intelligence (WI-2013)</i>, 2013.</li>
+<li>Zhiyuan Chen, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Exploiting Domain Knowledge in Aspect Extraction. <i>Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP-2013)</i>, October 18-21, 2013, Seattle, USA.</li>
+<li>Tieyun Qian, Bing Liu. Identifying Multiple Userids of the Same Author. <i>Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP-2013)</i>, October 18-21, 2013, Seattle, USA.</li>
+<li>Zhiyuan Chen, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Discovering Coherent Topics using General Knowledge. <i>Proceedings of The Twenty-Second ACM International Conference on Information and Knowledge Management (CIKM-2013)</i>. October 27 &#8211; November 1, 2013, San Francisco, CA, USA</li>
+<li>Arjun Mukherjee, Vivek Venkataraman, Bing Liu, and Sharon Meraz. Public Dialogue: Analysis of Tolerance in Online Discussions. <i>Proceedings of The 51st Annual Meeting of the Association for Computational Linguistics (ACL-2013)</i>, August 4-9, 2013, Sofia, Bulgaria.</li>
+<li>Arjun Mukherjee, Bing Liu. Discovering User Interactions in Ideological Discussions. <i>Proceedings of The 51st Annual Meeting of the Association for Computational Linguistics (ACL-2013)</i>, August 4-9, 2013, Sofia, Bulgaria.</li>
+<li>Jianfeng Si, Arjun Mukherjee, Bing Liu, Qing Li, Huayi Li, and Xiaotie Deng. Exploiting Topic based Twitter Sentiment for Stock Prediction. <i>Proceedings of The 51st Annual Meeting of the Association for Computational Linguistics (ACL-2013, short paper)</i>, August 4-9, 2013, Sofia, Bulgaria.</li>
+<li>Zhiyuan Chen, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Identifying Intention Posts in Discussion Forums. <i>Proceedings of The 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT-2013)</i>, June 9-15, 2013, Atlanta, USA.</li>
+<li>Arjun Mukherjee, Abhinav Kumar, Bing Liu, Junhui Wang, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Spotting Opinion Spammers using Behavioral Footprints. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2013)</i>, August 11-14 2013 in Chicago, USA.</li>
+<li>Zhiyuan Chen, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Leveraging Multi-Domain Prior Knowledge in Topic Models. <i>Proceedings of The 23rd International Joint Conference on Artificial Intelligence (IJCAI-2013)</i>, August 3-9, 2013, Beijing, China.</li>
+<li>Geli Fei, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Exploiting Burstiness in Reviews for Review Spammer Detection. <i>Proceedings of The International AAAI Conference on Weblogs and Social Media (ICWSM-2013)</i>, July 8-10, 2013, Boston, USA.</li>
+<li>Arjun Mukherjee, Vivek Venkataraman, Bing Liu, and Natalie Glance. What Yelp Fake Review Filter Might Be Doing. <i>Proceedings of The International AAAI Conference on Weblogs and Social Media (ICWSM-2013)</i>, July 8-10, 2013, Boston, USA.</li>
+<li>Arjun Mukherjee and Bing Liu. Mining Contentions from Discussions and Debates. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2012)</i>, Aug. 12-16, 2012, Beijing, China.</li>
+<li>Arjun Mukherjee, Bing Liu, and Natalie Glance. Spotting Fake Reviewer Groups in Consumer Reviews. <i>International World Wide Web Conference (WWW-2012)</i>, Lyon, France, April 16-20, 2012.</li>
+<li>Arjun Mukherjee and Bing Liu. Modeling Review Comments. <i>Proceedings of 50th Annual Meeting of Association for Computational Linguistics (ACL-2012)</i>, July 8-14, 2012, Jeju, Republic of Korea.</li>
+<li>Arjun Mukherjee and Bing Liu. Aspect Extraction through Semi-Supervised Modeling. <i>Proceedings of 50th Annual Meeting of Association for Computational Linguistics (ACL-2012)</i>, July 8-14, 2012, Jeju, Republic of Korea.</li>
+<li>Lei Zhang, Riddhiman Ghosh, Mohamed Dekhil, Meichun Hsu, Bing Liu. Combining Lexicon-based and Learning-based Methods for Twitter Sentiment Analysis. HP Labs Technical Report, 2011.</li>
+<li>Guan Wang, Sihong Xie, Bing Liu, Philip S. Yu. Review Graph based Online Store Review Spammer Detection. <i>ICDM-2011</i>, 2011.</li>
+<li>Guan Wang, Sihong Xie, Bing Liu, Philip S. Yu. Identify Online Store Review Spammers via Social Review Graph. <i>ACM Transactions on Intelligent Systems and Technology</i>, accepted for publication, 2011.</li>
+<li>Zhongwu Zhai, Bing Liu, Lei Zhang, Hua Xu, Peifa Jia. Identifying Evaluative Opinions in Online Discussions. <i>Proceedings of AAAI-2011</i>, San Francisco, USA, August 7-11, 2011.</li>
+<li>Lei Zhang and Bing Liu. &#8220;Extracting Resource Terms for Sentiment Analysis,&#8221; Proceedings of the 5th International Joint Conference on Natural Language Processing (<i>IJCNLP-2011</i>), November 8-13, 2011, Chiang Mai, Thailand.</li>
+<li>Lei Zhang and Bing Liu. &#8220;Identifying Noun Product Features that Imply Opinions.&#8221; <i>ACL-2011</i> (short paper), Portland, Oregon, USA, June 19-24, 2011.</li>
+<li>Zhongwu Zhai, Bing Liu, Jingyuan Wang, Hua Xu and Peifa Jia. &#8220;Product Feature Grouping for Opinion Mining Using Soft-Constraints and EM.&#8221; <i>IEEE Intelligent Systems</i>, 2011.</li>
+<li>Zhongwu Zhai, Bing Liu, Hua Xu, Peifa Jia. &#8220;Constrained LDA for Grouping Product Features in Opinion Mining.&#8221; <i>Proceedings of PAKDD-2011</i>, Shenzhen, China, 2011. (<i><b>Best Paper Award</b></i>)</li>
+<li>Lei Zhang and Bing Liu. &#8220;Entity Set Expansion in Opinion Documents,&#8221; <i>Proceedings of the ACM Conference on Hypertext and Hypermedia</i> (HT-2011), Eindhoven, Netherlands, June 6-9, 2011.</li>
+<li>Zhongwu Zhai, Bing Liu, Hua Xu and Peifa Jia. &#8220;Clustering Product Features for Opinion Mining.&#8221; <i>Proceedings of Fourth ACM International Conference on Web Search and Data Mining (WSDM-2011)</i>, Feb. 9-12, 2011, Hong Kong, China.</li>
+<li>Guang Qiu, Bing Liu, Jiajun Bu and Chun Chen. &#8220;Opinion Word Expansion and Target Extraction through Double Propagation.&#8221;<i>Computational Linguistics</i>, March 2011, Vol. 37, No. 1: 9.27.</li>
+<li>Xin Li, Bing Liu and Philip Yu. &#8220;Time Sensitive Ranking with Application to Publication Search&#8221;. In <i>Link Mining: Models, Algorithms, and Applications</i>, P. Yu, J. Han, and C. Faloutsos, Editors. 2010, Springer. p. 187-209.</li>
+<li>Arjun Mukherjee and Bing Liu. &#8220;Improving Gender Classification of Blog Authors.&#8221; <i>Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP-10)</i>. Oct. 9-11, 2010, MIT, Massachusetts, USA.</li>
+<li>Xiaoli Li, Bing Liu and See-Kiong Ng. Negative Training Data can be Harmful to Text Classification&#8221;. <i>Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP-10)</i>. Oct. 9-11, 2010, MIT, Massachusetts, USA.</li>
+<li>Ee-Peng Lim, Viet-An Nguyen, Nitin Jindal, Bing Liu and Hady Lauw. &#8220;Detecting Product Review Spammers using Rating Behaviors,&#8221;<i>The 19th ACM International Conference on Information and Knowledge Management (CIKM-2010, full paper)</i>, Toronto, Canada, Oct 26 &#8211; 30, 2010.</li>
+<li>Nitin Jindal, Bing Liu and Ee-Peng Lim. &#8220;Finding Unusual Review Patterns Using Unexpected Rules&#8221; <i>The 19th ACM International Conference on Information and Knowledge Management (CIKM-2010, short paper)</i>, Toronto, Canada, Oct 26 &#8211; 30, 2010.</li>
+<li>Xiaowen Ding and Bing Liu. &#8220;Resolving Object and Attribute Coreference in Opinion Mining.&#8221; <i>Proceedings of the 23rd International Conference on Computational Linguistics (COLING-2010)</i>, August 23-27, Beijing, China.</li>
+<li>Zhongwu Zhai, Bing Liu, Hua Xu and Peifa Jia. &#8220;Grouping Product Features Using Semi-Supervised Learning with Soft-Constraints&#8221;<i>Proceedings of the 23rd International Conference on Computational Linguistics (COLING-2010)</i>, August 23-27, Beijing, China.</li>
+<li>Lei Zhang and Bing Liu. &#8220;Extracting and Ranking Product Features in Opinion Documents.&#8221; <i>Proceedings of the 23rd International Conference on Computational Linguistics (COLING-2010)</i>, August 23-27, Beijing, China.</li>
+<li>Xiaoli Li, Lei Zhang, Bing Liu and See-Kiong Ng. &#8220;Distributional Similarity vs. PU Learning for Entity Set Expansion.&#8221; In <i>Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics (ACL-10, short paper) </i>, July 11-16, 2010.</li>
+<li>Bing Liu. &#8220;Sentiment Analysis: A Multifaceted Problem.&#8221; Invited contribution to <i>IEEE Intellgent Systems</i>, 2010.</li>
+<li>Bing Liu. &#8220;Sentiment Anlaysis and Subjectivity.&#8221; Invited Chapter for the<i> Handbook of Natural Language Processing</i>, Second Edition. March, 2010.</li>
+<li>Ramanathan Narayanan, Bing Liu and Alok Choudhary. &#8220;Sentiment Analysis of Conditional Sentences.&#8221; <i>Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP-09)</i>. August 6-7, 2009. Singapore.</li>
+<li>Guang Qiu, Bing Liu, Jiajun Bu and Chun Chen. &#8220;Expanding Domain Sentiment Lexicon through Double Propagation.&#8221; <i>Proceedings of the 21st International Joint Conference on Artificial Intelligence (IJCAI-09)</i>, Pasadena, California, USA, July 11-17, 2009.</li>
+<li>Xiaowen Ding, Bing Liu and Lei Zhang. &#8220;Entity Discovery and Assignment for Opinion Mining Applications,&#8221; <i>Proceedings of ACM SIGKDD Interntaional Conference on Knowledge Disocvery and Data Mining (KDD-09, industrial track)</i>, June 28-July 1, 2009, Paris.</li>
+<li>Bing Liu. &#8220;Sentiment Anlaysis and Subjectivity&#8221; Invited Chapter for the<i> Handbook of Natural Language Processing</i>, Second Edition. Oct/Nov, 2009.</li>
+<li>Bing Liu. &#8220;Opinion Mining.&#8221; Invited contribution to <i>Encyclopedia of Database Systems</i>, 2008.</li>
+<li>Xin Li, Bing Liu and Philip Yu. &#8220;Time Sensitive Ranking with Application to Publication Search&#8221;. In <i>Proceedings of the 8th IEEE International Conference on Data Mining (ICDM 2008)</i> 2008.</li>
+<li>Murthy Ganapathibhotla and Bing Liu. &#8220;Mining Opinions in Comparative Sentences&#8221; <i>Proceedings of the 22nd International Conference on Computational Linguistics (Coling-2008)</i>, Manchester, 18-22 August, 2008. [Ready Soon]</li>
+<li>Nitin Jindal and Bing Liu. &#8220;Opinion Spam and Analysis.&#8221; <i>Proceedings of First ACM International Conference on Web Search and Data Mining (WSDM-2008)</i>, Feb 11-12, 2008, Stanford University, Stanford, California, USA. [Ready Soon]</li>
+<li>Xiaowen Ding and Bing Liu. &#8220;The Utility of Linguistic Rules in Opinion Mining.&#8221; <i>SIGIR-2007</i> (poster paper), 23-27 July 2007, Amsterdam. [PDF]</li>
+<li>Xiaowen Ding, Bing Liu and Philip S. Yu. &#8220;A Holistic Lexicon-Based Appraoch to Opinion Mining.&#8221; <i>Proceedings of First ACM International Conference on Web Search and Data Mining (WSDM-2008)</i>, Feb 11-12, 2008, Stanford University, Stanford, California, USA. [Ready Soon]</li>
+<li>Xiaoli Li, Bing Liu and See-Kiong Ng. &#8220;Learning to Identify Unexpected Instances in the Test Set,&#8221; <i>Proceedings of Twenth International Joint Conference on Artificial Intelligence (IJCAI-07)</i>, 2007. [PDF]</li>
+<li>Bing Liu and Alexander Tuzhilin. &#8220;Managing and Analyzing Large Collections of Data Mining Models.&#8221; Accepted for publication in<i>Comminications of ACM</i>, 2006.</li>
+<li>Yanhong Zhai and Bing Liu. &#8220;Structured Data Extraction from the Web based on Partial Tree Alignment&#8221; Accetped for publication in <i>IEEE Transactions on Knowledge and Data Engineering</i>, 2006. [PDF]</li>
+<li>Kaidi Zhao, Bing Liu, Jeffrey Benkler and Weimin Xiao. &#8220;Opportunity Map: Identifying Causes of Failure &#8211; A Deployed Data Mining System.&#8221; <i>Proceedings of the Twelfth ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2006, industrial track full paper)</i>, August 20 &#8211; 23, 2006, Philadelphia, USA. [ready soon].</li>
+<li>Bing Liu, Kaidi Zhao, Jeffrey Benkler and Weimin Xiao. &#8220;Rule Interestingness Analysis Using OLAP Operations.&#8221; <i>Proceedings of the Twelfth ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2006, full paper)</i>, August 20 &#8211; 23, 2006, Philadelphia, USA. [ready soon].</li>
+<li>Nitin Jindal and Bing Liu. &#8220;Identifying Comparative Sentences in Text Documents&#8221; <i>Proceedings of the 29th Annual International ACM SIGIR Conference on Research &amp; Development on Information Retrieval (SIGIR-06)</i>, Seattle 2006. [PDF]</li>
+<li>Nitin Jindal and Bing Liu. &#8220;Mining Comprative Sentences and Relations.&#8221; <i>Proceedings of 21st National Conference on Artificial Intellgience (AAAI-2006)</i>, July 16.20, 2006, Boston, Massachusetts, USA. [PDF]</li>
+<li>Minqing Hu and Bing Liu. &#8220;Opinion Extraction and Summarization on the Web.&#8221; <i>Proceedings of 21st National Conference on Artificial Intellgience (AAAI-2006, Nectar paper)</i>, July 16.20, 2006, Boston, Massachusetts, USA. [ready soon]</li>
+<li>Yanhong Zhai and Bing Liu. &#8220;Automatic Wrapper Generation Using Tree Matching and Partial Tree Alignment.&#8221; <i>Proceedings of 21st National Conference on Artificial Intellgience (AAAI-2006, Nectar paper)</i>, July 16.20, 2006, Boston, Massachusetts, USA. [ready soon]</li>
+<li>Yanhong Zhai and Bing Liu. &#8220;Extracting Web Data Using Instance-Based Learning.&#8221; <i>Proceedings of 6th International Conference on Web Information Systems Engineering</i> (WISE-05), 2005. [PDF] &#8211; best paper award</li>
+<li>Bing Liu and Yanhong Zhai. &#8220;NET &#8211; A System for Extracting Web Data from Flat and Nested Data Records.&#8221; <i>Proceedings of 6th International Conference on Web Information Systems Engineering</i> (WISE-05), 2005. [PDF]</li>
+<li>Philip S. Yu, Xin Li, Bing Liu. &#8220;Adding the Temporal Dimension to Search &#8211; A Case Study in Publication Search&#8221; IEEE/WIC/ACM International Conference on Web Intelligence (WI-05), September 19-22, 2005, Compiepne, France. [PDF]</li>
+<li>Leonardo Rigutini, Marco Maggini, and Bing Liu. &#8220;An EM based training algorithm for Cross-Language Text Categorization.&#8221; IEEE/WIC/ACM International Conference on Web Intelligence (WI-05), September 19-22, 2005, Compiepne, France. [PDF]</li>
+<li>Xiaoli Li, Bing Liu. &#8220;Learning from Positive and Unlabeled Examples with Different Data Distributions.&#8221; European Conference on Machine Learning (ECML-05), [PDF]</li>
+<li>Yanhong Zhai, and Bing Liu. &#8220;Web Data Extraction Based on Partial Tree Alignment&#8221; <i>Proceedings of the 14th international World Wide Web conference (WWW-2005)</i>, May 10-14, 2005, in Chiba, Japan. [PDF]</li>
+<li>Bing Liu, Minqing Hu and Junsheng Cheng. &#8220;Opinion Observer: Analyzing and Comparing Opinions on the Web&#8221; <i>Proceedings of the 14th international World Wide Web conference (WWW-2005)</i>, May 10-14, 2005, in Chiba, Japan. [PDF]</li>
+<li>Bing Liu and Kevin C. C. Chang. &#8220;Editorial: Special Issue on Web Content Mining&#8221; <i>SIGKDD Explorations sepcial issue on Web Content Mining</i>, Dec, 2004. [PDF] [Special Issue is here].</li>
+<li>Minqing Hu and Bing Liu. &#8220;Mining and summarizing customer reviews&#8221;. <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2004, full paper)</i>, Seattle, Washington, USA, Aug 22-25, 2004. [PDF]. Send us an email if you want the datasets.</li>
+<li>Kaidi Zhao, Bing Liu, Tom Tirpak, Andreas Schaller. &#8220;V-Miner: Using Enhanced Parallel Coordinates to Mine Product Design and Test Data.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2004, full paper in Industrial Track)</i>, Seattle, Washington, USA, Aug 22-25, 2004. [PDF]</li>
+<li>Bing Liu, Robert Grossman and Yanhong Zhai. &#8220;Mining Web Pages for Data Records,&#8221; Accepted by: <i>IEEE Intelligent Systems</i> special issue on <i>Mining the Web for Actionable Knowledge</i>, 2004.</li>
+<li>Minqing Hu and Bing Liu. &#8220;Mining Opinion Features in Customer Reviews.&#8221; <i>Proceedings of Nineteeth National Conference on Artificial Intellgience (AAAI-2004)</i>, San Jose, USA, July 2004. [PDF]</li>
+<li>Bing Liu, Xiaoli Li, Wee Sun Lee and Philip S. Yu. &#8220;Text Classification by Labeling Words&#8221; <i>Proceedings of Nineteeth National Conference on Artificial Intellgience (AAAI-2004)</i>, San Jose, USA, July 2004. [PDF]</li>
+<li>Philip S. Yu, Xin Li, and Bing Liu. &#8220;On the Temporal Dimension of Search&#8221;, WWW-2004 poster paper. [PDF]</li>
+<li>Xiaoli Li, and Bing Liu. &#8220;Dealing with Different Distributions in Learning from Positive and Unlabeled Web Data.&#8221; WWW-2004 poster paper. [PDF]</li>
+<li>Gao Cong, Wee Sun Lee, Haoran Wu, Bing Liu. &#8220;Semi-supervised Text Classification Using Partitioned EM.&#8221; DASFAA 2004: 482-493.[PDF]</li>
+<li>Bing Liu, Soumen Chakrabarti. &#8220;Guest Editors&#8217; Introduction: Special Section on Mining and Searching the Web.&#8221; IEEE Trans. Knowl. Data Eng. 16(1): 2-3, 2004.</li>
+<li>Robert Grossman, Pavan Kasturi, Donald Hamelberg, and Bing Liu. &#8220;An Empirical Study of the Universal Chemical Key Algorithm for Assigning Unique Keys to Chemical Compounds.&#8221; Accepted by: <i>Journal of Bioinformatics and Computational Biology</i>, 2003.</li>
+<li>Bing Liu, Yang Dai, Xiaoli Li, Wee Sun Lee and and Philip Yu. &#8220;Building Text Classifiers Using Positive and Unlabeled Examples.&#8221;<i>Proceedings of the Third IEEE International Conference on Data Mining (ICDM-03)</i>, Melbourne, Florida, November 19-22, 2003.[PDF]</li>
+<li>Kaidi Zhao, Bing Liu, Thomas M. Tirpak, and Andeas Schaller. &#8220;Detecting Patterns of Change Using Enhanced Parallel Coordinates Visualization.&#8221; <i>Proceedings of the Third IEEE International Conference on Data Mining (ICDM&#8217;03)</i>, Melbourne, Florida, November 19-22, 2003. (Industrial track) [PDF]</li>
+<li>Lan Yi, Bing Liu, and Xiaoli Li. &#8220;Eliminating Noisy Information in Web Pages for Data Mining.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining </i>(KDD-2003), Washington, DC, USA, August 24 &#8211; 27, 2003. [PDF]</li>
+<li>Bing Liu, Robert Grossman, Yanhong Zhai. &#8220;Mining Data Records in Web Pages.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining </i>(KDD-2003), Washington, DC, USA, August 24 &#8211; 27, 2003. [PDF &#8211; conference version] [Full Version] [MDR system]</li>
+<li>Robert Grossman, Donald Hamelberg, Pavan Kasturi, Bing Liu. &#8220;Experimental Studies of the Universal Chemical Key (UCK) Algorithm on the NCI Database of Chemical Compounds.&#8221; <i>IEEE Computer Society Bioinformatics Conference </i>(CSB-2003), Stanford University, Standford, CA, August 11-14, 2003. [PDF]</li>
+<li>Wee Sun Lee, Bing Liu. &#8220;Learning with Positive and Unlabeled Examples using Weighted Logistic Regression.&#8221; <i>Proceedings of the Twentieth International Conference on Machine Learning </i>(ICML-2003), August 21-24, 2003, Washington, DC USA. [PDF]</li>
+<li>Xiaoli Li, Bing Liu. &#8220;Learning to classify text using positive and unlabeled data.&#8221; <i>Proceedings of Eighteenth International Joint Conference on Artificial Intelligence </i>(IJCAI-03), Aug 9-15, 2003, Acapulco, Mexico, [PDF].</li>
+<li>Lan Yi, Bing Liu. &#8220;Web Page Cleaning for Web Mining through Feature Weighting&#8221; <i>Proceedings of Eighteenth International Joint Conference on Artificial Intelligence </i>(IJCAI-03), Aug 9-15, 2003, Acapulco, Mexico, [PDF].</li>
+<li>Bing Liu, Chee Wee Chin, Hwee Tou Ng. &#8220;Mining Topic-Specific Concepts and Definitions on the Web.&#8221; <i>Proceedings of the twelfth international World Wide Web conference </i>(WWW-2003), 20-24 May 2003, Budapest, HUNGARY. [PDF]</li>
+<li>Bing Liu, Yiming Ma and Philip S. Yu. &#8220;Discovering Business Intellgience Information by Comparing Company Web Sites.&#8221; In <i>Web Intelligence</i>, (eds) Ning Zhong, Jiming Liu abd Yiyu Yao, 2003, Springer.</li>
+<li>Bing Liu, Yiming Ma, Ching-Kian Wong, and Philip S. Yu. &#8220;Scoring the Data Using Association Rules.&#8221; <i>Applied Intelligence</i>, Vol 18, No. 2, 119-135, 2003. [PDF].</li>
+<li>Chidanand Apte, Bing Liu, Edwin P. D. Pednault, Padhraic Smyth, &#8220;Business applications of data mining&#8221; <i>Communications of ACM</i>, Vol 45(8), pp. 49-53, 2002 (special issue on data mining).</li>
+<li>Bing Liu, Wee Sun Lee, Philip S Yu and Xiaoli Li. &#8220;Partially Supervised Classification of Text Documents.&#8221; <i>Proceedings of the Nineteenth International Conference on Machine Learning </i>(ICML-2002), 8-12, July 2002, Sydney, Australia. [PostScript] [PDF] [Full Paper]</li>
+<li>Alex Tuzhilin and Bing Liu. &#8220;Querying multiple sets of discovered rules.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining </i>(KDD-2002, full paper), Edmonton, Canada, July 23-26, 2002. [PDF]</li>
+<li>Haoran Wu, Tong-Heng Pang, Bing Liu, Xiaoli Li. &#8220;A Refinement Approach to Handling Model Misfit in Text Categorization,&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining </i>(KDD-2002, full paper), Edmonton, Canada, July 23-26, 2002. [PDF]</li>
+<li>Bing Liu, Kaidi Zhao, and Lan Yi. &#8220;Visualizing Web site comparisons.&#8221; <i>Proceedings of the eleventh international World Wide Web conference </i>(WWW-2002). Honolulu, Hawaii, USA 7-11 May 2002. [PDF]</li>
+<li>Gao Cong, Bing Liu. &#8220;Speed-up Iterative Frequent Itemset Mining with Constraint Changes&#8221; ICDM-2002, Maebashi, Japan, December 9-12, 2002. [PDF]</li>
+<li>Xiaoli Li, Bing Liu, Tong-Heng Phang, Minqing Hu, &#8220;Using Micro Information Unit for Internet Search&#8221; ACM CIKM-2002, Nov 5-9, 2002, McLean, VA, USA. [PDF]</li>
+<li>Xiaoli Li, Bing Liu, Tong-Heng Phang, and Minqing Hu. &#8220;Web Search Based on Micro Information Units.&#8221; WWW-2002 (poster), Honolulu, Hawaii, USA 7-11 May 2002. [ready soon]</li>
+<li>Bing Liu, and Chee-Wee Chin. &#8220;Searching people on the Web according to their interests.&#8221; WWW-2002 (poster), Honolulu, Hawaii, USA 7-11 May 2002. [ready soon]</li>
+<li>Ming-Syan Chen, Philip S. Yu, and Bing Liu (Eds). Advances in Knoweldge Discovery and Data Mining. 6th Pacific-Asia Conference, PAKDD-2002 Proceedings, Taipei, Taiwan, May 2002.</li>
+<li>Gao Cong, Lan Yi, Bing Liu and Ke Wang. &#8220;Discovering frequent substructures from hierarchical semi-structured data.&#8221; <i>Second SIAM International Conference on Data Mining</i> (SDM-2002), April 11-13, 2002, Hyatt Regency, Crystal City, Arlington, VA, USA.</li>
+<li>Bing Liu, Jing Liu. &#8220;Multivariate Time Series Prediction via Temporal Classification.&#8221; <i>ICDE-2002 (poster)</i>, 2002.</li>
+<li>Bing Liu, Yiming Ma and Ronnie Lee. &#8220;Analyzing the interestingness of association rules from the temporal dimension.&#8221; <i>IEEE International Conference on Data Mining (ICDM-2001)</i>, Nov 29 &#8211; Dec 2, 2001, Silicon Valley, CA. [Postscript].</li>
+<li>Kaidi Zhao, Bing Liu. &#8220;Visual Analysis of The Behavior of Discovered Rules.&#8221; <i>Workshop Notes in ACM SIGKDD-2001 Workshop on Visual Data Mining</i>, San Francisco, CA; Aug 20, 2001 [PDF]</li>
+<li>Bing Liu, Yiming Ma, Philip S. Yu. &#8220;Discovering Unexpected Information from Your Competitors&#8217; Web Sites.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2001, full paper)</i>, San Francisco, CA; Aug 20-23, 2001 [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma. &#8220;Identifying Non-Actionable Association Rules.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2001)</i>, San Francisco, CA; Aug 20-23, 2001 [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma. &#8220;Discovering the Set of Fundamental Rule Changes.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2001)</i>, San Francisco, CA; Aug 20-23, 2001 [Postscript]</li>
+<li>Shu Chen, Bing Liu. &#8220;Generating Classification Rules According to User&#8217;s Existing Knowledge,&#8221; Appeared in <i>Proceedings of the SIAM International Conference on Data Mining (SDM-01)</i>, April 5-7, Chicago, 2001. [Ready soon]</li>
+<li>Baohua Gu, Bing Liu, Feifant Hu, Huan Liu. &#8220;Efficiently Determining the Starting Sample Size for Progressive Sampling.&#8221; <i>Proceedings of 12th European Conference on Machine Learning (ECML-2001)</i>, September 3-7, 2001, Freiburg, German y.[Ready soon, an improved and longer version of the paper in the DMKD-2001 workshop below]</li>
+<li>Baohua Gu, Bing Liu, Feifant Hu, Huan Liu. &#8220;Efficiently Determine the Starting Sample Size for Progressive Sampling.&#8221; <i>Workshop notes of the ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery (DMKD-2001)</i>, Santa Barbar a, CA &#8212; May 20th, 2001 [Postscript]</li>
+<li>Bing Liu, Yiming Ma, C-K Wong, &#8220;Classification Using Association Rules: Weaknesses and Enhancements.&#8221; In Vipin Kumar, et al, (eds), <i>Data mining for scientific applications</i>, 2001. [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Shu Chen and Yiming Ma, &#8220;Analyzing the Subjective Interestingness of Association Rules,&#8221; <i>IEEE Intellgent Systems</i>, 2000. [Postscript]</li>
+<li>Bing Liu, Yiyuan Xia, Philip S. Yu. &#8220;Clustering through decision tree construction.&#8221; <i>Processings of 2000 ACM CIKM International Conference on Information and Knowledge Management (CIKM-2000)</i>, Washington, DC, USA, November 6-11, 2000. [Postscript]. [IBM Research Report available here], [Slides of the talk given in the Scienctific Data Mining Worhshop in Minneasota].</li>
+<li>Bing Liu, Minqing Hu, and Wynne Hsu, &#8220;Multi-level organization and summarization of the discovered rules,&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2000, full paper)</i>, Aug, 2000, Boston, USA. [Postscript]</li>
+<li>Yiming Ma, Bing Liu and Ching Kian Wong, &#8220;Web for Data Mining: Organizing and Interpreting the Discovered Rules Using the Web.&#8221;<i>SIGKDD Explorations</i>, Volume 2, Issue 1, 2000. [Postscript].</li>
+<li>Yiming Ma, Bing Liu, Ching Kian Wong, Philip. S. Yu, and S. M Lee. &#8220;Targeting the Right Students Using Data Mining.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2000, Industry Track)</i>, Aug, 2000, Boston, USA. [PDF]</li>
+<li>Wynne Hsu, Mong Li Lee, Bing Liu, Tok Wang Ling &#8220;Exploration Mining in Diabetic Patients Databases: Findings and Conclusions.&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-2000, Industry Track)</i>, Aug, 2000, Boston, USA. [PDF]</li>
+<li>Yiming Ma, Ching Kian Wong, and Bing Liu. &#8220;Effective Browsing of the Discovered Association Rules Using the Web.&#8221; <i>ACM SIGKDD-2000 workshop on Post-Processing in Machine Learning and Data Mining</i>, Aug, 2000, Boston, USA. [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Heng-Siaw Han and Yiyuan Xia. &#8220;Mining changes for real-life applications.&#8221; <i>the 2nd international conference on data warehousing and knowledge discovery (DaWaK-2000)</i>, Sept 4-6 2000, London Greenwich, UK. [Postscript]</li>
+<li>Bing Liu, Minqing Hu, and Wynne Hsu, &#8220;Intuitive representation of decision trees using general rules and exceptions.&#8221; <i>Proceedings of Seventeeth National Conference on Artificial Intellgience (AAAI-2000)</i>, July 30 &#8211; Aug 3, 2000, Austin, Texas, USA [Postscript]</li>
+<li>Bing Liu, Yiming Ma and Ching Kian Wong. &#8220;Web for Data Mining Applications&#8221;. <i>Processings of the 24th IEEE International Computer Software and Applications Conference (Compsac-2000), Oct 25-27 2000, Taipei. </i>[Invited Panel Position Paper]</li>
+<li>Bing Liu, Yiming Ma, and Ching-Kian Wong, &#8220;Improving an exhaustive search based rule learner&#8221; <i>Proceedings of the Fourth European Conference on Principles and Practice of Knowledge Discovery in Databases (PKDD-2000)</i>, September 13-16, 2000, Lyon , France. [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma, &#8220;Pruning and Summarizing the Discovered Associations&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-99, full paper)</i>, August 15-18, 1999, San Diego, CA, USA. [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma, &#8220;Mining Association Rules with Multiple Minimum Supports&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-99)</i>, August 15-18, 1999, San Diego, CA, USA. [Postscript]</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma, Shu Chen, &#8220;Discovering Interesting Knowledge using DM-II&#8221; <i>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (KDD-99)</i>, Industrial Track, August 15-18, 1999, San Diego, CA, USA. [Postscript]</li>
+<li>Ke Wang, Xu Chu and Bing Liu, &#8220;Clustering Transactions Using Large Items,&#8221; <i>ACM CIKM-99 </i>, 1999, USA [ReadySoon]</li>
+<li>Bing Liu, Wynne Hsu, Lai-Fun Mun and Hingyan Lee, &#8220;Finding Interesting Patterns Using User Expectations,&#8221; <i>IEEE Transactions on Knowledge and Data Engineering</i>, Vol 11(6), pp. 817-832, 1999. [Ready_Soon]</li>
+<li>Bing Liu, Wynne Hsu, Ke Wang, Shu Chen, &#8220;Visually Aided Exploration of Interesting Association Rules&#8221; <i>Proceedings of the Pacific Asia Conference on Knowledge Discovery and Data Mining (PAKDD-99)</i>, Beijing, April 26-28, 1999. [Postscript]</li>
+<li>Bing Liu &amp; Hsu, Wynne, &#8220;Previously discovered knowledge,&#8221; INVITED PAPER for <i>Oxford University Press&#8217;s forthcoming Handbook on Data Mining and Knowledge Discovery</i>, 1999.</li>
+<li>Bing Liu &amp; Hsu, Wynne, &#8220;User preferences,&#8221; INVITED PAPER for <i>Oxford University Press&#8217;s forthcoming Handbook on Data Mining and Knowledge Discovery </i>, 1999.</li>
+<li>Bing Liu, Wynne Hsu, Yiming Ma, &#8220;Integrating Classification and Association Rule Mining.&#8221; <i>Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining (KDD-98, full paper)</i>, New York, USA, 1998. [PostScript Paper] [Slides]</li>
+<li>Ke Wang, W. Tay, Bing Liu, &#8220;An Interestingness-Based Interval Merger for Numeric Association Rules,&#8221; <i>Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining (KDD-98)</i>, New York, USA, 1998. [Postscript]</li>
+<li>Ke Wang and Bing Liu, &#8220;Concurrent discretization of multiple attributes,&#8221; <i>Pacific Rim International Conference on Artificial Intelligence (PRICAI-98)</i>, 1998. [Postscript]</li>
+<li>Bing Liu, Ke Wang, Lai-Fun Mun and Xin-Zhi Qi, &#8220;Using Decision Tree Induction for Discovering Holes in Data,&#8221; <i>Pacific Rim International Conference on Artificial Intelligence (PRICAI-98)</i>, 1998. [Postscript]</li>
+<li>Bing Liu, Liang-Ping Ku and Wynne Hsu, &#8220;Discovering Interesting Holes in Data,&#8221; <i>Proceedings of Fifteenth International Joint Conference on Artificial Intelligence (IJCAI-97)</i>, pp. 930-935, August 23-29, 1997, Nagoya, Japan. [PostScript]</li>
+<li>Liang-Ping Ku, Bing Liu and Wynne Hsu, &#8220;Discovering Large Empty Maximal Hyper-rectangles in Multi-dimensional Space,&#8221;<i>Technical Report</i>, Department of Information Systems and Computer Science (DCOMP), National University of Singapore, 1997. [PostScript]</li>
+<li>Bing Liu, Wynne Hsu and Shu Chen, &#8220;Using General Impressions to Analyze Discovered Classification Rules,&#8221; <i>Proceedings of the Third International Conference on Knowledge Discovery and Data Mining (KDD-97, full paper)</i>, pp. 31-36, August 14-17, 1997, Newport Beach, California, USA. [PostScript]</li>
+<li>Bing Liu, Wynne Hsu and Shu Chen, &#8220;Discovering Conforming and Unexpected Classification Rules,&#8221; <i>IJCAI-97 Workshop on Intelligent Data Analysis in Medicine and Pharmacology (IDAMAP-97)</i>, August 23-29, 1997, Nagoya, Japan. [PostScript]</li>
+<li>Bing Liu, &#8220;Route Finding by Using Knowledge about the Road Networks,&#8221; <i>IEEE Transactions on Systems, Man and Cybernetics</i>,Vol. 27, number 4, July 1997. [Ready_Soon]</li>
+<li>Bing Liu, Wynne Hsu, Lai-Fun Mun and Hing-Yan Lee, &#8220;Identifying Interesting Missing Patterns,&#8221; <i>Proceedings of 1st Pacific Asia International Conference on Knowledge Discovery and Data Mining (PAKDD-97)</i>, Singapore, Feb, 1997. [PostScript]</li>
+<li>Bing Liu and Wynne Hsu, &#8220;Post-Analysis of Learned Rules,&#8221; <i>Proceedings of the Thirteenth National Conference on Artificial Intelligence (AAAI-96)</i>, Aug 4-8, 1996, Portland, Oregon, USA, pp. 828-834. [PostScript]</li>
+<li>Bing Liu and Joxan Jaffar, &#8220;Using Constraints to Model Disjunctions in Rule-Based Reasoning,&#8221; <i>Proceedings of the Thirteenth National Conference on Artificial Intelligence (AAAI-96)</i>, Aug 4-8, 1996, Portland, Oregon, USA, pp. 1248-1255. [PostScript]</li>
+<li>Bing Liu, Wynne Hsu, Hing-Yan Lee and Lai-Fun Mun, &#8220;Tuple-Level Analysis For Identification of Interesting Patterns,&#8221; <i>Technical report</i>, TRA5/96, Department of Information Systems and Computer Science, National University of Singapore, 1996. [PostScript]</li>
+<li>Bing Liu, Wynne Hsu, Lai-Fun Mun and Hing-Yan Lee, &#8220;Finding Interesting Patterns Using User Expectations,&#8221; <i>Technical report</i>, TRA7/96, Department of Information Systems and Computer Science, National University of Singapore, 1996. [PostScript]</li>
+<li>Bing Liu, &#8220;Intelligent Route Finding: Combining Knowledge, Cases and An Efficient Search Algorithm,&#8221; <i>Proceedings of the 12th European Conference on Artificial Intelligence (ECAI-96)</i>, Aug 12-16, 1996, Budapest, Hungary, pp. 380-384. [PostScript]</li>
+<li>Bing Liu, &#8220;An Improved Generic Arc Consistency Algorithm and Its Specializations,&#8221; <i>Proceedings of the Fourth Pacific Rim International Conference on Artificial Intelligence (PRICAI-96)</i>, Aug 26-30, 1996, Cairns, Australia, pp. 264-275. [PostScript]</li>
+<li>Bing Liu, &#8220;Increasing Functional Constraints Need to be Checked Only Once,&#8221; <i>Proceedings of Fourteenth International Joint Conference on Artificial Intelligence (IJCAI-95)</i>, pp. 586-591, 1995. [PostScript]</li>
+<li>Bing Liu, &#8220;Using Knowledge To Isolate Search in Route Finding,&#8221; <i>Proceedings of Fourteenth International Joint Conference on Artificial Intelligence (IJCAI-95)</i>, pp. 119-124, 1995. [PostScript]</li>
+<li>Bing Liu, &#8220;An Unified Framework for Consistency Check,&#8221; International Journal of Intelligent Systems, 1995, pp. 691-714.</li>
+<li>Bing Liu, &#8220;A Refinement Approach to Search and Constraint Satisfaction&#8221; Proceedings of The Eighth International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems (IEA95), Melbourne, Australia, June 5- 9, 1995.</li>
+<li>Bing Liu, and Jimmy Tay, &#8220;Using Knowledge about the Road Network for Route Finding,&#8221; Proceedings of The Eleventh IEEE Conference on Artificial Intelligence for Applications (CAIA-95), LA, United States, 1995.</li>
+<li>Bing Liu, &#8220;Intelligent Air Travel and Tourist Information Systems,&#8221; Proceedings of The Eighth International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems (IEA95), Melbourne, Australia, June 5-9, 1995.</li>
+<li>Bing Liu, et. al, &#8220;Finding the Shourtest Route Using Cases, Knowledge, and Dijkstra&#8217;s Algorithm,&#8221; <i>IEEE Expert </i>, Vol. 9 No. 5, 1994, pp. 7-11.</li>
+<li>Bing Liu, &#8220;Integrating Rules and Constraints,&#8221; Proceedings of the 6th IEEE International Conference on Tools with Artificial Intelligence (TAI-94), November 6-9, 1994, New Orleans, United States, 1994.</li>
+<li>Bing Liu, &#8220;Specific Constraint Handling in Constraint Satisfaction Problems,&#8221; International Journal on Artificial Intelligence Tools, Vol. 3, No. 1, (1994), pp. 79-96.</li>
+<li>Bing Liu, &#8220;A General Framework For Arc Consistency and Its Related Techniques,&#8221; Proceedings of the 3rd Pacific Rim International Conference on Artifficial Intelligence (PRICAI-94), August 16-18, 1994, Beijing, China, 1994.</li>
+<li>Bing Liu, &amp; Wong, Siew-Churn., &#8220;Scheduling, Constraint Satisfaction Problems and Constraint Programming Languages,&#8221; Proceedings of 2nd World Congress on Expert Systems, pp. 250-256, Portugal, 1994.</li>
+<li>Bing Liu, et al, &#8220;Integrating Knowledge-based Approach, Case-Based Reasoning and Dijkstra Algorithm for Routing Finding,&#8221; Proceedings of The Tenth IEEE Conference on Artificial Intelligence for Applications (CAIA-94), pp. 149-155, United States, 1994 .</li>
+<li>Bing Liu, &#8220;Problem Acquisition in Scheduling Domains,&#8221; Expert Systems with applications: An International Journal, Vol. 6, No. 3 (1993), pp. 257-265.</li>
+<li>Bing Liu, &#8220;Knowledge-Based Factory Scheduling,&#8221; Expert Systems with Applications: An International Journal, Vol. 6, No. 3 (1993), pp. 349-359.</li>
+<li>Bing Liu, &#8220;Controlling Backtracking in Constraint Programming Languages,&#8221; Proceedings of 6th International Symposium on Artificial Intelligence, Mexico, 1993.</li>
+<li>Bing Liu. &#8220;Scheduling via reinforcement,&#8221; International Journal for Al in Engineering, Vol. 3, No. 2 (1988), pp. 76-85.</li>
+<li>Bing Liu., &#8220;A Reinforcement Approach to Scheduling,&#8221; Proceeding of the 8th European Conference on Artificial Intelligence (ECAI-88), pp. 580-585, Germany, 1988.</li>
+</ol>
+
+                      </div>
+        </section>
+        
+
+        
+
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Notable Honors</h2>
+          <div>
+                      <p> , Innovation Award, ACM SIGKDD</p>
+                      <p>2015, Test-of-Time Paper Award, KDD </p>
+                      <p>2014, Test-of-Time Paper Award, KDD </p>
+                    </div>
+        </section>
+        
+
+                <section>
+          <h2 class="_section-title">Education</h2>
+          <div class="u-rich-text">
+          <p>Ph.D., University of Edinburgh, 1989</p>
+
+          </div>
+        </section>
+        
+
+        
+
+                <section>
+          <h2 class="_section-title">Professional Memberships</h2>
+          <div class="u-rich-text">
+          <p>He served as the Chair of ACM SIGKDD (7/1/2013 - 6/30/2017). SIGKDD is the premier academic community for data mining, data science, and big data. He has also served as the Program Committee Chair of the flagship data mining conferences of ACM, IEEE and SIAM (KDD, ICDM, and SDM respectively) and three other conferences (CIKM, WSDM, and PAKDD), as associate editors of several leading data mining journals, e.g., TKDE, TWEB, TKDD, DMKD, and as area/track chairs or senior program committee members of numerous NLP, AI, data mining, and Web technology conferences.</p>
+
+          </div>
+        </section>
+        
+
+        
+
+        
+
+        
+
+        
+
+      </div>
+    </div>
+
+          </article>
+        </div>
+
+                                            
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="simple-footer-contact">
+  <div class="simple-footer-contact__wordmark">
+    <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark  uic-wordmark--mega-footer">
+
+  <div class="_mark">
+    <a href="http://uic.edu" class="uic-logo-icon ">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+</svg>
+</a>
+  </div>
+
+  <div class="_text">
+    <a href="https://cs.uic.edu">
+                  <span class="_line">College of</span>
+              <span class="_line">Engineering</span>
+              </a>
+  </div>
+
+</div>
+            </div>
+            </div>
+  </div>
+
+
+  <div class="simple-footer-contact__contact">
+    <h2 class="simple-footer-contact__header">Contact</h2>
+    <div class="simple-footer-contact__contact_container">      <div class="site-phone">Phone: <a href="tel:(312) 996-3422">(312) 996-3422</a></div>
+        <div class="site-email"><a href="mailto:info@cs.uic.edu">info@cs.uic.edu</a></div>
+</div>
+    <div class="simple-footer-contact__contact_container">  <div class="site-unit-name_SiteContact2"><h3>Webmaster</h3></div>
+            <div class="site-email_SiteContact2"><a href="mailto:coecomm@uic.edu">coecomm@uic.edu</a></div>
+</div>
+  </div>
+
+
+  <div class="simple-footer-contact__site-social-links">
+     <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+        <li class="site-social-links__list-item"><a class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+    </a></li>
+          </ul>
+</div>
+  </div>
+
+</div>
+    
+    </div>
+  </div>
+
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.4.3</div>
+
+<div class="site-copyright">
+  &copy; 2019 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <a class="optanon-show-settings">Cookie Settings</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+</footer>
+
+	    </div>
+
+
+  <!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
+</script>
+
+<!-- Google Tag Manager (noscript) --><script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=b4c9174b7cf9f719000391f4aed55c5c'></script>
+
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-20665772-1', 'auto');
+    
+        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
+    
+        ga('send', 'pageview');
+    
+        ga('csTracker.send', 'pageview');
+      </script>
+
+
+  
+  
+  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+
+  </body>
+</html>
