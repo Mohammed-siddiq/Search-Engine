@@ -1,8 +1,0 @@
-URL : http://apps.honors.uic.edu/HARS/
-                        UIC User Identification Service  Please log in  Application requesting login: Honors College   UIC NetID   Password   Log in       Forgot Password?  To reset your password, please visit the ACCC password management page .  Need Help?  Contact the ACCC helpdesk at consult@uic.edu .  What is a NetID?  Your NetID serves as your login for many University computing
-        and networking services and also determines your University
-        email address, which is netid@uic.edu.
-        For more information, or to claim your NetID, please visit our identity webpage .    Security Information  The following servers are authorized to ask for your password:    login.uic.edu    ness.uic.edu    auth.uillinois.edu    This page's URL should start with https:// followed by one of the auth servers listed above.
-        For most web browsers, the security padlock icon for this page
-        should be closed/locked.  If you encounter a web page not in the list above that requests
-        your UIC password, please contact security@uic.edu and include the URL.        © University of Illinois Board of Trustees | Privacy Policy     

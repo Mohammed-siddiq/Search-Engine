@@ -1,5 +1,0 @@
-URL : https://www.cs.uic.edu/bin/edit/PSYu/McCloskey?topicparent=PSYu.Publications;nowysiwyg=0
-               Invalid Referral to UIC WWW Identification Service  Invalid BSVersionHash  You arrived at this service someway other than by
-          referral from an authorized server, perhaps by
-          typing in a URL, or returning to a previous
-          authentication page.          © University of Illinois Board of Trustees | Privacy Policy           
