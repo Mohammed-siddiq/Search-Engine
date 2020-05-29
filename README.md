@@ -2,8 +2,6 @@
 ### A Search Engine On UIC Domain
 
 Final project for CS 582 Information Retrieval course at University of Illinois at Chicago
-
-![homepage](snapshots/homepage.png)
 -
 ![Results](snapshots/searchresults.png)
 -
